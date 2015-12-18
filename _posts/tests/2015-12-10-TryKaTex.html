@@ -1,0 +1,93 @@
+---
+layout: post
+title: Probeersels met Latex
+categories : [Test]
+comments: False
+---
+<html>
+  <head">
+    <link rel="stylesheet" href="{{site.url}}/assets/css/katex.min.css" TYPE="text/css">
+    <script src="/assets/js/katex.min.js">
+    </script>
+<!--    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" ">-->
+    <title>
+      TryKaTex.htm
+    </title>
+
+<style>
+/*
+ * Equations with KaTeX
+ *
+ * Center the equation content.
+ */
+.equation {
+  padding-bottom:  1rem;
+  padding-top:     1rem;
+  text-align:      center;
+  font-size:       1.5em;
+}
+th {
+  background-color: #335577;
+}
+</style>
+
+
+
+  </head>
+  <body alink="red" vlink="teal">
+    <p>
+      <h2><B>Dit is een dummy HTML 4.0-pagina.</B></H2>
+    </p>
+    <a HREF="/static/nieuws.html">Deze link is nog niet gereed!</a><br><br>
+    <table border="1">
+<!--      <tr style="color: red">  -->
+      <tr>  
+        <th style="background-color: #115577">een</th>
+        <th style="background-color: #335577">twee</th>
+        <th style="background-color: #557799">drie</th>
+        <th style="background-color: #7799aa">vier</th>
+        <th style="background-color: #99aacc">vijf</th>
+        <th style="background-color: #aaccee">zes</th>
+      </tr>
+      <tr>
+        <td>aap</td><td>noot</td><td>mies</td><td>wim</td><td>zus</td><td>jet</td>
+      </tr>
+      <tr>
+        <td>teun</td><td>vuur</td><td>gijs</td><td>lam</td><td>kees</td><td>bok</td>
+      </tr>
+      <tr>
+        <td>wei-de</td><td>does</td><td>hok</td><td>duif</td><td>scha-pen</td>
+      </tr>
+    </table><br>
+
+<div align="center"><img src="../assets/pictures/hai.jpg"></div><br>
+(Dit werkt, in de diepere directory! Wordt in _site "opgetild".)<br>
+
+
+
+<p><span id="mykatex1">...</span></p>
+<script>
+  katex.render("f(a,b,c) = (a^2+b^2+c^2)^3", mykatex1);
+</script> 
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+<p><span id="mykatex2">...</span></p>
+<script>
+  katex.render("x = {-b \pm \sqrt{b^2-4ac} \over 2a}.", mykatex2);
+</script> 
+
+Hij doet het niet:<br>
+$$\displaystyle f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi$$
+<br>Wat doe ik fout?
+
+
+<p><code>\[
+\begin{aligned}
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+\nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+\nabla \cdot \vec{\mathbf{B}} &amp; = 0 \end{aligned}
+\]</code></p>
+  </body>
+</html>

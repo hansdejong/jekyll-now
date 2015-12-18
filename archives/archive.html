@@ -1,0 +1,27 @@
+---
+layout: page
+title: Archive (alles bij elkaar)
+---
+
+<h3> Blog Posts</h3>
+<table border="0">
+<tr>
+<th width="50%">Titel</th>
+<th width="30%">Categorie</th>
+<th width="20%">Datum</th>
+</tr>
+{% for post in site.posts %}
+<tr>
+<td>
+<a href="{{ post.url }}">{{ post.title }}</a>
+</td>
+<td>
+  {% if post.categories != empty %}
+    &rarr; {{post.categories}}
+  {% endif %}
+</td>
+<td align="right">
+  {{ post.date | date_to_string }}</td>
+</tr>
+{% endfor %}
+</table>

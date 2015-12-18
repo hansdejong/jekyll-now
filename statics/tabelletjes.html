@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<script src="../assets/js/sorttable.js"></script>
+		<title>
+			Tabelletjes test
+		</title>
+<!--		<link href="../assets/css/tele2site.css" rel="STYLESHEET" type="text/css">-->
+		<style>
+			table.sortable thead{
+				background-color:#5f9ea0;
+				color:#666666;
+				font-weight: bold;
+				cursor: default;
+			}
+			table.sortable tbody{
+				background-color:#7fffd4;
+			}
+			#rood{
+				background-color:red;
+				color:#222bbb;
+				font-weight: bold;
+				cursor: default;
+			}
+			#roze {
+				background-color:pink;
+			}
+		</style>
+    </head>
+	<body alink="red" vlink="teal">
+    <P>
+		<H2><B>Sorteren zonder xslt, the next best.</B></H2>
+    </P>
+    <a href="http://www.kryogenix.org/code/browser/sorttable/">Waar de code vandaan komt!</a><br><br>
+    <table class="sortable" width="80%" border="1">
+		<tr>
+			<th width="23%">Name</th>
+			<th width="18%">Salary</th>
+			<th width="18%">Extension</th>
+			<th width="18%">Start date</th>
+			<th width="23%">Start date (American)</th>
+		</tr>
+<!--<colgroup><colgroup span="2" align="right">-->
+		<tr>
+			<td>Bloggs, Fred</td>
+			<td align="right">€ 12.000,--</td>
+			<td align="right">1353</td>
+			<td>18/08/2003</td>
+			<td>08/18/2003</td>
+		</tr>
+			<tr><td>Turvey, Kevin</td>
+			<td align="right">€ 191.200,--</td>
+			<td align="right">2342</td>
+			<td>02/05/1979</td>
+			<td>05/02/1979</td>
+		</tr>
+		<tr>
+			<td>Mbogo, Arnold</td>
+			<td align="right">€ 32.010,12</td>
+			<td align="right">2755</td>
+			<td>09/08/1998</td>
+			<td>08/09/1998</td>
+		</tr>
+		<tr>
+			<td>Shakespeare, Bill</td>
+			<td align="right">€ 122.000,--</td>
+			<td align="right">3211</td>
+			<td>12/11/1961</td>
+			<td>11/12/1961</td>
+		</tr>
+		<tr>
+			<td>Shakespeare, Hamnet</td>
+			<td align="right">€ 9.000,--</td>
+			<td align="right">9005</td>
+			<td>01/01/2002</td>
+			<td>01/01/2002</td>
+		</tr>
+		<tr>
+			<td>Fitz, Marvin</td>
+			<td align="right">€ 3.300,--</td>
+			<td align="right">5554</td>
+			<td>22/05/1995</td>
+			<td>05/22/1995</td>
+		</tr>
+		<tr>
+			<td>Paaltjes, Piet</td>
+			<td align="right">€ 3.300,--</td>
+			<td align="right">20</td>
+			<td>21/06/1995</td>
+			<td>06/21/1995</td>
+		</tr>
+ </table>
+<br><br><br>
+
+
+    <table class="sortable" width="80%" border="1">
+<thead id ="rood">
+		<tr>
+			<th width="23%">Naam</th>
+			<th width="18%">Titel</th>
+			<th width="18%">Userbase</th>
+			<th width="18%">Years to go</th>
+		</tr>
+</thead>
+<tbody id="roze">
+		<tr>
+			<td>Bloggs, Fred</td>
+			<td>My years with Barney</td>
+			<td align="right">1353</td>
+			<td>18-08-2003</td>
+		</tr>
+			<tr><td>Turvey, Kevin</td>
+			<td>Why oh why?</td>
+			<td align="right">2342</td>
+			<td>02-05-1979</td>
+		</tr>
+		<tr>
+			<td>Shakespeare, William</td>
+			<td>Why me?</td>
+			<td align="right">3211</td>
+			<td>12-11-1961</td>
+		</tr>
+		<tr>
+			<td>Horsmeier, Jos</td>
+			<td>De vrouw en het knopje</td>
+			<td align="right">1</td>
+			<td>01-01-2002</td>
+		</tr>
+		<tr>
+			<td>Paaltjes, Piet</td>
+			<td>Waar staan de paaltjes?</td>
+			<td align="right">20</td>
+			<td>21-06-1995</td>
+		</tr>
+</tbody>
+ </table>
+<br><br><br>
+
+
+<table class="sortable" width="80%" border="1">
+<thead id ="rood">
+		<tr>
+			<th width="23%">Partij</th>
+			<th width="18%">2e Kamer 12 sept. 2012</th>
+			<th width="18%">EenVandaag 24 nov. 2015</th>
+			<th width="18%">M. de Hond 13 dec. 2015</th>
+		</tr>
+</thead>
+<tbody id="roze">
+		<tr>
+			<td>PVV</td>
+			<td>15</td>
+			<td>35</td>
+			<td>39</td>
+		</tr>
+			<tr><td>VVD</td>
+			<td>41</td>
+			<td>25</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>CDA</td>
+			<td>13</td>
+			<td>20</td>
+			<td>19</td>
+		</tr>
+		<tr>
+			<td>D66</td>
+			<td>12</td>
+			<td>15</td>
+			<td>16</td>
+		</tr>
+		<tr>
+			<td>SP</td>
+			<td>15</td>
+			<td>17</td>
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>GL</td>
+			<td> 4</td>
+			<td> 7</td>
+			<td>14</td>
+		</tr>
+		<tr>
+			<td>PvdA</td>
+			<td>38</td>
+			<td>11</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>CU</td>
+			<td>5</td>
+			<td>8</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>PvdD</td>
+			<td>2</td>
+			<td>4</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>50Plus</td>
+			<td>2</td>
+			<td>5</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>SGP</td>
+			<td>3</td>
+			<td>3</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Overig</td>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
+		</tr>
+</tbody>
+ </table>
+<br><br><br>
+
+  </body>
+</html>

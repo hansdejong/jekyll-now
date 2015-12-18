@@ -1,0 +1,47 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true # Hans verwijderd
+
+# Setup
+title:               Hans' blog
+tagline:             Hans de Jong
+# url:                 http://getpoole.com          ========>eruit door Hans, het volgende er in???
+url:                 file://C:/Data/BLOG/JEKYLL/hansblog_werk/
+# paginate:            1                            =========> Tijdelijk er uit
+
+gems: [jekyll-paginate]           # Hans toegevoegd https://github.com/poole/lanyon/issues/124
+# paginate: 5                       # Hans toegevoegd
+paginate: 1                       # Hans toegevoegd
+paginate_path: "page:num"         # Hans toegevoegd
+
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass                    
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Hans de Jong
+  url:               https://twitter.com/Waardeheer
+  email:             fimmejong@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/hansdejong/poole-master
+
+#Joshua Lande
+pages_list:       
+  Berichten en meningen: '/archives/archive_Opinions'
+  Programmeren: '/archives/archive_Programming'
+  Genetics (scala): '/archives/archive_Genetics'
+  Archive: '/archives/archive'
+# Feed: '/atom.xml'
+  Tests: '/archives/archive_Test'
+  About: '/about'
