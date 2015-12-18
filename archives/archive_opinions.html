@@ -13,8 +13,8 @@ archiveselection: Opinions
     <th width="20%">Datum</th>
   </tr>
   {% for post in site.posts %}
-    {% assign me =   page.archiveselection %}{% assign me  = me  | downcase %}
-    {% assign you =  post.categories[0] %}   {% assign you = you | downcase %}
+    {% assign me =   page.archiveselection %}
+    {% assign you =  post.categories[0] %}   
     {% if you == me %}
       <tr>
         <td>
