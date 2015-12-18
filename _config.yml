@@ -38,10 +38,10 @@ github:
 
 #Joshua Lande
 pages_list:       
-  Berichten en meningen: '/archives/archive_Opinions'
-  Programmeren: '/archives/archive_Programming'
-  Genetics (scala): '/archives/archive_Genetics'
+  Berichten en meningen: '/archives/archive_opinions'
+  Programmeren: '/archives/archive_programming'
+  Genetics (scala): '/archives/archive_genetics'
   Archive: '/archives/archive'
 # Feed: '/atom.xml'
-  Tests: '/archives/archive_Test'
+  Tests: '/archives/archive_test'
   About: '/about'
