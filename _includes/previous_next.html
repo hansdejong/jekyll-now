@@ -1,0 +1,15 @@
+<!--<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/blog.css" / /><!--toegevoegd-->
+{% if page.previous.url or page.next.url %} 
+<table class="leftright">
+<tr>
+<td align="left" width="50%">
+  {% if page.previous.url %} 
+    <a href="{{page.previous.url}}">&lArr; {{page.previous.title}}</a> 
+  {% endif %} 
+</td><td align="right">
+  {% if page.next.url %} 
+    <a href="{{page.next.url}}">{{page.next.title}} &rArr;</a> 
+  {% endif %} 
+</td>
+</table>
+{% endif %}
