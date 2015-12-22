@@ -42,11 +42,11 @@ Additional features are available in individual themes.
 
 Hier volgt een md-link:
 
-[En dan is het nu tijd voor een tabelletje]( /static/tabelletjes.htm )
+[En dan is het nu tijd voor een tabelletje]( /statics/tabelletjes.html )
 
 Nogmaals, nu als html-link:
 
-<a href="/static/tabelletjes.htm">En dan is het nu tijd voor een tabelletje</a>
+<a href="/statics/tabelletjes.html">En dan is het nu tijd voor een tabelletje</a>
 
 Includes doen het niet. Dat gaat alleen vanuit een _include-directory.
 
