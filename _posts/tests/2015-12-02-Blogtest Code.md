@@ -3,6 +3,7 @@ layout: post
 title: >-
     Blogtest: Programmacode
 categories : [Test]
+comments: false
 ---
 
 

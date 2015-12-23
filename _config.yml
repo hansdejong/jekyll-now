@@ -34,7 +34,8 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/hansdejong/poole-master
+  repo:              https://github.com/hansdejong/hansdejong.github.io
+disqusid:            fimmedisqusid
 
 #Joshua Lande
 pages_list:       
