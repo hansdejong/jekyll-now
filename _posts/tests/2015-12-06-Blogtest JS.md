@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Wat tests met JavaScript (JS in .md)
+title: >-
+    Blogtest: JavaScript (in .md)
 categories : [Test]
 comments: false
 # customjs:   #############Dit werk niet
