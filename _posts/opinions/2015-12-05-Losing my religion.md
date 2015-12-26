@@ -12,7 +12,7 @@ Ik ben Nederlands Hervormd opgevoed. Het geloof vervulde een belangrijke rol in 
 
 Mijn vader was ook ouderling, maar ik herinner me hem (hij stierf toen ik 14 was, hij 43) vooral als wetenschapper. Hij gaf les in Engels, Biologie, Natuurkunde, land- en tuinbouwvakken. Hij had veel actes en was een hartstochtelijk natuurliefhebber.
 
-Mijn moeder had ook kweekschool (en wist net als mijn vader veel van planten op een veel gestructureerdere manier dan ik het ooit geleerd heb), maar was vooral in die tijd vooral "vrouw van", echter zeker op een heel zelfstandige manier.
+Mijn moeder had ook kweekschool, en wist bijvoorbeeld net als mijn vader veel van planten op een veel gestructureerdere manier dan ik het ooit geleerd heb, maar was vooral in die tijd vooral "vrouw van", echter zeker op een heel zelfstandige manier.
 
 Mijn vader was vriendelijk, streng en rechtvaardig en altijd zelf op zoek, maar ook tuk op alle soorten gesprek en discussie. Ook met mij. Ik herinner me heel serieuze gesprekken over het verschil tussen zware en trage massa, ik moet toen jonger dan tien zijn geweest (toen verhuisden we, een duidelijk markeringspunt).
 
