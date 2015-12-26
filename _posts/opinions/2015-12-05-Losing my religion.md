@@ -48,6 +48,6 @@ Maar ik was ook een wetenschappertje in de dop. Ik kan me niet herinneren dat ik
 
 De grootste rol die een schepper voor mij onmisbaar had gemaakt was toch echter het bekende creatieargument: alles zat zo mooi in elkaar dat daar toch wel een hoop gepieker in zou moeten zijn gegaan. Ik denk dat toen ik eenmaal de essentie van de evolutietheorie doorhad de laatste noodzaak van een god kwam te vervallen. En dat heeft altijd als een bevrijding gevoeld.
 
-Als ik er nu op terugkijk zal dat voor mij toch de doorslag hebben gegeven. (Ik zal er nog eens over doordenken, maar voor nu is dit een geloofwaardige reconstructie). God was natuurlijk verweven met m'n hele leefwereld, dus het gaf nog heel was innerlijke en naar buiten gerichte strijd. Maar getwijfeld heb ik niet meer, geen moment.
+Als ik er nu op terugkijk meen ik dat dat voor mij toch de doorslag heeft gegeven. (Ik zal er nog eens over doordenken, maar voor nu is dit een geloofwaardige reconstructie). God was natuurlijk verweven met m'n hele leefwereld, dus het gaf nog heel was innerlijke en naar buiten gerichte strijd. Maar getwijfeld heb ik niet meer, geen moment.
 
      
