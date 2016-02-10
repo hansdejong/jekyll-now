@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tegen polarisatie
-categories : [Opinions, _Vluchtelingen]
+categories : [Opinions, Vluchtelingen]
 comments: true
 ---
 
