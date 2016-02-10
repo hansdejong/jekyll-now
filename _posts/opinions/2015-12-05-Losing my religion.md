@@ -16,6 +16,8 @@ Mijn moeder had ook kweekschool, en wist bijvoorbeeld net als mijn vader veel va
 
 Mijn vader was vriendelijk, streng en rechtvaardig en altijd zelf op zoek, maar ook tuk op alle soorten gesprek en discussie. Ook met mij. Ik herinner me heel serieuze gesprekken over het verschil tussen zware en trage massa, ik moet toen jonger dan tien zijn geweest (toen verhuisden we, een duidelijk markeringspunt).
 
+### Het omslagpunt
+
 Op mijn twaalfde is er een moment geweest dat ik tegen mezelf zei: **"Ik ben nu 12, dit moment moet ik goed onthouden en voor mezelf vastleggen, ik geloof nu niet meer in god".**
 
 Daarna heb ik ook nooit meer geloofd, ook niet de neiging gehad, en ook geen moment spijt gehad van die beslissing. In tegendeel zelfs.
@@ -32,13 +34,13 @@ Om maar wat te noemen:
 En zo kan ik nog wel even doorgaan. Ik kwam gewoon uit die kringen en daar gebeurden mooie dingen. Zo ging ik ook wel naar de studentenecclesia en vervolgens naar de Populier voor de cultuur en politieke discussies (70-er jaren). Ik wil maar zeggen, ik had wel weerstand tegen veel idee&euml;n, maar zette me niet af tegen het milieu.
 
 
-###Mijn argumenten toen
+### Mijn argumenten toen
 
 Wat ik wil proberen is reconstrueren wat toen, op m'n twaalfde, de belangrijkste argumenten waren om niet meer te geloven. Ik denk dat er enerzijds in die meer dan 50 jaar inhoudelijk niet veel veranderd is, maar anderzijds ben ik nu waarschijnlijk wel onverdraagzamer en afwijzender geworden. Toen zat ik er midden in, en was het zowel een intellectuele exercitie en stellingname alsook een afscheid van wat toch heel veel voor me had betekend.
 
 Het is belangrijk te laten zien dat een kind van twaalf voldoende zelfstandig denkt voor dit soort stellingname. Maar ook realiseer ik me dat de omgeving, vooral in streng christelijke en islamitische hoek, vaak veel minder tolerantie aan de dag zal leggen dan ik heb genoten. Het was, ook voor mij, een strijd, maar toch heb ik in zekere zin gemakkelijk praten.
 
-#### Retrospectief
+### Retrospectief
 
 Ik was een gelovig kind: naar zondagsschool, verhalen uit de (kinder-)bijbel, gebeden, naar de kerk, kerstmis... En ik weet zeker dat ik ook echt geloofde. Ik wist natuurlijk dat het niet om een soort mijterloze Sinterklaas op een wolk ging.
 
@@ -51,8 +53,9 @@ De grootste rol die een schepper voor mij onmisbaar had gemaakt was echter het b
 Een aspect dat er nog bij kwam is het ervaringsargument. In je jeugd zie je andere mensen als autoriteit.
  Als je van hen hoort dat ze ervaringen hebben, authentieke godsbelevingen of zoiets, accepteer je dat op hun gezag. Maar dat vertrouwen bladdert af. 
 Het is nog tot daar aan toe dat je zulke ervaringen zelf niet hebt. Maar de verslagen die je hoort zijn vaak gemakkelijker toe te schrijven aan een geestelijke aandoening dan aan ervaringen van realistische waarde.<br>
-En welk beeld je je ook vormt van een god, het past gewoon niet in de natuur: hoe moet je je "iets" voorstellen dat overal is, eeuwig, almachtig en waar je niets van ziet, tenzij je accepteert dat je de hele natuur eraan moet toewijzen. Je realiseert je dat als je op grond van je eigen ervaringen met zo'n buitensporig idee was gekomen, je voor gek was verklaard, en terecht. Maar als geloof gaat het er ineens in als zoete koek.
+En welk beeld je je ook vormt van een god, het past gewoon niet in de natuur: hoe moet je je "iets" voorstellen dat overal is, eeuwig<sup><b>*)</b></sup>, almachtig en waar je niets van ziet, tenzij je accepteert dat je de hele natuur eraan moet toewijzen. Je realiseert je dat als je op grond van je eigen ervaringen met zo'n buitensporig idee was gekomen, je voor gek was verklaard, en terecht. Maar noem het "geloof" en het gaat er ineens in als zoete koek.
 
 Als ik er nu op terugkijk meen ik dat deze argumenten voor mij de doorslag hebben gegeven. Ik zal er nog eens over doordenken, maar voor nu is dit een geloofwaardige reconstructie. God was natuurlijk verweven met m'n hele leefwereld, dus het gaf nog heel wat innerlijke en naar buiten gerichte strijd. Maar getwijfeld heb ik niet meer, geen moment.
 
+<sup><b>*)</b></sup><small> En er ook eeuwig geweest is, van gigantische complexiteit, voordat er ook maar iets anders was, met allerlei plannen en macht. Waarschijnlijk kijken de vissen in mijn aquarium zo tegen mij aan. </small>
      
