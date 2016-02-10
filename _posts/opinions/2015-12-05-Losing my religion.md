@@ -40,7 +40,7 @@ Wat ik wil proberen is reconstrueren wat toen, op m'n twaalfde, de belangrijkste
 
 Het is belangrijk te laten zien dat een kind van twaalf voldoende zelfstandig denkt voor dit soort stellingname. Maar ook realiseer ik me dat de omgeving, vooral in streng christelijke en islamitische hoek, vaak veel minder tolerantie aan de dag zal leggen dan ik heb genoten. Het was, ook voor mij, een strijd, maar toch heb ik in zekere zin gemakkelijk praten.
 
-### Retrospectief
+#### Retrospectief
 
 Ik was een gelovig kind: naar zondagsschool, verhalen uit de (kinder-)bijbel, gebeden, naar de kerk, kerstmis... En ik weet zeker dat ik ook echt geloofde. Ik wist natuurlijk dat het niet om een soort mijterloze Sinterklaas op een wolk ging.
 
