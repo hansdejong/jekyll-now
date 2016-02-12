@@ -12,7 +12,7 @@ Ik ben links, maar heb zelden PvdA gestemd. Vroeger wel eens, op den Uyl. En ook
 
 Prachtig allemaal: maar wat een droevenis en waarom nu pas. De partij is ontspoord en heeft geen oog voor het spoor van vernieling en  van teleurstelling bij de voormalige achterban. Ik hoor daar niet echt bij, maar als ik vanaf de zijlijn probeer te brainstormen kom ik al gauw tot een enorme lijst:  
 
-* Ten eerste die ideologische veren. Nooit begrepen waarom Kok daarvan af wilde. Natuurlijk kun je bezwaren hebben tegen het socialisme, maar dan hoor je in een andere partij. Je hoort te staan voor de werkende klasse en een eerlijke verdeling, solidariteit. 
+* Ten eerste die ideologische veren. Nooit begrepen waarom Kok daarvan af wilde. Natuurlijk kun je bezwaren hebben tegen het socialisme, maar dan hoor je in een andere partij. Je hoort te staan voor de werkende klasse en een eerlijke verdeling, solidariteit. Nu lijkt de doelgroep puur uit marketingoverwegingen veranderd te zijn, en de arbeiders en zwakkeren aan de SP overgedaan.
 
 * De samenwerking op links. Steeds weer die teleurstelling dat de PvdA de SP buiten de deur hield. Natuurlijk zijn er verschillen, maar ook grote verwantschap. Pas nu, op de rand van het graf, wordt serieus toenadering gezocht en over een links blok gesproken.
 
@@ -28,7 +28,7 @@ Prachtig allemaal: maar wat een droevenis en waarom nu pas. De partij is ontspoo
 
 * Waar hebben we het waanidee van de participatiesamenleving aan verdiend? Het idee van de verplichte vrijwilligheid? Het idee dat mantelzorg niet iets is waarbij liefdevolle naasten de gaten opvullen maar een manier voor de overheid zich terug te trekken. Het idee dat werkloze ingenieurs blad moeten blazen, of ze daar iemand mee verdringen of niet. Dat dat hun kansen verhoogt, en het is zo fijn weer mee te doen. Dat uitkeringen verdiend moeten worden door honderden kansloze sollicitaties. Jetta Klijnsma bedankt.
 
-* Waarom die decentralisatie van de zorg. De puinhopen van de PGB's? De golf van ontslagen, de enorme werkdruk. Afijn, Martin van Rijn bedankt.
+* Waarom die decentralisatie van de zorg. De puinhopen van de PGB's? De golf van ontslagen, de enorme werkdruk. Ik kan me ook niet herinneren dat die onzalige decentralisaties, waardoor er grote verschillen tussen gemeenten zijn ontstaan, ooit aan de kiezer zijn voorgelegd. Afijn, Martin van Rijn bedankt.
 
 * Waarom wordt er zo met historisch cultuurgoed omgesprongen. De bibliotheek van het tropenmuseum bevindt zich nu in Cairo. Waarom wordt de cultuur zo gedecimeerd. (Vergelijk de Uitmarkt een paar jaar terug met die van nu en het huilen staat je nader dan het lachen.)
 
