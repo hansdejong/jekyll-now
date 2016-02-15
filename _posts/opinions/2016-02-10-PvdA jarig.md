@@ -20,7 +20,7 @@ Prachtig allemaal: maar wat een droevenis en waarom nu pas. De partij is ontspoo
 
 * Samsom heeft een GreenPeace achtergrond. Waarom geen veel sterkere profilering op het gebied van groene/schone energie en milieu, stimulering zonneënergie o.a. via terugleveren aan het net als in Duitsland. Waarom geen ideeën over het tegengaan van overbevolking na Parijs. We hebben de club van Rome gehad, was dat niet voldoende om alarm te slaan?
 
-* Ik ben geen econoom en kan niet altijd beoordelen hoeveel geld er voor iets is en hoe er aan te komen. Maar van de PvdA verwacht je dat ze ook investeren in nieuwe technieken en innovatie-onderzoek, en aangeven waar kansen liggen. En een duidelijk visie hebben over de transitie in de energievoorziening en milieu-sparende technieken.
+* Ik ben geen econoom en kan niet altijd beoordelen hoeveel geld er voor iets is en hoe er aan te komen. Maar van de PvdA verwacht je dat ze ook investeren in nieuwe technieken en innovatie-onderzoek, en aangeven waar kansen liggen. En een duidelijke visie hebben over de transitie in de energievoorziening en milieu-sparende technieken.
 
 * Waarom niet veel meer ingezet op verdelingsvraagstukken? Niet alleen van geld en kapitaal, ook van werk en kansen. Waarom niet een zevenurige werkdag. Het aan de kant staan van miljoenen kost kapitalen aan uitkeringen, het vergooien van investeringen aan kennis, stress bij de nog wel werkenden (bijvoorbeeld in het onderwijs en de zorg), frustratie, uitzichtloosheid en financiële ellende bij de uitgerangeerden, immobiliteit en angst bij de nog wel werkenden. Je verwacht ideeën tegen de leeftijdsdiscriminatie van te dure en/of risicovolle ouderen. Alles wordt onderworpen aan de markt en de PvdA gaat daarin mee.
 
@@ -30,7 +30,7 @@ Prachtig allemaal: maar wat een droevenis en waarom nu pas. De partij is ontspoo
 
 * Waarom die decentralisatie van de zorg. De puinhopen van de PGB's? De golf van ontslagen, de enorme werkdruk. Ik kan me ook niet herinneren dat die onzalige decentralisaties, waardoor er grote verschillen tussen gemeenten zijn ontstaan, ooit aan de kiezer zijn voorgelegd. Afijn, Martin van Rijn bedankt.
 
-* Waarom wordt er zo met historisch cultuurgoed omgesprongen. De bibliotheek van het tropenmuseum bevindt zich nu in Cairo. Waarom wordt de cultuur zo gedecimeerd. (Vergelijk de Uitmarkt een paar jaar terug met die van nu en het huilen staat je nader dan het lachen.)
+* Waarom wordt er zo met historisch cultuurgoed omgesprongen. De bibliotheek van het tropenmuseum bevindt zich nu in Alexandrië. Waarom wordt de cultuur zo gedecimeerd. (Vergelijk de Uitmarkt een paar jaar terug met die van nu en het huilen staat je nader dan het lachen.)
 
 * Waarom geen duidelijke stellingname met betrekking tot religie en de islam. Het theedrinken van Cohen, na de moord op van Gogh, was niet goed (ja, op zich wel, maar de stellingname was veel te slap). Waarom hebben we nog moskee-internaten, waarom accepteren we haatpreken, religieus onderwijs waar integratie wordt tegengewerkt. Waarom is er sprake van sharia-rechtspraak, fatwa's, meepraten met pruilende over discriminatie klagende moslims. Discriminatie is verkeerd en moet worden tegengegaan, maar groepen kunnen het er ook naar maken. Wilders heeft gewoon gelijk met zijn "Partij van de Allochtonen". Begrijp me goed: het is uitstekend om onderdak te bieden aan allochtonen, maar wel onder westerse voorwaarden, ingepast in een seculiere samenleving. 
 
