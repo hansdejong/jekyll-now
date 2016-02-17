@@ -7,10 +7,18 @@ layout: default
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}<!--</time>-->
   {% if page.categories != empty %}<!-- Toegevoegd Hans -->
 , Categorie: {{page.categories}}
-  {% endif %}</time>
-  {{ content }}
+  {% endif %}
+<!--Hier de tags, TODO een tagspagina-->
+{% if page.tags != empty %}
+  <br>Tags: 
+  {% for tag in page.tags %} 
+    {{tag}}
+    {% unless forloop.last %}&bull;{% endunless %} 
+  {% endfor %}
+{% endif %}
+</time>
+{{ content }}
 </article>
-
 <!-- Wil ik die related posts wel???
 
 {% if site.related_posts != empty %}

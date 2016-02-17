@@ -2,6 +2,8 @@
 layout: post
 title: PvdA 70 jaar
 categories : [Opinions, _PvdA]
+tags: [PvdA]
+
 comments: true
 ---
 

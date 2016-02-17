@@ -44,5 +44,6 @@ pages_list:
   Genetics (scala): '/archives/archive_genetics'
   Archive: '/archives/archive'
 # Feed: '/atom.xml'
+  Tags: '/archives/taglist'
   Tests: '/archives/archive_test'
   About: '/about'
