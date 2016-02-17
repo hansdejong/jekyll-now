@@ -2,7 +2,7 @@
 layout: post
 title: Tegen polarisatie
 categories : [Opinions, _Vluchtelingen]
-tags : [vluchtelingen, links/rechts]
+tags : [links/rechts, vluchtelingen]
 comments: true
 ---
 

@@ -12,7 +12,7 @@ layout: default
 {% if page.tags != empty %}
   <br>Tags: 
   {% for tag in page.tags %} 
-    {{tag}}
+    <a href="{{ site.baseurl }}/archives/taglist#{{tag}}">{{tag}}</a>
     {% unless forloop.last %}&bull;{% endunless %} 
   {% endfor %}
 {% endif %}
