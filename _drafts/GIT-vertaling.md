@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Meningen
-categories : [Opinions]
+title: Vertaling uitleg GIT
+categories : [Programming, _Draft]
+tags : [GIT]
 comments: true
 ---
 
@@ -10,9 +11,9 @@ Iedereen heeft meningen. Ze worden wat interessanter als ze in een context staan
 O.a. op Twitter laat ik al vaak doorklinken wat ik vind, maar nu ik met dit blog de ruimte heb wil ik in de meningenrubriek enkele standpunten onderbouwen. Tweets zijn vaak ongenuanceerd of kort door de bocht. 
 
 * De laatste tijd reageer ik nogal eens afwijzend op religie. Hier wil ik dat wat verder uitleggen.
-* Ik heb er vaak bezwaar tegen hoe op twitter op elkaar wordt afgegeven in de links-rechts discussie. Dus ik wil bespreken wat me in dezen productief lijkt, en natuurlijk waar ikzelf ergens sta.
+* Ik heb vaak er bezwaar tegen hoe op twitter op elkaar wordt afgegeven in de links-rechts discussie. Dus ik wil bespreken wat me in dezen productief lijkt, en natuurlijk waar ikzelf ergens sta.
 * Op andere forums (bijvoorbeeld bij MOOC's) <code class="hightlighter-rouge">Massive Open Online Courses</code> kom ik soms in discussies terecht over wat leven is, hoe evolutie in zijn werk gaat, etc., dus denk ik daar minstens een stuk aan te wijden.<br> 
 (En het komt natuurlijk aan de orde bij het ontwikkelen van het "Genetics" programma.)
 * Ik heb m'n idee&euml;n over hoe het heelal is ontstaan, dus komt dat ter sprake.
 
-Een aantal onderwerpen die te uitgebreid zijn om "verknipt" door de columns te verspreiden zal ik antedateren (de site ordent op datum).
+Kortom, een aantal onderwerpen die te uitgebreid zijn om "verknipt" door de discussies te willen verspreiden zal ik antedateren (de site ordent op datum), of misschien apart bij elkaar in pagina's plaatsen

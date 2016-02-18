@@ -1,7 +1,7 @@
 ---
 layout: post
 title: sbt2?
-categories : [Programming, _Scripting]
+categories : [Programming, _Scripting, _Draft]
 comments: True
 ---
 
