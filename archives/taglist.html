@@ -10,14 +10,14 @@ layout: page
 
 
 <div id="tags">
-  <h2><u><i>Tags</i></u></h2>
+  <h2><u><i>Onderwerpen</i></u></h2>
   <ul class="tag-box inline">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
     <li><a href="#{{ this_word | cgi_escape }}">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
   {% endunless %}{% endfor %}
   </ul>
-<h2><u><i>Documenten per Tag</i></u></h2>
+<h2><u><i>Documenten per onderwerp</i></u></h2>
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
 
