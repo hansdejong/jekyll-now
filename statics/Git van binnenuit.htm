@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Git van binnenuit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <meta name="description" content="">
+  <link rel="canonical" href="https://codewords.recurse.com/issues/two/git-from-the-inside-out">
+  <link href="Git%20van%20binnenuit_bestanden/bootstrap-combined.css" rel="stylesheet">
+  <link href="Git%20van%20binnenuit_bestanden/font-awesome.css" rel="stylesheet">
+  <link rel="alternate" type="application/atom+xml" title="Code Words" href="https://codewords.recurse.com/feed.xml">
+  <script src="//www.google-analytics.com/analytics.js" async=""></script><script src="Git%20van%20binnenuit_bestanden/widgets.js" id="twitter-wjs"></script><script src="Git%20van%20binnenuit_bestanden/analytics.js" async=""></script><script src="Git%20van%20binnenuit_bestanden/jquery.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Git%20van%20binnenuit_bestanden/application-5b633dd1999b878b71e2ba8428ff66d8.css">
+  <script src="Git%20van%20binnenuit_bestanden/application-796607bcda78a2ead524bc09b70a1b56.js"></script>
+  
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-28142758-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+
+  <body>
+    <div class="announcement-banner">
+  Hacker School is now the Recurse Center. <a href="https://www.recurse.com/blog/77-hacker-school-is-now-the-recurse-center">Read more</a>.
+</div>
+
+    <header id="site-header">
+  <div id="top-strip"></div>
+  <div id="logo">
+    <a href="https://codewords.recurse.com/"><img src="Git%20van%20binnenuit_bestanden/logo_48x60-0b931d91d91a73f6ba0f24efcd5936bd.png"></a>
+  </div>
+</header>
+
+
+    <div class="container">
+      <div class="wrap">
+        <div class="post">
+
+  <header class="post-header">
+    <p class="issue small-caps">
+      <a href="https://codewords.recurse.com/issues/two">Code Words – Issue two</a>
+    </p>
+    <h1>Git van binnenuit</h1>
+    <p class="meta small">
+      <a href="https://codewords.recurse.com/about#Mary%20Rose%20Cook"> Mary Rose Cook</a>
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>Dit essay legt uit hoe Git werkt.  Het gaat er van uit dat u Git goed genoeg begrijpt om het als versiecontrole-systeem voor uw projecten te gebruiken.</p>
+
+<p>Het essay legt de nadruk op de graaf-structuur waarop Git is gebaseerd, en hoe de eigenschappen van deze graaf het gedrag van Git bepalen. Door naar de bouwstenen te kijken baseert u uw mentale model meer op de waarheid dan op hypotheses die voortkomen uit bewijs dat al experimenterend met de API is vergaard. Dit realistischer model verschaft u een beter begrip van wat Git heeft gedaan, wat het doet en wat het zal gaan doen.</p>
+
+<p>De tekst is opgebouwd rond een serie Git-commando's, uitgevoerd op een enkel project. Deze worden afgewisseld met observaties over de graaf-datastructuur waarop Git is gebouwd. Deze observaties illustreren een eigenschap van de graaf, en het gedrag dat uit deze eigenschap voortkomt.</p>
+
+<p>Als u naderhand misschien nog dieper in Git wilt duiken, kunt u een blik werpen op de <a href="http://gitlet.maryrosecook.com/docs/gitlet.html">uitgebreid becommentarieerde broncode</a> van mijn implementatie van Git in JavaScript.</p>
+<i>(Vaak zal ik termen die in verband met Git worden gebruikt vanaf nu onvertaald laten. Het wordt dus vaak "Tree Graph" ipv. "Boom Graaf" <u>Hans</u>)</i>
+
+<h2 id="create-the-project">Cre&euml;er het project</h2>
+
+<div class="highlight"><pre><code>~ $ mkdir alpha
+~ $ cd alpha
+</code></pre></div>
+<p>De gebruiker maakt <code>alpha</code>, een directory voor zijn/haar project.</p>
+
+<div class="highlight"><pre><code>~/alpha $ mkdir data
+~/alpha $ printf 'a' &gt; data/letter.txt
+</code></pre></div>
+<p>Hij/zij gaat naar de <code>alpha</code> directory and maakt een directory <code>data</code> aan. <br><i>(Gebruik  onder Windows "echo a" ipv. "printf 'a'". <u>Hans</u>)</i><br> Daarin wordt een bestand <code>letter.txt</code> aangemaakt met de letter <code>a</code> als inhoud. De alpha directory ziet er nu aldus uit:</p>
+
+<div class="highlight"><pre><code>alpha
+└── data
+    └── letter.txt
+</code></pre></div>
+<h2 id="initialize-the-repository">Initialiseer de repository</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git init
+          Initialized empty Git repository
+</code></pre></div>
+<p><code>git init</code> maakt van de huidige directory een Git repository. Daarbij cre&euml;ert het een <code>.git</code> directory en maakt daar enkele bestanden aan. Deze bestanden defini&euml;ren alles met betrekking tot de Git configuratie en de geschiedenis van het project. Het zijn doodgewone bestanden. De gebruiker kan ze lezen of editen met een teksteditor of shell. Oftewel: de gebruiker kan de geschiedenis van het project even gemakkelijk lezen en wijzigen als de bestanden van het project.</p>
+
+<p>De <code>alpha</code> directory ziet er nu zo uit:</p>
+
+<div class="highlight"><pre><code>alpha
+├── data
+|   └── letter.txt
+└── .git
+    ├── objects
+    etc...
+</code></pre></div>
+<p>De <code>.git</code> directory en de inhoud daarvan zijn van Git. Al de andere bestanden worden in het algemeen de werkkopie genoemd. Zij behoren aan de gebruiker toe.</p>
+
+<h2 id="add-some-files">Voeg een paar bestanden toe</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git add data/letter.txt
+</code></pre></div>
+<p>De gebruiker voert <code>git add</code> uit op <code>data/letter.txt</code>. Dit heeft twee gevolgen:</p><ul>
+
+<li><p>Ten eerste wordt er een nieuw blob bestand aangemaakt in de <code>.git/objects/</code> directory.</p>
+
+<p>Dit blob bestand bevat de gecomprimeerde inhoud van <code>data/letter.txt</code>. De naam ervan is afgeleid van de gehashte inhoud. Hashing van een stuk tekst houdt in dat het wordt omgezet naar een kleiner<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> stuk tekst dat het origineel uniek <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> identificeert. <br><i>(Dus niet bevat zoals bij encryptie of compressie!!! <u>Hans</u>)</i><br> Git hasht <code>a</code> bijvoorbeeld naar <code>2e65efe2a145dda7ee51d1741299f848e5bf752e</code>. De eerste twee karakters worden gebruikt als naam van een directory in de objects-database: <code>.git/objects/2e/</code>. De rest van de hash wordt gebruikt als naam van het blob bestand dat de inhoud van de toegevoegde file bevat: <code>.git/objects/2e/65efe2a145dda7ee51d1741299f848e5bf752e</code>.</p>
+
+<p>Merk op dat alleen al door het toevoegen van een bestand aan Git de inhoud ervan wordt opgeslagen in de <code>objects</code> directory. Die inhoud bevindt zich nog steeds veilig in Git als de gebruiker <code>data/letter.txt</code> wist in de werkkopie.</p>
+
+<li><p>Ten tweede voegt <code>git add</code> het bestand toe aan de index. De index is
+ een lijst met alle bestanden die Git geacht wordt in de gaten te houden ("being tracked"). Die lijst is opgeslagen als een bestand in <code>.git/index</code>. Elke regel van het bestand verbindt een beheerd bestand met de hash ("maps a tracked file to the hash") van de inhoud ervan op het moment dat het werd toegevoegd. Dit is de index nadat het <code>git add</code> -commando is uitgevoerd:</p>
+
+<div class="highlight"><pre><code>data/letter.txt 2e65efe2a145dda7ee51d1741299f848e5bf752e
+</code></pre></div>
+</ul>
+<p>Nu maakt de gebruiker een bestand <code>data/number.txt</code> aan met <code>1234</code> als inhoud:</p>
+
+<div class="highlight"><pre><code>~/alpha $ printf '1234' &gt; data/number.txt
+</code></pre></div>
+<p>De werkkopie ziet er nu zo uit:</p>
+
+<div class="highlight"><pre><code>alpha
+└── data
+    └── letter.txt
+    └── number.txt
+</code></pre></div>
+<p>De gebruiker voegt het bestand aan Git toe:</p>
+
+<div class="highlight"><pre><code>~/alpha $ git add data
+</code></pre></div>
+<p>Het <code>git add</code> commando cre&euml;ert een blob object dat de inhoud van  <code>data/number.txt</code> bevat. En het voegt een entry in de index toe voor <code>data/number.txt</code> die naar de blob verwijst. Dit is de index na het voor de tweede keer uitvoeren van het <code>git add</code> commando:</p>
+
+<div class="highlight"><pre><code>data/letter.txt 2e65efe2a145dda7ee51d1741299f848e5bf752e
+data/number.txt 274c0052dd5408f8ae2bc8440029ff67d79bc5c3
+</code></pre></div>
+<p>Merk op dat alleen de bestanden in de <code>data</code> directory zijn opgenomen in de index, hoewel de gebruiker <code>git add data</code> uitvoerde. De <code>data</code> directory is niet afzonderlijk opgenomen.</p>
+
+<div class="highlight"><pre><code>~/alpha $ printf '1' &gt; data/number.txt
+~/alpha $ git add data
+</code></pre></div>
+<p>Stel dat toen de gebruiker <code>data/number.txt</code> aanmaakte, het eigenlijk de bedoeling was  <code>1</code> te typen, niet <code>1234</code>.
+De correctie wordt aangebracht en het bestand opnieuw aan de index toegevoegd. Dit 
+commando cre&euml;ert een nieuwe blob met de nieuwe inhoud. En de entry in de index wordt geupdate zodat deze voor <code>data/number.txt</code> naar de nieuwe blob verwijst.</p>
+
+<h2 id="make-a-commit">Het maken van een commit</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git commit -m 'a1'
+          [master (root-commit) 774b54a] a1
+</code></pre></div>
+<p>De gebruiker maakt de commit <code>a1</code>. Git drukt wat gegevens over de commit af. Deze gegevens zullen snel duidelijk worden.</p>
+
+<p>Het commit-commando heeft drie gevolgen.<ul>
+<li> Er wordt een "tree graph" aangemaakt die de inhoud van de versie van het project dat wordt gecommit  vertegenwoordigt.
+<li> Het maakt een commit-object aan. 
+<li> Het laat de huidige branch wijzen naar het nieuwe commit-object.</ul></p>
+
+<h3 id="create-a-tree-graph">Het aanmaken van een tree graph</h3>
+
+<p>Git legt de huidige staat van het project vast door een tree graph
+te maken op basis van de index. Deze tree graph slaat de locatie en inhoud van elk bestand van het project op.</p>
+
+<p>De graph bevat twee soorten objecten: blobs and trees.</p>
+
+<p><ul><li>Blobs worden opgeslagen door <code>git add</code>. Zij vertegenwoordigen de inhoud van bestanden.
+
+<li>Trees worden opgeslagen bij een commit. Een tree vertegenwoordigt een directory in de werkkopie.</ul></p>
+
+<p>Hier volgt het tree-object dat de inhoud van de <code>data</code> directory vastlegt voor de nieuwe commit:</p>
+
+<div class="highlight"><pre><code>100664 blob 2e65efe2a145dda7ee51d1741299f848e5bf752e letter.txt
+100664 blob 56a6051ca2b02b04ef92d5150c9ef600403cb1de number.txt
+</code></pre></div>
+<p>De eerste regel legt alles vast wat nodig is om <code>data/letter.txt</code> te reproduceren.
+<ul><li>Het eerste deel geeft de file permissies weer. 
+<li>Het tweede deel geeft aan dat de inhoud van deze entry door een blob wordt vertegenwoordigt, en niet door een tree.
+<li>Het derde deel geeft de hash van de blob.
+<li>Het vierde deel is de filenaam.</ul></p>
+
+<p>De tweede regel geeft dezelfde informatie voor <code>data/number.txt</code>.</p>
+
+<p>Hier is het tree-object voor <code>alpha</code>, de root-directory van het project:</p>
+
+<div class="highlight"><pre><code>040000 tree 0eed1217a2947f4930583229987d90fe5e8e0b74 data
+</code></pre></div>
+<p>De enige regel in deze tree wijst naar de <code>data</code> tree.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/1-a1-tree-graph.png" alt="Tree graph for the `a1` commit"></p>
+<div class="image-caption">Tree graph voor de `a1` commit</div>
+
+<p>In de graph hierboven wijst de <code>root</code> tree naar de <code>data</code> tree. De <code>data</code> tree wijst naar de blobs voor <code>data/letter.txt</code> en <code>data/number.txt</code>.</p>
+
+<h3 id="create-a-commit-object">Het aanmaken van een commit-object</h3>
+
+<p>Na de tree graph te hebben gemaakt cre&euml;ert <code>git commit</code> een commit-object. Het commit-object is gewoon een ander tekstbestand in <code>.git/objects/</code>:</p>
+
+<div class="highlight"><pre><code>tree ffe298c3ce8bb07326f888907996eaa48d266db4
+author Mary Rose Cook &lt;mary@maryrosecook.com&gt; 1424798436 -0500
+committer Mary Rose Cook &lt;mary@maryrosecook.com&gt; 1424798436 -0500
+
+a1
+</code></pre></div>
+<p>De eerste regel wijst naar de tree graph. De hash is van het tree-object dat de root van de werkkopie vertegenwoordigt. Dat is de <code>alpha</code> directory. De laatste regel is de commit-message.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/2-a1-commit.png" alt="`a1` commit object pointing at its tree graph"></p>
+<div class="image-caption">Het `a1` commit-object dat naar zijn tree graph wijst</div>
+
+<h3 id="point-the-current-branch-at-the-new-commit">De huidige branch naar het nieuwe commit-object laten wijzen</h3>
+
+<p>Tenslotte laat het commit-commando de huidige branch naar het nieuwe commit-object wijzen.</p>
+
+<p>Wat is de huidige branch? Git kijkt in het <code>HEAD</code> bestand in <code>.git/HEAD</code> en vindt:</p>
+
+<div class="highlight"><pre><code>ref: refs/heads/master
+</code></pre></div>
+<p>Dit zegt dat <code>HEAD</code> naar <code>master</code> wijst.  <code>master</code> is de huidige branch.</p>
+
+<p><code>HEAD</code> and <code>master</code> zijn allebei "refs". Een ref is een label dat door Git of de gebruiker wordt gebruikt om een specifieke commit te identificeren.</p>
+
+<p>Het bestand dat de <code>master</code> ref representeert bestaat niet, omdat dit de eerste commit naar de repository is. Git cre&euml;ert het bestand in <code>.git/refs/heads/master</code> met als inhoud de hash van het commit-object:</p>
+
+<div class="highlight"><pre><code>74ac3ad9cde0b265d2b4f1c778b283a6e2ffbafd
+</code></pre></div>
+<p><i>(Wanneer u deze Git commando's al lezend intypt, zal de hash van uw <code>a1</code>
+ commit verschillen van de mijne. Content-objecten als 
+blobs en trees zullen altijd dezelfde hash opleveren. Commits niet, omdat 
+ze ook datums en de namen van hun makers bevatten.)</i></p>
+
+<p>Laten we <code>HEAD</code> en <code>master</code> toevoegen aan de Git graph:</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/3-a1-refs.png" alt="`master` pointing at the `a1` commit"></p>
+<div class="image-caption">`HEAD` wijzend naar `master` en `master` wijzend naar de `a1` commit</div>
+
+<p><code>HEAD</code> wijst naar <code>master</code>, zoals het dat voor de commit al deed. Maar <code>master</code> bestaat nu en wijst naar het nieuwe commit-object.</p>
+
+<h2 id="make-a-commit-that-is-not-the-first-commit">Het maken van een commit die niet de eerste commit is</h2>
+
+<p>Hier ziet u de Git graph na de <code>a1</code> commit. De werkkopie en index zijn ook opgenomen.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/4-a1-wc-and-index.png" alt="`a1` commit shown with the working copy and index"></p>
+<div class="image-caption">De `a1` commit, getoond met werkkopie en index</div>
+
+<p>Merk op dat de werkkopie, index, en <code>a1</code> commit allemaal dezelfde inhoud hebben voor <code>data/letter.txt</code> en <code>data/number.txt</code>. De index en <code>HEAD</code> commit gebruiken beide hashes om naar blob objecten te verwijzen, maar de inhoud van de werkkopie is als tekst opgeslagen op een andere lokatie.</p>
+
+<div class="highlight"><pre><code>~/alpha $ printf '2' &gt; data/number.txt
+</code></pre></div>
+<p>De gebruiker verandert nu de inhoud van <code>data/number.txt</code> in <code>2</code>. Dit verandert de werkkopie, maar laat de index en de <code>HEAD</code> commit zoals ze waren.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/5-a1-wc-number-set-to-2.png" alt="`data/number.txt` set to `2` in the working copy"></p>
+<div class="image-caption">`data/number.txt` veranderd in `2` in de werkkopie</div>
+<br>
+<div class="highlight"><pre><code>~/alpha $ git add data/number.txt
+</code></pre></div>
+<p>De gebruiker voegt het bestand toe aan Git. Git voegt een blob met <code>2</code> als inhoud toe aan de <code>objects</code> directory. En het laat de index entry voor <code>data/number.txt</code> naar de nieuwe blob wijzen.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/6-a1-wc-and-index-number-set-to-2.png" alt="`data/number.txt` set to `2` in the working copy and index"></p>
+<div class="image-caption">`data/number.txt` gewijzigd in `2` in the working copy and index</div>
+<br>
+<div class="highlight"><pre><code>~/alpha $ git commit -m 'a2'
+          [master f0af7e6] a2
+</code></pre></div>
+<p>De gebruiker commit. De stappen voor de commit zijn hetzelfde als eerst:</p>
+
+<ul><li><p>Als eerste wordt er een nieuwe tree graph aangemaakt die de inhoud van de index vertegenwoordigt.</p>
+
+<p>De index entry voor <code>data/number.txt</code> is veranderd.  De oude <code>data</code> tree geeft niet langer de ge&iuml;ndexeerde toestand van de <code>data</code> directory weer.  Er moet een nieuw <code>data</code> tree object worden gecre&euml;erd:</p>
+
+<div class="highlight"><pre><code>100664 blob 2e65efe2a145dda7ee51d1741299f848e5bf752e letter.txt
+100664 blob d8263ee9860594d2806b0dfd1bfd17528b0ba2a4 number.txt
+</code></pre></div>
+<p>De nieuwe <code>data</code> tree geeft een andere hash-waarde dan de oude <code>data</code> tree.  Er moet een nieuwe <code>root</code> tree worden gecre&euml;erd om deze hash op te slaan:</p>
+
+<div class="highlight"><pre><code>040000 tree 40b0318811470aaacc577485777d7a6780e51f0b data
+</code></pre></div>
+<li><p>Als tweede wordt er een nieuw commit-object aangemaakt.</p>
+
+<div class="highlight"><pre><code>tree ce72afb5ff229a39f6cce47b00d1b0ed60fe3556
+parent 774b54a193d6cfdd081e581a007d2e11f784b9fe
+author Mary Rose Cook &lt;mary@maryrosecook.com&gt; 1424813101 -0500
+committer Mary Rose Cook &lt;mary@maryrosecook.com&gt; 1424813101 -0500
+
+a2
+</code></pre></div>
+<p>De eerste regel van het commit-object wijst naar het nieuwe <code>root</code> tree object.<br> De tweede verwijst naar <code>a1</code>: de parent van de commit. Om de parent van de commit te vinden is Git naar <code>HEAD</code> gegaan, volgde die naar <code>master</code> en vond daar de commit hash van <code>a1</code>.</p>
+
+<li><p>Als derde wordt de inhoud van de <code>master</code> branch file gewijzigd in de hash van de nieuwe commit.</p>
+</ul>
+
+<p><img src="Git%20van%20binnenuit_bestanden/7-a2.png" alt="`a2` commit"></p>
+<div class="image-caption">`a2` commit</div>
+
+<p><img src="Git%20van%20binnenuit_bestanden/8-a2-just-objects-commits-and-refs.png" alt="Git graph without the working copy and index"></p>
+<div class="image-caption">Git graph zonder de werkkopie en index</div>
+
+<p><strong>Graph eigenschap I.</strong>: Inhoud wordt als een object-tree opgeslagen. 
+Dit  betekent dat alleen diffs in de objects-database worden opgeslagen.<br> 
+Bekijk bijvoorbeeld de bovenstaande graph. De <code>a2</code> commit hergebruikt 
+de <code>a</code> blob die eerder dan de <code>a1</code>
+commit was aangemaakt. Evenzo kunnen, als een hele directory van commit tot 
+commit niet verandert, de tree ervan en alle blobs en trees eronder worden hergebruikt. 
+In het algemeen zijn er van commit tot commit weinig inhoudelijke veranderingen. 
+Zodoende kan Git grote commit-histories opslaan in een kleine ruimte.</p>
+
+<p><strong>Graph eigenschap II.</strong>: Elke commit heeft een parent. 
+Zo kan  een repository de geschiedenis van een project opslaan.</p>
+
+<p><strong>Graph eigenschap III.</strong>: Refs zijn toegangspunten tot het een of andere 
+gedeelte van de commit historie. Dus kunnen er aan commits betekenisvolle namen worden gegeven. 
+De gebruiker organiseert zijn/haar werk in afstammingslijnen (lineage) die in het project 
+betekenisvol zijn, zoals met concrete refs als <code>fix-for-bug-376</code>. 
+Git gebruikt symbolische refs als <code>HEAD</code>, <code>MERGE_HEAD</code> en <code>FETCH_HEAD</code> 
+ter ondersteuning van commando's die de commit historie manipuleren.</p>
+
+<p><strong>Graph eigenschap IV.</strong>: De nodes in de <code>objects/</code>
+ directory zijn immutable. Dit betekent dat inhoud wordt aangepast, niet 
+gewist. Elk stuk informatie dat ooit is toegevoegd en elke commit die ooit is gedaan kan
+ ergens in de <code>objects</code> directory<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup> worden teruggevonden.</p>
+
+<p><strong>Graph eigenschap V.</strong>: Refs zijn mutable. Daarom kan de betekenis van een ref veranderen. De commit waar <code>master</code>
+ naar wijst kan de beste versie zijn van een project op dit moment, maar die positie kan binnen de kortste keren 
+worden ingenomen door een nieuwere en betere commit.</p>
+
+<p><strong>Graph eigenschap VI.</strong>: De werkkopie  en de commits 
+waar door refs naar wordt gewezen zijn direkt beschikbaar, maar andere commits zijn dat niet. 
+Dit betekent dat recente geschiedenis gemakkelijk kan worden opgeroepen, maar ook dat die vaker verandert. 
+Oftewel: Git heeft een vervagend geheugen dat met steeds moeizamer middelen moet worden opgeroepen.</p>
+
+<p>De werkkopie is het punt in de historie dat het gemakkelijkst is terug te vinden omdat het zich
+ in de root van de repository bevindt. Er is niet eens een Git commando voor nodig. Maar het is ook het veranderlijkste punt in de geschiedenis. De gebruiker 
+kan tientallen versies van een bestand maken zonder dat Git er een van opslaat, tenzij ze aan Git worden toegevoegd.</p>
+
+<p>De commit waar <code>HEAD</code> naar wijst is erg gemakkelijk op te roepen. 
+Deze is aan de basis van de branch die is uitgecheckt. Om de inhoud ervan te zien hoeft de gebruiker alleen maar 
+te "stashen"<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup> en dan de werkkopie te bekijken. Tegelijkertijd is <code>HEAD</code> de meest veranderlijke ref.</p>
+
+<p>Ook de commit waar een concrete ref naar verwijst is gemakkelijk op te roepen. de gebruiker 
+kan die branch eenvoudig uitchecken. The top van een branch verandert minder vaak dan
+ <code>HEAD</code>, maak vaak genoeg om de betekenis van een branchnaam veranderlijk te laten zijn.</p>
+
+<p>Het is moeilijk om een commit waar door geen enkele ref naar wordt verwezen terug te roepen.
+  Hoe verder de gebruiker verwijdert raakt van een ref, des te moeilijker het voor hem/haar wordt 
+de betekenis van een commit te reconstrueren. Maar ook, hoe verder hij/zij teruggaat, des te minder 
+waarschijnlijk het is dat de een of ander de geschiedenis zal hebben veranderd sinds de vorige keer dat hij/zij keek<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup>.</p>
+
+<h2 id="check-out-a-commit">Het uitchecken van een commit</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git checkout 37888c2
+          You are in 'detached HEAD' state...
+</code></pre></div>
+<p>De  gebruiker checkt de <code>a2</code> commit uit door de hash ervan te gebruiken.<br> 
+<i>(Als u deze Git commando's uitvoert, zal deze niet werken. Gebruik <code>git log</code> om de hash van uw <code>a2</code> commit te vinden.)</i></p>
+
+<p>Uitchecken gaat in vier stappen:</p><ul>
+<li>
+<p>Ten eerste krijgt Git de <code>a2</code> commit en ook de tree graph waar die naar wijst.</p>
+
+<li><p>Ten tweede schrijft het de file entries in de tree graph naar de werkkopie. 
+Dit levert geen veranderingen op. De werkkopie heeft de inhoud van de tree graph al die er naartoe is geschreven omdat <code>HEAD</code> via <code>master</code> al naar de <code>a2</code> commit wees.</p>
+
+<li><p>Ten derde schrijft Git de file entries in de tree graph naar de index. 
+Ook dit resulteert niet in veranderingen. De index heeft de inhoud van de <code>a2</code> commit al.</p>
+
+<li><p>Ten vierde wordt de inhoud van <code>HEAD</code> gewijzigd in de hash van de <code>a2</code> commit:</p>
+
+<div class="highlight"><pre><code>f0af7e62679e144bb28c627ee3e8f7bdb235eee9
+</code></pre></div>
+<p>Het wijzigen van de inhoud van <code>HEAD</code> in een hash brengt de repository in the "detached <code>HEAD</code>" toestand. Merk bij de hier volgende graph op dat <code>HEAD</code> direct naar de <code>a2</code> commit wijst, in plaats van naar <code>master</code> te wijzen.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/9-a2-detached-head.png" alt="Detached `HEAD` on `a2` commit"></p>
+<div class="image-caption">Detached `HEAD` na `a2` commit</div>
+
+<div class="highlight"><pre><code>~/alpha $ printf '3' &gt; data/number.txt
+~/alpha $ git add data/number.txt
+~/alpha $ git commit -m 'a3'
+          [detached HEAD 3645a0e] a3
+</code></pre></div>
+</ul><br>
+<p>Na het uitchecken verandert de gebruiker de inhoud van <code>data/number.txt</code> in <code>3</code> en commit de verandering. Git gaat naar <code>HEAD</code> om de parent van de <code>a3</code> commit te krijgen.  Inplaats van een branch-ref te vinden en te volgen, vindt en retourneert het de hash van de <code>a2</code> commit.</p>
+
+<p>Git past <code>HEAD</code> zodanig aan dat deze direct naar de hash van de nieuwe <code>a3</code> commit wijst. De repository bevindt zich nog steeds in de detached <code>HEAD</code> toestand. De nieuwe commit bevindt zich niet op een branch omdat er geen enkele commit wijst naar of <code>a3</code> of naar een van diens afstammelingen. Daarom kan deze gemakkelijk kwijtraken.</p>
+
+
+
+<p><i>Van nu af aan zullen trees en blobs over het algemeen worden weggelaten bij de graph diagrammen.</i></p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/10-a3-detached-head.png" alt="`a3` commit that is not on a branch"></p>
+<div class="image-caption">`a3` commit die zich niet op een branch bevindt</div>
+
+<h2 id="create-a-branch">Het maken van een branch</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git branch deputy
+</code></pre></div>
+<p>De gebruiker cre&euml;ert een nieuwe branch met de naam <code>deputy</code>. Dit maakt gewoon een nieuw bestand aan in <code>.git/refs/heads/deputy</code> dat de hash bevat waar <code>HEAD</code> naar wijst: de hash van de <code>a3</code> commit.</p>
+
+<p><strong>Graph property</strong>: branches zijn gewoon refs en refs zijn gewoon bestanden. Git branches zijn dus lichtgewicht.</p>
+
+<p>Het aanmaken van de <code>deputy</code> branch plaatst de nieuwe <code>a3</code> commit veilig op een branch. <code>HEAD</code> is nog steeds "detached" omdat deze nog steeds direct naar een commit verwijst.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/11-a3-on-deputy.png" alt="`a3` commit now on the `deputy` branch"></p>
+<div class="image-caption">De `a3` commit bevindt zich nu op de `deputy` branch</div>
+
+<h2 id="check-out-a-branch">Het uitchecken van een branch</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git checkout master
+          Switched to branch 'master'
+</code></pre></div>
+<p>De gebruiker checkt de <code>master</code> branch uit:</p><ul>
+
+<li><p>Eerst krijgt Git de <code>a2</code> commit waar <code>master</code>naar wijst, en krijgt de tree graph waar de commit points naar verwijst.</p>
+
+<li><p>Dan, als tweede, schrijft Git de file entries in de tree graph naar de bestanden van de werkkopie.  De inhoud van <code>data/number.txt</code> wordt hierdoor <code>2</code>.</p>
+
+<li><p>Ten derde schrijft Git de file entries in de tree graph naar de index. Dit updatet de entry voor <code>data/number.txt</code> naar de hash van de <code>2</code> blob.</p>
+
+<li><p>Als vierde laat Git <code>HEAD</code> naar <code>master</code> wijzen door de inhoud ervan te veranderen van een hash naar:</p>
+
+<div class="highlight"><pre><code>ref: refs/heads/master
+</code></pre></div>
+</ul>
+<p>Het uiteindelijke resultaat:</p>
+<p><img src="Git%20van%20binnenuit_bestanden/12-a3-on-master-on-a2.png" alt="`master` checked out and pointing at the `a2` commit"></p>
+<div class="image-caption">`master` uitgecheckt en wijzend naar de `a2` commit</div>
+
+<h2 id="check-out-a-branch-that-is-incompatible-with-the-working-copy">Het uitchecken van een branch die incompatibel is met de werkkopie</h2>
+
+<div class="highlight"><pre><code>~/alpha $ printf '789' &gt; data/number.txt
+~/alpha $ git checkout deputy
+          Your changes to these files would be overwritten
+          by checkout:
+            data/number.txt
+          Commit your changes or stash them before you
+          switch branches.
+</code></pre></div>
+<p>De gebruiker verandert de inhoud van <code>data/number.txt</code> per ongeluk in <code>789</code>. Daarna wordt geprobeerd <code>deputy</code> uit te checken. Git voorkomt het uitchecken.</p>
+
+<p><code>HEAD</code> wijst naar <code>master</code> die naar <code>a2</code> verwijst waar <code>data/number.txt</code> als inhoud <code>2</code> heeft. <code>deputy</code> wijst naar <code>a3</code> waar <code>data/number.txt</code> als inhoud <code>3</code> heeft. De werkkopie versie van <code>data/number.txt</code> heeft als inhoud <code>789</code>. Al deze versies zijn verschillend, en de verschillen moeten worden opgelost.</p>
+
+<p>Git zou de werkkopie versie van <code>data/number.txt</code> kunnen vervangen door de versie in de commit die wordt uitgecheckt.  Maar het vermijdt dataverlies tegen elke prijs.</p>
+
+<p>Git zou de werkkopie versie kunnen samenvoegen ("mergen") met de versie die wordt uitgecheckt.  Maar dat is ingewikkeld.</p>
+
+<p>Dus Git breekt de check out af.</p>
+
+<div class="highlight"><pre><code>~/alpha $ printf '2' &gt; data/number.txt
+~/alpha $ git checkout deputy
+          Switched to branch 'deputy'
+</code></pre></div>
+<p>De gebruiker heeft nu door dat hij/zij per ongeluk <code>data/number.txt</code> heeft gewijzigd, en verandert de inhoud terug naar <code>2</code>. <code>deputy</code> wordt nu  succesvol uitgecheckt.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/13-a3ondeputy.png" alt="`deputy` checked out"></p>
+<div class="image-caption">`deputy` uitgecheckt</div>
+
+<h2 id="merge-an-ancestor">Merge met een voorganger (ancestor)</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git merge master
+          Already up-to-date.
+</code></pre></div>
+<p>De gebruiker voegt <code>master</code> samen met <code>deputy</code>. Mergen van twee branches betekent het mergen van twee commits. De eerste commit is die waar <code>deputy</code> naar wijst: de ontvanger (receiver). De tweede commit is die waar <code>master</code> naar wijst: de donor (giver). In dit geval doet Git niets bij de merge. Het meldt dat het <code>Already up-to-date.</code> is.</p>
+
+<p><strong>Graph property</strong>: de serie commits in de graph 
+wordt opgevat als een serie veranderingen uitgevoerd op de inhoud van de
+repository. Dit houdt in dat bij een merge, wanneer de giver commit een 
+ancestor van de receiver commit is, Git niets zal doen. De veranderingen zijn al
+ verdisconteerd.</p>
+
+<h2 id="merge-a-descendent">Merge met een afstammeling (descendent)</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git checkout master
+          Switched to branch 'master'
+</code></pre></div>
+<p>De gebruiker checkt <code>master</code> uit.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/14-a3-on-master-on-a2.png" alt="`master` checked out and pointing at the `a2` commit"></p>
+<div class="image-caption">`master` uitgecheckt en wijzend naar de `a2` commit</div>
+<br>
+<div class="highlight"><pre><code>~/alpha $ git merge deputy
+          Fast-forward
+</code></pre></div>
+<p><code>deputy</code> wordt samengevoegd met <code>master</code>. Git ontdekt dat de receiver commit, <code>a2</code>, een ancestor is van de giver commit, <code>a3</code>. Het kan een fast-forward merge uitvoeren.</p>
+
+<p>Het gaat naar de giver commit en krijgt de tree graph waar die naar wijst. 
+Het schrijft de file entries in de tree graph naar de werkkopie en de 
+ index. Het “fast-forwards” <code>master</code> door die naar <code>a3</code> te laten wijzen.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/15-a3-on-master.png" alt="`a3` commit from `deputy` fast-forward merged into `master`"></p>
+<div class="image-caption">`a3` commit die van `deputy` fast-forward in `master` wordt gemerged</div>
+
+<p><strong>Graph property</strong>: de serie commits in the graph 
+wordt beschouwd als een serie veranderingen uitgevoerd op  de inhoud van de 
+repository. Dit betekent dat bij een merge, wanneer de giver een descendent van
+ de receiver is, de geschiedenis niet veranderd is. Er is al een serie commits
+ die de te maken verandering beschrijft: de serie commits 
+tussen de receiver en de giver. Maar hoewel de Git historie niet 
+verandert, doet de Git graph dat wel. De concrete ref waar <code>HEAD</code> naar wijst wordt geupdatet zodat die nu naar de giver commit wijst.</p>
+
+<h2 id="merge-two-commits-from-different-lineages">Merge van twee commits van verschillende afstamming (lineages)</h2>
+
+<div class="highlight"><pre><code>~/alpha $ printf '4' &gt; data/number.txt
+~/alpha $ git add data/number.txt
+~/alpha $ git commit -m 'a4'
+          [master 7b7bd9a] a4
+</code></pre></div>
+<p>De gebruiker verandert nu de inhoud van <code>number.txt</code> in <code>4</code> en commit de verandering naar <code>master</code>.</p>
+
+<div class="highlight"><pre><code>~/alpha $ git checkout deputy
+          Switched to branch 'deputy'
+~/alpha $ printf 'b' &gt; data/letter.txt
+~/alpha $ git add data/letter.txt
+~/alpha $ git commit -m 'b3'
+          [deputy 982dffb] b3
+</code></pre></div>
+<p>De gebruiker checkt <code>deputy</code> uit. De inhoud van <code>data/letter.txt</code> wordt veranderd in <code>b</code>, en de verandering wordt naar <code>deputy</code> gecommit.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/16-a4-b3-on-deputy.png" alt="`a4` committed to `master`, `b3` committed to `deputy` and `deputy` checked out"></p>
+<div class="image-caption">`a4` gecommit naar `master`, `b3` gecommit naar `deputy`, en `deputy` uitgecheckt</div>
+<font size ="1" color="red"><i>Foutje, of snap ik het niet? Ik zie de verandering in 'b' niet terug.</i></font>
+
+<p><strong>Graph property</strong>: commits kunnen voorgangers (parents) delen. Zodoende kunnen nieuwe afstammingslijnen (lineages) in de commit historie worden gecre&euml;erd.</p>
+
+<p><strong>Graph property</strong>: commits kunnen meerdere ouders (parents) hebben. 
+Zo kunnen gescheiden afstammingslijnen (lineages) door een commit met twee ouders worden  verenigd (joined): een merge commit.</p>
+
+<div class="highlight"><pre><code>~/alpha $ git merge master -m 'b4'
+          Merge made by the 'recursive' strategy.
+</code></pre></div>
+<p>De gebruiker voegt <code>master</code> toe in <code>deputy</code>.</p>
+
+<p>Git stelt vast dat de ontvanger (receiver), <code>b3</code>, en de donor (giver), <code>a4</code>, zich in verschillende afstammingslijnen (lineages) bevinden. Het maakt een merge commit. Dit proces heeft acht stappen:</p><ul>
+
+<li><p>Stap een A, Git schrijft de hash van de giver commit naar een bestand <code>alpha/.git/MERGE_HEAD</code>. De aanwezigheid van dit bestand vertelt Git dat het midden in het merge proces zit.</p>
+
+<li><p>Stap twee A, Git vindt de basis (base) commit: de meest recente voorouder die de receiver en giver commits gemeenschappelijk hebben.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/17-a4-b3-on-deputy.png" alt="`a3`, the base commit of `a4` and `b3`"></p>
+<div class="image-caption">`a3`, de base commit van `a4` en `b3`</div>
+
+<p><strong>Graph property</strong>: commits hebben parents. Dit betekent 
+dat er een punt gevonden kan worden waar de twee afstammingslijnen zich splitsten. 
+Git zoek terug in de tijd van <code>b3</code> om alle voorouders daarvan te vinden, en terug in de tijd van <code>a4</code> om alle voorouders daarvan te vinden. De meest recente voorouder die beide afstammingslijnen delen, <code>a3</code>, wordt de base commit.</p>
+
+<li><p>Stap drie A, Git genereert the indices voor de base, receiver en giver commits vanuit hun tree graphs.</p>
+
+<li><p>Stap vier A, Git genereert een diff die de veranderingen combineert die bij de base commit zijn aangebracht door de receiver commit en de giver commit. Deze diff is een lijst bestandspaden die naar een verandering wijzen: add, remove, modify of conflict.</p>
+
+<p>Git verzamelt de lijst van al de bestanden die voorkomen in de base, receiver 
+of giver indices. Voor elk daarvan vergelijkt het de index entries om te beslissen 
+wat er aan het bestand moet worden veranderd. Het schrijft een corresponderende entry naar de 
+diff. In dit geval heeft de diff twee entries.</p>
+
+<p>De eerste entry is die voor <code>data/letter.txt</code>. De inhoud van dit bestand <code>a</code> in de base, <code>b</code> in de receiver en <code>a</code>
+ in de giver. De inhoud verschilt tussen de base en de receiver. Maar identiek tussen
+de base en de giver. Git ziet dat de inhoud door de receiver is veranderd, maar niet door de giver. De diff entry voor <code>data/letter.txt</code> is een modificatie, niet een conflict.</p>
+
+<p>De tweede entry in the diff is die voor <code>data/number.txt</code>. In dit geval is de inhoud tussen base en receiver gelijk, maar verschillend in de giver. De diff entry voor <code>data/letter.txt</code> is ook een modificatie.</p>
+
+<p><strong>Graph property</strong>: het is mogelijk de base 
+commit van een merge te vinden. Dit betekent dat wanneer een bestand ten opzichte van de base alleen veranderd is in of de receiver of de giver, Git de merge van dat bestand automatisch kan oplossen. 
+Dit bespaart de gebruiker werk dat hij/zij zou moeten doen.</p>
+
+<li><p>Stap vijf A, de veranderingen die door de entries in de diff worden aangegeven worden doorgevoerd op de werkkopie. De inhoud van <code>data/letter.txt</code> wordt <code>b</code>, de inhoud van <code>data/number.txt</code> wordt veranderd in <code>4</code>.</p>
+
+<li><p>Stap zes A, de veranderingen die door de entries in the diff worden aangegeven worden toegepast op de index. De entry voor <code>data/letter.txt</code> verwijst nu naar de <code>b</code> blob en de entry voor <code>data/number.txt</code> wijst naar de <code>4</code> blob.</p>
+
+<li><p>Stap zeven A, de geupdate index wordt gecommit:</p>
+
+<div class="highlight"><pre><code>tree 20294508aea3fb6f05fcc49adaecc2e6d60f7e7d
+parent 982dffb20f8d6a25a8554cc8d765fb9f3ff1333b
+parent 7b7bd9a5253f47360d5787095afc5ba56591bfe7
+author Mary Rose Cook &lt;mary@maryrosecook.com&gt; 1425596551 -0500
+committer Mary Rose Cook &lt;mary@maryrosecook.com&gt; 1425596551 -0500
+
+b4
+</code></pre></div>
+<p>Merk op dat de commit twee parents heeft.</p>
+
+<li><p>Stap acht A, Git laat de huidige branch, <code>deputy</code>, nu naar de nieuwe commit wijzen.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/18-b4-on-deputy.png" alt="`b4`, the merge commit resulting from the recursive merge of `a4` into `b3`"></p>
+<div class="image-caption">`b4`, de merge commit die voortkomt uit de recursieve merge van `a4` in `b3`</div>
+</ul>
+
+<h2 id="merge-two-commits-from-different-lineages-that-both-modify-the-same-file">Het mergen van twee commits van verschillende afstammingslijnen (lineages) die beide het zelfde bestand modificeren</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git checkout master
+          Switched to branch 'master'
+~/alpha $ git merge deputy
+          Fast-forward
+</code></pre></div>
+<p>De gebruiker checkt <code>master</code> uit. <code>deputy</code> wordt in <code>master</code> gemergd. Dit "fast-forwards" <code>master</code> naar de <code>b4</code> commit. <code>master</code> en <code>deputy</code> wijzen nu naar dezelfde commit.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/19-b4-master-deputy-on-b4.png" alt="`deputy` merged into `master` to bring `master` up to the latest commit, `b4`"></p>
+<div class="image-caption">`deputy` in `master` gemergd, waarbij `master` gericht wordt op de laatste commit, `b4`</div>
+<br>
+<div class="highlight"><pre><code>~/alpha $ git checkout deputy
+          Switched to branch 'deputy'
+~/alpha $ printf '5' &gt; data/number.txt
+~/alpha $ git add data/number.txt
+~/alpha $ git commit -m 'b5'
+          [deputy bd797c2] b5
+</code></pre></div>
+<p>De gebruiker checkt <code>deputy</code> uit. De inhoud van <code>data/number.txt</code> wordt veranderd in <code>5</code>, en de verandering naar <code>deputy</code> gecommit.</p>
+
+<div class="highlight"><pre><code>~/alpha $ git checkout master
+          Switched to branch 'master'
+~/alpha $ printf '6' &gt; data/number.txt
+~/alpha $ git add data/number.txt
+~/alpha $ git commit -m 'b6'
+          [master 4c3ce18] b6
+</code></pre></div>
+<p>De gebruiker checkt <code>master</code> uit. De inhoud van <code>data/number.txt</code> wordt veranderd in <code>6</code>, en de verandering naar <code>master</code> gecommit.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/20-b5-on-deputy-b6-on-master.png" alt="`b5` commit on `deputy` and `b6` commit on `master`"></p>
+<div class="image-caption">`b5` commit naar `deputy` en `b6` commit naar `master`</div>
+
+<div class="highlight"><pre><code>~/alpha $ git merge deputy
+          CONFLICT in data/number.txt
+          Automatic merge failed; fix conflicts and
+          commit the result.
+</code></pre></div>
+<p>De gebruiker merget <code>deputy</code> in <code>master</code>. Er is een 
+conflict en de merge wordt afgebroken.
+<br> Het proces bij een conflicterende merge volgt dezelfde eerste zes stappen als het proces voor een 
+conflictloze merge: maak <code>.git/MERGE_HEAD</code> aan, vind de base 
+commit, genereer the indices voor de base, receiver and giver commits, 
+cre&euml;er een diff, update de werkkopie en update de index.<br> 
+Vanwege het conflict worden de zevende commitstap en achtste ref-update-stap nooit genomen. 
+Laten we de acht stappen nog eens doornemen en zien wat er gebeurt:</p><ul>
+
+<li><p>Stap een B, Git schrijft de hash van de donor (giver) commit naar een bestand <code>.git/MERGE_HEAD</code>.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/21-b6-on-master-with-merge-head.png" alt="`MERGE_HEAD` written during merge of `b5` into `b6`"></p>
+<div class="image-caption">`MERGE_HEAD`, geschreven tijdens de merge van `b5` in `b6`</div>
+
+<li><p>Stap twee B, Git vindt the base commit, <code>b4</code>.</p>
+
+<li><p>Stap drie B, Git genereert de indices voor de base, receiver en giver commits.</p>
+
+<li><p>Stap vier B, Git genereert een diff die de veranderingen gemaakt in de 
+base door de receiver commit en de giver commit combineert. Deze diff is een lijst van
+ bestandspaden die naar een verandering wijzen: add, remove, modify of conflict.</p>
+
+<p>In dit geval bevat de diff slechts een entry: <code>data/number.txt</code>. Deze entry is gemarkeerd als een conflict, omdat de inhoud van <code>data/number.txt</code> verschillend is in de receiver, giver en base.</p>
+
+<li><p>Stap vijf B, de veranderingen aangegeven door de entries in de diff worden toegepast op 
+de werkkopie. In het geval van een conflicterend onderdeel, worden beide versies door Git naar het bestand in de werkkopie geschreven. De inhoud van <code>data/number.txt</code> wordt dan:</p>
+
+<div class="highlight"><pre><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+6
+=======
+5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; deputy
+</code></pre></div>
+<li><p>Stap zes B, de veranderingen die door de entries in de diff worden aangegeven worden toegepast op de index. Entries in de index worden uniek ge&iuml;denticeerd door een 
+combinatie van hun bestandspad en wachtcode (stage). De entry voor een conflictvrij 
+bestand heeft een wachtcode <code>0</code>. Voor deze merge zag de index er aldus uit (de <code>0</code>-len zijn wachtcodes (stage values):</p>
+<i>(Git kent een "staging area", waar u bestanden klaar zet om te worden gecommit. Ik vertaal dat met "in de wacht zetten". <u>Hans</u>)</i><br><br>
+
+<div class="highlight"><pre><code>0 data/letter.txt 63d8dbd40c23542e740659a7168a0ce3138ea748
+0 data/number.txt 62f9457511f879886bb7728c986fe10b0ece6bcb
+</code></pre></div>
+<p>Nadat de merge diff naar de index is geschreven ziet deze de index er zo uit:</p>
+
+<div class="highlight"><pre><code>0 data/letter.txt 63d8dbd40c23542e740659a7168a0ce3138ea748
+1 data/number.txt bf0d87ab1b2b0ec1a11a3973d2845b42413d9767
+2 data/number.txt 62f9457511f879886bb7728c986fe10b0ece6bcb
+3 data/number.txt 7813681f5b41c028345ca62a2be376bae70b7f61
+</code></pre></div>
+<p>De entry voor <code>data/letter.txt</code> met wachtcode <code>0</code> is hetzelfde als deze voor de merge was. De entry voor <code>data/number.txt</code> met wachtcode <code>0</code> is verdwenen. Er zijn drie nieuwe entries voor in de plaats gekomen.<br> De entry met wachtcode <code>1</code> bevat de hash van de base <code>data/number.txt</code> inhoud.<br> De entry met wachtcode <code>2</code> bevat de hash van de receiver <code>data/number.txt</code> inhoud.<br> De entry met wachtcode <code>3</code> bevat de hash van de giver <code>data/number.txt</code> inhoud.<br> De aanwezigheid van deze drie entries vertelt Git dat er voor <code>data/number.txt</code> een conflict bestaat.</p>
+
+<p>De merge wordt onderbroken.</p>
+
+<div class="highlight"><pre><code>~/alpha $ printf '11' &gt; data/number.txt
+~/alpha $ git add data/number.txt
+</code></pre></div>
+<p>De gebruiker integreert de inhoud van de twee conflicterende versies door de inhoud van <code>data/number.txt</code> te veranderen in <code>11</code>. Het bestand wordt aan de index toegevoegd.  Git voegt een blob toe met als inhoud <code>11</code>. Het toevoegen van een conflicterend bestand is voor Git het teken dat het conflict is opgelost. Git verwijdert de <code>data/number.txt</code> entries met wachtcodes <code>1</code>, <code>2</code> en <code>3</code> uit de index.  Het voegt een entry toe voor <code>data/number.txt</code> met wachtcode <code>0</code>, met de hash van de nieuwe blob als inhoud. De index ziet er nu uit als:</p>
+
+<div class="highlight"><pre><code>0 data/letter.txt 63d8dbd40c23542e740659a7168a0ce3138ea748
+0 data/number.txt 9d607966b721abde8931ddd052181fae905db503
+</code></pre></div><br>
+<div class="highlight"><pre><code>~/alpha $ git commit -m 'b11'
+          [master 251a513] b11
+</code></pre></div>
+<li><p>Stap zeven B, de gebruiker commit. Git ziet <code>.git/MERGE_HEAD</code> in 
+de repository, waardoor het weet dat er een merge aan de gang is. Het checkt 
+de index en vindt dat er geen conflicten meer zijn. Het cre&euml;ert een nieuwe commit, <code>b11</code>, om de inhoud van de opgeloste merge vast te leggen. Het wist het bestand <code>.git/MERGE_HEAD</code>. Dit completeert de merge.</p>
+
+<li><p>Stap 8 B, Git laat de huidige branch, <code>master</code>, naar de nieuwe commit wijzen.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/22-b11-on-master.png" alt="`b11`, the merge commit resulting from the conflicted, recursive merge of `b5` into `b6`"></p>
+<div class="image-caption">`b11`, de merge commit als resultaat van de conflicterende, recursieve merge van `b5` in `b6`</div>
+</ul>
+<h2 id="remove-a-file">Het verwijderen van een bestand</h2>
+
+<p>Dit diagram van de Git graph bevat zowel commit historie, de trees 
+en blobs voor de laatste commit, als de werkkopie en index:</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/23-b11-with-objects-wc-and-index.png" alt="The working copy, index, `b11` commit and its tree graph"></p>
+<div class="image-caption">De werkkopie, index, `b11` commit en tree graph</div><br>
+
+<div class="highlight"><pre><code>~/alpha $ git rm data/letter.txt
+          rm 'data/letter.txt'
+</code></pre></div>
+<p>De gebruiker vraagt Git <code>data/letter.txt</code> te  verwijderen.  Het bestand wordt verwijderd uit de werkkopie. De entry wordt gewist uit de index.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/24-b11-letter-removed-from-wc-and-index.png" alt="After `data/letter.txt` `rm`ed from working copy and index"></p>
+<div class="image-caption">Na het verwijderen van `data/letter.txt` (`rm`) uit werkkopie en index</div><br>
+
+<div class="highlight"><pre><code>~/alpha $ git commit -m '11'
+          [master d14c7d2] 11
+</code></pre></div>
+<p>De gebruiker commit. Als onderdeel van de commit bouwt Git als altijd een tree graph op die de inhoud van de index representeert. <code>data/letter.txt</code> is niet opgenomen in de tree graph omdat het niet meer in de index staat.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/25-11.png" alt="`11` commit made after `data/letter.txt` `rm`ed"></p>
+<div class="image-caption">De `11` commit na de verwijdering van `data/letter.txt`</div>
+
+<h2 id="copy-a-repository">Het kopi&euml;ren van een repository</h2>
+
+<div class="highlight"><pre><code>~/alpha $ cd ..
+      ~ $ cp -R alpha bravo
+</code></pre></div>
+<p>De gebruiker kopi&euml;ert de inhoud van de <code>alpha/</code> repository naar de <code>bravo/</code> directory. Dit produceert de volgende directory structuur:</p>
+
+<div class="highlight"><pre><code>~
+├── alpha
+|   └── data
+|       └── number.txt
+└── bravo
+    └── data
+        └── number.txt
+</code></pre></div>
+<p>Er is nu een tweede Git graph in de <code>bravo</code> directory:</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/26-11-cp-alpha-to-bravo.png" alt="New graph created when `alpha` `cp`ed to `bravo`"></p>
+<div class="image-caption">Een nieuwe graph, aangemaakt door `alpha` naar `bravo` te kopi&euml;ren</div>
+
+<h2 id="link-a-repository-to-another-repository">Het koppelen van een repository aan een andere repository</h2>
+
+<div class="highlight"><pre><code>      ~ $ cd alpha
+~/alpha $ git remote add bravo ../bravo
+</code></pre></div>
+<p>De gebruiker  gaat terug naar de <code>alpha</code> repository. <code>bravo</code> wordt als een remote repository van <code>alpha</code> aangewezen. Dit voegt een  paar regels toe aan het bestand <code>alpha/.git/config</code>:</p>
+
+<div class="highlight"><pre><code>[remote "bravo"]
+	url = ../bravo/
+</code></pre></div>
+<p>Deze regels houden in dat er nu een remote repository <code>bravo</code> is in de directory <code>../bravo</code>.</p>
+
+<h2 id="fetch-a-branch-from-a-remote">Het binnenhalen (fetch) van een branch van een remote</h2>
+
+<div class="highlight"><pre><code>~/alpha $ cd ../bravo
+~/bravo $ printf '12' &gt; data/number.txt
+~/bravo $ git add data/number.txt
+~/bravo $ git commit -m '12'
+          [master 94cd04d] 12
+</code></pre></div>
+<p>De gebruiker The user gaat naar de <code>bravo</code> repository. Hij/zij verandert de inhoud  <code>data/number.txt</code> in <code>12</code> en commit de verandering naar <code>master</code> op <code>bravo</code>.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/27-12-bravo.png" alt="`12` commit on `bravo` repository"></p>
+<div class="image-caption">`12` commit op de `bravo` repository</div><br>
+
+<div class="highlight"><pre><code>~/bravo $ cd ../alpha
+~/alpha $ git fetch bravo master
+          Unpacking objects: 100%
+          From ../bravo
+            * branch master -&gt; FETCH_HEAD
+</code></pre></div>
+<p>De gebruiker gaat nu naar de <code>alpha</code> repository. Hij/zij haalt <code>master</code> van <code>bravo</code> binnen in <code>alpha</code>. Dit proces heeft vier stappen:</p><ul>
+
+<li><p>Een. Git verkrijgt de hash van de commit waar master op <code>bravo</code> naar wijst. Dit is de hash van de <code>12</code> commit.</p>
+
+<li><p>Twee. Git maakt een lijst van alle objecten waar de <code>12</code> commit vanaf hangt: het commit object zelf, de objecten in de tree graph daarvan, de ancestor commits van de <code>12</code> commit en de objecten in hun tree graphs. Het verwijdert elk object van deze lijst dat al in de <code>alpha</code> object database aanwezig was.  Het kopi&euml;ert de rest naar <code>alpha/.git/objects/</code>.</p>
+
+<li><p>Drie. De inhoud van de concrete ref file <code>alpha/.git/refs/remotes/bravo/master</code> wordt veranderd in de hash van de <code>12</code> commit.</p>
+
+<li><p>Vier. De inhoud <code>alpha/.git/FETCH_HEAD</code> wordt nu:</p>
+
+<div class="highlight"><pre><code>94cd04d93ae88a1f53a4646532b1e8cdfbc0977f branch 'master' of ../bravo
+</code></pre></div>
+<p>Dit betekent dat het meest recente fetch commando de <code>12</code> commit van <code>master</code> uit <code>bravo</code> binnenhaalde.</p>
+<!--
+<i>Dat zou dus betekenen dat er wel een aanduiding is waar de fetch vandaan komt, maar dat er geen directe link blijft bestaan. <u>Hans</u></i> -->
+
+<p><img src="Git%20van%20binnenuit_bestanden/28-12-fetched-to-alpha.png" alt="`alpha` after `bravo/master` fetched"></p>
+<div class="image-caption">`alpha` na het binnenhalen (fetch) van `bravo/master`</div>
+</ul>
+
+<p><strong>Graph property</strong>: objecten kunnen worden gekopi&euml;erd. Dat betekent dat historie tussen repositories kan worden gedeeld.</p>
+<!--
+<i>??? Voorlopig alleen kopie van de informatie, niet een direkte link. Komt dat nog???<br>
+Zou misschien ook niet praktisch zijn bij een onbetrouwbare connectie tussen de repo's. <u>Hans</u></i> -->
+
+<p><strong>Graph property</strong>: een repository kan remote branch refs zoals <code>alpha/.git/refs/remotes/bravo/master</code> opslaan.
+ Dit betekent dat een repository lokaal de toestand van een branch 
+in een remote repository kan bijhouden.  Deze is correct op het moment van de fetch, maar zal
+ uit de pas gaan lopen als de remote branch verandert.</p>
+
+<h2 id="merge-fetchhead">Het mergen met FETCH_HEAD</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git merge FETCH_HEAD
+          Updating d14c7d2..94cd04d
+          Fast-forward
+</code></pre></div>
+<p>De gebruiker mergt met <code>FETCH_HEAD</code>. <code>FETCH_HEAD</code> is gewoon een andere ref. Hij verwijst naar de <code>12</code> commit, de giver. <code>HEAD</code> wijst naar de <code>11</code> commit, de receiver. Git doet een fast-forward merge en laat <code>master</code> naar de <code>12</code> commit wijzen.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/29-12-merged-to-alpha.png" alt="`alpha` after `FETCH_HEAD` merged"></p>
+<div class="image-caption">`alpha` na het mergen met `FETCH_HEAD`</div>
+
+<h2 id="pull-a-branch-from-a-remote">Het pullen van een branch van een remote</h2>
+
+<div class="highlight"><pre><code>~/alpha $ git pull bravo master
+          Already up-to-date.
+</code></pre></div>
+<p>De gebruiker pullt <code>master</code> van <code>bravo</code> in <code>alpha</code>. "Pull" is een verkorte schrijfwijze voor “fetch and merge <code>FETCH_HEAD</code>”. Git voert deze twee commando's uit en rapporteert dat <code>master</code> <code>Already up-to-date</code> is.</p>
+
+<h2 id="clone-a-repository">Het clonen van een repository</h2>
+
+<div class="highlight"><pre><code>~/alpha $ cd ..
+      ~ $ git clone alpha charlie
+          Cloning into 'charlie'
+</code></pre></div>
+<p>De gebruiker gaat naar de bovengelegen directory. Dan wordt <code>alpha</code> naar <code>charlie</code> gecloned. Het clonen naar <code>charlie</code> heeft een vergelijkbaar resultaat als de <code>cp</code> die de gebruiker eerder uitvoerde om de <code>bravo</code> repository te produceren. Git maakt een nieuwe directory aan met de naam <code>charlie</code>. Het initialiseert <code>charlie</code> als een Git repo, voegt <code>alpha</code> toe als en remote met de naam <code>origin</code>, fetcht <code>origin</code> en mergt <code>FETCH_HEAD</code>.</p>
+
+<h2 id="push-a-branch-to-a-checked-out-branch-on-a-remote">Het pushen van een branch naar een uitgecheckte branch op een remote</h2>
+
+<div class="highlight"><pre><code>      ~ $ cd alpha
+~/alpha $ printf '13' &gt; data/number.txt
+~/alpha $ git add data/number.txt
+~/alpha $ git commit -m '13'
+          [master 3238468] 13
+</code></pre></div>
+<p>De gebruiker gaat terug naar de <code>alpha</code> repository. De inhoud van <code>data/number.txt</code> wordt veranderd in <code>13</code>, en de verandering wordt gecommit  naar <code>master</code> op <code>alpha</code>.</p>
+
+<div class="highlight"><pre><code>~/alpha $ git remote add charlie ../charlie
+</code></pre></div>
+<p><code>charlie</code> wordt een remote repository van <code>alpha</code> gemaakt.</p>
+
+<div class="highlight"><pre><code>~/alpha $ git push charlie master
+          Writing objects: 100%
+          remote error: refusing to update checked out
+          branch: refs/heads/master because it will make
+          the index and work tree inconsistent
+</code></pre></div>
+<p><code>master</code> wordt naar <code>charlie</code> gepusht.</p>
+
+<p>Alle objecten die nodig zijn voor de <code>13</code> commit worden naar <code>charlie</code> gekopi&euml;erd.</p>
+<!-- <i>Vraagje: zou dan ook de gehele geschiedenis mee gaan? Denk het wel. <u>Hans</u></i>-->
+
+<p>Op dit punt wordt het push proces afgebroken. Zoals altijd vertelt Git de gebruiker 
+wat er mis ging. Het weigert te pushen naar een uitgecheckte branch op 
+de remote. Daar is wat voor te zeggen. Een push zou de remote index en <code>HEAD</code> updaten. Dat zou verwarring veroorzaken als er iemand bezig was aan de werkkopie op de remote.</p>
+
+<p>De gebruiker zou nu een nieuwe branch kunnen maken, de <code>13</code> commit erin mergen, en die branch naar <code>charlie</code> kunnen pushen.<br>
+ Maar eigenlijk wil hij/zij een repository waar op elk willekeurig moment naartoe gepusht kan worden. Een centrale repository waarheen gepusht en waarvan gepulled kan worden, maar waar verder niemand direkt naar commit. Eigenlijk iets als een GitHub remote. Hij/zij wil een "bare repository".</p>
+
+<h2 id="clone-a-bare-repository">Het klonen van een bare repository</h2>
+
+<div class="highlight"><pre><code>~/alpha $ cd ..
+      ~ $ git clone alpha delta --bare
+          Cloning into bare repository 'delta'
+</code></pre></div>
+<p>De gebruiker gaat naar de bovengelegen directory. Hij/zij kloont <code>delta</code> als een bare repository. Dit is een gewone clone, maar met twee verschillen. Het <code>config</code> bestand geeft aan dat de repository "bare" is. En de bestanden die normaliter in de <code>.git</code> directory worden opgeslagen worden nu opgeslagen in de root van de repository:</p>
+
+<div class="highlight"><pre><code>delta
+├── HEAD
+├── config
+├── objects
+└── refs
+</code></pre></div>
+<p><img src="Git%20van%20binnenuit_bestanden/30-13-alpha-cloned-to-delta-bare.png" alt="`alpha` and `delta` graphs after `alpha` cloned to `delta`"></p>
+<div class="image-caption">`alpha` en `delta` graphs na het klonen van `alpha` naar `delta`</div>
+
+<h2 id="push-a-branch-to-a-bare-repository">Het pushen van een branch naar een bare repository</h2>
+
+<div class="highlight"><pre><code>      ~ $ cd alpha
+~/alpha $ git remote add delta ../delta
+</code></pre></div>
+<p>De gebruiker gaat terug naar de <code>alpha</code> repository. Van <code>delta</code> wordt een remote repository op <code>alpha</code> gemaakt.</p>
+
+<div class="highlight"><pre><code>~/alpha $ printf '14' &gt; data/number.txt
+~/alpha $ git add data/number.txt
+~/alpha $ git commit -m '14'
+          [master cb51da8] 14
+</code></pre></div>
+<p>De inhoud van <code>data/number.txt</code> wordt veranderd in <code>14</code>, en de verandering naar <code>master</code> gecommit op <code>alpha</code>.</p>
+
+<p><img src="Git%20van%20binnenuit_bestanden/31-14-alpha.png" alt="`14` commit on `alpha`"></p>
+<div class="image-caption">De `14` commit op `alpha`</div>
+
+<div class="highlight"><pre><code>~/alpha $ git push delta master
+          Writing objects: 100%
+          To ../delta
+            3238468..cb51da8 master -&gt; master
+</code></pre></div>
+<p>Dan wordt <code>master</code> naar <code>delta</code> gepusht. Pushen heeft drie stappen:</p><ul>
+
+<li><p>Als eerste worden al de objecten die nodig zijn voor de <code>14</code> commit op de <code>master</code> branch gekopi&euml;erd van <code>alpha/.git/objects/</code> naar <code>delta/objects/</code>.</p>
+
+<li><p>Als tweede wordt <code>delta/refs/heads/master</code> aangepast zodat het naar de <code>14</code> commit verwijst.</p>
+
+<li><p>Als derde gaat <code>alpha/.git/refs/remotes/delta/master</code> wijzen naar de <code>14</code> commit (op alpha). <code>alpha</code> heeft nu een up-to-date weergave van de toestand bij <code>delta</code>.</p>
+</ul>
+
+<p><img src="Git%20van%20binnenuit_bestanden/32-14-pushed-to-delta.png" alt="`14` commit pushed from `alpha` to `delta`"></p>
+<div class="image-caption">De `14` commit, gepusht van `alpha` naar `delta`</div>
+
+<h2 id="summary">Samenvatting</h2>
+
+<p>Git is gebaseerd op een graph. Bijna elk Git commando manipuleert deze 
+graph. Richt u, om Git diepgaand te begrijpen, op de eigenschappen van deze graph, 
+niet op ot workflows of commando's.</p>
+
+<p>Onderzoek om meer over Git te weten te komen de <code>.git</code> directory.
+ Dat is niet eng. Kijk erin. Verander de inhoud van bestanden en kijk wat er gebeurt. 
+ Cre&euml;er een commit met de hand. Probeer het uit en zie hoe grondig u een puinhoop kunt maken van een
+ repo. Repareer hem dan.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>In dit geval is de hash langer dan de oorspronkelijke inhoud. 
+Maar alle stukken inhoud die langer zijn dan het aantal karakters in een hash zullen beknopter worden weergegeven dan het origineel. 
+<a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Er is een kans dat twee verschillende stukken inhoud zullen hashen tot de zelfde waarde. Maar deze kans <a href="http://crypto.stackexchange.com/a/2584">is klein</a>. <a href="#fnref:2" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:3">
+      <p><code>git prune</code> verwijdert alle objecten die niet kunnen worden bereikt vanaf een ref. Als de gebruiker dit commando uitvoert kan er inhoud verloren gaan. <a href="#fnref:3" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:4">
+      <p><code>git stash</code> slaat alle verschillen tussen de werkkopie en de <code>HEAD</code> commit op op een veilige plaats. Ze kunnen later worden teruggehaald. <a href="#fnref:4" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:5">
+      <p>Het <code>rebase</code> commando kan gebruikt worden om commits in de historie toe te voegen, te wijzigen of te verwijderen. <a href="#fnref:5" class="reversefootnote">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+  
+
+  <div class="tweet-link">
+    <a href="https://twitter.com/intent/tweet?text=Git%20from%20the%20inside%20out&amp;url=https://codewords.recurse.com/issues/two/git-from-the-inside-out&amp;via=recursecenter">
+      <i class="fa fa-twitter"> </i> tweet this post
+    </a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+
+  
+    <hr>
+    <div class="next-post">
+      Next: <a href="https://codewords.recurse.com/issues/two/how-i-learned-to-stop-worrying-and-love-http">How I learned to (stop worrying and) love HTTP</a>
+    </div>
+  
+  </div>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer id="site-footer">
+  <div class="container">
+      <p class="site-description">A quarterly publication from the <a href="https://www.recurse.com/">Recurse Center</a></p>
+      <ul>
+        <li id="list-signup-container"><div class="list-signup" data-reactid=".0"><a href="" data-reactid=".0.0"><i class="fa fa-envelope" data-reactid=".0.0.0"></i><span data-reactid=".0.0.1"> </span><span data-reactid=".0.0.2">Subscribe</span></a></div>
+        </li>
+        <li>
+        <a href="https://twitter.com/recursecenter">
+          <span class="icon twitter">Twitter</span>
+        </a>
+        </li>
+        <li>
+          <a href="https://codewords.recurse.com/issues">Past Issues</a>
+        </li>
+        <li>
+          
+            
+          
+            <a class="page-link" href="https://codewords.recurse.com/about/">About</a>
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </li>
+    </ul>
+  </div>
+</footer>
+
+  
+
+</body></html>

@@ -20,7 +20,7 @@ De eerste vlieger gaat al meteen niet op:
 
 De bottom-line: Scala.js is gewoon een alternatieve manier om JavaScript te produceren. 
 
-De voorbeelden toonden wel eenvoudige animatie en uitlezen van de muispositie, dus kan er misschien toch wat mee. Ook het SBT-aanleer argument blijft nog overeind, dus maar eens aan de slag met <b>[Hands On Scala.js &rarr; Getting Started](http://lihaoyi.github.io/hands-on-scala-js/) van Li Haoyi's tutorial.</b> (Dit is de centrale link waarmee ik in deze column zal werken.)<br>
+De voorbeelden toonden wel eenvoudige animatie en uitlezen van de muispositie, dus kan er misschien toch wat mee. Ook het SBT-aanleer argument blijft nog overeind, dus maar eens aan de slag met <b><a href="http://lihaoyi.github.io/hands-on-scala-js/" target="_blank">Hands On Scala.js &rarr; Getting Started</a> van Li Haoyi's tutorial.</b> (Dit is de centrale link waarmee ik in deze column zal werken.)<br>
 <i>Er is overigens ook een offici&euml;le [Getting Started tutorial](http://www.scala-js.org/tutorial/basic/).</i>
 <hr>
 <font color="red"><i>Gebleven bij getting Started, er gaat nu een workbench-example-app gedownload worden.</i></font>
