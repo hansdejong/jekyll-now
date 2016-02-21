@@ -219,7 +219,7 @@ a1
 </code></pre></div>
 <p>Dit zegt dat <code>HEAD</code> naar <code>master</code> wijst.  <code>master</code> is de huidige branch.</p>
 
-<p><code>HEAD</code> and <code>master</code> zijn allebei "refs". Een ref is een label dat door Git of de gebruiker wordt gebruikt om een specifieke commit te identificeren.</p>
+<p><code>HEAD</code> en <code>master</code> zijn allebei "refs". Een ref is een label dat door Git of de gebruiker wordt gebruikt om een specifieke commit te identificeren.</p>
 
 <p>Het bestand dat de <code>master</code> ref representeert bestaat niet, omdat dit de eerste commit naar de repository is. Git cre&euml;ert het bestand in <code>.git/refs/heads/master</code> met als inhoud de hash van het commit-object:</p>
 
@@ -258,7 +258,7 @@ ze ook datums en de namen van hun makers bevatten.)</i></p>
 <p>De gebruiker voegt het bestand toe aan Git. Git voegt een blob met <code>2</code> als inhoud toe aan de <code>objects</code> directory. En het laat de index entry voor <code>data/number.txt</code> naar de nieuwe blob wijzen.</p>
 
 <p><img src="Git%20van%20binnenuit_bestanden/6-a1-wc-and-index-number-set-to-2.png" alt="`data/number.txt` set to `2` in the working copy and index"></p>
-<div class="image-caption">`data/number.txt` gewijzigd in `2` in the working copy and index</div>
+<div class="image-caption">`data/number.txt` gewijzigd in `2` in de werkkopie en index</div>
 <br>
 <div class="highlight"><pre><code>~/alpha $ git commit -m 'a2'
           [master f0af7e6] a2
@@ -495,7 +495,7 @@ repository. Dit betekent dat bij een merge, wanneer de giver een descendent van
  de receiver is, de geschiedenis niet veranderd is. Er is al een serie commits
  die de te maken verandering beschrijft: de serie commits 
 tussen de receiver en de giver. Maar hoewel de Git historie niet 
-verandert, doet de Git graph dat wel. De concrete ref waar <code>HEAD</code> naar wijst wordt geupdatet zodat die nu naar de giver commit wijst.</p>
+verandert, doet de Git graph dat wel. De concrete ref waar <code>HEAD</code> naar wijst wordt geupdate zodat die nu naar de giver commit wijst.</p>
 
 <h2 id="merge-two-commits-from-different-lineages">Merge van twee commits van verschillende afstamming (lineages)</h2>
 
@@ -625,7 +625,7 @@ b4
 conflict en de merge wordt afgebroken.
 <br> Het proces bij een conflicterende merge volgt dezelfde eerste zes stappen als het proces voor een 
 conflictloze merge: maak <code>.git/MERGE_HEAD</code> aan, vind de base 
-commit, genereer the indices voor de base, receiver and giver commits, 
+commit, genereer the indices voor de base, receiver en giver commits, 
 cre&euml;er een diff, update de werkkopie en update de index.<br> 
 Vanwege het conflict worden de zevende commitstap en achtste ref-update-stap nooit genomen. 
 Laten we de acht stappen nog eens doornemen en zien wat er gebeurt:</p><ul>
@@ -911,7 +911,7 @@ de remote. Daar is wat voor te zeggen. Een push zou de remote index en <code>HEA
 
 <p>Git is gebaseerd op een graph. Bijna elk Git commando manipuleert deze 
 graph. Richt u, om Git diepgaand te begrijpen, op de eigenschappen van deze graph, 
-niet op ot workflows of commando's.</p>
+niet op op workflows of commando's.</p>
 
 <p>Onderzoek om meer over Git te weten te komen de <code>.git</code> directory.
  Dat is niet eng. Kijk erin. Verander de inhoud van bestanden en kijk wat er gebeurt. 
