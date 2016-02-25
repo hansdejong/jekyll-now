@@ -21,7 +21,7 @@ In het begin kan Git nogal technisch ogen, met vele (overigens goed gedocumentee
 
 ## Samenwerken
 
-Een kennis vroeg me uitleg over de workflow, bij een bedrijf of bij Github.
+Een vriend van me vroeg uitleg over de workflow, bij een bedrijf of bij Github.
 
 Zelf heb ik Git vooral lokaal gebruikt voor versiebeheer, of bij bedrijven op een lan-server. Uitleg van samenwerking en workflow kan ik beter aan een tutorial overlaten, bijvoorbeeld: [Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow).
 (Hierin wordt steeds verwezen naar Bitbucket, dat is vergelijkbaar met Github.)
