@@ -30,7 +30,7 @@ Prachtig allemaal: maar wat een droevenis en waarom nu pas. De partij is ontspoo
 
 * Waar hebben we het waanidee van de participatiesamenleving aan verdiend? Het idee van de verplichte vrijwilligheid? Het idee dat mantelzorg niet iets is waarbij liefdevolle naasten de gaten opvullen maar een manier voor de overheid zich terug te trekken. Het idee dat werkloze ingenieurs blad moeten blazen, of ze daar iemand mee verdringen of niet. Dat dat hun kansen verhoogt, en het is zo fijn weer mee te doen. Dat uitkeringen verdiend moeten worden door honderden kansloze sollicitaties. Jetta Klijnsma bedankt.
 
-* Waarom die decentralisatie van de zorg. De puinhopen van de PGB's? De golf van ontslagen, de enorme werkdruk. Ik kan me ook niet herinneren dat die onzalige decentralisaties, waardoor er grote verschillen tussen gemeenten zijn ontstaan, ooit aan de kiezer zijn voorgelegd. Afijn, Martin van Rijn bedankt.
+* Waarom die decentralisatie van de zorg. De puinhopen van de PGB's. De golf van ontslagen, de enorme werkdruk, de misstanden in de thuiszorg. Ik kan me ook niet herinneren dat die onzalige decentralisaties, waardoor er grote verschillen tussen gemeenten zijn ontstaan, ooit aan de kiezer zijn voorgelegd. Afijn, Martin van Rijn bedankt.
 
 * Waarom wordt er zo met historisch cultuurgoed omgesprongen. De bibliotheek van het tropenmuseum bevindt zich nu in Alexandrië. Waarom wordt de cultuur zo gedecimeerd. (Vergelijk de Uitmarkt een paar jaar terug met die van nu en het huilen staat je nader dan het lachen.)
 
