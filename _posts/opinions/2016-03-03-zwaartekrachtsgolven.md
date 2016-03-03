@@ -15,7 +15,7 @@ Ik was eerst niet van plan er over te schrijven, maar ik heb nu een blog, dat sc
 
 * Alles is [hier](http://www.knaw.nl/nl/actueel/agenda/zwaartekrachtsgolven) terug te zien (behalve de discussies)
 
-* Ook voorgaande presentaties over de meest uiteenlopende onderwerpen zijn [hier](https://vimeo.com/knaw) te vinden (kijk in het menu onder "Videos"). Zie het als uitbreiding op de tips van mijn MOOC-pagina
+* Ook voorgaande presentaties over de meest uiteenlopende onderwerpen zijn [hier](https://vimeo.com/knaw) te vinden. (Kijk in het menu onder "Videos".)<br> *Let op: de laatste lezing "Wat zijn de bronnen van gravitatiestraling?" ontbreekt op deze tweede pagina!*<br> Zie het als uitbreiding op de tips van mijn MOOC-pagina
 
 * En ik zal er nu heel kort iets van beschrijven. Ik raad voor de rest aan de links te volgen, op &eacute;&eacute;n na zijn de presentaties in het Nederlands.
 
