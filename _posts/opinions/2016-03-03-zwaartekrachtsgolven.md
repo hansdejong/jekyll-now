@@ -1,6 +1,6 @@
 ---
 layout: post
-title: zwaartekrachtsgolven
+title: Gravitatiegolven
 categories : [Opinions, _KNAW]
 comments: True
 ---
