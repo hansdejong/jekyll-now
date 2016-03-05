@@ -11,7 +11,7 @@ In de jaren '80 had ik al een idee over hoe een zwart gat er van binnen "uitzag"
 In die tijd gaf ik bijles, en had daar een paar stukjes voor geschreven. E&eacute;n over schaaleffecten bij dieren, en &eacute;&eacute;n, "Een speld", om nog een paar dingen te verduidelijken, vooral over hoe vreemd het is dat identieke dingen zich totaal verschillend gedragen, alleen door schaaleffecten.<br>
 <i>(Het wat simpele vraag-antwoord stramien komt daar vandaan. Het oogt wat kinderachtig, maar blijkt ook erg effectief om een gedachtenloop weer te geven.)</i>
 
-Later heb ik een vervolg geschreven, en daar m'n idee&euml;n over zwarte gaten in proberen uit te werken. Natuurlijk heb ik er in de loop van de tijd ook tamelijk veel over gelezen op populair wetenschappelijk niveau. Soms kwam ik verwante idee&euml;n tegen zoals bij <a HREF="/statics/ref/bronnen.html#thorne">Kip Thorne</a> of in Sci&euml;ntific American, maar toch verschilt het gangbare beeld sterk van het mijne.
+Later heb ik een vervolg geschreven, en daar m'n idee&euml;n over zwarte gaten in proberen uit te werken. Natuurlijk heb ik er in de loop van de tijd ook tamelijk veel over gelezen op populair wetenschappelijk niveau. Soms kwam ik verwante idee&euml;n tegen zoals bij <a HREF="/statics/ref/bronnen.html#thorne">Kip Thorne</a> of in Scientific American, maar toch verschilt het gangbare beeld sterk van het mijne.
 
 Het eerste deel ("Gat, van buiten") is het minst controversieel. Het beschrijft een gedachtenexperiment, hoe een zwart gat zou kunnen ontstaan door langzaam materie toe te voegen, of door te veronderstellen dat we de materie&euml;igenschappen naar onze hand kunnen zetten.
 
