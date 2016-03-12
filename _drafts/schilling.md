@@ -5,45 +5,22 @@ categories : [Opinions, _Schilling, _Draft]
 comments: True
 ---
 
-*Het gelijk van Einstein uit zwaartekrachtsgolven* 
+*Het gelijk van Einstein uit zwaartekrachtgolven* 
 
-Meer dan een miljard jaar geleden zijn twee zware zwarte gaten op elkaar geklapt. Met de snelheid van het licht hebben de daarbij ontstane zwaartekrachtsgolven nu de aarde bereikt en heeft Govert Schilling er een [boekje](), "Einstein had toch gelijk", over geschreven. Ik schrijf daar nu dit stukje over, en zo rimpelen de effecten verder.
-
+Meer dan een miljard jaar geleden zijn twee zware zwarte gaten op elkaar geklapt. Met de snelheid van het licht hebben de daarbij ontstane zwaartekrachtsgolven nu de aarde bereikt en heeft Govert Schilling er een [boekje](), "Einsteins gelijk", over geschreven. Ik schrijf daar nu dit stukje over, en zo rimpelen de effecten verder.
 
 <hr>
+<img src="/assets/pictures/Einsteins gelijk.jpg" align="right" hspace="10"/>
 
+Einsteins gelijk<br> 
+Productcode 9789059566996, prijs &euro; 7,59<br>
+Fontaine uitgevers
 
-Welke taken wil je met SBT realiseren? 
+Het is een leuk, prettig leesbaar boekje geworden. Je hebt het in een middag uit.
 
-[Building](#building)<br>
-[Referenties naar andere projecten](#building)<br>
-[Dependencies I](#building)<br>
-[Dependencies II](#building)<br>
+Het is gewoon goed geschreven en geeft een overzicht van de betreffende vakgebieden voor zover relevant. De relativiteits theorie, de gebruikte detectoren, vroegere pogingen, wat ons nog te wachten staat, alles komt aan bod. 
 
-Maar wat kan SBT nog meer?
+Ook krijg je een goed beeld van de kosmologie en op welke gebieden nieuwe inzichten te verwachten zijn.  
 
-[Runnen](#building)<br>
-[Geschikt maken voor Eclipse]()<br>
-[En nog veel meer](#building)<br>
+Kijk op dit ook blog bij [Zwaartekrachtgolven](.\_site\opinions\_knaw\2016\03\03\zwaartekrachtsgolven\index.html)
 
-
-Eerst lezen I [Wiki SBT](https://en.wikipedia.org/wiki/SBT_%28software%29)<br>
-Eerst lezen II [Wiki SBT](https://en.wikipedia.org/wiki/SBT_\(software\))<br>
-Eerst lezen III [Wiki SBT](https://en.wikipedia.org/wiki/SBT_&#41;software&#41;)<br>
-Eerst lezen VI [Wiki SBT](https://en.wikipedia.org/wiki/SBT_(software))<br><br>
-Graag advies. Wat voor scripttaal raad je aan?.
-Ik programmeer al tijden, meestal in een "echte" taal, 
-
-Hier wil ik enkele technische gegevens over de site beschrijven, alsmede punten die nog niet lukken, of waarvan ik me afvraag hoe dat aan te pakken.
-
------
-
-### <a name="building">Building</a>
-
-* Het blog is gemaakt in <a href="https://jekyllrb.com/">Jekyll</a>. Dat is een statische site- of blog-generator.<br>
-* Als theme heb ik voorlopig <a href="https://github.com/poole/poole">Poole</a> een beetje aangepast.
-
-
-### Uit te zoeken
-
-* Ik denk dat het moeilijk wordt om te schakelen van de mindset van het bijschaven van een website naar het met rust laten van oudere bijdragen. Waarschijnlijk is dat laatste vooral belangrijk vanaf het moment dat commentaren mogelijk worden. Ik 

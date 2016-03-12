@@ -28,3 +28,6 @@ Lees dit dus niet als de gangbare theorie, maar als een theorie (die in mijn oge
 [Gat, van buiten]( {{ site.baseurl }}/statics/zwartgat/speld II.html )<br>
 [Gat, van binnen]( {{ site.baseurl }}/statics/zwartgat/speld III.html )<br>
 <!-- [Plannen voor simulatie]( {{ site.baseurl }}/statics/zwartgat/speld simulatie.html )<br> -->
+
+<hr>
+<a HREF="{{ site.baseurl }}/statics/audio/audio.html" target="_blank">Audio bestanden</a> 
