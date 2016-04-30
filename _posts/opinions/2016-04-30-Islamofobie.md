@@ -21,7 +21,7 @@ Wat is hier mis mee? Bang zijn voor of een afkeer hebben van de Islam is niet ie
 De definitie maakt van een ongemakkelijk gevoel (afkeer) een probleem op zich: islamieten en mensen die om welke reden dan ook geneigd zijn om voor hen in de bres te springen zouden islamofobie en islamofoben als het gevaar moeten gaan zien. 
 <br>@Amsterjan vindt wel dat de aantijging vaak overdreven of onterecht is, maar neemt de term over.<br>Ook duidt hij een fobie als "irrationele angst". Dat irrationele mag voor sommige fobie&euml;n gelden, maar toch niet voor de islam, die meer kapot maakt dan je lief is.
 
-En dat (islamofobie als het gevaar zien) is precies wat er verder in het stuk op batavirus wordt beschreven:<br>
+En dat (islamofobie als het gevaar zien) is precies wat er verder in het stuk op Batavirus wordt beschreven:<br>
 Een groep moslims heeft zich onder de naam "Stichting Meld Islamofobie" ten doel gesteld (kennelijk krakkemikkige) statistiekjes te publiceren over het v&ograve;&ograve;rkomen van islamofobie, moslimhaat en tegen de islam gericht geweld.<br>
 (Ik ga nu niet in op de aantijging "moslimhaat", maar ook dat lijkt me een persoonlijke emotie die moeilijk valt te turven laat staan strafbaar te stellen. Oproepen tot geweld vanuit dat gevoel natuurlijk wel.)
 
