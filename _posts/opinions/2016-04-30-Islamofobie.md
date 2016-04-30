@@ -6,7 +6,7 @@ tags : [islam, religie]
 comments: true
 ---
 
-Er is op Twitter een drieluik aan het verschijnen (<a href="http://batavirus.nl/2016/04/17/longread-islamofobie-stand-land-deel-1/" >Deel_1</a>, <a href="http://batavirus.nl/2016/04/30/longread-islamofobie-stand-land-deel-2/" >Deel_2</a>, deel 3 volgt nog) van @Amsterjan (Jan Tervoort) op zijn blog Batavirus.<br>
+Er is op Twitter een drieluik aan het verschijnen (<a href="http://batavirus.nl/2016/04/17/longread-islamofobie-stand-land-deel-1/" >Deel_1</a>, <a href="http://batavirus.nl/2016/04/30/longread-islamofobie-stand-land-deel-2/" >Deel_2</a>, deel 3 volgt nog) van @Amsterjan (Jan Tervoort) op zijn blog bij Batavirus.<br>
 Het gaat over Islamofobie. Ik wantrouw zijn bedoelingen niet, hij lijkt een oprechte poging te doen vast te stellen hoe ernstig het "probleem" is, maar ik heb toch moeite met zijn benadering. Enkele anderen hebben ook wat gemord, maar ik wil toch kort aan proberen te geven waarom hij me tegen de haren instrijkt.
 
 Ik zelf ben "tegen religie", zie het (zeker bij de huidige mogelijkheden om aan scholing en informatie te komen) als een uiting van onbenul. "Tegen religie" staat tussen aanhalingstekens omdat ieder de vrijheid moet hebben de meest onbenullige idee&euml;n aan te hangen, maar die onbenulligheid moet dan wel de tegenwind en intellectuele confrontatie krijgen die het verdient. De Islam heeft daarbij nog eens agressieve en dwingende trekken (naar binnen toe en naar de buitenwereld) die het tot een van de grootste destructieve gevaren maken ter wereld. Dat is mijn mening, en ik heb dus altijd op elke aantijging dat ik islamofoob zou zijn instemmend gereageerd.
