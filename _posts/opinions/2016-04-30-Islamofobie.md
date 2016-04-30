@@ -33,7 +33,7 @@ Volgens @Amsterjan is het zijns inziens "een gepasseerd station om over de term 
 
 <hr>
 Ik ben nu alleen ingegaan op het diskwalificerende gebruik van de term. Het voert me te ver de weerstand/weerzin tegen de islam te behandelen, en de daarbij gebruikte middelen.<br>
-Laat ik me ertoe beperken te melden dat ik een grote fan ben van Hirsi Ali en vele andere Islam-critici. Geweld hoort daar niet bij, opru&iuml;ng en platvloerse rellerigheid ook niet, maar een krachtige strijd tegen de abjecte idee&euml;n wel degelijk.
+Laat ik me ertoe beperken te melden dat ik een grote fan ben van Hirsi Ali en vele andere Islam-critici. Geweld hoort daar niet bij, oprui&iuml;ng en platvloerse rellerigheid ook niet, maar een krachtige strijd tegen de abjecte idee&euml;n wel degelijk.
 
 <hr>
 Overigens heb ik verschillende malen de volgende tweet geplaatst:<br>
