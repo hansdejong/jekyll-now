@@ -11,7 +11,7 @@ Het gaat over Islamofobie. Ik wantrouw zijn bedoelingen niet, hij lijkt een opre
 
 Ik zelf ben "tegen religie", zie het (zeker bij de huidige mogelijkheden om aan scholing en informatie te komen) als een uiting van onbenul. "Tegen religie" staat tussen aanhalingstekens omdat ieder de vrijheid moet hebben de meest onbenullige idee&euml;n aan te hangen, maar die onbenulligheid moet dan wel de tegenwind en intellectuele confrontatie krijgen die het verdient. De Islam heeft daarbij nog eens agressieve en dwingende trekken (naar binnen toe en naar de buitenwereld) die het tot een van de grootste destructieve gevaren maken ter wereld. Dat is mijn mening, en ik heb dus altijd op elke aantijging dat ik islamofoob zou zijn instemmend gereageerd.
 
-Islamofoob betekent letterlijk "bang voor de Islam". De meesten die de Islam niet zo zien zitten zullen bij islamofoob eerder denken aan de buik vol hebben van, afkeer hebben van, kwaad zijn op, afschuw van de praktijken binnen, afschuw hebben van groepsdwang en chantage, etcetera, en dus enigszins ontevreden zijn met dit ingeburgerde etiket. 
+Islamofoob betekent letterlijk "bang voor de Islam". De meesten die de Islam niet zo zien zitten zullen bij islamofoob eerder denken aan de buik vol hebben van, afkeer hebben van, kwaad zijn op, afschuw van de praktijken binnen, afschuw hebben van groepsdwang en chantage, leven vanuit geboden en verboden, etcetera, en dus enigszins ontevreden zijn met dit ingeburgerde etiket. 
 
 @Amsterjan adopteert echter een definitie van Martijn de Koning die in mijn ogen geen bijval verdient:<br><i>
 "Islamofobie is het construeren van een negatieve, generaliserende en essentialistische definitie van islam die leidt tot het maken van een hi&euml;rarchisch onderscheid tussen niet-moslims en moslims. Dit gebeurt om de moslims als groep te problematiseren op basis van hun religie."</i>
@@ -39,5 +39,5 @@ Laat ik me ertoe beperken te melden dat ik een grote fan ben van Hirsi Ali en ve
 
 <hr>
 Overigens heb ik verschillende malen de volgende tweet geplaatst:<br>
-<i>"Blanke mannen zijn niet wit. Anglicisme, vaak in racistische of diskwalificerende context gebruikt."</i><br>
+<i>"Blanke mannen zijn niet wit. Lelijk anglicisme, vaak in racistische of diskwalificerende context gebruikt."</i><br>
 Het zal niet verrassen dat ik me ook in dit opzicht ge&euml;rgerd heb aan (het overnemen van?) dit taalgebruik door @Amsterjan.
