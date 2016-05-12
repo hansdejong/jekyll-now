@@ -30,19 +30,19 @@ Later geeft hij ook twee voorbeelden, de "achterlijke cultuur" van Fortuyn en ee
 
 Nee, denk ik dan: zo kunnen we dat helemaal niet karakteriseren, want hij neemt nu ineens de negatieve framing over van de term Islamofobie.
 
-Dan komt hij op de proppen met een variatie op de definitie van De&nbsp;Koning die alleen maar bedoeld lijkt om de term alsnog te kunnen gebruiken om er allelei onverkwikkelijks mee aan te duiden.
+Dan komt hij op de proppen met een variatie op de definitie van De&nbsp;Koning die alleen maar bedoeld lijkt om de term alsnog te kunnen gebruiken om er allerlei onverkwikkelijks mee aan te duiden.
 
-<i>"islamofobie is het door niet-moslims construeren van een negatieve, generaliserende en essentialistische definitie van islam of beeld van moslims die niet gebaseerd is op feiten of de realiteit. Het leidt tot het maken van een hi&euml;rarchisch onderscheid tussen niet-moslims en moslims. Dit gebeurt om de moslims als groep te problematiseren op basis van hun religie en zodoende angst voor en haat tegen moslims aan te wakkeren.</i>
+<i>"islamofobie is het door niet-moslims construeren van een negatieve, generaliserende en essentialistische definitie van islam of beeld van moslims die niet gebaseerd is op feiten of de realiteit. Het leidt tot het maken van een hi&euml;rarchisch onderscheid tussen niet-moslims en moslims. Dit gebeurt om de moslims als groep te problematiseren op basis van hun religie en zodoende angst voor en haat tegen moslims aan te wakkeren."</i>
 
  Nee, "Islamofobie" is gewoon wat het altijd geweest is, een angstige of negatieve reactie op de islam. Daar is niets onverkwikkelijks aan, net zomin als aan islamkritiek. Een term die gewoon als beschrijvend label, of zelfs als geuzennaam wordt
-gebruikt. Een vlag die zeker niet op een modderschuit thuishoort of als onverkwikkelijk label moet worden overgenomen van een kwaadaardig clubje stokende moslims dat de term kaapt en besmeurt.
+gebruikt. Een vlag die zeker niet op een modderschuit thuishoort of als onverkwikkelijk label moet worden overgenomen van een kwaadwillend clubje stokende moslims dat de term kaapt en besmeurt.
 
 Dus wat mij betreft kijk ik uit naar de analyse van @Amsterjan in het vierde deel van zijn drieluik. Laat hem rustig uitzoeken hoe vaak er werkelijk onverkwikkelijke incidenten voorkomen, of hoe vaak het om niemendallerig geweeklaag gaat. Maar niet onder de vlag van Islamofobie.
 
 Kijk nog een keer naar Richard Dawkins:
 ![Islamofobie]({{ site.baseurl }}/assets/pictures/islamophobia.png)
 
-of naar Salman Rushdi:
+of naar Salman Rushdie:
 ![Islamofobie]({{ site.baseurl }}/assets/pictures/disrespect.jpg)
 
 
