@@ -9,7 +9,7 @@ comments: True
 Op Twitter is bij Batavirus intussen 
 <a href="http://batavirus.nl/2016/05/12/islamofobie-stand-land-deel-3/" >Deel_3</a> van het drieluik van @Amsterjan verschenen. Ik ben zeer vereerd dat ik ook word aangehaald in het drieluik dat intussen een vierluik belooft te worden.
 
-Ik reageer een beetje zuur op de aankondiging met de volgende tweet:<br>
+Ik reageer een beetje zuur op het stuk met de volgende tweet:<br>
 <b>@Batavirus @Amsterjan @Martijn5155 Jammer. Sterk begin, maar nog kreupeler definitie I-woord, en #framing. Geen vooropgezet effect of doel!</b>
 
 Wat is het geval? Het grootste deel is gewoon een goed verhaal.
@@ -17,9 +17,9 @@ Hij gaat uit van twee extreme meningen over islamofobie: 1) islamofobie bestaat 
 <div align="center">
 <img src="{{ site.baseurl }}/assets/pictures/sucks.jpg" alt="Racism sucks">
 </div>
-Onder het kopje <b>"Islamofobie is racisme"</b> betoogt hij dat dit de invalshoek van De&nbsp;Koning is. Maar de koran zou volgens de redenering van De Koning als &eacute;&eacute;n grote racistische rant tegen "ongelovigen" moeten worden opgevat.
+Onder het kopje <b>"Islamofobie is racisme"</b> betoogt hij dat dit de invalshoek van De&nbsp;Koning is. Maar de koran zou volgens de redenering van De Koning als &eacute;&eacute;n grote racistische rant tegen 'ongelovigen' moeten worden opgevat.
 
-Onder het subkopje <b>"Agency"</b> geeft hij aan dat de moslims zelf geen makke schapen, slachtoffers zijn. maar een berg boter op hun hoofd hebben en zo aanleiding geven tot een "islamofobe" reactie.
+Onder het subkopje <b>"Agency"</b> geeft hij aan dat de moslims zelf geen makke schapen, slachtoffers zijn, maar een berg boter op hun hoofd hebben en zo aanleiding geven tot een 'islamofobe' reactie.
 
 Onder het kopje <b>"Islamofobie bestaat niet"</b> beschrijft hij de andere invalshoek. Hierbij is de term door moslims verzonnen als politiek instrument om  kritiek op de islam te diskwalificeren en critici als racisten weg te zetten.
 
@@ -34,8 +34,8 @@ Dan komt hij op de proppen met een variatie op de definitie van De&nbsp;Koning d
 
 <i>"islamofobie is het door niet-moslims construeren van een negatieve, generaliserende en essentialistische definitie van islam of beeld van moslims die niet gebaseerd is op feiten of de realiteit. Het leidt tot het maken van een hi&euml;rarchisch onderscheid tussen niet-moslims en moslims. Dit gebeurt om de moslims als groep te problematiseren op basis van hun religie en zodoende angst voor en haat tegen moslims aan te wakkeren."</i>
 
- Nee, "Islamofobie" is gewoon wat het altijd geweest is, een angstige of negatieve reactie op de islam. Daar is niets onverkwikkelijks aan, net zomin als aan islamkritiek. Een term die gewoon als beschrijvend label, of zelfs als geuzennaam wordt
-gebruikt. Een vlag die zeker niet op een modderschuit thuishoort of als onverkwikkelijk label moet worden overgenomen van een kwaadwillend clubje stokende moslims dat de term kaapt en besmeurt.
+ Nee, 'Islamofobie' is gewoon wat het altijd geweest is, een angstige of negatieve reactie op de islam. Daar is niets onverkwikkelijks aan, net zomin als aan islamkritiek. Een term die gewoon als beschrijvend label, of zelfs als geuzennaam wordt
+gebruikt. Een vlag die zeker niet op een modderschuit thuishoort of als afkeurend etiket moet worden overgenomen van een kwaadwillend clubje stokende moslims dat de term kaapt en besmeurt.
 
 Dus wat mij betreft kijk ik uit naar de analyse van @Amsterjan in het vierde deel van zijn drieluik. Laat hem rustig uitzoeken hoe vaak er werkelijk onverkwikkelijke incidenten voorkomen, of hoe vaak het om niemendallerig geweeklaag gaat. Maar niet onder de vlag van Islamofobie.
 
