@@ -7,7 +7,7 @@ comments: True
 ---
 
 Op Twitter is bij Batavirus intussen 
-<a href="http://batavirus.nl/2016/05/12/islamofobie-stand-land-deel-3/" >Deel_3</a> van het drieluik van @Amsterjan verschenen. Ik ben zeer vereerd dat ik ook word aangehaald in het drieluik dat intussen een vierluik belooft te worden.
+<a href="http://batavirus.nl/2016/05/12/islamofobie-stand-land-deel-3/" target="_blank">Deel_3</a> van het drieluik van @Amsterjan verschenen. Ik ben zeer vereerd dat ik ook word aangehaald in het drieluik dat intussen een vierluik belooft te worden.
 
 Ik reageer een beetje zuur op het stuk met de volgende tweet:<br>
 <b>@Batavirus @Amsterjan @Martijn5155 Jammer. Sterk begin, maar nog kreupeler definitie I-woord, en #framing. Geen vooropgezet effect of doel!</b>
@@ -17,7 +17,7 @@ Hij gaat uit van twee extreme meningen over islamofobie: 1) islamofobie bestaat 
 <div align="center">
 <img src="{{ site.baseurl }}/assets/pictures/sucks.jpg" alt="Racism sucks">
 </div>
-Onder het kopje <b>"Islamofobie is racisme"</b> betoogt hij dat dit de invalshoek van De&nbsp;Koning is. Maar de koran zou volgens de redenering van De Koning als &eacute;&eacute;n grote racistische rant tegen 'ongelovigen' moeten worden opgevat.
+Onder het kopje <b>"Islamofobie is racisme"</b> betoogt hij dat dit de invalshoek van De&nbsp;Koning is. Maar de koran zou volgens de redenering van De Koning als &eacute;&eacute;n grote racistische rant (tirade) tegen 'ongelovigen' moeten worden opgevat.
 
 Onder het subkopje <b>"Agency"</b> geeft hij aan dat de moslims zelf geen makke schapen, slachtoffers zijn, maar een berg boter op hun hoofd hebben en zo aanleiding geven tot een 'islamofobe' reactie.
 
