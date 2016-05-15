@@ -50,6 +50,6 @@ of naar Salman Rushdie:<br>
 Tenslotte is het zeer de moeite waard deze YouTube-video te bekijken.<br>
 Stephen Coughlin, Part 5: The Role of the OIC in Enforcing Islamic Law.<br>
 Deze is in z'n geheel zeer de moeite waard. (2012)<br>
-Over Islamofobie gaan het o.a. rond de 27:00&nbsp;minuut.<br>
+Over Islamofobie gaat het o.a. rond de 27:00&nbsp;minuut.<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JkAZUvQAzkc" frameborder="0" allowfullscreen></iframe><br>
 
