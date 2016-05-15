@@ -39,11 +39,17 @@ gebruikt. Een vlag die zeker niet op een modderschuit thuishoort of als afkeuren
 
 Dus wat mij betreft kijk ik uit naar de analyse van @Amsterjan in het vierde deel van zijn drieluik. Laat hem rustig uitzoeken hoe vaak er werkelijk onverkwikkelijke incidenten voorkomen, of hoe vaak het om niemendallerig geweeklaag gaat. Maar niet onder de vlag van Islamofobie.
 
-Kijk nog een keer naar Richard Dawkins:
+Kijk nog een keer naar Richard Dawkins:<br>
 ![Islamofobie]({{ site.baseurl }}/assets/pictures/islamophobia.png)
 
-of naar Salman Rushdie:
+of naar Salman Rushdie:<br>
 ![Islamofobie]({{ site.baseurl }}/assets/pictures/disrespect.jpg)
 
+<hr>
 
+Tenslotte is het zeer de moeite waard deze YouTube-video te bekijken.<br>
+Stephen Coughlin, Part 5: The Role of the OIC in Enforcing Islamic Law.<br>
+Deze is in z'n geheel zeer de moeite waard. (2012)<br>
+Over Islamofobie gaan het o.a. rond de 27:00&nbsp;minuut.<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JkAZUvQAzkc" frameborder="0" allowfullscreen></iframe><br>
 
