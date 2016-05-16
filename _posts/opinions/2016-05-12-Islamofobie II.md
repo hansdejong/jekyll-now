@@ -37,7 +37,7 @@ Dan komt hij op de proppen met een variatie op de definitie van De&nbsp;Koning d
  Nee, 'Islamofobie' is gewoon wat het altijd geweest is, een angstige of negatieve reactie op de islam. Daar is niets onverkwikkelijks aan, net zomin als aan islamkritiek. Een term die gewoon als beschrijvend label, of zelfs als geuzennaam wordt
 gebruikt. Een vlag die zeker niet op een modderschuit thuishoort of als afkeurend etiket moet worden overgenomen van een kwaadwillend clubje stokende moslims dat de term kaapt en besmeurt.
 
-Dus wat mij betreft kijk ik uit naar de analyse van @Amsterjan in het vierde deel van zijn drieluik. Laat hem rustig uitzoeken hoe vaak er werkelijk onverkwikkelijke incidenten voorkomen, of hoe vaak het om niemendallerig geweeklaag gaat. Maar niet onder de vlag van Islamofobie.
+Dus wat mij betreft kijk ik uit naar de analyse van @Amsterjan in het vierde deel van zijn drieluik. Laat hem gerust uitzoeken hoe vaak er werkelijk onverkwikkelijke incidenten voorkomen, of hoe vaak het om niemendallerig geweeklaag gaat. Maar niet onder de vlag van Islamofobie.
 
 Kijk nog een keer naar Richard Dawkins:<br>
 ![Islamofobie]({{ site.baseurl }}/assets/pictures/islamophobia.png)
@@ -51,5 +51,12 @@ Tenslotte is het zeer de moeite waard deze YouTube-video te bekijken.<br>
 Stephen Coughlin, Part 5: The Role of the OIC in Enforcing Islamic Law.<br>
 Deze is in z'n geheel zeer de moeite waard. (2012)<br>
 Over Islamofobie gaat het o.a. rond de 27:00&nbsp;minuut.<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JkAZUvQAzkc" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JkAZUvQAzkc" frameborder="0" allowfullscreen></iframe>
 
+<hr>
+
+**Martijn de Koning heeft intussen twee stukken met uitleg geschreven.**
+
+Hij reageert niet alleen op mij, in deel 2, maar ook op @Amsterjan (Jan&nbsp;Tervoort), <a href="http://www.volkskrant.nl/binnenland/islamofobie-is-een-onzinnig-begrip~a4300521/?hash=0c28c3bcffdf9fe0795fcb703a0c3833189933ef" target="_blank">Jonathan van het Reve</a> en andere criticasters: <a href="http://religionresearch.org/closer/2016/05/14/islamofobie-de-racialisering-van-moslims-een-toelichting-1/" target="_blank">Deel 1</a>,
+<a href="http://religionresearch.org/closer/2016/05/15/islamofobie-de-racialisering-van-moslims-een-toelichting-2/" target="_blank">Deel 2</a>.<br>
+Ik waardeer het dat hij een weerwoord heeft gegeven. Voorlopig ga ik er vanuit dat we allebei duidelijk hebben gemaakt waar we staan. Als er behoefte is aan verder commentaar hoor ik het ongetwijfeld.

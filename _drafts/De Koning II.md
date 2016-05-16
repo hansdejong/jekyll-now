@@ -9,7 +9,7 @@ comments: True
 **Brainstorm vooraf** 
 
 Ik was eigenlijk in eerste instantie niet van plan de discussie voort te zetten. Tenslotte is het @Amsterjan intussen wel duidelijk hoe ik over zijn (gebruik van Martijn de&nbsp;Koning's) definitie van islamofobie sta.
-Martijn de Koning kende ik niet. Ik viel dus eerst over zijn definitie, en daarna heb ik commentaar geleverd (zie "Weer een raar stukje") toen hij een stuk in de Volkskrant bleek te hebben geschreven.
+Martijn de Koning kende ik nauwelijks, ik was hoogstens de naam wel eens tegengekomen. Ik viel dus eerst over zijn definitie, en daarna heb ik commentaar geleverd (zie "Weer een raar stukje") toen hij een stuk in de Volkskrant bleek te hebben geschreven.
 
 Maar hij heeft intussen twee stukken met uitleg geschreven:<br>
 <a href="http://religionresearch.org/closer/2016/05/14/islamofobie-de-racialisering-van-moslims-een-toelichting-1/" target="_blank">Deel 1</a>,
