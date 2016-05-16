@@ -47,7 +47,7 @@ of naar Salman Rushdie:<br>
 
 <hr>
 
-Tenslotte is een aanrader de volgende YouTube-video te bekijken:<br>
+Tenslotte is het een aanrader de volgende YouTube-video te bekijken:<br>
 <b>Stephen Coughlin, Part 5: The Role of the OIC in Enforcing Islamic Law.</b><br>
 Deze is in z'n geheel zeer de moeite waard, &eacute;&eacute;n grote illustratie van Newspeak islamitische stijl. E&eacute;n grote geco&ouml;rdineerde actie om de vrijheid van meningsuiting te frustreren en verdacht te maken. Het westen lijdend aan het "Battered wife syndrom": geslagen worden en de schuld bij jezelf zoeken. (2012)<br>
 Letterlijk over Islamofobie gaat het rond de 14:40, 23:50, 27:20, 29:30, 33:00, 34:45 en 52:30&nbsp;minuut.<br>
