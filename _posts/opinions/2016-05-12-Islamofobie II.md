@@ -21,7 +21,7 @@ Onder het kopje <b>"Islamofobie is racisme"</b> betoogt hij dat dit de invalshoe
 
 Onder het subkopje <b>"Agency"</b> geeft hij aan dat de moslims zelf geen makke schapen, slachtoffers zijn, maar een berg boter op hun hoofd hebben en zo aanleiding geven tot een 'islamofobe' reactie.
 
-Onder het kopje <b>"Islamofobie bestaat niet"</b> beschrijft hij de andere invalshoek. Hierbij is de term door moslims verzonnen als politiek instrument om  kritiek op de islam te diskwalificeren en critici als racisten weg te zetten.
+Onder het kopje <b>"Islamofobie bestaat niet"</b> beschrijft hij de andere invalshoek. Hierbij is de term door moslims verzonnen als politiek instrument om  kritiek op de islam te diskwalificeren en critici als racisten weg te zetten.<br> (<i>Zie hiervoor ook de video hieronder.</i>) 
 
 
 
