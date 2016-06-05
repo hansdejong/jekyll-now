@@ -11,6 +11,8 @@ Het gaat over Islamofobie. Ik wantrouw zijn bedoelingen niet, hij lijkt een opre
 
 Ik zelf ben "tegen religie", zie het (zeker bij de huidige mogelijkheden om aan scholing en informatie te komen) als een uiting van onbenul. "Tegen religie" staat tussen aanhalingstekens omdat ieder de vrijheid moet hebben de meest onbenullige idee&euml;n aan te hangen, maar die onbenulligheid moet dan wel de tegenwind en intellectuele confrontatie krijgen die het verdient. De Islam heeft daarbij nog eens agressieve en dwingende trekken (naar binnen toe en naar de buitenwereld) die het tot een van de grootste destructieve gevaren maken ter wereld. Dat is mijn mening, en ik heb dus altijd op elke aantijging dat ik islamofoob zou zijn instemmend gereageerd.
 
+<div align="center"><image src="{{ site.baseurl }}/assets/pictures/islamophobe.jpg" width="40%" /></div>
+
 Islamofoob betekent letterlijk "bang voor de Islam". De meesten die de Islam niet zo zien zitten zullen bij islamofoob eerder denken aan de buik vol hebben van, afkeer hebben van, kwaad zijn op, afschuw van de praktijken binnen, afschuw hebben van groepsdwang en chantage, leven vanuit geboden en verboden, etcetera, en dus enigszins ontevreden zijn met dit ingeburgerde etiket. 
 
 @Amsterjan adopteert echter een definitie van Martijn de Koning die in mijn ogen geen bijval verdient:<br><i>
