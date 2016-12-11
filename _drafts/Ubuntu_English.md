@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Ubuntu
-categories : [Programming, _OS]
-tags : [installatie, overstap]
+title: Ubuntu_English
+categories : [Programming, _OS, _draft]
+tags : [installation, switch]
 comments: true
 ---
 
-Dit stukje gaat over mijn wederwaardigheden bij mijn  voorgenomen overstap naar Linux. Die overstap verliep/verloopt niet geheel vlekkeloos. In het vervolg zal ik in <font color="green">groen</font> punten markeren waar andere gebruikers misschien hun voordeel mee kunnen doen, en in <font color="red">rood</font> zaken waar meelezende Linux ontwikkelaars zich eens over zouden kunnen buigen.
+This is an account of all what happened during my intended switch to Linux. This switch wasn't flawless. I'll mark in <font color="green">green</font> some remarks that maybe could help other users, and in <font color="red">red</font> some points where possibly Linux developers could pay some attention.
 
-Ik werk thuis meestal op een vrij oude PC met Vista. Over het algemeen ben ik over Vista tevreden, alleen wordt het de laatste tijd steeds stroperiger. CCleaner is daar geen afdoende remedie tegen, het register loopt met de installaties en updates langzamerhand vol. Ik zag de bui dus hangen dat ik op een nieuwe computer, en nieuwe Windows-versie over zou moeten stappen.<br>
-Ik heb daar niet zo'n zin in: dichtslibben blijft een kenmerk van Windows, het is duur, je bent steeds afhankelijk van licentiecontroles en -beperkingen, en alles gaat richting de cloud en privacy-inperking. Niet dat Linux daar vrij van is, maar het lijkt een goed alternatief, en het is gratis.
+At home I mostly work on a rather old Vista-PC. I'm content about Vista in general, but it gets more and more sluggish over time. CCleaner is not enough of a remedy, the registry gets polluted by the installations and updates. So I foresaw that I would have to switch to a new computer, and a new Windows-version in short term.<br>
+I don't envy that: Windows keeps getting more and more congested, it's expensive, you have to deal with licencechecks en -restrictions, and everything moves toward the cloud and privacy-constraints. Of course Linux is not free from that, but is seems to be a good alternative, and it is free of charge.
 
 Vroeger heb ik me al wel eens verdiept in Unix, en er op m'n werk mee gewerkt. Ik heb Red-Hat Linux, en ook Ubuntu wel eens ge&iuml;nstalleerd en het een tijdje uitgeprobeerd. Mijn computer was al een dual boot. Ik besloot de Linux-draad weer eens op te pakken.
 
@@ -63,7 +63,7 @@ Hierna was ook grub (het opstartprogrammaatje) corrupt. Ik kon niets meer starte
 
 Maar intussen had ik in ieder geval wel m'n data kunnen redden. /home/hans/, met alle Scala ge&euml;xperimenteer en m'n git- repositories naar de USB gekopieerd.
 
-Die USB bleek later overigens Read-Only te zijn. Dat gold later ook voor een Ubutu partitie. <font color="red">Dat is iets waarvan ik niet als enige last heb, maar waar veel over geklaagd en gecorrespondeerd wordt op internet, meestal door Ubuntu gebruikers.</font> Heel vervelend, met grote kans op dataverlies als je datgene wat je wilde redden opeens niet kwijt kunt. Pas na kopi&euml;ren naar een windows-directory waren m'n data bruikbaar.  
+Die USB bleek later overigens Read-Only te zijn. Dat gold later ook voor een Ubutu partitie. <font color="red">Dat is iets waarvan ik niet als enige last heb, maar waar veel over geklaagd en gecorresponeerd wordt op internet, meestal door Ubuntu gebruikers.</font> Heel vervelend, met grote kans op dataverlies als je datgene wat je wilde redden opeens niet kwijt kunt.  
 
 <hr>
 

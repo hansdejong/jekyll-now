@@ -6,7 +6,10 @@ tags : [SBT, applet, scala]
 comments: true
 ---
 
-Scala.js is een compiler die Scala overzet naar JavaScript ipv. naar JVM-bytecode. Daarna kan het programma gedraaid worden in een browser. Mijn idee was daarbij dat:
+Een Scala-programma wordt gewoonlijk, net als een Java-programma, vertaald naar JVM-bytecode.
+Scala.js is een compiler die Scala overzet naar JavaScript. ipv. naar JVM-bytecode. Daarna kan het programma gedraaid worden in een browser. 
+
+Mijn idee was daarbij dat:
 
 * Omdat Scala-programma's deels of zelfs geheel uit Java-code kunnen bestaan, zou je Scala.js als een alternatief voor Java-applets kunnen beschouwen.<br>Ik wilde dus een bestaande Java-Applet van mij, met zo weinig mogelijk veranderingen in de code, aan de praat proberen te krijgen als Javascript-applicatie.
 
