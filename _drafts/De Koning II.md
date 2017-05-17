@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Weer een raar stukje II
-categories : [Opinions, _Islam]
+categories : [Opinions, _Islam_Draft]
 tags : [newspeak, religie, islam]
 comments: True
 ---

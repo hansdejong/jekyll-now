@@ -61,7 +61,6 @@ Nu een HTML-tabel (waarbij het er om gaat of de JavaScript werkt <code class="hi
 			<th width="18%">2e Kamer 12 sept. 2012</th>
 			<th width="18%">EenVandaag 24 nov. 2015</th>
 			<th width="18%">M. de Hond 13 dec. 2015</th>
-			<th width="18%">M. de Hond 11 dec. 2016</th>
 		</tr>
 </thead>
 <tbody id="roze" >
@@ -70,41 +69,35 @@ Nu een HTML-tabel (waarbij het er om gaat of de JavaScript werkt <code class="hi
 			<td>15</td>
 			<td>35</td>
 			<td>39</td>
-			<td>36</td>
 		</tr>
 		<tr>
       <td>VVD</td>
 			<td>41</td>
 			<td>25</td>
 			<td>20</td>
-			<td>23</td>
 		</tr>
 		<tr>
 			<td>CDA</td>
 			<td>13</td>
 			<td>20</td>
 			<td>19</td>
-			<td>14</td>
 		</tr>
 		<tr>
 			<td>D66</td>
 			<td>12</td>
 			<td>15</td>
 			<td>16</td>
-			<td>14</td>
 		</tr>
 		<tr>
 			<td>SP</td>
 			<td>15</td>
 			<td>17</td>
 			<td>15</td>
-			<td>11</td>
 		</tr>
 		<tr>
 			<td>GL</td>
 			<td> 4</td>
 			<td> 7</td>
-			<td>14</td>
 			<td>14</td>
 		</tr>
 		<tr>
@@ -112,13 +105,11 @@ Nu een HTML-tabel (waarbij het er om gaat of de JavaScript werkt <code class="hi
 			<td>38</td>
 			<td>11</td>
 			<td>10</td>
-			<td>10</td>
 		</tr>
 		<tr>
 			<td>CU</td>
 			<td>5</td>
 			<td>8</td>
-			<td>5</td>
 			<td>5</td>
 		</tr>
 		<tr>
@@ -126,18 +117,15 @@ Nu een HTML-tabel (waarbij het er om gaat of de JavaScript werkt <code class="hi
 			<td>2</td>
 			<td>4</td>
 			<td>4</td>
-			<td>5</td>
 		</tr>
 		<tr>
 			<td>50Plus</td>
 			<td>2</td>
 			<td>5</td>
 			<td>4</td>
-			<td>11</td>
 		</tr>
 		<tr>
 			<td>SGP</td>
-			<td>3</td>
 			<td>3</td>
 			<td>3</td>
 			<td>3</td>
@@ -147,7 +135,6 @@ Nu een HTML-tabel (waarbij het er om gaat of de JavaScript werkt <code class="hi
 			<td>0</td>
 			<td>0</td>
 			<td>1</td>
-			<td>4</td>
 		</tr>
 </tbody>
  </table>
