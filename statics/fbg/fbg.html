@@ -45,7 +45,7 @@ maar in Scala.js kun je (anders dan bij een gewone Scala applicatie) niet afwiss
             { cols:[ 
 {view:"form", id:"kolom1", width: 270, elements:[
         { view:"text", text:"Knopen (random poging)", width:200, align:"center"},  
-	{ view:"slider", id:"slider1", value: 10, min: 2, max: 20, width: 200, align:"left",
+	{ view:"slider", id:"slider1", value: 10, min: 2, max: 50, width: 200, align:"left",
 	title:function(obj){return obj.value;}, on:{
 		onChange:function(){
 			SCALA_nodes( this.getValue() ); 
@@ -74,9 +74,9 @@ maar in Scala.js kun je (anders dan bij een gewone Scala applicatie) niet afwiss
 ,	
 //======= De toolbar ================================================================
  { view:"toolbar", id:"mybar", elements:[
-	{ view:"button", value:"Volgende", width: 70, click:"SCALA_volgende()"},
+	{ view:"button", value:"Volgende", width: 75, click:"SCALA_volgende()"},
 	    
-	{ view:"label", label:"Knoopkleur:", width:105},
+	{ view:"label", label:"Knoopkleur:", width:110},
 	{ view:"colorpicker", id:"colorId", name:"color", value:"#ff0000", width:120, on:{
 		onChange:function(){
 			var json = JSON.stringify(this.getParentView().getValues(),0,1);
