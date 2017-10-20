@@ -11,7 +11,7 @@ tagline:             Hans de Jong
 url:                 file://C:/Data/BLOG/JEKYLL/hansblog_werk/
 # paginate:            1                            =========> Tijdelijk er uit
 
-gems: [jekyll-paginate]           # Hans toegevoegd https://github.com/poole/lanyon/issues/124
+plugins: [jekyll-paginate]           # Hans toegevoegd https://github.com/poole/lanyon/issues/124
 # paginate: 5                       # Hans toegevoegd
 paginate: 1                       # Hans toegevoegd
 paginate_path: "page:num"         # Hans toegevoegd

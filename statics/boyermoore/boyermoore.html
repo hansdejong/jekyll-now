@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boyer-Moore</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="../../assets/css/webix.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="../../assets/css/tele2site.css" TYPE="text/css"">
+        <script src="../../assets/js/webix.js" type="text/javascript" charset="utf-8"></script>
+
+	<style>
+		.webix_el_textarea textarea{
+			font-size:16px;
+		/*  font-family: "Lucida Console", Monospace;	*/
+			font-family: "Courier", Monospace;	
+			font-weight: bold;
+		}
+		.webix_el_text input {
+			font-size:16px;
+			font-family: "Courier", Monospace;	
+			font-weight: bold;
+		}
+	</style>
+
+    </head>
+    <body>
+    
+    
+    
+<h1>Boyer-Moore algoritme</h1><br>
+<!--<a href="fbg_engels.html">English translation</a><br><br>-->
+Net als de Force-Based-Graph gemaakt in <a href="https://www.scala-js.org/" target="_blank">Scala.js</a>, en voor de GUI is weer gebruik gemaakt van     
+<a href="https://webix.com/tutorials/" target="_blank">Webix</a>. <!--
+de repository is op <a href="https://github.com/hansdejong/Force-Based-Graph">github</a>,-->
+ De oorsponkelijke Java-code (en uitleg van het algoritme) is te vinden op deze site: <a href="http://home.blarg.net/~doyle/bmi.html">Doyle B. Myers</a>.<br>
+<i>(De oorspronkelije code valt onder een GNU-licentie (alles mag er mee, geen aansprakelijkheid).<br>
+De code staat nog niet op github. Dat gaat gebeuren.) </i>
+ <br><br>
+ 
+ <div id="Controls2" style="width:750px; height:200px; margin:10px;"></div>
+    
+
+        <script type="text/javascript" charset="utf-8"> //De webix-code ==========
+        //place for your app
+        //webix.ui() can be optionally placed into the webix.ready() function 
+        //to ensure that your code will be executed as soon as page loading is complete.
+//	webix.ready(function(){
+
+		//tweede view
+//webix.ready(function(){ //Werkt niet met meerdere gui's
+	var zoekterm = "kerk";
+	var zoektekst = "De kerk van lekkerkerk staat te koop.";
+	webix.ui({	
+//			css:"hans_style",
+//			style:"hans_style",
+//			type:"hans_style",			
+       		        width:750,
+		        height:300,
+			type:"line",
+			container:"Controls2",
+			rows:[
+				{view:"text", id:"zoekvak" , label: "Vind", width:300, height:35, value: zoekterm
+					,on:{ onChange:function(){
+						SCALA_onChangeZoek();//TODO
+					}}
+				},
+				{view:"textarea", id:"tekstvak", label: "In tekst"        , width:700, height:35, value: zoektekst
+					,on:{ onChange:function(){
+						SCALA_onChangeTekst(); //TODO
+					}}
+				},
+				{view:"textarea", id:"vindvak" , label: "       "               , width:700, height:65, value: ""     },
+				{cols:[
+					{view:"button", value:"Step", click:"SCALA_step()"}, 
+					{view:"button", value:"Reset", click:"SCALA_reset()"},
+					{view:"button", value:"Finish", click:"SCALA_finish()"}
+					]}
+/*
+			,{view:"textarea", id:"commentvak" , label: "", width:700, height:130, value: ""     }
+*/
+			]
+		}
+	);//Einde webix.ui
+//	}); //Einde webix.ready
+	
+//Vanuit Scala aangeroepen native functies ==========================================
+//	$$("zoekvak").innerHTML = msg; //Doet het niet
+//	$$("zoekvak").value = msg;          //Doet het niet
+//	return $$("vindvak").value; //Doet het niet
+function zoekvakmsg(msg){
+	$$("zoekvak").setValue( msg ); 
+}
+function tekstvakmsg(msg){
+	$$("tekstvak").setValue( msg );
+}
+function vindvakmsg(msg){
+	$$("vindvak").setValue( msg ); 
+}
+function commentvakmsg(msg){
+	/*	$$("commentvak").setValue( msg ); */
+	//Scala moet native code kennelijk vinden
+}
+function getZoekvakmsg(){
+	return $$("zoekvak").getValue(); 
+}
+function getTekstvakmsg(){
+	return $$("tekstvak").getValue(); 
+}
+function getVindvakmsg(){
+	return $$("vindvak").getValue(); 
+}
+
+//======= De Hulpfuncties =======================================================
+
+function ToonWaarden(){ //Bewaren
+	var json = JSON.stringify(this.getParentView().getValues(),0,1);
+	webix.message("<pre>"+ json +"</pre>");        	
+};
+
+</script>
+<!-- ======== Tot hier de webix scripts. Nu de ScalaJS scripts ====== -->
+
+<script type="text/javascript" src="../../assets/js/geneticsjs-opt.js"></script>
+<!--<script type="text/javascript" src="target/scala-2.12/classes/workbench.js"></script>-->
+<script>
+	StartGraph.main();
+/*
+	StartGraph.main(document.getElementById('canvas'), 
+				   document.getElementById('tekstvak1'),
+				   document.getElementById('scalatags')
+				   );
+*/
+</script>
+<br>
+Korte uitleg:<ul>
+<li>Het BM-algoritme probeert de zoekstring met steeds de lengte van het woord op te laten schuiven.
+<li>Als dat niet kan kiest het de voordeligste van twee substrategi&euml;n: de goodSuffix- en badCharacter-skip strategie.
+<li>Het vergelijkt de sequenties van achter naar voor, en bouwt van tevoren tabellen op.
+<li>Spaties in de statusregel zijn overgeslagen bij het zoeken, en dus winst voor het algoritme.
+
+</ul>
+<br><br>
+    </body> 
+</html>
