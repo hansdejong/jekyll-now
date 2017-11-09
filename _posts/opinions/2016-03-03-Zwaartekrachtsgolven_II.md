@@ -5,9 +5,9 @@ categories : [Opinions, _KNAW]
 comments: True
 ---
 
-*Zwaartekrachtsgolven* 
+<h2>Zwaartekrachtsgolven</h2> 
 
-Een week geleden heb ik een KNAW-symposium over zwaartekrachtsgolven bezocht.<br>(Donderdag 25-2 in het Amsterdamse Trippenhuis). 
+Een week geleden heb ik een KNAW-symposium over zwaartekrachtsgolven bezocht.<br>(Donderdag 25-2-16 in het Amsterdamse Trippenhuis).
 
 Ik was eerst niet van plan er over te schrijven, maar ik heb nu een blog, dat schept verplichtingen. En het is zeer de moeite waard er kennis van te nemen:
 

@@ -24,15 +24,12 @@
     </head>
     <body>
     
-    <div id="scalatags"></div>
-    <div id="tekstvak1"></div>
-    <div id="canvas"></div>
+    
     
 <h1><a name="BM">Boyer-Moore algoritme</a></h1><br>
 <!--<a href="fbg_engels.html">English translation</a><br><br>-->
 Net als de Force-Based-Graph gemaakt in <a href="https://www.scala-js.org/" target="_blank">Scala.js</a>, en voor de GUI is weer gebruik gemaakt van     
-<a href="https://webix.com/tutorials/" target="_blank">Webix</a>.<br>
-<!--
+<a href="https://webix.com/tutorials/" target="_blank">Webix</a>. <!--
 de repository is op <a href="https://github.com/hansdejong/Force-Based-Graph">github</a>,-->
  De oorspronkelijke Java-code (en uitleg van het algoritme) is te vinden op deze site: <a href="http://home.blarg.net/~doyle/bmi.html">Doyle B. Myers</a>.<br>
 <i>(De oorspronkelijke code valt onder een GNU-licentie (alles mag er mee, geen aansprakelijkheid).<br>
@@ -40,50 +37,6 @@ De code staat nog niet op github. Dat gaat gebeuren.) </i>
  <br><br>
  
  <div id="Controls2" style="width:750px; height:200px; margin:10px;"></div>
-<br>
-Korte uitleg:<ul>
-<li>Het BM-algoritme probeert de zoekstring met steeds de lengte van het woord op te laten schuiven.
-<li>Als dat niet kan kiest het de voordeligste van twee substrategi&euml;n: de goodSuffix- en badCharacter-skip strategie.
-<li>Het vergelijkt de sequenties van achter naar voor, en bouwt van tevoren tabellen op.
-<li>Spaties in de statusregel zijn overgeslagen bij het zoeken, en dus winst voor het algoritme.
-</ul>
-<br><br><br>
-
-<hr>
-<br>
-<h1><a name="Poisson">Poisson</a></h1><br>
-Het Poisson-programmaatje toont de kansverdeling van tamelijk zeldzame discrete voorvallen.<br> 
-Er wordt een faculteit berekend om de relative frequentie voor een aantal te vinden. Vandaar dat het aantal staafjes tot 20 gaat.<br>
-(Misschien op te hogen door gebruik te maken van BigIntegers.)<br><br>
-
-<table border="1">
-<tr>
-<td>
-      <canvas id="canvas_poisson">
-      </canvas>
-</td>
-<td>
-<TEXTAREA  ID="tekstvak_poisson" ROWS="16" COLS="50" style="resize:none">
-</TEXTAREA>
-</td>
-
-</tr>
-</table>
-
-
-<!--<div id="Controls3" style="width:750px; height:350px; margin:10px;"></div>-->
-<div id="Controls3" style="width:750px; height:150px; margin:10px;"></div>
-
-Van de technische kant was Poisson vooral een poging het canvas alsnog in te bedden in webix. Dat is (nog) niet gelukt. Het voornaamste doel dat het nu dient is dat het leuk is om te zien.<br><br>
-Toch heeft het enkele Scala.js leermomentjes opgeleverd:<br><br>
-Per html-pagina heb je &eacute;&eacute;n codefile nodig. Als je werk-htmlbestand veel meer bevat (in dit geval bijvoorbeeld de FBG code), kun je het beste steeds een aparte branche maken waarna je die extra code eruit sloopt.<br> Je communiceert nl. op minstens drie manieren tussen Scala.js en html/javascript:<ul>
-<li>via parameters van de opstart-main()
-<li>via vanuit Scala direct aan te roepen native js code
-<li>via vanuit js aan te roepen JSExport-Scalamethoden
-</ul>
-De eerste twee moeten tussen beide kanten corresponderen, je kan niet zomaar code niet gebruiken, dan missen er referenties.
-Vandaar die aparte branche waarin je alles wat een pagina niet kan gebruiken verwijdert.
-<br><br>
     
 
         <script type="text/javascript" charset="utf-8"> //De webix-code ==========
@@ -97,6 +50,9 @@ Vandaar die aparte branche waarin je alles wat een pagina niet kan gebruiken ver
 	var zoekterm = "kerk";
 	var zoektekst = "De kerk van lekkerkerk staat te koop.";
 	webix.ui({	
+//			css:"hans_style",
+//			style:"hans_style",
+//			type:"hans_style",			
        		        width:750,
 		        height:300,
 			type:"line",
@@ -127,6 +83,9 @@ Vandaar die aparte branche waarin je alles wat een pagina niet kan gebruiken ver
 //	}); //Einde webix.ready
 	
 //Vanuit Scala aangeroepen native functies ==========================================
+//	$$("zoekvak").innerHTML = msg; //Doet het niet
+//	$$("zoekvak").value = msg;          //Doet het niet
+//	return $$("vindvak").value; //Doet het niet
 function zoekvakmsg(msg){
 	$$("zoekvak").setValue( msg ); 
 }
@@ -149,48 +108,6 @@ function getTekstvakmsg(){
 function getVindvakmsg(){
 	return $$("vindvak").getValue(); 
 }
-//Nog testen:
-function poissonvakmsg(msg){
-	$$("poissonText").setValue( msg ); 
-}
-//Nog testen:
-function getPoissonCanvasContext(){
-	return $$("poissonCanvas").getContext(); 
-}
-function getPoissonCanvas(){
-	return $$("poissonCanvas"); 
-}
-
-		//derde view	(Poisson)
-			webix.ui({	
-       		        width:750,
-		        height:300,
-			type:"line",
-			container:"Controls3",
-			rows:[
-
-//https://forum.webix.com/discussion/30264/adding-a-canvas-element-to-a-webix-ui-row
-/*				{cols:[
-					{view:"template", template:"<canvas id='poissonCanvas' height=705px width=404px></canvas>"},
-					{view:"textarea", id:"poissonText" , width:500, height:200, value: ""     }
-					]},
-*/				
-				{cols:[
-					{view:"form", id:"form_mean", width: 500,height:100, elements:[
-						{ view:"label",  label:"Distribution mean", width:200,height:30, align:"center"},  
-						{ view:"slider", id:"slider_mean", value: 5, min: 1, max: 15, width: 200, align:"center",
-						title:function(obj){return obj.value;}, 
-						on:{ onChange:function(){SCALA_mean( this.getValue() ); }
-						}}
-					]}, 
-
-					{view:"button", value:"Click me!", click:"SCALA_poisson()"}
-					]}
-					 
-			]
-		}
-
-	);//Einde derde webix.ui
 
 //======= De Hulpfuncties =======================================================
 
@@ -202,14 +119,30 @@ function ToonWaarden(){ //Bewaren
 </script>
 <!-- ======== Tot hier de webix scripts. Nu de ScalaJS scripts ====== -->
 
-<script type="text/javascript" src="../../assets/js/geneticsjs-opt_bmpoisson.js"></script>
+<script type="text/javascript" src="../../assets/js/geneticsjs-opt.js"></script>
 <!--<script type="text/javascript" src="target/scala-2.12/classes/workbench.js"></script>-->
 <script>
-	StartGraph.main(
-				   document.getElementById('canvas_poisson'),  //  html-widgets
-				   document.getElementById('tekstvak_poisson')
-				);
+	StartGraph.main();
+/*
+	StartGraph.main(document.getElementById('canvas'), 
+				   document.getElementById('tekstvak1'),
+				   document.getElementById('scalatags')
+				   );
+*/
 </script>
-<br><br><br><br>
+<br>
+Korte uitleg:<ul>
+<li>Het BM-algoritme probeert de zoekstring met steeds de lengte van het woord op te laten schuiven.
+<li>Als dat niet kan kiest het de voordeligste van twee substrategi&euml;n: de goodSuffix- en badCharacter-skip strategie.
+<li>Het vergelijkt de sequenties van achter naar voor, en bouwt van tevoren tabellen op.
+<li>Spaties in de statusregel zijn overgeslagen bij het zoeken, en dus winst voor het algoritme.
+</ul>
+<br><br><hr><br>
+<h1><a name="Poisson">Poisson</a></h1><br>
+Het Poisson-programmaatje was vooral een poging het canvas alsnog in te bedden in webix. Dat is (nog) niet gelukt.<br>
+Het enige doel dat het nu dient is dat het leuk is om te zien.<br>
+Het toont de kansverdeling van tamelijk zeldzame discrete voorvallen. Er wordt een faculteit berekend om de relative frequentie voor een aantal te vinden: vandaar dat het aantal staafjes tot 20 gaat.<br>
+(Misschien op te hogen door gebruik te maken van BigIntegers.)
+<br><br>
     </body> 
 </html>

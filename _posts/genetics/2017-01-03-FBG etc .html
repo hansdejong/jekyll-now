@@ -1,0 +1,42 @@
+---
+layout: post
+title: Aan de slag met Scala.js
+categories : [Genetics, _Scala]
+comments: true
+---
+
+De links op deze pagina hebben nog weinig met genetica te maken. Voor een GA is het hoogstens grappig algoritmen als Boyer-Moore en Poisson te gebruiken, maar niet essentieel.<br><br>
+
+Eerst moest ik vertrouwd worden met Scala.js, in ieder geval tot op het niveau van een bruikbaar alternatief voor een Java-applet. Daarbij moest ik ook een manier vinden om de GUI (grafische gebruikers interface) op te bouwen.<br>Uiteindelijk heb ik gekozen voor <a href="https://webix.com/tutorials/">webix</a>. Scala.js is een volwassen techniek, de combinatie met webix ben ik verder nog niet tegengekomen.<br><br>
+
+Wat wel van belang is, is allerlei soorten webix-controls en de communicatie tussen die controls en Scala.js onder de knie te krijgen.<br>
+Ook de conversie van Java naar Scala Is niet triviaal. Er is gebruik gemaakt van een on-line <a href="http://javatoscala.com/">Java to Scala converter</a>, maar dan begint het pas.
+
+<h3>FBG</h3>
+
+M'n startproject in Scala.js is een Force-Based-Graph.<br>
+Ik had het al in Java, het oorspronkelijke voorbeeld was een Flash-programmaatje. Het was een hele klus het om te werken naar Scala, maar leuk te zien dat de code er eleganter van werd.<br><br>
+
+<a href="/statics/fbg/fbg.html">Force Based Graph</a><br>
+
+<h3>Boyer-Moore</h3>
+Dat werkte. De communicatie Scala-JavaScript is nog niet helemaal compleet.<br> De volgende Scala.js-applet, die het Boyer-Moore zoekalgoritme weergeeft, roept ook native JS-code aan. Daarmee is de communicatie geen probleem meer. Alleen het Canvas is nog niet ingebed in webix, misschien dat dat lukt bij Poisson.<br><br>
+Het BM-algoritme had ik al eens ge&iuml;mplementeerd, maar er bleek een veelzijdiger applet van te circuleren die ik daarna heb gebruikt en nu omgezet naar Scala.<br><br>
+ 
+<a href="/statics/boyermoore/boyermoore.html#BM">Boyer Moore</a><br>
+
+
+<h3>Poisson</h3>
+
+De poissonverdeling is een statistische verdeling voor zeldzame gebeurtenissen, zoals het aantal dakpannen dat je op je hoofd krijgt in een storm, of zoals het v&ograve;&ograve;rkomen van mutaties in DNA.<br><br>
+
+<a href="/statics/boyermoore/boyermoore.html#Poisson">Poisson</a><br><br>
+
+
+<i>Overigens is dit algoritme overbodig voor een GA: als je DNA met een bepaalde waarschijnlijkheid laat muteren gaat dat gewoon volgens deze verdeling. Los daarvan is het selectieproces tamelijk ongevoelig voor dit soort details.<br> In het programma is &eacute;&eacute;n instelling de mutatiefrequentie<sup>*</sup>, en met dit algoritme krijg je de bijbehorende kans op mutaties. De natuur heeft echter weinig boodschap aan exacte freqenties.</i><br><br>
+<sup>*</sup><font size=2>Eigenlijk zijn het er meer, voor verschillende soorten mutaties</font>
+<br><br>
+<div align="Center"><b><i>Hier eindigen de inleidende tests.<br>
+"Nature" moet een begin maken met het GA-programma</i></b></div><br>
+
+
