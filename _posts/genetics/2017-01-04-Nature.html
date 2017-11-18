@@ -12,17 +12,17 @@ Die volgt zoveel mogelijk de natuurlijke opbouw van de genetische machinerie:<br
 <li>DNA (de dubbele helix, een chromosoom), wordt weergegeven als enkele string.<br>(Variaties in plo&iuml;die<sup>*</sup> worden meegenomen, maar zijn in de simulatie niet zo belangrijk. Wel om mutaties te demonsteren.) 
 <li>Meerdere chromosomen naast elkaar zijn mogelijk, ze vormen samen het genoom (genotype).
 <!--<li><font color="red"> genotype regelt bij mij conversie gene&lt;=&gt;array</font>-->
-<li>De basen coderen in tripletten voor aminozuren, er zijn ook stopcodons
+<li>De basen coderen in tripletten voor aminozuren, er zijn ook start- en stopcodons
 <li>Aminozuren vormen samen een eiwit (prote&iuml;ne)
 <li>Eiwitten vormen samen een prote&iuml;ne-pool (de verzameling eiwitten)
 <li>Op basis van de prote&iuml;ne-pool wordt uiteindelijk het fenotype van een organisme bepaald
 </ul>
-Overigens doen we niet aan meercelligheid.<br><br>
+Overigens doen we niet aan meercelligheid, net zo min als aan een ecosysteem (verschillende soorten populaties bij elkaar).<br><br>
 
 Los van deze natuurlijke datastructuren zal ook de levenscyclus moeten worden geprogrammeerd.<br><br><ul>
 <li>Organismen vormen een populatie, generaties volgen elkaar op.
 <li>Organismen doen het al dan niet goed op basis van hun fenotype in wisselwerking met hun omgeving (fitness)
-<li>Als ze overleven planten ze zich voort. Hun DNA muteert, ze wisselen het uit (recombinatie)
+<li>Als ze overleven planten ze zich voort. Hun DNA muteert, ze wisselen het uit (recombinatie/crossing over)
 </ul> 
 
 Tot hier zou je kunnen zeggen dat elk GA het zelfde zou kunnen zijn<br> (los van keuzes zoals imitatie van  de natuur belangrijker vinden dan effici&euml;ntie).<br><br>
@@ -37,6 +37,16 @@ Dit zal allemaal iets vrijer moeten zijn qua afspiegeling van de natuur. Zie daa
 <br><br>
 <div align="Center">TODO<br>
 (.............)</div><br>
+<table border="2">
+
+<tr><td align="center">
+<b>Stand van zaken</b><br>
+Los van de GUI ben ik ver gevorderd met <b>Nature</b>, <b>Compete</b> en <b>Convert</b> (de genetische machinerie, levenscyclus, competitie/selectie en omzetten van prote&iuml;ne-pool naar array).<br>
+Ik hik aan tegen het ontbreken van een SAX- (of desnoods DOM-) xml-parser voor Scala.js.<br>
+(In het origineel maak ik intensief gebruik van xml-schema.)<br>
+Misschien kan ik gebruik maken van de native Javascript xml-parser, of moet ik uitwijken naar JSON.
+</td></tr></table>
+
 
 <div align="Center"><b><i>Dit is het voorlopige einde van de Genetics-draad<br>
 Wordt vervolgd</i></b></div>
