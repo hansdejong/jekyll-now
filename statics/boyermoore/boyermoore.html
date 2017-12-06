@@ -76,9 +76,10 @@ Er wordt een faculteit berekend om de relative frequentie voor een aantal te vin
 
 Van de technische kant was Poisson vooral een poging het canvas alsnog in te bedden in webix. Dat is (nog) niet gelukt. Het voornaamste doel dat het nu dient is dat het leuk is om te zien.<br><br>
 Toch heeft het enkele Scala.js leermomentjes opgeleverd:<br><br>
-Per html-pagina heb je &eacute;&eacute;n codefile nodig. Als je werk-htmlbestand veel meer bevat (in dit geval bijvoorbeeld de FBG code), kun je het beste steeds een aparte branche maken waarna je die extra code eruit sloopt.<br> Je communiceert nl. op minstens drie manieren tussen Scala.js en html/javascript:<ul>
+Per html-pagina heb je &eacute;&eacute;n codefile nodig. Als je werk-htmlbestand veel meer bevat (in dit geval bijvoorbeeld de FBG code), kun je het beste steeds een aparte branche maken waarna je die extra code eruit sloopt.<br> Je communiceert nl. op minstens vier manieren tussen Scala.js en html/javascript:<ul>
 <li>via parameters van de opstart-main()
 <li>via vanuit Scala direct aan te roepen native js code
+<li>via direct benaderde HTML-elementen<br> (Bijvoorbeeld: dom.document.getElementById("xxx").innerHTML)
 <li>via vanuit js aan te roepen JSExport-Scalamethoden
 </ul>
 De eerste twee moeten tussen beide kanten corresponderen, je kan niet zomaar code niet gebruiken, dan missen er referenties.
