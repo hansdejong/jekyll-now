@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nieuwe politiek
-categories : [Brainstorm]
+categories : [Opinions, _Brainstorm]
 tags: [ASP, Ned. Leeuw]
 
 comments: true
