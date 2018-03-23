@@ -56,7 +56,7 @@ als die er maar geen religieuze activiteiten mee financiert.<br>
 In de eerste plaats wel ja. En daarna ga je kijken of die organisatie onze democratische waarden accepteert. Zaken als gelijkheid ...
 
 <b>Ruben:</b><br>
-Precies. Want dat is het natuurlijk probleem he, met salafistische organisaties. De geheime dienst, de Algemene inlichtingen en veiligheidsdienst (AIVD), 
+Precies. Want dat is natuurlijk het probleem he, met salafistische organisaties. De geheime dienst, de Algemene inlichtingen en veiligheidsdienst (AIVD), 
 zegt dat het organisaties zijn die het in zich hebben om ontwrichtend te kunnen zijn.
 
 <b>Sofyan:</b><br>
