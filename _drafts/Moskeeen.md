@@ -13,6 +13,10 @@ NRC, vrijdag 27 april: <a href="https://www.nrc.nl/nieuws/2018/04/27/wij-haten-i
 
 Nieuwspagina van Nieuwsuur, vrijdag 27 april: <a href="https://nos.nl/nieuwsuur/artikel/2229365-aivd-waarschuwde-den-haag-voor-omstreden-financier-as-soennah-moskee.html" target="_blank">AIVD waarschuwde den Haag voor omstreden financier as Soennah-moskee</a><br>
 
+Telegraaf, zaterdag 28 april: <a href="https://www.telegraaf.nl/nieuws/1973565/krikke-berichten-over-moskee-zorgwekkend?utm_source=twitter&utm_medium=referral&utm_campaign=twitterfeed
+" target="_blank">Wilders wil As Soennah-moskee sluiten</a>, ook reactie burgemeester Krikke.<br>
+
+
 Pagina met Nieuwsuur link: <a href="https://nos.nl/nieuwsuur/artikel/2228984-ministerie-hield-informatie-over-moskeeen-achter-voor-gemeenten.html" target="_blank">AANPASSENMinisterie hield informatie over moskee&euml;n achter voor gemeenten</a><br>
 
 
@@ -21,7 +25,7 @@ Pagina met Nieuwsuur link: <a href="https://nos.nl/nieuwsuur/artikel/2228984-min
 
 
 
-<i><b>Sprekers:</b> Twan Huys, Dominique van der Heyden, ettelijke imams. Verder beelden uit een verslag van Milena Holdert en Andreas Kouwenhoven met onder andere Abdallah Laaouej en Hajer Harzi (oud-moskeebezoekers) en oud(?)-moskeevoorzitter Stefan Zentveld. Plus een rolletje voor Jan Paternotte (D66), Sadet Karabulut (SP), en minister Stef Blok (VVD).
+<i><b>Sprekers:</b> Twan Huys, Dominique van der Heyde, ettelijke imams. Verder beelden uit een verslag van Milena Holdert en Andreas Kouwenhoven met onder andere Abdallah Laaouej en Hajer Harzi (oud-moskeebezoekers) en oud(?)-moskeevoorzitter Stefan Zentveld. Plus een rolletje voor Jan Paternotte (D66), Sadet Karabulut (SP), en minister Stef Blok (VVD).
 </i>
 
 
