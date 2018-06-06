@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Politie-iftar
-categories : [Opinions, _Ondertiteling]
+categories : [Opinions]
 tags: [Islam, politie]
 
 comments: true
