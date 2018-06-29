@@ -1,0 +1,289 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/opstartsite.css"><br>
+	<link rel="stylesheet" href="../../assets/css/tele2site.css" TYPE="text/css"">
+	<title>
+		Monads en zo
+	</title>
+	<link rel="stylesheet" href="/home/hans/Documenten/html/styles/default.css">
+	<script src="/home/hans/Documenten/html/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body bgcolor="lightgrey">
+	<h1><a href="http://learnyouahaskell.com/chapters" target="_blank">Monads en zo</a><h1>
+	<h3>Wat ik er nu van begrijp</h3>
+	<div class="klein">(Opmerkingen / aanvullingen dus welkom.)</div>
+	
+<ul>
+<li>Het gaat om operaties op elementen (waarden of functies), vaak (ingekapseld) binnen een structuur, een <b>context</b>.<br>
+List en Maybe/Option bijvoorbeeld hebben een samengesteld "kind" (metatype): ze hebben een ander type nodig voor de constructie. Ze zijn daarmee de context van dat andere type.<br>
+Die operaties gaan goed als die elementen  of structuren aan een aantal laws voldoen.<br>
+Die laws monden vaak uit in primitives, typeclass-methoden.
+<li>Er zijn vijf groepen elementen of structuren. Die voldoen aan een oplopend aantal laws, waar<br>
+- steeds minder elementen aan voldoen.<br>
+- steeds meer operaties op zijn toegestaan.<br>
+<li>Er is een cesuur tussen Monoid en Functor (Functor  is geen stricte subclass van Monoid). Sommige Monads of Functors kunnen optreden als Monoid.<br>
+<i>Het laatste klopt niet in stricte zin: een Monoid betreft altijd concrete types (vereist geen typeparameter, zoals bij <b>Int</b>, of die parameters zijn ingevuld, zoals bij <b>List Char</b>).<br>
+Een Functor (en dus ook Monad) vereist een parameter (is een context).</i>
+
+</ul>
+<h3>Laws</h3>
+<div class="klein">Het gaat steeds om een set S met bijbehorende binary operatie O.</div>
+<ul>
+<li><b>Closure</b>: Toepassen van O op twee elementen van S levert weer een element van S op.
+<li><b>Associativity</b>: Bij het paarsgewijs combineren van elementen doet de volgorde er niet toe.
+<div class="klein">(Soms wel van de elementen, zoals bij string-concatenatie, maar niet van de operaties, de plaats van de haakjes.<br>
+Aftrekken is zodoende niet associatief, (5 - 3) - 4 != 5 - (3 - 4))</div>
+<li><b>Identity</b>,  <b>unit</b> of <b>return</b>: er bestaat een identityelement met een identity operatie die het uitgangselement oplevert.<br>
+(Bij optellen is dit bijvoorbeeld 0, bij vermenigvuldigen 1.)
+<li><b>Compose</b>: f(g(a)) = f&bull;g(a)
+<li><b>Pure</b>: def pure[A] (a:A) : F[A]
+<li><b>&lt;*> of Ap</b>: def ap[A, B] (fa:F[A]) (fab: F[ A=>B ]) : F[B]<br>
+override def map [A,B] (fa: F[A]) (fab: A => B): F[B]=ap(fa)(pure(fab))
+<li><b>flatMap</b> (of <b>bind, >>=</b>)
+</ul>
+<h3>Het nut van Monads voor de programmeur</h3>
+<div class="klein">Ik spreek hier alleen over Monads. Het zal duidelijk zijn dat voor sommige toepassingen het zijn van bijvoorbeeld Functor toereikend is.</div>
+<ul>
+<li>Veel standaardtypen, zoals Lists in Haskell en Scala, zijn bulkcontainers,  en ze zijn ook vaak Monads. Dat geldt soms ook voor zelf gedefinieerde typen zoals een Tree.<br> 
+Bewerkingen op de componenten daarvan zijn vaak gemakkelijk te combineren of aaneen te schakelen (composing of chaining).<br>
+Andere bulkbewerkingen leveren een totaalresultaat op (reducing of folding).
+
+<li>"Kleinere"  standaardtypen (zoals Maybe/Option van respectievelijk Haskell/Scala) kunnen gebruikt worden om uitzonderingsgevallen elegant af te handelen.<br> 
+Als een component niet bestaat of een fout oplevert kan die worden genegeerd, of kan de totale bulkoperatie worden afgeblazen zonder eindeloze if-then-else, case of try-catch constructies.
+<li>Monads worden ook gebruikt om operaties met zij-effecten af te handelen. Het kan daarbij gaan om het rapporteren van tussenresultaten (logging), IO-operaties, random-input of het bijhouden van state.<br>
+In puur functionele code is dit allemaal onmogelijk (functies leveren eenduidig resultaat op basis van hun input en veranderen niets aan de buitenwereld). Met Monads echter is hier een mouw aan te passen, 
+doordat het bijeffect in de context wordt meegenomen en in de implementatie van <b>>>=</b> wordt verdisconteerd. 
+Vooral in Haskell is dit soort code duidelijk te onderscheiden van de puur functionele code. (In Scala valt te smokkelen, maar in Haskell zijn bijeffecten beperkt tot dit soort Monads.) 
+<li>Functionele talen kenmerken zich door een focus op data-flow i.p.v. control-flow, en daarbij ook op het gebruik van zeer uitgebreide standaardbibliotheken met geoptimaliseerde standaardfuncties voor standaard-datastructuren
+(vaak Monads). Dit i.t.t. de OOP (Object Oriented Programming) benadering van het bouwen van custom datastructuren met custom operaties.<br>
+Het puur functionele deel van de code bestaat eerder uit een verzameling definities of vergelijkingen zonder invloed op de buitenwereld (zoals dat gebruikelijk is in de wiskunde), dan uit een seri&euml;le opeenvolging van instructies (met aanpassing van veranderlijke variabelen) zoals bij vooral imperatieve, 
+maar ook OOP-code het geval is. De nadruk ligt daardoor ook minder op de volgorde van de instructies, want definities sprokkelt de compiler zelf wel bij elkaar.<br>
+Zodoende wordt vaak gezegd dat een functionele programmeur zich meer bezighoudt met beschrijving van het wat dan van het hoe.<br>
+
+</ul>
+
+<hr size="5" noshade>
+<table border="1" width="100%" bgcolor="white">
+<tr valign="top">
+	<th colspan="2">I. Semigroep</th>
+</tr>
+<tr>
+
+	<td width="20%">
+		Voorbeelden<br>
+		<b>Constructor: *</b><br>
+	</td>
+	<td >
+		Set gehele getallen met + of * operatie: (4 + 10) + 2 = 4 + (10 +2)<br>
+		<div class="klein">Vraagje: Voorbeeld zonder identity?</div>
+ 	</td>
+</tr>
+<tr>
+	<td>
+		Laws<br>
+	</td>
+	<td >
+		<b>Closure</b> en <b>Associativity<br>
+ 	</td>
+
+</tr>
+<tr>
+
+	<td>
+		Operatie<br>
+	</td>
+	<td >
+		append<br>
+ 	</td>
+
+</tr>
+</table>
+<br>
+<table border="1" width="100%" bgcolor="white">
+<tr valign="top">
+	<th colspan="2">II. Monoid</th>
+</tr>
+<tr>
+
+	<td width="20%">
+		Voorbeelden<br>
+	</td>
+	<td >
+		Set gehele getallen met + of * operatie: a+0=a, a*1=a<br>
+		Lists, Bool, Ordering, Maybe, zelfgedefinieerde Tree.
+	</td>
+
+</tr>
+<tr>
+
+	<td>
+		Laws
+	</td>
+	<td >
+		Als Semigroep, met <b>Identity</b><br>
+<ul>
+    <li>mempty `mappend` x = x
+    <li>x `mappend` mempty = x
+    <li>(x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)
+</ul>
+<i>(<b>mempty</b> vertegenwoordigt het identity-element voor een bepaalde monoid met operatie, <b>mappend</b> is de binaire functie.<br>
+<b>mconcat</b> is een secundaire functie die een lijst monoids via een fold-operatie reduceert tot een enkele waarde.<br> mconcat is een ongelukkige naam, bij een optelling bijvoorbeeld wordt er niets aan elkaar geplakt.)</i>
+	</td>
+
+</tr>
+<tr>
+
+	<td>
+		Operaties<br>
+	</td>
+	<td >
+		Als Semigroep, aangevuld met de zero-operatie.<br>
+	</td>
+
+</tr>
+</table>
+<br><hr width="60%" size="5"><br>
+
+<table border="1" width="100%" bgcolor="white">
+<tr valign="top">
+	<th colspan="2">III. Functor</th>
+</tr>
+
+<tr>
+	<td width="20%">
+		Voorbeelden<br>
+		<b>Unary type constructor:&nbsp; *->*<br>
+		Binary type constructor: *->*->*<br>
+		Functor[F[_]]</b><br>
+	</td>
+	<td >
+		<b>Scala:</b> List, Option, Set, Either, Try, Future... <br> 
+		<b>Haskell:</b> List, Maybe, eigen Tree, Either, Function ...<br>
+		<div class="klein">"Alles waarover gemapt kan worden", het toepassen van een functie op waarde[n] in een context.</div>
+		<div class="klein">Mapping over een functie is functie-composition (<a href="http://nicholas.ren/2014/03/28/monad.html" target="_blank">Nicholas</a>, zie ook LYAH Functor)</div>
+	</td>
+</tr>
+<tr>
+	<td>
+		Laws
+	</td>
+	<td >
+		<b>Identity</b> en <b>Compose</b><br>
+		<dl>
+<dt>1. Indentity
+<dd><b>fmap id = id</b>
+<dt>2. Compose
+<dd><b>fmap (f . g) = fmap f . fmap g</b> , oftewel<br>
+<b>fmap (f . g) F = fmap f (fmap g F)</b>
+</dl>
+	</td>
+</tr>
+<tr>
+	<td>
+		Operatie
+	</td>
+	<td >
+		E&eacute;n typeclass-methode: <b>fmap :: (a -> b) -> f a -> f b</b><br>
+		(map is de List-implementatie van fmap)<br>
+		<div class="klein">Map, Either, Function1 zijn binary, daarbij moet de operatie partieel, in stappen worden toegepast.</div>
+	</td>
+</tr>
+</table>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------->
+<br>
+<table border="1" width="100%" bgcolor="white">
+<tr valign="top">
+	<th colspan="2">IV. Applicative (-Functor)</th>
+</tr>
+<tr>
+	<td width="20%">
+		Voorbeelden
+	</td>
+	<td >
+		Voorlopig: De toegepaste functie kan zich zelf ook binnen een context bevinden<br>
+	</td>
+</tr>
+<tr>
+	<td>
+		Laws
+	</td>
+	<td >
+<ul>
+<li>pure f &lt;*> x == fmap f x
+<li>pure id &lt;*> v == v
+<li>pure (.) &lt;*> u &lt;*> v &lt;*> w = u &lt;*> (v &lt;*> w)
+<li>pure f &lt;*> pure x = pure (f x)
+<li>u &lt;*> pure y = pure ($ y) &lt;*> u
+</ul>
+	</td>
+</tr>
+<tr>
+	<td>
+		Operaties
+	</td>
+	<td >
+	Als Functor, met <b>Pure</b> <i>(Wrapt value in applicative),</i><br>
+	en <b>Ap</b> of <b>&lt;*&gt;</b><i>(Neemt een applicative met een functie er in en een andere applicative, extraheert de functie(s) uit de eerste en mapt die over de tweede)</i><br>
+	</td>
+</tr>
+</table>
+
+<br>
+<table border="1" width="100%" bgcolor="white">
+<tr valign="top">
+	<th colspan="2">V. Monad</th>
+</tr>
+<tr>
+	<td width="20%">
+		Voorbeelden<br>
+		<b>Higher order type operator: (*->*)->*<br>
+		Monad[M[_]]</b><br>
+		<div class="klein">M[_] staat voor een unary type-constructor als List of Option</div>
+	</td>
+	<td >
+		<b>Scala:</b> List, Option, Set, Either, Try, Future... <br> 
+		<b>Haskell:</b> List, Maybe, Tree?, Either, ...<br>
+	</td>
+</tr>
+<tr>
+	<td>
+		Laws
+	</td>
+	<td >
+<dl>
+    <dt><b>Left identity</b>
+    <dd><b>return x >>= f</b> is het zelfde als <b>f x</b>
+    <dt><b>Right identity</b>
+    <dd><b>m >>= return</b> is gelijk aan <b>m</b>
+<dt><b>Associativity</b>
+<dd>Het resultaat van <b>(m >>= f) >>= g</b> is gelijk aan dat van <b>m >>= (\x -> f x >>= g)</b>
+ </dl>
+	</td>
+</tr>
+<tr>
+	<td>
+		Operaties
+<pre><code class="haskell">
+class Applicative m => Monad m where
+    return :: a -> m a
+    (>>=)  :: m a -> (a -> m b) -> m b
+ 
+    (>>)   :: m a -> m b -> m b
+    fail   :: String -> m a
+</code></pre>
+	</td>
+	<td >
+		Als Applicative, met <b>bind</b>, <b>>>=</b> of <b>do-notation</b>. (In Scala: <b>flatMap</b>.)<br><br>
+		Naast <b>bind</b> dient <b>return</b> voor het wrappen van een waarde in de monad (als pure bij de applicative), en <b>>></b> ("then") voor het chainen van monadische acties die het resultaat van de voorganger niet nodig hebben. 
+		<b>fail</b> is alleen intern nodig voor pattern-match failures in do-notation.
+	</td>
+</tr>
+</table>
+
+<br><br><br><br>
+
+</body>
+</html>
+
