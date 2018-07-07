@@ -34,7 +34,7 @@ Een Functor (en dus ook Monad) vereist een parameter (is een context).</i>
 <li><b>Associativity</b>: Bij het paarsgewijs combineren van elementen doet de volgorde er niet toe.
 <div class="klein">(Soms wel van de elementen, zoals bij string-concatenatie, maar niet van de operaties, de plaats van de haakjes.<br>
 Aftrekken is zodoende niet associatief, (5 - 3) - 4 != 5 - (3 - 4))</div>
-<li><b>Identity</b>,  <b>unit</b> of <b>return</b>: er bestaat een identityelement met een identity operatie die het uitgangselement oplevert.<br>
+<li><b>Identity</b>,  <b>zero</b>,  <b>unit</b> of <b>return</b>: er bestaat een identityelement met een identity operatie die het uitgangselement oplevert.<br>
 (Bij optellen is dit bijvoorbeeld 0, bij vermenigvuldigen 1.)
 <li><b>Compose</b>: f(g(a)) = f&bull;g(a)
 <li><b>Pure</b>: def pure[A] (a:A) : F[A]
@@ -57,8 +57,9 @@ doordat het bijeffect in de context wordt meegenomen en in de implementatie van 
 Vooral in Haskell is dit soort code duidelijk te onderscheiden van de puur functionele code. (In Scala valt te smokkelen, maar in Haskell zijn bijeffecten beperkt tot dit soort Monads.) 
 <li>Functionele talen kenmerken zich door een focus op data-flow i.p.v. control-flow, en daarbij ook op het gebruik van zeer uitgebreide standaardbibliotheken met geoptimaliseerde standaardfuncties voor standaard-datastructuren
 (vaak Monads). Dit i.t.t. de OOP (Object Oriented Programming) benadering van het bouwen van custom datastructuren met custom operaties.<br>
-Het puur functionele deel van de code bestaat eerder uit een verzameling definities of vergelijkingen zonder invloed op de buitenwereld (zoals dat gebruikelijk is in de wiskunde), dan uit een seri&euml;le opeenvolging van instructies (met aanpassing van veranderlijke variabelen) zoals bij vooral imperatieve, 
-maar ook OOP-code het geval is. De nadruk ligt daardoor ook minder op de volgorde van de instructies, want definities sprokkelt de compiler zelf wel bij elkaar.<br>
+Het puur functionele deel van de code bestaat eerder uit een verzameling definities of vergelijkingen zonder invloed op de buitenwereld (zoals dat gebruikelijk is in de wiskunde), 
+dan uit een seri&euml;le opeenvolging van instructies (met aanpassing van veranderlijke variabelen) zoals bij vooral imperatieve, 
+maar ook OOP-code het geval is. De code is nog steeds sequentieel, maar de nadruk ligt toch minder op de volgorde van de instructies, want definities, eenmaal gedefini&euml;erd, sprokkelt de compiler zelf wel bij elkaar.<br>
 Zodoende wordt vaak gezegd dat een functionele programmeur zich meer bezighoudt met beschrijving van het wat dan van het hoe.<br>
 
 </ul>
@@ -281,6 +282,8 @@ class Applicative m => Monad m where
 	</td>
 </tr>
 </table>
+<br><div class="klein">Net als de Applicative (-Functor) is ook Arrow een superclass van Monad, maar deze past niet helemaal in dit rijtje.
+Arrows missen een andere law en hebben een ander toepassingsgebied (o.a. parsers).</div>
 
 <br><br><br><br>
 
