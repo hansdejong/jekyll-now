@@ -28,7 +28,8 @@ Een Functor (en dus ook Monad) vereist een parameter (is een context).</i>
 
 </ul>
 <h3>Laws</h3>
-<div class="klein">Het gaat steeds om een set S met bijbehorende binary operatie O.</div>
+<div class="klein">Het gaat steeds om een set S met bijbehorende binary operatie O.<br>
+Sommige "synoniemen" betreffen weliswaar dezelfde operatie, maar horen bij verschillende niveaus. Zo is Ap de Monad-versie van &lt;*&gt; (Functor-versie).</div>
 <ul>
 <li><b>Closure</b>: Toepassen van O op twee elementen van S levert weer een element van S op.
 <li><b>Associativity</b>: Bij het paarsgewijs combineren van elementen doet de volgorde er niet toe.
