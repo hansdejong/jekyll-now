@@ -24,7 +24,7 @@ Die laws monden vaak uit in primitives, typeclass-methoden.
 - steeds meer operaties op zijn toegestaan.<br>
 <li>Er is een cesuur tussen Monoid en Functor (Functor  is geen stricte subclass van Monoid). Sommige Monads of Functors kunnen optreden als Monoid.<br>
 <i>Het laatste klopt niet in stricte zin: een Monoid betreft altijd concrete types (vereist geen typeparameter, zoals bij <b>Int</b>, of die parameters zijn ingevuld, zoals bij <b>List Char</b>).<br>
-Een Functor (en dus ook Monad) vereist een parameter (is een context).</i>
+Een Functor (en dus ook een Monad) vereist een parameter (is een context).</i>
 
 </ul>
 <h3>Laws</h3>
@@ -248,7 +248,9 @@ Zodoende wordt vaak gezegd dat een functionele programmeur zich meer bezighoudt 
 	<td >
 		<b>Scala:</b> List, Option, Set, Either, Try, Future... <br> 
 		<b>Haskell:</b> List, Maybe, Tree?, Either, ...<br>
-	</td>
+		
+		<div class="klein">"Informeel is een monad alles met een constructor en een flatMap methode."</div>
+		<!--Scala with Cats blz. 77.-->	</td>
 </tr>
 <tr>
 	<td>
