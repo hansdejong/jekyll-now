@@ -39,7 +39,7 @@ Aftrekken is zodoende niet associatief, (5 - 3) - 4 != 5 - (3 - 4))</div>
 (Bij optellen is dit bijvoorbeeld 0, bij vermenigvuldigen 1.)
 <li><b>Compose</b>: f(g(a)) = f&bull;g(a)
 <li><b>Pure</b> of <b>return</b>: def pure[A] (a:A) : F[A]<!--Verbeterd-->
-<li><b>&lt;*></c> of <b>Ap</b>: def ap[A, B] (fa:F[A]) (fab: F[ A=>B ]) : F[B]<br>
+<li><b>&lt;*></b> of <b>ap</b>: def ap[A, B] (fa:F[A]) (fab: F[ A=>B ]) : F[B]<br>
 override def map [A,B] (fa: F[A]) (fab: A => B): F[B]=ap(fa)(pure(fab))
 <li><b>flatMap</b> (of <b>bind, >>=</b>)
 </ul>
@@ -228,7 +228,7 @@ Zodoende wordt vaak gezegd dat een functionele programmeur zich meer bezighoudt 
 	</td>
 	<td >
 	Als Functor, met <b>Pure</b> <i>(Wrapt value in applicative),</i><br>
-	en <b>Ap</b> of <b>&lt;*&gt;</b><i>(Neemt een applicative met een functie er in en een andere applicative, extraheert de functie(s) uit de eerste en mapt die over de tweede)</i><br>
+	en <b>ap</b> of <b>&lt;*&gt;</b><i>(Neemt een applicative met een functie er in en een andere applicative, extraheert de functie(s) uit de eerste en mapt die over de tweede)</i><br>
 	</td>
 </tr>
 </table>
