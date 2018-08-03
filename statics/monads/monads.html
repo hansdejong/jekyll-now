@@ -35,10 +35,10 @@ Sommige "synoniemen" betreffen weliswaar dezelfde operatie, maar horen bij versc
 <li><b>Associativity</b>: Bij het paarsgewijs combineren van elementen doet de volgorde er niet toe.
 <div class="klein">(Soms wel van de elementen, zoals bij string-concatenatie, maar niet van de operaties, de plaats van de haakjes.<br>
 Aftrekken is zodoende niet associatief, (5 - 3) - 4 != 5 - (3 - 4))</div>
-<li><b>Identity</b>,  <b>zero</b>,  <b>unit</b> of <b>return</b>: er bestaat een identityelement met een identity operatie die het uitgangselement oplevert.<br>
+<li><b>Identity</b>,  <b>zero</b> of  <b>unit</b><!-- of <b>return</b>-->: er bestaat een identityelement met een identity operatie die het uitgangselement oplevert.<br>
 (Bij optellen is dit bijvoorbeeld 0, bij vermenigvuldigen 1.)
 <li><b>Compose</b>: f(g(a)) = f&bull;g(a)
-<li><b>Pure</b>: def pure[A] (a:A) : F[A]
+<li><b>Pure</b> of <b>return</b>: def pure[A] (a:A) : F[A]<!--Verbeterd-->
 <li><b>&lt;*> of Ap</b>: def ap[A, B] (fa:F[A]) (fab: F[ A=>B ]) : F[B]<br>
 override def map [A,B] (fa: F[A]) (fab: A => B): F[B]=ap(fa)(pure(fab))
 <li><b>flatMap</b> (of <b>bind, >>=</b>)
