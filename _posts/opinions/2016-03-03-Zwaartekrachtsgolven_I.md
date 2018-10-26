@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Gravitatiegolven
+title: Gravitatiegolven I
 categories : [Opinions, _KNAW]
 comments: True
 ---
 
-<h2>Zwaartekrachtsgolven</h2> 
+<h2>Zwaartekrachtsgolven</h2>
+*(Zie ook 2017-10-27, Gravitatiegolven II)*
 
 Een week geleden heb ik een KNAW-symposium over zwaartekrachtsgolven bezocht.<br>(Donderdag 25-2-16 in het Amsterdamse Trippenhuis).
 
