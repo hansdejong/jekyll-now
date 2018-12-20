@@ -56,6 +56,7 @@ Als een component niet bestaat of een fout oplevert kan die worden genegeerd, of
 In puur functionele code is dit allemaal onmogelijk (functies leveren eenduidig resultaat op basis van hun input en veranderen niets aan de buitenwereld). Met Monads echter is hier een mouw aan te passen, 
 doordat het bijeffect in de context wordt meegenomen en in de implementatie van <b>>>=</b> wordt verdisconteerd. 
 Vooral in Haskell is dit soort code duidelijk te onderscheiden van de puur functionele code. (In Scala valt te smokkelen, maar in Haskell zijn bijeffecten beperkt tot dit soort Monads.) 
+In Scala is de for-expression de ideale syntax om met Monads om te gaan.
 <li>Functionele talen kenmerken zich door een focus op data-flow i.p.v. control-flow, en daarbij ook op het gebruik van zeer uitgebreide standaardbibliotheken met geoptimaliseerde standaardfuncties voor standaard-datastructuren
 (vaak Monads). Dit i.t.t. de OOP (Object Oriented Programming) benadering van het bouwen van custom datastructuren met custom operaties.<br>
 Het puur functionele deel van de code bestaat eerder uit een verzameling definities of vergelijkingen zonder invloed op de buitenwereld (zoals dat gebruikelijk is in de wiskunde), 
