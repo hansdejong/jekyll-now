@@ -281,7 +281,7 @@ class Applicative m => Monad m where
 	</td>
 	<td >
 		Als Applicative, met <b>bind</b>, <b>>>=</b> of <b>do-notation</b>. (In Scala: <b>flatMap</b>.)<br><br>
-		Naast <b>bind</b> dient <b>return</b> voor het wrappen van een waarde in de monad (zoals <b>pure</b> bij de applicative), en <b>>></b> ("then") voor het chainen van monadische acties die het resultaat van de voorganger niet nodig hebben. 
+		Naast <b>bind</b> dient <b>return</b> voor het wrappen van een waarde in de monad (een "lift"-functie, zoals <b>pure</b> bij de applicative), en <b>>></b> ("then") voor het chainen van monadische acties die het resultaat van de voorganger niet nodig hebben. 
 		<b>fail</b> is alleen intern nodig voor pattern-match failures in do-notation.
 	</td>
 </tr>
