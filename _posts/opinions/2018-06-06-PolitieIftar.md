@@ -9,7 +9,7 @@ comments: true
 
 Er zijn vlak na elkaar (4 en 5 juni) op twitter twee foto's verschenen met politie in uniform, iftar vierend. E&eacute;n over de politie Rotterdam, en eerder &eacute;&eacute;n over de politie Amsterdam. 
 
-Ik heb daar op gereageerd met een enigszins verontwaardigde tweet (zie hieronder). Bij de Amsterdamse tweet had ik een conceptje aangemaakt maar niet verstuurd, bij de Rotterdamse heb ik dat weer opgeduikeld (het moet namelijk niet gekker worden) en het met een kleine aanpassing gepost, nog niet eens doorhebbend dat de twee tweets van dezelfde Iza afkomstig waren. (Sarah Izat blijkt achteraf bij de Rotterdamse politie te werken. Zie bijvoorbeeld <a href="https://www.trouw.nl/opinie/wie-als-ambtenaar-in-functie-een-hoofddoek-draagt-geeft-blijk-van-eigen-ongeschiktheid~a66c6a8f/">Patrick van Schie, directeur Telders-stichting</a>, hij blijkt me voor te zijn geweest. <i>Link naar Trouw, meestal kun je gratis een aantal artikelen lezen.</i>) Nu gebeurt dat laatste wel meer: iemand, of een collectief met een uitgesproken mening pusht een bepaalde actie of houding.
+Ik heb daar op gereageerd met een enigszins verontwaardigde tweet (zie hieronder). Bij de Amsterdamse tweet had ik een conceptje aangemaakt maar niet verstuurd, bij de Rotterdamse heb ik dat weer opgeduikeld (het moet namelijk niet gekker worden) en het met een kleine aanpassing gepost, nog niet eens doorhebbend dat de twee tweets van dezelfde Iza afkomstig waren. (Sarah Izat blijkt achteraf bij de Rotterdamse politie te werken. Zie bijvoorbeeld <a href="https://www.trouw.nl/opinie/wie-als-ambtenaar-in-functie-een-hoofddoek-draagt-geeft-blijk-van-eigen-ongeschiktheid~a66c6a8f/" target="_blank">Patrick van Schie, directeur Telders-stichting</a>, hij blijkt me voor te zijn geweest. <i>Link naar Trouw, meestal kun je gratis een aantal artikelen lezen.</i>) Nu gebeurt dat laatste wel meer: iemand, of een collectief met een uitgesproken mening pusht een bepaalde actie of houding.
 
 Een van de reacties was van een zekere Pim Jong Oen. Waarschijnlijk niet zijn of haar echte naam, maar de reactie klinkt inhoudelijk serieus genoeg om te proberen een onderbouwing te formuleren. En ook sommige dienders zullen misschien denken dat ze goed bezig zijn, toch?
 
@@ -35,6 +35,10 @@ Graag gedaan.
 <i>Mijn tweet</i><br><br>
 ![Pim Jong Oen]({{ site.baseurl }}/assets/pictures/jongoen.png)
 <i>Pim Jong Oen</i><br><br>
+
+Zie ook:<br>
+<a href="http://www.carelbrendel.nl/2017/06/23/imam-gebruikt-amsterdamse-politie-om-islamitisch-centrum-te-promoten/" target="_blank">Karel Brendel</a> 23-06-2017<br>
+<a href="https://twitter.com/CarelBrendel/status/1091365975562309634" target="_blank">Karel Brendel</a> 01-02-2019<br>
 
 
 
