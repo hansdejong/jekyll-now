@@ -41,7 +41,7 @@ Iedereen kent het "Not-In-My-Backyard"-fenomeen, maar de al komende statushouder
 Er werd bij de bijeenkomst al gevraagd om inzet van de buurt bij de inburgering. Enkelen reageerden daar positief op. Zelf had ik me al een beetje voorgenomen misschien iets te proberen op het gebied van taal- of ICT-cursussen bij de reeds op de rol staande statushouders. Ik heb overigens slechte ervaringen met de inzet, en van wat ik hoor van reguliere integratie-inspanningen is het niveau vaak bedroevend.
 
 Ik heb weinig animo me daarnaast ook nog eens te storten op "We&nbsp;Are&nbsp;Here"-achtige types met veel minder perspectief.<br>
-(Ik kreeg overigens meteen een standje van Groot&nbsp;Wassink toen ik die term gebruikte, en eerder in de zaal werd gesuggeerd dat er misschien rekening zou worden gehouden met de buurt bij de groepssamenstelling.)
+(Ik kreeg overigens meteen een standje van Groot&nbsp;Wassink toen ik die term gebruikte, en eerder in de zaal werd gesuggereerd dat er misschien rekening zou worden gehouden met de buurt bij de groepssamenstelling.)
 
 
 
