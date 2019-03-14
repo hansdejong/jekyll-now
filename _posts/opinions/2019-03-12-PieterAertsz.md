@@ -36,7 +36,7 @@ Vooropgesteld: dit is beter dan niets. Nu weten we wat ons misschien boven het h
 
 Rutger&nbsp;Groot&nbsp;Wassink bracht dat als heel vooruitstrevend: vaak wordt de  bevolking gewoon met voldongen feiten geconfronteerd. Het heeft ook zeker het voordeel dat men een indruk krijgt van het draagvlak in de buurt.<br>
 Maar voor echte inspraak is meer nodig. Alles waar begrip voor is, wat wordt "meegenomen" of toegezegd (zoals die 24-uurs interne begeleiding) is boterzacht. Echte inspraak over het &uuml;berhaupt doorgaan is er niet.<br>
-Iedereen kent het "Not-In-My-Backyard"-fenomeen, maar de al komende statushouders zijn bijvoorbeeld nauwelijks genoemd: die backyard is ook wel eens vol.
+Iedereen kent het "Not-In-My-Back-Yard"-fenomeen, maar de al komende statushouders zijn bijvoorbeeld nauwelijks genoemd: die back yard is ook wel eens vol.
 
 Er werd bij de bijeenkomst al gevraagd om inzet van de buurt bij de inburgering. Enkelen reageerden daar positief op. Zelf had ik me al een beetje voorgenomen misschien iets te proberen op het gebied van taal- of ICT-cursussen bij de reeds op de rol staande statushouders. Ik heb overigens slechte ervaringen met de inzet, en van wat ik hoor van reguliere integratie-inspanningen is het niveau vaak bedroevend.
 
