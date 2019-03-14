@@ -6,7 +6,7 @@ tags : [asielzoekers, pijp, inspraak]
 comments: true
 ---
 
-Dinsdag 12 maart was er een voorlichtingsavond in mijn buurt, de Amsterdamse Pijp, over de mogelijke opening van een "24 uurs opvang voor achtendertig ongedocumenteerden."
+Dinsdag 12 maart was er een voorlichtingsavond in mijn buurt, de Amsterdamse Pijp, over de mogelijke opening van een "24 uurs opvang voor achtendertig ongedocumenteerden".
 
 Omwonenden van het beoogde pand waren uitgenodigd in de Oranjekerk. De belangrijkste spreker was de Groen-Links wethouder Rutger&nbsp;Groot&nbsp;Wassink. Verder waren er vooral mensen van vluchtelingenorganisaties (o.a. ASKV: Amsterdams Solidariteits Komitee Vluchtelingen, *de spelling is niet van mij*), en het stadsdeel.<br>
 (De wijkagente zat in het publiek, woningbouwcorporaties zoals Eigen Haard heb ik niet gesignaleerd.)
@@ -34,7 +34,8 @@ Zelf opperde ik in de vergadering dat &agrave;ls de opvang er zou komen er dan o
 ### Mijn eigen mening over deze vorm van "inspraak"
 Vooropgesteld: dit is beter dan niets. Nu weten we wat ons misschien boven het hoofd hangt.
 
-Rutger&nbsp;Groot&nbsp;Wassink bracht dat als heel vooruitstrevend: vaak wordt de  bevolking gewoon met voldongen feiten geconfronteerd. Het heeft ook zeker het voordeel dat men een indruk krijgt van het draagvlak in de buurt.<br>
+Rutger&nbsp;Groot&nbsp;Wassink bracht dat als heel vooruitstrevend: vaak wordt de  bevolking gewoon met voldongen feiten geconfronteerd. Het heeft ook zeker het voordeel dat men een indruk krijgt van het draagvlak in de buurt.
+
 Maar voor echte inspraak is meer nodig. Alles waar begrip voor is, wat wordt "meegenomen" of toegezegd (zoals die 24-uurs interne begeleiding) is boterzacht. Echte inspraak over het &uuml;berhaupt doorgaan is er niet.<br>
 Iedereen kent het "Not-In-My-Back-Yard" NIMBY-fenomeen, maar de al komende statushouders zijn bijvoorbeeld nauwelijks genoemd: die back yard is ook wel eens vol.
 
