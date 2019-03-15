@@ -71,6 +71,9 @@ Want vanochtend was Geert Wilders te gast in het ochtendprogramma van WNL, en da
 ![Paul Jansen, Sjors Fröhlich]({{ site.baseurl }}/assets/pictures/jansen frohlich.png)
 <i>Paul Jansen, Sjors Fröhlich</i><br>
 
+![Carl-Johan de Zwart]({{ site.baseurl }}/assets/pictures/CJdeZwart.png)
+<i>Carl-Johan de Zwart</i><br>
+
 
 <hr>
 
