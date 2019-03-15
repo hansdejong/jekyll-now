@@ -66,6 +66,8 @@ Ehh, “They are us”.
 **Carl-Johan de Zwart**<br>
 “They are us”. Zullen we het hier even bij laten, en verder gaan naar het volgende onderwerp?
 Want vanochtend was Geert Wilders te gast in het ochtendprogramma van WNL, en ...
+<br><br>
 
-
+![Paul Jansen, Sjors Fröhlich]({{ site.baseurl }}/assets/pictures/jansen frohlich.png)
+<i>Paul Jansen, Sjors Fröhlich</i><br>
 
