@@ -6,7 +6,7 @@ tags : [Stront]
 comments: true
 ---
 
-### NPO Radio1 9:30-11:30
+### NPO Radio1 10:00-11:00
 **Paul Jansen 18:11**<br>
 *Over de meerdere commotie nu over Nieuw-Zeeland dan indertijd over Egypte, met veel meer doden.*<br>
 Dus ik kan er geen andere verklaring voor vinden dan dat de samenleving van Nieuw-Zeeland, dat de mensen zich daar eerder kunnen afspiegelen, dat die vergelijkbaar is. En misschien ook wel de problematiek in zo’n samenleving, met Nederland, en dat het daardoor toch meer aanspreekt, terwijl het slachtofferaantal in Egypte twee jaar geleden toch veel hoger lag.
