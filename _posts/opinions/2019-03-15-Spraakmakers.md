@@ -76,7 +76,7 @@ Want vanochtend was Geert Wilders te gast in het ochtendprogramma van WNL, en va
 
 
 
-<b><i>Oplettende lezertje zullen misschien  hebben opgemerkt dat de tekst van de foto niet voorkomt in mijn transcript tot nu toe.
+<b><i>Oplettende lezertjes zullen misschien  hebben opgemerkt dat de tekst van de foto niet voorkomt in mijn transcript tot nu toe.
 Dat vond ik zelf ook vreemd, maar later bleek dit voor te komen in het vervolg van het gesprek.<br>
 (Dat transcript had ik geschreven voordat ik de video zag. Ik had dus gemist dat het gesprek nog een vervolg had.)<br>
 Dat vervolg verliep zo (eerst over Wilders):
