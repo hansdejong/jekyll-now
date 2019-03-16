@@ -141,3 +141,11 @@ OK, goed. Dus Peter Kee had niet verwacht dat, eh, eh, die had dus niet verwacht
 <a href="https://www.nporadio1.nl/dit-is-de-dag/onderwerpen/494367" target="_blank">
 'Christchurch mag je niet misbruiken om de vrijheid van meningsuiting in te perken'</a><br>
 
+*En ook Wierd Duk, de volgende dag (Za. 20190316) in Nieuwsweekend:*<br>
+<a href="https://www.nporadio1.nl/nieuwsweekend/onderwerpen/494376-aanslagen-christchurch-laten-ook-in-nederland-gemoederen-hoog-oplopen" target="_blank">
+Aanslagen Christchurch laten ook in Nederland de  gemoederen hoog oplopen</a><br>
+(8:30-9:00, even zoeken, de link springt niet altijd naar het juiste fragment) <br>
+
+
+
+
