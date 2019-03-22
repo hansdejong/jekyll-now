@@ -94,12 +94,12 @@ Nee, ik had eindelijk een keer gezegd, na al die jaren, van ik ga er weer heen -
 U gaat dus niet.
 
 **Wilders**<br>
-Ik ga naar Molembeek.
+Ik ga naar Molenbeek.
 
 <i>Einde fragment WNL</i><br>
 
 **Carl-Johan de Zwart**<br>
-Ja, naar Molembeek. Wilders komt maandag dus niet bij Pauw en Jinek, en net nu Peter Kee, de politiek redacteur van BNN-VARA hem eindelijk aan de telefoon had en een afspraak met hem had gemaakt om aan te schuiven ...<br>
+Ja, naar Molenbeek. Wilders komt maandag dus niet bij Pauw en Jinek, en net nu Peter Kee, de politiek redacteur van BNN-VARA hem eindelijk aan de telefoon had en een afspraak met hem had gemaakt om aan te schuiven ...<br>
 Wij hebben Peter Kee gesproken en hij had niet verwacht dat Wilders zou afzeggen na deze column. Hij beschrijft namelijk in die column hoe lastig het is om sommige politici aan tafel te krijgen. Is dat herkenbaar, Paul Jansen? Voor jou? Geert Wilders is inderdaad lastig om te krijgen?
 
 **Paul Jansen**<br>
