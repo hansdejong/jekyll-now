@@ -44,8 +44,20 @@ Er werd bij de bijeenkomst al gevraagd om inzet van de buurt bij de inburgering.
 Ik heb weinig animo me daarnaast ook nog eens te storten op "We&nbsp;Are&nbsp;Here"-achtige types met veel minder perspectief.<br>
 (Ik kreeg overigens meteen een standje van Groot&nbsp;Wassink toen ik die term gebruikte, en eerder in de zaal werd gesuggereerd dat er misschien rekening zou worden gehouden met de buurt bij de groepssamenstelling.)
 
+<hr>
+De twee volgende paragrafen zijn later toegevoegd:<br>
+### Het vervolg
+Ik ben geen journalist, en voel me niet verplicht alles op de voet te volgen en te documenteren, maar van wat ik zoal hoor wil ik hier enkele zaken toch vermelden:
+* Nog geen week na deze bijeenkomst stond in het reclamesufferdje City&nbsp;Amsterdam (week 12) reeds als voldongen feit (nou ja, een voorlopige lijst locaties van Rutger Groot Wassink aan de gemeenteraad) dat er drie komen in Zuid: Van&nbsp;Leijenberglaan&nbsp;11, Pieter&nbsp;Aertszstraat&nbsp;5 en Gerard&nbsp;Doustraat&nbsp;156.
+* Een week na deze bijeenkomst was er een soortgelijke bijeenkomst, nu in Noord (school "De piramide"), waar de aanwezigen overwegend anti waren (volgens verslagen op Twitter).
 
-
+### Nog wat meer van mijn "eigen mening"
+* Ik ben zeer negatief over de islam, en hoewel ik individuele moslims het voordeel van de twijfel gun, zie ik strenge  selectie aan de poort op dit punt, maar ook op dat van participatieperspectief als hoognoodzakelijk. Dat punt (en dat van  massale migratie) laat ik hier verder rusten. Zie vooral de rest van dit blog.
+* Ook lijkt me het beleid om een categorie mensen die zijn uitgeprocedeerd/ ongedocumenteerd, toch min of meer permanent op te vangen desastreus.<br> Ik snap dat je af wilt van BBB, en geen mensen wilt die onder bruggen slapen, maar de politiek moet zich richten op snelle duidelijkheid. Of je blijft hier en krijgt alle kans, of je moet weg, of je mag hier tijdelijk blijven tot de thuissituatie weer is verbeterd (ook als je hier kinderen krijgt). En ik ben voor een discretionaire bevoegdheid van een Staatssecretaris.
+* Het belangrijkste punt wat ik hier wel wil maken is dat ik heel sterk ben tegen dit soort "bulkopvang" (nu heb ik het niet alleen over de uitgeprocedeerden/ ongedocumenteerden, maar ook over de statushouders). Die kan bijvoorbeeld in de vorm van AZC's tijdelijk zin hebben als noodmaatregel, maar maakt de nieuwelingen kansloos op het gebied van integratie en participatie.<br>
+(Overigens moet iedereen die hier is, kansloos of niet, in mijn ogen alle mogelijke toegang hebben tot vorming en onderwijs: je leven mag niet stilstaan en je moet aan perspectief kunnen werken, waar dan ook.) <br>
+Ook al zou er betrokkenheid van de buurt zijn, en de nieuwkomers ideaal gericht op fiets-, taal- en arbeidsmarktcursussen alsmede koken en biljarten met de buurt, het blijft een enclave, met sterke groepsvorming en groepsdwang, en ook potentieel ontwrichtend voor een buurt.<br>
+In mijn ogen kunnen nieuwkomers alleen succesvol worden opgenomen als ze als individuen of individuele gezinnen een zelfstandige plaats hebben in de samenleving (en dus ook niet in gesegregeerde allochtonenwijken, laat staan -scholen). En dit met intensieve goed georganiseerde opvang. En ja, dat beperkt de opnamecapaciteit van een land sterk. Ik meen dan ook dat die schromelijk wordt overschat bij het huidige integratiebeleid. 
 
 
 
