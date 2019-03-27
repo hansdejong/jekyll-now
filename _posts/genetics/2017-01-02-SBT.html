@@ -19,6 +19,14 @@ Scala-IDE heeft een interne builder, dus het begin op de Scala-weg gaat gemakkel
 Ik ben er nog niet uit of het project uiteindelijk over meerdere projecten zal worden verdeeld (zoals in Java het geval was).<br><br>
 Eventuele tips m.b.t. SBT zal ik hier opnemen.
 
+<hr>
+<b>Update, maart 2019</b><br>
+Ondertussen functioneren diverse onderdelen van het genetics-project.<br>
+Veel schot zit er niet in, maar bijvoorbeeld  de basis van de natuur-component (die DNA van geselecteerde organismen omzet in double-arrays) is ge&iuml;ntegreerd, alsook de xml-parsing (op basis van een xsd en een doublearray wordt xml gegenereerd, wat de uiteindelijke fenotypes bepaalt).<br><br>
 
+Wat betreft SBT is de belangrijkste nieuwigheid dat ik nu gebruik maak van "cross-compiling": de broncode is nu opgesplitst in drie&euml;n (of eigenlijk meer: er is ook testcode, en aan de jvm-kant Java-code): js, jvm en shared.<br>
+De jvm-kant gebruik ik vooral om parallel met de js-gui ook een Scala-swing gui te maken (die de gebruiker nooit te zien zal krijgen, maar die handig is voor de ontwikkelaar). Ook kan ik aan de jvm-kant Java-code gebruiken die nog niet is geconverteerd.<br><br>
+
+In build.sbt definieer je uiteindelijk een paar variabelen die naar de verschillende projecten (jvm en js) refereren, en die je vanuit SBT kunt gebruiken om tests te draaien of de code te runnen dan wel te genereren.
 <!-- <a href="{xxx% post_url 2015-12-03-sc-genetics-intro %xxx}">&lArr; Voorafgaand</a> Nog geen vervolg &rArr;<br> -->
 

@@ -45,7 +45,7 @@ Ik heb weinig animo me daarnaast ook nog eens te storten op "We&nbsp;Are&nbsp;He
 (Ik kreeg overigens meteen een standje van Groot&nbsp;Wassink toen ik die term gebruikte, en eerder in de zaal werd gesuggereerd dat er misschien rekening zou worden gehouden met de buurt bij de groepssamenstelling.)
 
 <hr>
-De twee volgende paragrafen zijn later toegevoegd:<br>
+*De twee volgende paragrafen zijn later toegevoegd:*<br>
 ### Het vervolg
 Ik ben geen journalist, en voel me niet verplicht alles op de voet te volgen en te documenteren, maar van wat ik zoal hoor wil ik hier enkele zaken toch vermelden:
 * Nog geen week na deze bijeenkomst stond in het reclamesuffertje City&nbsp;Amsterdam (week 12) reeds als voldongen feit (nou ja, een voorlopige lijst locaties van Rutger Groot Wassink aan de gemeenteraad) dat er drie komen in Zuid: Van&nbsp;Leijenberghlaan&nbsp;11, Pieter&nbsp;Aertszstraat&nbsp;5 en Gerard&nbsp;Doustraat&nbsp;156.
