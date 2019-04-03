@@ -65,11 +65,10 @@ Woensdag 3 april is er in de gemeenteraad gesproken over de illegalenopvang:<br>
 (Terug te zien op <a href="https://amsterdam.raadsinformatie.nl/vergadering/557157/RAAD%2003-04-2019" target="_blank">Raadsvergadering</a>.)<br>
 **Agendapunt 11A: Actualiteit van het lid Nanninga inzake de locaties voor het Uitvoeringsplan 24-uursopvang Ongedocumenteerden. (Gemeenteblad afd. 1, nr. 362)**<br>
 Annabel Nanninga (FvD) had daarvoor vier moties ingediend.<br>
-De derde (H: over een nulmeting mbt. overlast) werd ingetrokken. De andere drie moties werden verworpen. Deze gingen over:
+De derde (H: over een nulmeting mbt. overlast) werd ingetrokken. De andere drie moties werden afgeraden door RGW, en vervolgens ook verworpen. Deze gingen over:
 * F: Een draagvlakmeting vooraf
 * G: Het uitsluiten van krakers ("We Are Here") bij de opvang
 * I: 24-uurs fysieke aanwezigheid van een voor omwonenden aanspreekbare begeleider (voor drie maanden, wat me al weinig leek [Hans])
-Deze drie punten werden afgeraden door RGW, en vervolgens ook verworpen.
 
 <u>Die permanente begeleiding is dus van de baan.</u><br>
 Overigens heeft Annabel ook een YouTube filmpje geplaatst waarin een ieder wordt uitgenodigd dinsdagavond 16&nbsp;april in de gemeenteraad te komen inspreken:<br>
