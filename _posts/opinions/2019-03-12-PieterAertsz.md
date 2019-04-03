@@ -46,13 +46,6 @@ Ik heb weinig animo me daarnaast ook nog eens te storten op "We&nbsp;Are&nbsp;He
 
 <hr>
 *De twee volgende paragrafen zijn later toegevoegd:*<br>
-### Het vervolg
-Ik ben geen journalist, en voel me niet verplicht alles op de voet te volgen en te documenteren, maar van wat ik zoal hoor wil ik hier enkele zaken toch vermelden:
-* Nog geen week na deze bijeenkomst stond in het reclamesuffertje City&nbsp;Amsterdam (week 12) reeds als voldongen feit (nou ja, een voorlopige lijst locaties van Rutger Groot Wassink aan de gemeenteraad) dat er drie komen in Zuid: Van&nbsp;Leijenberghlaan&nbsp;11, Pieter&nbsp;Aertszstraat&nbsp;5 en Gerard&nbsp;Doustraat&nbsp;156.
-* Een week na deze bijeenkomst was er een soortgelijke bijeenkomst, nu in Noord (school "De piramide"), waar de aanwezigen overwegend anti waren (volgens verslagen op Twitter).
-* Ook de voorlichtingsavond over de van Leijenberghlaan (Buitenveldert) is intussen achter de rug (25&nbsp;maart). Ook hier grote weerstand en angst. Er is hier een grote joodse gemeenschap die zich extra zorgen maakt. Voor verslagen  hiervan zie Twitter @Jelledeg (<a href="https://www.at5.nl/artikelen/192722/veel-emoties-bij-informatiebijeenkomst-opvang-ongedocumenteerden-heftige-avond" target="_blank">AT5</a>) en @ANanninga (FvD).
-* Zie ook dit <a href="https://www.at5.nl/artikelen/192791/actiecomite-buitenveldert-wil-naar-rechter-tegen-komst-24-uursopvang" target="_blank">AT5</a>-artikel van 28 maart. Men denkt in Buitenveldert over een gang naar de rechter. Het artikel bevat ook links naar andere beoogde opvangpanden.
-
 ### Nog wat meer van mijn "eigen mening"
 * Ik ben zeer negatief over de islam, en hoewel ik individuele moslims het voordeel van de twijfel gun, zie ik strenge  selectie aan de poort op dit punt, maar ook op dat van participatieperspectief als hoogstnoodzakelijk. Dat punt (en dat van  massale migratie) laat ik hier verder rusten. Zie vooral de rest van dit blog.
 * Ook lijkt me het beleid om een categorie mensen die zijn uitgeprocedeerd/ ongedocumenteerd, toch min of meer permanent op te vangen desastreus.<br> Ik snap dat je af wilt van BBB, en geen mensen wilt die onder bruggen slapen, maar de politiek moet zich richten op snelle duidelijkheid. Of je blijft hier en krijgt alle kans, of je moet weg, of je mag hier tijdelijk blijven tot de thuissituatie weer is verbeterd (ook als je hier kinderen krijgt). En ik ben voor een discretionaire bevoegdheid van een Staatssecretaris.
@@ -61,6 +54,28 @@ Ik ben geen journalist, en voel me niet verplicht alles op de voet te volgen en 
 Ook al zou er betrokkenheid van de buurt zijn, en de nieuwkomers ideaal gericht op fiets-, taal- en arbeidsmarktcursussen alsmede koken en biljarten met de buurt, het blijft een enclave, met sterke groepsvorming en groepsdwang, en ook potentieel ontwrichtend voor een buurt.<br>
 In mijn ogen kunnen nieuwkomers alleen succesvol worden opgenomen als ze als individuen of individuele gezinnen een zelfstandige plaats hebben in de samenleving (en dus ook niet in gesegregeerde allochtonenwijken, laat staan -scholen). En dit met intensieve goed georganiseerde opvang. En ja, dat beperkt de opnamecapaciteit van een land sterk. Ik meen dan ook dat die schromelijk wordt overschat bij het huidige integratiebeleid. 
 
+## Het vervolg
+Ik ben geen journalist, en voel me niet verplicht alles op de voet te volgen en te documenteren, maar van wat ik zoal hoor wil ik hier enkele zaken toch vermelden:
+* Nog geen week na deze bijeenkomst stond in het reclamesuffertje City&nbsp;Amsterdam (week 12) reeds als voldongen feit (nou ja, een voorlopige lijst locaties van Rutger Groot Wassink aan de gemeenteraad) dat er drie komen in Zuid: Van&nbsp;Leijenberghlaan&nbsp;11, Pieter&nbsp;Aertszstraat&nbsp;5 en Gerard&nbsp;Doustraat&nbsp;156.
+* Een week na deze bijeenkomst was er een soortgelijke bijeenkomst, nu in Noord (school "De piramide"), waar de aanwezigen overwegend anti waren (volgens verslagen op Twitter).
+* Ook de voorlichtingsavond over de van Leijenberghlaan (Buitenveldert) is intussen achter de rug (25&nbsp;maart). Ook hier grote weerstand en angst. Er is hier een grote joodse gemeenschap die zich extra zorgen maakt. Voor verslagen  hiervan zie Twitter @Jelledeg (<a href="https://www.at5.nl/artikelen/192722/veel-emoties-bij-informatiebijeenkomst-opvang-ongedocumenteerden-heftige-avond" target="_blank">AT5</a>) en @ANanninga (FvD).
+* Zie ook dit <a href="https://www.at5.nl/artikelen/192791/actiecomite-buitenveldert-wil-naar-rechter-tegen-komst-24-uursopvang" target="_blank">AT5</a>-artikel van 28 maart. Men denkt in Buitenveldert over een gang naar de rechter. Het artikel bevat ook links naar andere beoogde opvangpanden.
+
+Woensdag 3 april is er in de gemeenteraad gesproken over de illegalenopvang:<br>
+(Terug te zien op <a href="https://amsterdam.raadsinformatie.nl/vergadering/557157/RAAD%2003-04-2019" target="_blank">Raadsvergadering</a>.)<br>
+**Agendapunt 11A: Actualiteit van het lid Nanninga inzake de locaties voor het Uitvoeringsplan 24-uursopvang Ongedocumenteerden. (Gemeenteblad afd. 1, nr. 362)**<br>
+Annabel Nanninga (FvD) had daarvoor vier moties ingediend.<br>
+De derde (H: over een nulmeting mbt. overlast) werd ingetrokken. De andere drie moties werden verworpen. Deze gingen over:
+* F: Een draagvlakmeting vooraf
+* G: Het uitsluiten van krakers ("We Are Here") bij de opvang
+* I: 24-uurs fysieke aanwezigheid van een voor omwonenden aanspreekbare begeleider (voor drie maanden, wat me al weinig leek [Hans])
+Deze drie punten werden afgeraden door RGW, en vervolgens ook verworpen.
+
+<u>Die permanente begeleiding is dus van de baan.</u><br>
+Overigens heeft Annabel ook een YouTube filmpje geplaatst waarin een ieder wordt uitgenodigd dinsdagavond 16&nbsp;april in de gemeenteraad te komen inspreken:<br>
+<a href="https://youtu.be/fghJj3dYjJg" target="_blank">Inspraakavond</a> (wel aanmelden!)
+
+*Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
 
