@@ -74,6 +74,9 @@ De derde (H: over een nulmeting mbt. overlast) werd ingetrokken. De andere drie 
 Overigens heeft Annabel ook een YouTube filmpje geplaatst waarin een ieder wordt uitgenodigd dinsdagavond 16&nbsp;april in de gemeenteraad te komen inspreken:<br>
 <a href="https://youtu.be/fghJj3dYjJg" target="_blank">Inspraakavond</a> (wel aanmelden!)
 
+Ook van 3 april, een artikel waarin de aan de (o.a.) joodse gemeenschap in Buitenveldert toegezegde
+<a href="https://jonet.nl/amsterdam-komt-met-draagvlakmeting-voor-opvang-uitgeprocedeerde-asielzoekers-in-buitenveldert/" target="_blank">draagvlakmeting</a> wordt belicht, en de mate van vertrouwen in de invloed die de uitkomst daarvan wellicht nu nog zal sorteren.
+
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
