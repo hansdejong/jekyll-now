@@ -77,6 +77,10 @@ Overigens heeft Annabel ook een YouTube filmpje geplaatst waarin een ieder wordt
 Ook van 3 april, een artikel waarin de aan de (o.a.) joodse gemeenschap in Buitenveldert toegezegde
 <a href="https://jonet.nl/amsterdam-komt-met-draagvlakmeting-voor-opvang-uitgeprocedeerde-asielzoekers-in-buitenveldert/" target="_blank">draagvlakmeting</a> wordt belicht, en de mate van vertrouwen in de invloed die de uitkomst daarvan wellicht nu nog zal sorteren.
 
+AT5 4 april: Net als vaak op Twitter wordt er hier geschamperd dat de bewoners
+<a href="https://www.at5.nl/artikelen/192955/boze-buitenveldertenaren-wachten-politici-op-voor-opvang" target="_blank">verkeerd&nbsp;gestemd</a> hebben.
+
+
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
