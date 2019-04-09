@@ -74,7 +74,11 @@ De derde (H: over een nulmeting mbt. overlast) werd ingetrokken. De andere drie 
 Overigens heeft Annabel ook een YouTube filmpje geplaatst waarin een ieder wordt uitgenodigd dinsdagavond 16&nbsp;april in de gemeenteraad te komen inspreken:<br>
 <a href="https://youtu.be/fghJj3dYjJg" target="_blank">Inspraakavond</a> (wel aanmelden!)
 
-NRC 3 april: 
+Voorgeschiedenis, AT5 2 juni 2018:
+<a href="https://www.at5.nl/artikelen/182807/eric-van-der-burg-vvd-plan-24-uursopvang-uitgeprocedeerde-asielzoekers-huichelachtig" target="_blank">Plannenmakerij</a>
+
+
+NRC 3 april 2019: 
 <a href="https://www.nrc.nl/nieuws/2019/04/03/in-de-linkse-hoofdstad-zijn-ze-niet-welkom-a3955721" target="_blank">Niet welkom</a>
 
 Ook van 3 april, JONET, een artikel waarin de aan de (o.a.) joodse gemeenschap in Buitenveldert toegezegde
