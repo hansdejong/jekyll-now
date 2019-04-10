@@ -26,8 +26,9 @@ Lees dit dus niet als de gangbare theorie, maar als een theorie (die in mijn oge
 
 [Een speld]( {{ site.baseurl }}/statics/zwartgat/speld I.html )<br>
 [Gat, van buiten]( {{ site.baseurl }}/statics/zwartgat/speld II.html )<br>
-[Gat, van binnen]( {{ site.baseurl }}/statics/zwartgat/speld III.html )<br>
+[Gat, van binnen]( {{ site.baseurl }}/statics/zwartgat/speld III.html )<br><br>
 <!-- [Plannen voor simulatie]( {{ site.baseurl }}/statics/zwartgat/speld simulatie.html )<br> -->
-
+![M87]({{ site.baseurl }}/assets/pictures/20190410_M87.jpg)
+<div align="center"><i>Zwart gat M87</i></div><br><br>
 <hr>
 <a HREF="{{ site.baseurl }}/statics/audio/audio.html" target="_blank">Audio bestanden</a> 
