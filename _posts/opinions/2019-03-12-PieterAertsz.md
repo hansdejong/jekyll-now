@@ -87,6 +87,8 @@ Ook van 3 april, JONET, een artikel waarin de aan de (o.a.) joodse gemeenschap i
 AT5 4 april: Net als vaak op Twitter wordt er hier geschamperd dat de bewoners
 <a href="https://www.at5.nl/artikelen/192955/boze-buitenveldertenaren-wachten-politici-op-voor-opvang" target="_blank">verkeerd&nbsp;gestemd</a> hebben.
 
+AT5 11 april: <a href="https://www.at5.nl/artikelen/193163/reportage-opvang-ongedocumenteerden-zorgt-voor-verdeeldheid-in-buitenveldert" target="_blank">Verdeeldheid in Buitenveldert</a>.
+
 
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
