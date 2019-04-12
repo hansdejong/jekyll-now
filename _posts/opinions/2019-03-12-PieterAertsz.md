@@ -87,7 +87,10 @@ Ook van 3 april, JONET, een artikel waarin de aan de (o.a.) joodse gemeenschap i
 AT5 4 april: Net als vaak op Twitter wordt er hier geschamperd dat de bewoners
 <a href="https://www.at5.nl/artikelen/192955/boze-buitenveldertenaren-wachten-politici-op-voor-opvang" target="_blank">verkeerd&nbsp;gestemd</a> hebben.
 
+Telegraaf 11 april, Nausicaa Marbe: <a href="https://www.telegraaf.nl/columns/3433830/gebrek-aan-regie-rond-migratie?utm_source=twitter&utm_medium=referral&utm_campaign=twitterfeed" target="_blank">Gebrek aan regie rond migratie</a>.
+
 AT5 11 april: <a href="https://www.at5.nl/artikelen/193163/reportage-opvang-ongedocumenteerden-zorgt-voor-verdeeldheid-in-buitenveldert" target="_blank">Verdeeldheid in Buitenveldert</a>.
+
 
 
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
