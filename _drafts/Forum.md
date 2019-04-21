@@ -27,19 +27,22 @@ Kortom, ik ben niet tegen europese samenwerking, maar zou momenteel stemmen voor
 
 ### Tegen FvD
 * **Meldpunt**<br>
-Het meldpunt voor het onderwijs zie ik niet zitten. Dat wil niet zeggen dat ik het probleem niet zie: indoctrinatie (niet alleen door links natuurlijk) komt voor en is een probleem, maar een goede docent brengt m.i. wel degelijk eigen meningen in.<br>
-Dat  wil niet zeggen dat de les niet gericht moet zijn op het ontwikkelen en verdedigen van eigen idee&euml;n door de leerlingen. Maar de vereiste integerheid en kunde moeten niet naar buiten worden gebracht met een kliklijn. Dat is een zaak van de school en de inspectie. Leerlingen en docenten moeten zich veilig voelen.<br><br>
-Overigens vind ik een verwant probleem hoe de SJW-beweging voet aan de grond heeft gekregen aan de universiteiten (wat je vooral merkt aan de gendergekte, politieke correctheid en identiteitsgeneuzel, het weren van "controversi&euml;le" sprekers als Jordan Peterson (UvA) en Paul Cliteur (RUG), maar ook de islamisering aan de VU).<br>
+Het meldpunt voor het onderwijs zie ik niet zitten.<br> 
+Dat wil niet zeggen dat ik het probleem niet zie: indoctrinatie (niet alleen door links natuurlijk) komt voor en is een probleem, maar een goede docent brengt m.i. wel degelijk eigen meningen in.<br>
+Maar de les moet ondertussen w&egrave;l gericht blijven op het ontwikkelen en verdedigen van eigen idee&euml;n door de leerlingen. Dat vereist integerheid en kunde, maar twijfel daaraan moet niet naar buiten worden gebracht met een kliklijn. Dat is een zaak van de school en de inspectie. Leerlingen en docenten moeten zich veilig voelen.<br><br>
+Overigens vind ik een verwant probleem hoe de SJW-beweging voet aan de grond heeft gekregen aan de universiteiten (wat je vooral merkt aan de gendergekte, politieke correctheid, taalbe&iuml;nvloeding en identiteitsgeneuzel, het weren van "controversi&euml;le" sprekers als Jordan Peterson (UvA) en Paul Cliteur (RUG), maar ook de islamisering aan de VU).<br><br>
+Het door een politieke partij ter discussie stellen van overwaaiende ideologie&euml;n (identiteitsdenken, SJW, opgelegde taalcorrecties) is legitiem en urgent. Een politiek partij kan als probleem ook signaleren en aankaarten dat/of bijvoorbeeld schoolboeken zijn gepoliticeerd of be&iuml;nvloed door de SJW-beweging, en dat geldt ook voor het beleid van universiteiten. Daarvoor kun je onderzoek (laten) doen of klachten inventariseren. Maar dan gaat het om trends. Directe invloed op de les, of individuele docenten aan de schandpaal nagelen is gevaarlijk, onvrij en ongewenst. 
 * **Klimaat**<br>
-Ik relativeer absoluut de dreigende klimaatverandering niet. Ik heb wel het gevoel dat de lasten niet bij de juiste personen terechtkomen, en ook denk ik dat de uit te rollen maatregelen slecht doordacht zijn.
+Ik relativeer absoluut de dreigende klimaatverandering niet. Ik heb wel het gevoel dat de lasten niet bij de juiste personen terechtkomen, en ook denk ik dat de uit te rollen maatregelen slecht doordacht zijn.<br>
+Echte maatregelen voor vermindering, inclusief aanpak van overbevolking en vlieg- en autoverkeer, wordt niet besproken.s
 * **Groningen**<br>
 De uitspraak (kwam langs in Jinek) van het kersverse raadslid in Groningen over het blijven oppompen van gas was bizar (maar enigszins vergeeflijk in de situatie).<br>
-Later heb ik ergens (?) gehoord dat dit niet een uitglijder was van een slecht voorbereid of onwennig individu, maar echt een standpunt van Forum (nakijken!).
+Later heb ik ergens (?) gehoord dat dit niet een uitglijder was van een slecht voorbereid of onwennig individu, maar echt een standpunt van Forum.<br> *(Nakijken! Het schijnt echt een standpunt te zijn, waarbij de opbrengst bij de Groningers terecht komt. Maar of zij en ik het dan w&egrave;l zien zitten blijft de vraag.)*
 * **Bombast**<br>
 *Boreaal / mammoeten / Uil van Minerva* zijn tactisch gezien een stommiteit.<br>
 Om te beginnen is het cruciaal dat een nieuwe partij helder is in waar die voor staat. En dan kun je je niet teveel taal permiteren die niet alleen niet wordt begrepen, maar die ook nog eens aan een groezelige ideologische niche kan worden gelinkt. En bij optredende verwarring moet je die ook adresseren. Niet alleen met "hoe komen jullie er op", maar ook met wat je er w&egrave;l mee bedoelt, en eventueel met expliciet afstand nemen van het gedachtengoed waaraan je niet wilt worden gelinkt.<br><br>
 Dat niet alleen. Het is beslist de achilleshiel van de partij en kan die partij in &eacute;&eacute;n keer decimeren.<br>
-Nu is het nog te interpreteren als een gebbetje van een corporaal typ, en kan iedereen gniffelen dat hij aanvallen op dit punt niet pareert door het af te zwakken maar door met een nog erudieter alternatief te komen ("septentrionaal"), maar zodra de achterban het idee krijgt dat Baudet echt neigt naar "rechtse identitypolitics" (Wierd Duk) kan hij zomaar de helft van zijn aanhang verliezen.
+Nu is het nog te interpreteren als een gebbetje van een corporaal typ, en kan iedereen gniffelen dat hij aanvallen op dit punt niet pareert door het af te zwakken maar door met een nog erudieter alternatief te komen ("septentrionaal"), maar zodra de achterban het idee krijgt dat Baudet echt neigt naar "rechtse identitypolitics" (term van Wierd Duk) kan hij zomaar de helft van zijn aanhang verliezen.
 
 Stuk Jan Gajentaan<br>
 
