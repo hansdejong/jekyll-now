@@ -23,7 +23,7 @@ Nou, je zei het zelf al. Dat is al behoorlijk heftig, dat er dus banden zouden z
 
 * We hebben te maken met steunbetuigingen die het lyceum krijgt van IS-fans
 
-* Het lyceum heeft Britse omstreden predikers uitgenodigd, in elk geval &eacute;&eacute;n, Al&nbsp;Hadad, en waarschuwt er nog meer uit te nodigen. Waarom zou je dat doen, denk ik dan?
+* Het lyceum heeft Britse omstreden predikers uitgenodigd, in elk geval &eacute;&eacute;n, Al&#8209;Haddad, en waarschuwt er nog meer uit te nodigen. Waarom zou je dat doen, denk ik dan?
 
 * En de Stichting Islamitische Organisatie (SIO) waar dit dus onderdeel van uitmaakt, (deze school is eerder betrokken geweest bij het Islamitisch College Amsterdam), moest sluiten wegens lage kwaliteit
 
@@ -88,7 +88,7 @@ En Fidan, nu wil Arie Slob ...
 Vrijheid van godsdienst vindt u heel belangrijk. Maar (dit is echt een hele serieuze vraag), maakt u zich geen zorgen, zelf? Want u zit heel erg op die rechtsorde, en u zit heel erg op die wetten. Ziet u die segregatie en die kloof waar ik het over heb?
 
 **Tom Zwart**<br>
-Nee, totaal niet. En nogmaals, het is niet m&igrave;jn mening dat de de onderwijsvrijheid en de godsdienstvrijheid moeten waarborgen. Dat is de basis van ons grondwettelijk bestel. We hebben ons daar allemaal aan te houden, of we daar nu blij mee zijn of niet. Als we er niet blij mee zij dan hebben we de mogelijkheid om daar verandering in te brengen. Zolang we dat niet doen moeten we dat respecteren. En ik heb ook helemaal niets tegen Nashville verklaringen. Uiteraard ben ik niet voor het maken van onderscheid tussen homoseksuelen en heteroseksuelen, ik zie daar helemaal niks in, ik vind dat niet waardig. Maar we hebben afgesproken dat scholen die die verklaringen ondertekenen dat mogen doen omdat we nu eenmaal onderwijsvrijheid in Nederland hebben. Ik ben niet na&iuml;ef, maar ik zou zeggen, dat geldt ook niet voor de onderwjsinspectie, die is op de school geweest, die herkent het beeld dat u nu schetst mevrouw Ekiz, herkent die onderwijsinspectie niet. Die zijn echt niet op hun achterhoofd gevallen, die zijn daar tijden lang geweest.
+Nee, totaal niet. En nogmaals, het is niet m&igrave;jn mening dat de de onderwijsvrijheid en de godsdienstvrijheid moeten waarborgen. Dat is de basis van ons grondwettelijk bestel. We hebben ons daar allemaal aan te houden, of we daar nu blij mee zijn of niet. Als we er niet blij mee zij dan hebben we de mogelijkheid om daar verandering in te brengen. Zolang we dat niet doen moeten we dat respecteren. En ik heb ook helemaal niets tegen Nashville verklaringen. Uiteraard ben ik niet voor het maken van onderscheid tussen homoseksuelen en heteroseksuelen, ik zie daar helemaal niks in, ik vind dat niet waardig. Maar we hebben afgesproken dat scholen die die verklaringen ondertekenen dat mogen doen omdat we nu eenmaal onderwijsvrijheid in Nederland hebben. Ik ben niet na&iuml;ef, maar ik zou zeggen, dat geldt ook niet voor de onderwijsinspectie, die is op de school geweest, die herkent het beeld dat u nu schetst mevrouw Ekiz, herkent die onderwijsinspectie niet. Die zijn echt niet op hun achterhoofd gevallen, die zijn daar tijden lang geweest.
 
 **Fidan Ekiz**<br>
 Nee, zie zeggen, we lopen gevaar. We kunnen niet eens die inspectie uitvoeren ...*(Zwart: "Dat is een incident.")*
