@@ -91,6 +91,9 @@ Telegraaf 11 april, Nausicaa Marbe: <a href="https://www.telegraaf.nl/columns/34
 
 AT5 11 april: <a href="https://www.at5.nl/artikelen/193163/reportage-opvang-ongedocumenteerden-zorgt-voor-verdeeldheid-in-buitenveldert" target="_blank">Verdeeldheid in Buitenveldert</a>.
 
+AT5 23 april. En het houdt niet op, niet vanzelf: <a href="https://www.at5.nl/artikelen/193489/wethouder-maakt-vier-nieuwe-locaties-voor-opvang-uitgeprocedeerde-asielzoekers-bekend" target="_blank">RGW maakt vier nieuwe locaties voor opvang uitgeprocedeerde asielzoekers bekend</a>: Javaplantsoen&nbsp;17 in Oost, Zaandammerplein&nbsp;50 in West, Overhoeksplein&nbsp;2 in Noord en Beemsterstraat&nbsp;531 in Noord.
+
+
 
 
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
