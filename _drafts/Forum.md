@@ -106,7 +106,8 @@ taak v docenten o.a.:
 #Jinek
 0 antwoorden 1 retweet 1 vind-ik-leuk
 
-
+Kritiek Otten op Baudet in NRC terecht (Boreaal-heibel , maar ook meldpunt)
+Maar nu ineens financi&euml;le perikelen, ook van Hiddema
 
 
 

@@ -93,8 +93,7 @@ AT5 11 april: <a href="https://www.at5.nl/artikelen/193163/reportage-opvang-onge
 
 AT5 23 april. En het houdt niet op, niet vanzelf: <a href="https://www.at5.nl/artikelen/193489/wethouder-maakt-vier-nieuwe-locaties-voor-opvang-uitgeprocedeerde-asielzoekers-bekend" target="_blank">RGW maakt vier nieuwe locaties voor opvang uitgeprocedeerde asielzoekers bekend</a>: Javaplantsoen&nbsp;17 in Oost, Zaandammerplein&nbsp;50 in West, Overhoeksplein&nbsp;2 in Noord en Beemsterstraat&nbsp;531 in Noord.
 
-
-
+Parool 30 april. <a href="https://beta.parool.nl/amsterdam/opvang-ongedocumenteerden-deels-te-streng-deels-te-weinig~bc95395c/?utm_source=link&utm_medium=social&utm_campaign=shared%20content&utm_content=paid&hash=eab0a357fbb4035f6196462abeb11775b017af67&referer=https%3A%2F%2Ft.co%2FSbpdZxH7yi" target="_blank">Opvang ongedocumenteerden deels te streng deels te weinig</a>.
 
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
