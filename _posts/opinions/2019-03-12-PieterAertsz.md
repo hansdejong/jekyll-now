@@ -96,7 +96,7 @@ AT5 23 april. En het houdt niet op, niet vanzelf: <a href="https://www.at5.nl/ar
 
 Parool 30 april. <a href="https://beta.parool.nl/amsterdam/opvang-ongedocumenteerden-deels-te-streng-deels-te-weinig~bc95395c/?utm_source=link&utm_medium=social&utm_campaign=shared%20content&utm_content=paid&hash=eab0a357fbb4035f6196462abeb11775b017af67&referer=https%3A%2F%2Ft.co%2FSbpdZxH7yi" target="_blank">Opvang ongedocumenteerden deels te streng deels te weinig</a>.
 
-Parool 7 juni. <a href="https://www.parool.nl/amsterdam/zes-locaties-24-uursopvang-ongedocumenteerden-geschikt-bevonden~b4f466c7/?utm_campaign=shared_earned&utm_medium=social&utm_source=twitter" target="_blank">Zes-locaties-24-uursopvang-ongedocumenteerden-geschikt-bevonden</a>.
+Parool 7 juni. <a href="https://www.parool.nl/amsterdam/zes-locaties-24-uursopvang-ongedocumenteerden-geschikt-bevonden~b4f466c7/?utm_campaign=shared_earned&utm_medium=social&utm_source=twitter" target="_blank">Zes locaties 24-uursopvang ongedocumenteerden geschikt bevonden</a>.
 
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
