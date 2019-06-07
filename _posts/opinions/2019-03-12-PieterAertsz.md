@@ -98,6 +98,8 @@ Parool 30 april. <a href="https://beta.parool.nl/amsterdam/opvang-ongedocumentee
 
 Parool 7 juni. <a href="https://www.parool.nl/amsterdam/zes-locaties-24-uursopvang-ongedocumenteerden-geschikt-bevonden~b4f466c7/?utm_campaign=shared_earned&utm_medium=social&utm_source=twitter" target="_blank">Zes locaties 24-uursopvang ongedocumenteerden geschikt bevonden</a>.
 
+Telegraaf 7 juni. <a href="https://www.telegraaf.nl/nieuws/715981278/hier-gaat-amsterdam-illegalen-plaatsen?utm_source=t.co&utm_medium=referral&utm_content=/Wnxr7xmHs4" target="_blank">Hier gaat Amsterdam illegalen plaatsen</a>.
+
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
