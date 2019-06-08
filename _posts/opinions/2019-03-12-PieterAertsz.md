@@ -102,6 +102,8 @@ Telegraaf 7 juni. <a href="https://www.telegraaf.nl/nieuws/715981278/hier-gaat-a
 
 AT5 8 juni. <a href="https://www.at5.nl/artikelen/194639/gemengde-reacties-op-komst-ongedocumenteerden-naar-buitenveldert" target="_blank">Gemengde reacties op komst ongedocumenteerden naar Buitenveldert</a>.
 
+Telegraaf 8 juni. <a href="https://www.telegraaf.nl/nieuws/2046482302/slapeloze-nachten-amsterdammers-over-komst-illegalenhotels" target="_blank">Slapeloze nachten Amsterdammers over komst illegalenhotels</a>.
+
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
