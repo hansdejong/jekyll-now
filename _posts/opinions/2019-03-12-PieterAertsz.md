@@ -100,6 +100,8 @@ Parool 7 juni. <a href="https://www.parool.nl/amsterdam/zes-locaties-24-uursopva
 
 Telegraaf 7 juni. <a href="https://www.telegraaf.nl/nieuws/715981278/hier-gaat-amsterdam-illegalen-plaatsen?utm_source=t.co&utm_medium=referral&utm_content=/Wnxr7xmHs4" target="_blank">Hier gaat Amsterdam illegalen plaatsen</a>.
 
+AT5 8 juni. <a href="https://www.at5.nl/artikelen/194639/gemengde-reacties-op-komst-ongedocumenteerden-naar-buitenveldert" target="_blank">Gemengde reacties op komst ongedocumenteerden naar Buitenveldert</a>.
+
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
