@@ -104,6 +104,8 @@ AT5 8 juni. <a href="https://www.at5.nl/artikelen/194639/gemengde-reacties-op-ko
 
 Telegraaf 8 juni. <a href="https://www.telegraaf.nl/nieuws/2046482302/slapeloze-nachten-amsterdammers-over-komst-illegalenhotels" target="_blank">Slapeloze nachten Amsterdammers over komst illegalenhotels</a>.
 
+Telegraaf 12 juni. <a href="https://www.telegraaf.nl/nieuws/1474921682/verdachte-fatale-mishandeling-amsterdam-is-statushouder?utm_source=t.co&utm_medium=referral&utm_content=/CKmBdbKXQS" target="_blank">Verdachte fatale mishandeling Amsterdam is statushouder</a>.
+
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
