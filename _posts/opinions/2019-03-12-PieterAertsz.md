@@ -104,7 +104,7 @@ AT5 8 juni. <a href="https://www.at5.nl/artikelen/194639/gemengde-reacties-op-ko
 
 Telegraaf 8 juni. <a href="https://www.telegraaf.nl/nieuws/2046482302/slapeloze-nachten-amsterdammers-over-komst-illegalenhotels" target="_blank">Slapeloze nachten Amsterdammers over komst illegalenhotels</a>.
 
-AD  12 juni. <a href="https://www.ad.nl/amsterdam/vrouw-68-die-mishandeld-en-verkracht-werd-in-amsterdam-overleden~a9a5328d/?referer=https://t.co/FuD4IhkTaV&,utm_source=twitter&utm_medium=social&utm_campaign=socialsharing_web" target="_blank">Vrouw, 68, die mishandeld en verkracht werd in Amsterdam overleden</a>.
+AD  12 juni. <a href="https://www.ad.nl/amsterdam/vrouw-68-die-mishandeld-en-verkracht-werd-in-amsterdam-overleden~a9a5328d/?referer=https://t.co/FuD4IhkTaV&,utm_source=twitter&utm_medium=social&utm_campaign=socialsharing_web" target="_blank">Vrouw (68) die mishandeld en verkracht werd in Amsterdam overleden</a>.
 
 Telegraaf 12 juni. <a href="https://www.telegraaf.nl/nieuws/1474921682/verdachte-fatale-mishandeling-amsterdam-is-statushouder?utm_source=t.co&utm_medium=referral&utm_content=/CKmBdbKXQS" target="_blank">Verdachte fatale mishandeling Amsterdam is statushouder</a>.
 

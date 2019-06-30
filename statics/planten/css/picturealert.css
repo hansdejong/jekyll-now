@@ -1,0 +1,37 @@
+
+  /*     #confirm {*/
+         .confirm {
+            display: none;
+            background-color: #FFFFFF;
+            border: 1px solid #aaa;
+            position: absolute;/*Hans*/
+         /*   position: fixed;*/
+            width: 520px;
+            height: 575px;/*Toegevoegd*/
+         /* left: 50%;*/
+            left: 15%;
+          /*margin-left: -100px;*/
+            margin-left: 150px;
+            padding: 6px 8px 8px;
+            box-sizing: border-box;
+            text-align: center;
+         }
+         .confirm button {
+            background-color: #48E5DA;
+            display: inline-block;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            padding: 5px;
+            text-align: center;
+            width: 80px;
+            cursor: pointer;
+         }
+         .confirm img{
+                      left: 0%;
+           width: 500px;
+           height: 500px;
+         }
+         .confirm .message {
+            text-align: center;
+         }
+

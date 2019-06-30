@@ -1,0 +1,66 @@
+  /*body {font-family: Arial, Helvetica, sans-serif;}*//*Er uit?*/
+  
+  * {box-sizing: border-box;}
+
+  /* Button used to open the contact form - fixed at the bottom of the page */
+  .open-button {
+    background-color: #555;/*Achtergrond van de notitie-knop*/
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  /* The popup form - hidden by default */
+  .popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  /* Add styles to the form container */
+  .container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;/*Achtergrond popup*/
+  }
+
+  /* Set a style for the submit/login button */
+  .container .btn {
+/*  background-color: #4CAF50;   groenig*/
+    color: white;/*Kleur van de knop-letters*/
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+
+  /* Add a red background color to the cancel button */
+  .container .cancel {
+    background-color: red;
+  }
+
+  /* Add some hover effects to buttons */
+  .container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  
+  ul{
+    margin-top:0
+  }
+  
+  #notitieVak{
+    width: 280px;/*365px;*/
+    height:240px;/*240px;*/
+  }
+  /*<textarea  ID="notitieVak" style="width:365px;  height:240px;"  ></textarea>*/
+  
+  
+  
+  
