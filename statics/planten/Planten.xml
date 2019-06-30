@@ -214,7 +214,7 @@
           <species lat="Ulmus" ned="Iep"/>
         </familia>
         <familia lat="Moraceae" ned="Moerbeifamilie">
-          <species lat="Ficus" ned="Vijg"/>
+          <species lat="Ficus" ned="Vijg" plaatje="vijg.jpg"/>
         </familia>
         <familia lat="Canabaceae" ned="Hennepfamilie">
           <species lat="Humulus" ned="Hop" plaatje="h-hop.jpg"/>
@@ -258,7 +258,7 @@
         <familia lat="Chenopodiaceae" ned="Ganzevoetfamilie">
           <species lat="Beta" ned="Biet"/>
           <species lat="Chenopodium" ned="Ganzevoet"/>
-          <species lat="Spinacia" ned="Spinnazie"/>
+          <species lat="Spinacia" ned="Spinazie"/>
           <species lat="Atriplex" ned="Melde"/>
           <species lat="Salicornia" ned="Zeekraal"/>
           <species lat="Suaeda" ned="Schorrekruid"/>
@@ -424,7 +424,7 @@
           <species lat="Rosa rubiginosa" ned="Egelantier" plaatje="z-egelantier.jpg"/>
           <species lat="Rosa pipinellefolia" ned="Duinroosje"/>
           <species lat="Rosa rugosa" ned="Rimpelroos"/>
-          <species lat="Agrimonia eupatoria" ned="Gewone agrimonie"/>
+          <species lat="Agrimonia eupatoria" ned="Gewone agrimonie" plaatje="agrimonie.jpg"/>
           <species lat="Agrimonia procera" ned="Welriekende agrimonie"/>
           <species lat="Sanguisorba officinalis" ned="Grote pimpernel"/>
           <species lat="Sanguisorba minor" ned="Kleine pimpernel"/>
@@ -561,7 +561,7 @@
         </familia>
         <familia lat="Rutaceae" ned="* Wijnruitfamilie">
         	<species lat="Dictamnus albus" ned="Vuurwerkplant"/>
-        	<species lat="Ruta graveolens" ned="Wijnruit"/>
+        	<species lat="Ruta graveolens" ned="Wijnruit" plaatje="wijnruit.jpg"/>
         </familia>	
       </ordo>
       <ordo lat="Sapindales" ned="Zeepboomachtigen" fam="59-62">
@@ -569,7 +569,7 @@
           <species lat="Rhus radicans" ned="Gifsumak"/>
         </familia>
         <familia lat="Aceraceae" ned="Esdoornfamilie">
-          <species lat="Acer pseudoplananus" ned="Gewone esdoorn"/>
+          <species lat="Acer pseudoplananus" ned="Gewone esdoorn" plaatje="esdoorn.jpg"/>
           <species lat="Acer platanoides" ned="Noorse esdoorn"/>
           <species lat="Acer campestre" ned="Spaanse aak"/>
         </familia>
@@ -612,7 +612,7 @@
         </familia>
         <familia lat="Malvaceae" ned="Kaasjeskruidfamilie">
           <species lat="Malva alcea" ned="Vijfdelig kaasjeskruid"/>
-          <species lat="Malva sylvestris" ned="Groot kaasjeskruid"/>
+          <species lat="Malva sylvestris" ned="Groot kaasjeskruid" plaatje="groot kaasjeskruid.jpg"/>
           <species lat="Malva neglecta" ned="Klein kaasjeskruid"/>
           <species lat="Malva moschata" ned="Muskuskaasjeskruid"/>
           <species lat="Althaea officinalis" ned="Heemst"/>
@@ -794,7 +794,7 @@
           <species lat="Primula auricula" ned="Aurikel"/>
           <species lat="Hottonia palustris" ned="Waterviolier"/>
           <species lat="Lysimachia thyrsiflora" ned="Moeraswederik"/>
-          <species lat="Lysimachia vulgaris" ned="Grote wederik"/>
+          <species lat="Lysimachia vulgaris" ned="Grote wederik" plaatje="wederik.jpg"/>
           <species lat="Lysimachia nemorum" ned="Boswederik"/>
           <species lat="Lysimachia nummularia" ned="Penningkruid"/>
           <species lat="Trientalis europae" ned="Zevenster"/>
@@ -863,7 +863,7 @@
       </ordo>
       <ordo lat="Tubiflorae" ned="..." fam="95-106" ook="Lamiales, Scrophulariales" >
       	<familia lat="Acanthaceae" ned="* Acanthusfamilie">
-      		  <species lat="Acanthus mollis" ned="Zachte Acanthus of Stekelige bereklauw"/>
+      		  <species lat="Acanthus mollis" ned="Zachte Acanthus of Stekelige bereklauw" plaatje="acanthus.jpg"/>
       	</familia>
       	<familia lat="Bignoniaceae" ned="* Trompetboomfamilie">
 	          <species lat="Catalpa bignonioides" ned="Trompetboom"/>
@@ -1030,7 +1030,7 @@
           <species lat="Veronica persica" ned="Grote ereprijs"/>
           <species lat="Veronica agrestis" ned="Akkerereprijs"/>
           <species lat="Veronica polita" ned="Gladdeereprijs"/>
-          <species lat="Veronica opaca" ned="doffe ereprijs"/>
+          <species lat="Veronica opaca" ned="Doffe ereprijs"/>
           <species lat="Veronica hederifolia" ned="Klimopereprijs"/>
           <species lat="Veronica melampyrum" ned="Zwartkoren"/>
           <species lat="Melampyrum" ned="Zwartkoren"/>
@@ -1170,15 +1170,15 @@
           <species lat="Matricaria maritima" ned="Reukloze kamille"/>
           <species lat="Matricaria discoida" ned="Schijfkamille"/>
           <species lat="Maricaria recutita" ned="Echte kamille"/>
-          <species lat="Chrysanthemum segetum" ned="Rele ganzebloem"/>
+          <species lat="Chrysanthemum segetum" ned="Gele ganzebloem"/>
           <species lat="Tanacetum vulgare" ned="Boerenwormkruid"/>
-          <species lat="Tanacetum parthenium" ned="Moederkruid"/>
+          <species lat="Tanacetum parthenium" ned="Moederkruid" plaatje="moederkruid.jpg"/>
           <species lat="Leucanthemum vulgare" ned="Margriet"/>
           <species lat="Cotula coronopifolia" ned="Goudknopje"/>
           <species lat="Artemisia campestris" ned="Wilde averuit"/>
           <species lat="Artemisia campestris maritima" ned="Duin averuit"/>
           <species lat="Artemisia vulgaris" ned="Bijvoet"/>
-          <species lat="Artemisia absinthium" ned="Absinthalsem"/>
+          <species lat="Artemisia absinthium" ned="Absinthalsem" plaatje="absinthalsem.jpg"/>
           <species lat="Artemisia maritima" ned="Zeealsem"/>
           <species lat="Tussilago farfara" ned="Klein hoefblad"/>
           <species lat="Petasites hybrides" ned="Groot hoefblad" plaatje="l-groot hoefblad.jpg"/>

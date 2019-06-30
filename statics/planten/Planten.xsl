@@ -109,8 +109,8 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
   		<button onclick="clearCheckboxes();"  style="background-color:lightblue;">Clear checkboxen</button><br />
 	<small id="uitleg"><b>Korte uitleg:<ul>
   <li>(Type-)fouten en eigenwijsheid kunnen de waarheid geweld aandoen en komen niet voor rekening van de auteur.<br /> Veel soorten zijn nog niet opgenomen.</li>
-  <li>De familie-nummering verwijst naar Heukels' Flora. Daar niet in opgenomen families (*) tellen dus niet mee.<br />
-  Verder is de Nederlandse Oecologische Flora de voornaamse bron (ook van de gebruikte taxonomische indeling).</li>
+  <li>De familie-nummering verwijst naar Heukels' Flora (1990). Daar niet in opgenomen families (*) tellen dus niet mee.<br />
+  Verder is de Nederlandse Oecologische Flora (2000) de voornaamse bron (ook van de gebruikte taxonomische indeling).</li>
   <li>Bij Phylum, Classis en Ordo is er een optioneel hidden veld "ook" voor alternatieve naamgeving.</li>
   <li>Filteren via het zoekvak kan op meer spatiegescheiden termen tegelijk.<br />
   (De velden worden daarbij samengevoegd, dus "...look Allium..." vind je met "Kal".) </li>
