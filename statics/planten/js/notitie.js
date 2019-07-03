@@ -2,73 +2,69 @@ class Notitie{
   constructor(sleutel, title){//respectievelijk de latijnse en de nederlandse naam
     this.sleutel = sleutel
     this.title=title
-    this._isOpen = false
-    //this._changeButton()
-    this._informatie=""
-    // Niet meteen ophalen. Straks zijn er een heleboel van. Hoewel, nodig voor changeButton()
+    this._informatie = localStorage.getItem(this.sleutel)
+    document.getElementById("notitieVak").value = this._informatie
+    if(sleutel != "..."){
+      this._changeButton()
+    }
   }
   
-  //Let op: aparte openNewNote(key, title) nodig.
-  //Als er meerdere notes zijn daarin altijd eerst closeNote() aanroepen met de oude Key
-  //zodat de inhoud eventueel wordt opgeslagen. Daarna de sleutel vervangen.
-  //Het is ook mogelijk dat alle notes een eigen instantie krijgen van een klasse i.p.v.
-  //de huidige globala
+//Het leek mis te gaan op het aanroepen van methods in een onClick()
+//Ik weet niet of dat kan. UITPROBEREN!
 
-/*  
-//Het leek mis te gaan op het aanroepen van memthods in een onClick()
-//Ik weet niet of dat kan
-
- closeNotition(){//Ook voor unload body
-  _closeNote()
-}
- toggleNotition() {
-  if(_isOpen){
-    _closeNote()
+  openNote() {
+    popup.openNotition(this.title, this._informatie)
   }
-  else{
-    _openNote()
-  }
-}
-*/
-  _openNote() {
-    this._changeButton()
-    this._informatie = localStorage.getItem(this.sleutel)
-    //Dit zijn de elementen van de notitie-popup
-    document.getElementById("plantNed").innerHTML = this.title
-    document.getElementById("notitieVak").value = this._informatie
-    document.getElementById("dePopup").style.display = "block"
-    this.isOpen=true
-//  this._toonDebugInfo()//Er weer uit
-  }
-  _closeNote() {
+  
+  closeNote() {
     this._changeButton()
     this._informatie = document.getElementById("notitieVak").value
     localStorage.setItem( this.sleutel, this._informatie)
+    popup.closeNotition()
+  }
+
+  _changeButton(){
+    if(this.sleutel==="note1"){
+      if($("#notitieVak").val().length>0){
+			  $(".open-button").html(" Notitie ")
+			  $(".open-button").css('color','red')
+			  $(".open-button").css('background-color','yellow')
+		  }else{
+			  $(".open-button").html("Memo: leeg") 
+			  $(".open-button").css('color','blue')
+			  $(".open-button").css('background-color','#009966')
+		  }		  
+    }else{
+//    debug("Sleutel: " + this.sleutel)
+      let buttonID = "id" + (this.sleutel)//.replace(/ /g, "\\ ");
+      let theButton = document.getElementById(buttonID);
+      if($("#notitieVak").val().length>0){
+//      theButton.setAttribute("style","background-color:#ccff00;")//geel
+        theButton.setAttribute("style","background-color:#cc66ff;")//paars
+      }else{
+        if(theButton != null){//Nodig. niet duidelijk waarom
+          theButton.setAttribute("style","background-color:#33cc99;")//neutraal groen
+        }
+      }
+    }//Einde else
+  }//Einde _changeButton()
+}//Einde class Notitie
+
+const popup = {
+  isOpen : false,//Behandelen als RO
+  openNotition(title, content){
+    document.getElementById("plantNed").innerHTML = title
+    document.getElementById("notitieVak").value = content
+    document.getElementById("dePopup").style.display = "block"
+    this.isOpen = true
+  },
+  closeNotition(){
     document.getElementById("dePopup").style.display = "none"
     this.isOpen = false
-//  this._toonDebugInfo()//Er weer uit
   }
-/*  
-  _toonDebugInfo(){
-    let msg= this._informatie
-    if(msg === "") msg="Leeg"
-    debug( msg ) //Er weer uit
-  }
-*/
-  _changeButton(){
-		if($("#notitieVak").val().length>0){
-			$(".open-button").html(" Notitie ")
-			$(".open-button").css('color','red')
-			$(".open-button").css('background-color','yellow')
-		}else{
-			$(".open-button").html("Memo: leeg") 
-			$(".open-button").css('color','blue')
-			$(".open-button").css('background-color','#009966')
-		}
-	}
 }
 
-//De interface:
+//De interface:=========================================================================================
 function initNote(){
   let noteKey = "note1"
   let plantennaam = "Algemene notitie"
@@ -76,23 +72,56 @@ function initNote(){
   note = notitie
 }
 
-//const note = init()//Dit liever niet bij meerdere notities
 let note = {} 
 const notities = new Map()
 
-//Dit moeten methods worden
-function closeNotition(){//Ook voor unload body
-  note._closeNote()
+//Deze wordt aangeroepen door de sluit-knop van het vak. Altijd goed.
+function closeNotition(){ //Ook voor unload in de body-tag
+  note.closeNote()
 }  
+
+//Aparte versie voor de open-button.
 function toggleNotition() {
-  if(note.isOpen){
-    note._closeNote()
+  if(popup.isOpen){
+    note.closeNote()
   }
   else{
-    note._openNote()
+    initNote() 
+    note.openNote()
   }
 }
 
-//Geen "function" bij methods!!!
+function toggleMemo(latName, nedName){
+  const currentNote = notities.get(latName)
+  if(popup.isOpen){
+    note.closeNote()
+  }else{
+    note = new Notitie(latName, nedName)
+    note.openNote()
+  }
+}
+
+//========================================================
+/* Niet helemaal kosher. Verandert kennelijk de current note */
+function initMap(){
+  var tables = document.getElementsByTagName('table')
+  for (var tbl_nr = 0; tbl_nr < tables.length; tbl_nr++){
+    var table = tables[tbl_nr]
+    var rows = table.getElementsByTagName('tr')
+    for (var row_nr = 1; row_nr < rows.length; row_nr++){
+      const ned = rows[row_nr].children[1].innerText
+      const lat = rows[row_nr].children[2].innerText
+      const note = new Notitie(lat, ned)
+      notities.set(lat, note)
+    }
+  }
+}
+
+function test(){//Aanpassen naar behoefte
+  let spinazie = notities.get("Spinacia")
+  alert( spinazie.title)
+}
+
+
 
 

@@ -178,8 +178,8 @@
     <classis lat="Dicotyledones" ned="Tweezaadlobbigen">
       <ordo lat="Salicales" ned="..." fam="19">
         <familia lat="Salicaceae" ned="Wilgenfamilie">
-          <species lat="Salix 1" ned="Wilg"/>
-          <species lat="Salix 2" ned="Treurwilg" plaatje="z-treurwilg.jpg"/>
+          <species lat="Salix" ned="Wilg"/>
+          <species lat="Salix" ned="Treurwilg" plaatje="z-treurwilg.jpg"/>
           <species lat="Salix alba" ned="Schietwilg" plaatje="l-schietwilg_vr.jpg"/>
           <species lat="Populus" ned="Populier"/>
         </familia>
@@ -290,7 +290,7 @@
       <ordo lat="Ranales" ned="..." fam="38-42">
         <familia lat="Nymphaeaceae" ned="Waterleliefamilie">
           <species lat="Nuphar Lutea" ned="Gele Plomp"/>
-          <species lat="Nymphaea Alba" ned="Waterlelie"/>
+          <species lat="Nymphaea Alba" ned="Waterlelie" plaatje="waterlelie.jpg"/>
         </familia>
         <familia lat="Ceratophyllaceae" ned="Hoornbladfamilie">
           <species lat="Ceratophyllum" ned="Hoornblad"/>
@@ -1098,7 +1098,7 @@
           <species lat="Valeriana officinalis" ned="Echte valeriaan"/>
         </familia>
         <familia lat="Dipsacaceae" ned="Kaardebolfamilie">
-          <species lat="Dipsacus fullonum" ned="Grote kaardebol"/>
+          <species lat="Dipsacus fullonum" ned="Grote kaardebol" plaatje="grote kaardebol.jpg"/>
           <species lat="Dipsacus pilosus" ned="Kleine kaardebol"/>
           <species lat="Succisa pratensis" ned="Blauwe knoop" plaatje="zjk-blauweknoop.jpg"/>
           <species lat="Knautia arvensis" ned="Beemdkroon"/>
@@ -1177,7 +1177,7 @@
           <species lat="Cotula coronopifolia" ned="Goudknopje"/>
           <species lat="Artemisia campestris" ned="Wilde averuit"/>
           <species lat="Artemisia campestris maritima" ned="Duin averuit"/>
-          <species lat="Artemisia vulgaris" ned="Bijvoet"/>
+          <species lat="Artemisia vulgaris" ned="Bijvoet" plaatje="bijvoet.jpg"/>
           <species lat="Artemisia absinthium" ned="Absinthalsem" plaatje="absinthalsem.jpg"/>
           <species lat="Artemisia maritima" ned="Zeealsem"/>
           <species lat="Tussilago farfara" ned="Klein hoefblad"/>
@@ -1219,7 +1219,7 @@
           <species lat="Centaurea jacea" ned="Knoopkruid"/>
           <species lat="Centaurea scabiosa" ned="Grote centaurie" plaatje="z-grotecentaurie.jpg"/>
           <species lat="Centaurea cyanus" ned="Korenbloem"/>
-          <species lat="Cichorium intybus" ned="Wilde cichorei"/>
+          <species lat="Cichorium intybus" ned="Wilde cichorei" plaatje="cichorei.jpg"/>
           <species lat="Arnoseris minima" ned="Korensla"/>
           <species lat="Hypochaeris radicata" ned="Gewoon biggekruid"/>
           <species lat="Hypochaeris glabra" ned="Glad biggekruid"/>
@@ -1286,7 +1286,7 @@
         </familia>
         <familia lat="Hydrocharitaceae" ned="Waterkaardefamilie">
           <species lat="Hydrocharis morsus-ranae" ned="Kikkerbeet"/>
-          <species lat="Stratiotes aloides" ned="Krabbescheer"/>
+          <species lat="Stratiotes aloides" ned="Krabbescheer" plaatje="krabbescheer.jpg" />
           <species lat="Elodea canadensis" ned="Brede waterpest"/>
           <species lat="Elodea nuttalii" ned="Smalle waterpest"/>
         </familia>

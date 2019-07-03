@@ -3,6 +3,7 @@
   * {box-sizing: border-box;}
 
   /* Button used to open the contact form - fixed at the bottom of the page */
+/*#open-button {*/
   .open-button {
     background-color: #555;/*Achtergrond van de notitie-knop*/
     color: white;

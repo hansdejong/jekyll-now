@@ -56,8 +56,8 @@ var table = document.getElementsByTagName('table')[0],
 }
 */
 
-function test(){//Aanpassen naar behoefte
-alert("Dit is test()")
+//function test(){//Aanpassen naar behoefte
+//alert("Dit is test()")
 /*  const notities = new Map()
   var tables = document.getElementsByTagName('table')
   var i = 1
@@ -74,7 +74,7 @@ alert("Dit is test()")
     }
   }
 */
-}
+//}
 
 
 /*
