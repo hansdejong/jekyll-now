@@ -181,12 +181,25 @@
           <species lat="Salix" ned="Wilg"/>
           <species lat="Salix" ned="Treurwilg" plaatje="z-treurwilg.jpg"/>
           <species lat="Salix alba" ned="Schietwilg" plaatje="l-schietwilg_vr.jpg"/>
-          <species lat="Populus" ned="Populier"/>
+          <species lat="Salix fragilis" ned="Kraakwilg"/>
+          <species lat="Salix petrandra" ned="Laurierwilg"/>
+          <species lat="Salix triandra" ned="Amandelwilg"/>
+          <species lat="Salix purpurea" ned="Bittere wilg"/>
+          <species lat="Salix viminalis" ned="Katwilg"/>
+          <species lat="Salix x dasyclados" ned="Duitse dot"/>
+          <species lat="Salix caprea" ned="Boswilg"/>
+          <species lat="Salix cinerea" ned="Grauwe wilg"/>
+          <species lat="Salix aurita" ned="Geoorde wilg"/>
+          <species lat="Salix repens" ned="Kruipwilg"/>
+          <species lat="Populus nigra" ned="Zwarte populier"/>
+          <species lat="Populus alba" ned="Witte abeel"/>
+          <species lat="Populus x canescens" ned="Grauwe abeel"/>
+          <species lat="Populus tremula" ned="Esp of Ratelpopulier"/>
         </familia>
       </ordo>
       <ordo lat="Myricales" ned="..." fam="20">
         <familia lat="Myricaceae" ned="Gagelfamilie">
-          <species lat="Myrica" ned="Gagel"/>
+          <species lat="Myrica gale" ned="Gagel"/>
         </familia>
       </ordo>
       <ordo lat="Junglandales" ned="..." fam="21">
@@ -196,38 +209,44 @@
       </ordo>
       <ordo lat="Fagales" ned="..." fam="22-24">
         <familia lat="Betulaceae" ned="Berkenfamilie">
-          <species lat="Betula" ned="Berk"/>
-          <species lat="Alnus" ned="Els"/>
+          <species lat="Betula pendula" ned="Ruwe berk"/>
+          <species lat="Betula pubescens" ned="Zachte berk"/>
+          <species lat="Alnus glutinosa" ned="Zwarte els"/>
+          <species lat="Alnus incana" ned="Witte of Grauwe els"/>
         </familia>
         <familia lat="Corylaceae" ned="Hazelaarfamilie">
-          <species lat="Corylus" ned="Hazelaar" plaatje="w-hazelaar.jpg"/>
-          <species lat="Carpinus" ned="Haagbeuk"/>
+          <species lat="Corylus avellana" ned="Hazelaar" plaatje="w-hazelaar.jpg"/>
+          <species lat="Carpinus betulus" ned="Haagbeuk"/>
         </familia>
         <familia lat="Fagaceae" ned="Napjesdragersfamilie">
-          <species lat="Castanea sativa" ned="Tamme Kastanje"/>
-          <species lat="Fagus" ned="Beuk"/>
-          <species lat="Quercus" ned="Eik"/>
+          <species lat="Castanea sativa" ned="Tamme kastanje"/>
+          <species lat="Fagus sylvatica" ned="Beuk"/>
+          <species lat="Quercus robur" ned="Zomereik"/>
+          <species lat="Quercus petraea" ned="Wintereik"/>
+          <species lat="Quercus rubra" ned="Amerikaanse eik"/>
         </familia>
       </ordo>
       <ordo lat="Urticales" ned="..." fam="25-28">
         <familia lat="Ulmaceae" ned="Iepenfamilie">
-          <species lat="Ulmus" ned="Iep"/>
+          <species lat="Ulmus minor" ned="Veldiep of Gladde iep"/>
         </familia>
         <familia lat="Moraceae" ned="Moerbeifamilie">
           <species lat="Ficus" ned="Vijg" plaatje="vijg.jpg"/>
         </familia>
         <familia lat="Canabaceae" ned="Hennepfamilie">
-          <species lat="Humulus" ned="Hop" plaatje="h-hop.jpg"/>
+          <species lat="Humulus lupulus" ned="Hop" plaatje="h-hop.jpg"/>
           <species lat="Canabis sativa" ned="Hennep"/>
         </familia>
         <familia lat="Urticaceae" ned="Brandnetelfamilie">
-          <species lat="Urtica" ned="Brandnetel"/>
-          <species lat="Parietaria" ned="Glaskruid"/>
+          <species lat="Urtica dioica" ned="Grote brandnetel"/>
+          <species lat="Urtica urens" ned="Kleine brandnetel"/>
+          <species lat="Parietaria officinalis" ned="Groot glaskruid"/>
+          <species lat="Parietaria judaica" ned="Klein glaskruid"/>
         </familia>
       </ordo>
       <ordo lat="Santalales" ned="..." fam="29,30">
         <familia lat="Santalaceae" ned="Sandelhoutfamilie">
-          <species lat="Thesium" ned="Bergvlas"/>
+          <species lat="Thesium humifusum" ned="Duinbergvlas"/>
         </familia>
         <familia lat="Viscaceae" ned="Vogellijmfamilie">
           <species lat="Viscum album" ned="Maretak"/>
@@ -235,7 +254,7 @@
       </ordo>
       <ordo lat="Aristolochiales" ned="..." fam="31">
         <familia lat="Aristolochiaceae" ned="Pijpbloemfamilie">
-          <species lat="Aristolochia" ned="Pijpbloem"/>
+          <species lat="Aristolochia clematitis" ned="Pijpbloem"/>
         </familia>
       </ordo>
       <ordo lat="Polygonales" ned="..." fam="32">
@@ -243,35 +262,72 @@
           <species lat="Polygonum bistorta" ned="Adderwortel" plaatje="l-adderwortel.jpg"/>
           <species lat="Polygonum amphibium" ned="Veenwortel"/>
           <species lat="Polygonum hydropiper" ned="Waterpeper"/>
+          <species lat="Polygonum mite" ned="Zachte duizendknoop"/>
+          <species lat="Polygonum minus" ned="Kleine duizendknoop"/>
+          <species lat="Polygonum dumetorum" ned="Heggeduizendknoop"/>
           <species lat="Polygonum avuculare" ned="Varkensgras"/>
-          <species lat="Polygonum lapathifolium" ned="Knopig duizendknoop"/>
-          <species lat="Polygonum lapathifolium pallidum" ned="Viltig duizendknoop"/>
+          <species lat="Polygonum lapathifolium" ned="Knopige duizendknoop"/>
+          <species lat="Polygonum lapathifolium pallidum" ned="Viltige duizendknoop"/>
           <species lat="Polygonum cuspidatum" ned="Japanse duizendknoop"/>
           <species lat="Polygonum persicaria" ned="Perzikkruid"/>
           <species lat="Polygonum convolvulus" ned="Zwaluwtong"/>
           <species lat="Fagopyrum" ned="Boekweit"/>
           <species lat="Rheum" ned="Rabarber"/>
-          <species lat="Rumex" ned="Zuring"/>
+          <species lat="Rumex acetosella" ned="Schapezuring"/>
+          <species lat="Rumex thyrsiflorus" ned="Geoorde zuring"/>
+          <species lat="Rumex scutatus" ned="Spaanse zuring"/>
+          <species lat="Rumex sanguineus" ned="Bloedzuring"/>
+          <species lat="Rumex conglomeratus" ned="Kluwenzuring"/>
+          <species lat="Rumex hydrolapathum" ned="Waterzuring"/>
+          <species lat="Rumex obtusifolius" ned="Ridderzuring"/>
+          <species lat="Rumex crispus" ned="Krulzuring"/>
+          <species lat="Rumex palustris" ned="Moeraszuring"/>
+          <species lat="Rumex maritimus" ned="Zeezuring"/>
         </familia>
       </ordo>
       <ordo lat="Centrospermae" ned="..." fam="33-37">
         <familia lat="Chenopodiaceae" ned="Ganzevoetfamilie">
-          <species lat="Beta" ned="Biet"/>
-          <species lat="Chenopodium" ned="Ganzevoet"/>
+          <species lat="Beta vulgaris" ned="Biet"/>
+          <species lat="Beta vulgaris maritima" ned="Strandbiet"/>
+          <species lat="Chenopodium foliosum" ned="Rode aardbeispinazie"/>
+          <species lat="Chenopodium rubrum" ned="Rode ganzevoet"/>
+          <species lat="Chenopodium glaucum" ned="Zeegroen ganzevoet"/>
+          <species lat="Chenopodium bonus-henricus" ned="Brave Hendrik"/>
+          <species lat="Chenopodium polyspermum" ned="Korrelganzevoet"/>
+          <species lat="Chenopodium hybridum" ned="Basterdganzevoet"/>
+          <species lat="Chenopodium murale" ned="Muurganzevoet"/>
+          <species lat="Chenopodium ficifolium" ned="Stippelganzevoet"/>
+          <species lat="Chenopodium album" ned="Melganzevoet"/>
           <species lat="Spinacia" ned="Spinazie"/>
-          <species lat="Atriplex" ned="Melde"/>
-          <species lat="Salicornia" ned="Zeekraal"/>
-          <species lat="Suaeda" ned="Schorrekruid"/>
-          <species lat="Salsola" ned="Loogkruid"/>
+          <species lat="Atriplex littoralis" ned="Strandmelde"/>
+          <species lat="Atriplex patula" ned="Uitstaande melde"/>
+          <species lat="Atriplex prostrata" ned="Spiesmelde"/>
+          <species lat="Atriplex glabriuscula" ned="Kustmelde"/>
+          <species lat="Atriplex laciniata" ned="Gelobde melde"/>
+          <species lat="Halimione pedunculata" ned="Gesteelde zoutmelde"/>
+          <species lat="Halimione portulacoides" ned="Gewone zoutmelde"/>
+          <species lat="Corispermum marschallii" ned="Breed vlieszaad"/>
+          <species lat="Corispermum leptopterum" ned="Smal vlieszaad"/>
+          <species lat="Salicornia dolichostachia" ned="Langarige zeekraal"/>
+          <species lat="Salicornia brachistachia" ned="Kortarige zeekraal"/>
+          <species lat="Suaeda maritima" ned="Schorrekruid"/>
+          <species lat="Salsola kali" ned="Loogkruid"/>
         </familia>
         <familia lat="Amaranthaceae" ned="Amarantenfamilie">
-          <species lat="Amaranthus" ned="Amarant"/>
+          <species lat="Amaranthus blithum" ned="Kleine majer"/>
+          <species lat="Amaranthus albus" ned="Witte amarant"/>
+          <species lat="Amaranthus blitoides" ned="Nerfamarant"/>
+          <species lat="Amaranthus retroflexus" ned="Papegaaiekruid"/>
+          <species lat="Amaranthus hybridus" ned="Basterdamarant"/>
         </familia>
         <familia lat="Phytolaccaceae" ned="Karmozijnbesfamilie">
           <species lat="Phytolacca" ned="Karmozijnbes"/>
         </familia>
         <familia lat="Portulacaceae" ned="Posteleinfamilie">
-          <species lat="Portulacca" ned="Postelein"/>
+          <species lat="Portulacca oleracea" ned="Postelein"/>
+          <species lat="Montia fontana" ned="Bronkruid"/>
+          <species lat="Claytonia perfoliata" ned="Witte winterpostelein"/>
+          <species lat="Claytonia sibirica" ned="Roze winterpostelein"/>
         </familia>
         <familia lat="Caryophylaceae" ned="Anjerfamilie">
           <species lat="Arenaria" ned="Zandmuur"/>
@@ -289,8 +345,8 @@
       </ordo>
       <ordo lat="Ranales" ned="..." fam="38-42">
         <familia lat="Nymphaeaceae" ned="Waterleliefamilie">
-          <species lat="Nuphar Lutea" ned="Gele Plomp"/>
-          <species lat="Nymphaea Alba" ned="Waterlelie" plaatje="waterlelie.jpg"/>
+          <species lat="Nuphar lutea" ned="Gele Plomp"/>
+          <species lat="Nymphaea alba" ned="Waterlelie" plaatje="waterlelie.jpg"/>
         </familia>
         <familia lat="Ceratophyllaceae" ned="Hoornbladfamilie">
           <species lat="Ceratophyllum" ned="Hoornblad"/>
@@ -299,7 +355,7 @@
           <species lat="Helleboris viridis" ned="Wrangwortel"/>
           <species lat="Helleboris foetidus" ned="Stinkend nieskruid" plaatje="w-stinkend nieskruid.jpg"/>
           <species lat="Helleboris niger" ned="Kerstroos"/>
-          <species lat="Eranthis Hyemalis" ned="Winterakoniet" plaatje="w-winteraconiet.jpg"/>
+          <species lat="Eranthis hyemalis" ned="Winterakoniet" plaatje="w-winteraconiet.jpg"/>
           <species lat="Actaea spicate" ned="Cristoffelkkruid"/>
           <species lat="Caltha palustris" ned="Dotterbloem" plaatje="l-dotterbloem.jpg"/>
           <species lat="Aconitum vulparia" ned="Gele monnikskap" plaatje="z-gelemonnikskap.jpg"/>
@@ -384,8 +440,8 @@
           <species lat="Raphanus sativus" ned="Radijs"/>
         </familia>
         <familia lat="Resedaceae" ned="Resedafamilie">
-          <species lat="Reseda Lutea" ned="Wilde reseda"/>
-          <species lat="Reseda Luteola" ned="Wouw"/>
+          <species lat="Reseda lutea" ned="Wilde reseda"/>
+          <species lat="Reseda luteola" ned="Wouw"/>
         </familia>
       </ordo>
       <ordo lat="Saraceniales" ned="..." fam="46">
@@ -695,9 +751,9 @@
 	  <species lat="Epilobium palustre" ned="Moerasbasterdwederik"/>
         </familia>
         <familia lat="Haloragaceae" ned="Vederkruidfamilie">
-          <species lat="Myriophyllum alterniflorum" ned="Teer verderkrud"/>
-          <species lat="Myriophyllum spicatum" ned="Aarverderkrud"/>
-          <species lat="Myriophyllum verticillatum" ned="Kransverderkrud"/>
+          <species lat="Myriophyllum alterniflorum" ned="Teer vederkruid"/>
+          <species lat="Myriophyllum spicatum" ned="Aarvederkruid"/>
+          <species lat="Myriophyllum verticillatum" ned="Kransvederkruid"/>
         </familia>
         <familia lat="Hippuridaceae" ned="Lidstengfamilie">
           <species lat="Hippuris vulgaris" ned="Lidsteng"/>
