@@ -107,7 +107,14 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
       <xsl:apply-templates />
   		<button onclick="location.reload();$('#myInput').val('');"  style="background-color:lightblue;">Ververs de pagina</button>
   		<button onclick="clearCheckboxes();"  style="background-color:lightblue;">Clear checkboxen</button><br />
-	<small id="uitleg"><b>Korte uitleg:<ul>
+	<small id="uitleg"><b>Korte uitleg:<br/>
+	<i>Er is me enkele keren gevraagd naar het nut van dit alles. Het is primair begonnen als oefening in het gebruik van een aantal technieken.<br/>
+	 Daarvoor had ik grote hiërarchisch georganiseerde tabellen nodig, en ik had al eens een plantendatabase in MS-Access gemaakt.<br/>
+	 Dat had ik een leuk en leerzaam proces en resultaat gevonden. Uiteindelijk is de inhoud inzichtelijker dan het register van een flora.
+	 <br/>Vooral natuurlijk door de taxonomische indeling, de uitgebreidere zoek- en sorteermogelijkheden en de mogelijkheid per plantensoort eigen kommentaar toe te voegen.<br/> 
+	 En voor mij als maker is het leerzaam en een leuke stimulans planten te determineren, afbeeldingen te maken of er bij te zoeken.<br/>
+	 Maar zoals gezegd, het begon als een technische vingeroefening. Suggesties om het voor een bepaalde praktijk echt nuttig te maken zijn welkom.
+	 </i><br/><br/><ul>
   <li>(Type-)fouten en eigenwijsheid kunnen de waarheid geweld aandoen en komen niet voor rekening van de auteur.<br />
    Veel soorten zijn nog niet opgenomen.</li>
   <li>De familie-nummering verwijst naar Heukels' Flora (1990). Daar niet in opgenomen families (*) tellen dus niet mee.<br />
@@ -137,8 +144,6 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
   	Ik sta overigens ook open voor aansporingen om bepaalde planten(-groepen) toe te voegen. Dat moet ik centraal doen.</b></li>
   	<li>Filteren op gecheckte checkboxen.</li>
   	<li>Het zou mooi zijn als het ook mogelijk was alle memo's naar een csv- of JSON-bestand te schrijven en eventueel te laden), waarschijnlijk via copy-paste vanaf het scherm.</li>
-  	<li>Checken dat de gegevens van de gebruiker veilig en door het programma benaderbaar zijn na updates van mijn kant.<br/>
-  	(Veilig praktisch zeker, benaderbaar denk ik ook.)</li>
   </ul>
     Van de agenda verwijderd:<ul>
       	<li>- Links naar externe info. Zou ook de infotekst-alert links kunnen bevatten?</li>
