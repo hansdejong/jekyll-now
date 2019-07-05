@@ -388,8 +388,8 @@
       <ordo lat="Ranales" ned="..." fam="38-42">
         <familia lat="Nymphaeaceae" ned="Waterleliefamilie">
           <species lat="Nuphar lutea" ned="Gele Plomp"/>
-          <species lat="Nymphaea alba" ned="Waterlelie" plaatje="Waterlelie.jpg"/>
-          <species lat="Nymphaea candida" ned="Waterlelie" plaatje="Kantige waterlelie.jpg"/>
+          <species lat="Nymphaea alba" ned="Waterlelie" plaatje="waterlelie.jpg"/>
+          <species lat="Nymphaea candida" ned="Kantige waterlelie"/>
         </familia>
         <familia lat="Ceratophyllaceae" ned="Hoornbladfamilie">
           <species lat="Ceratophyllum demersum" ned="Gedoornd hoornblad"/>
