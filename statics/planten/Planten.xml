@@ -330,26 +330,70 @@
           <species lat="Claytonia sibirica" ned="Roze winterpostelein"/>
         </familia>
         <familia lat="Caryophylaceae" ned="Anjerfamilie">
-          <species lat="Arenaria" ned="Zandmuur"/>
-          <species lat="Stellaria" ned="Muur"/>
-          <species lat="Cerastium" ned="Hoornbloem"/>
-          <species lat="Scleranthus" ned="Hardbloem"/>
-          <species lat="Herniaria" ned="Breukkruid"/>
-          <species lat="Lychnis" ned="Koekoeksbloem"/>
+          <species lat="Arenaria serpyllifolia" ned="Zandmuur"/>
+          <species lat="Moehringia trivervia" ned="Drienerfmuur"/>
+          <species lat="Minuartia hybrida" ned="Tengere veldmuur"/>
+          <species lat="Honkenya peploides" ned="Zeepostelein"/>
+          <species lat="Stellaria" ned="Muur of Sterremuur"/>
+          <species lat="Stellaria nemorum" ned="Bosmuur"/>
+          <species lat="Stellaria neglecta" ned="Heggevogelmuur"/>
+          <species lat="Stellaria media" ned="Vogelmuur"/>
+          <species lat="Stellaria pallida" ned="Duinvogelmuur"/>
+          <species lat="Stellaria uliginosa" ned="Moerasmuur"/>
+          <species lat="Stellaria palustris" ned="Zeegroene muur"/>
+          <species lat="Stellaria graminea" ned="Grasmuur"/>
+          <species lat="Stellaria holostea" ned="Grootbloemige muur"/>
+          <species lat="Holosteum umbellatum" ned="Heelbeen"/>
+          <species lat="Cerastium arvense" ned="Akkerhoornbloem"/>
+          <species lat="Cerastium fontanum" ned="Gewone hoornbloem"/>
+          <species lat="Cerastium glomeratum" ned="Kluwenhoornbloem"/>
+          <species lat="Cerastium semidecandrum" ned="Zandhoornbloem"/>
+          <species lat="Cerastium pumilum" ned="Dwerghoornbloem"/>
+          <species lat="Cerastium diffusum" ned="Kleine hoornbloem"/>
+          <species lat="Moenchia erecta" ned="Moenchia"/>
+          <species lat="Myosoton aquaticum" ned="Watermuur"/>
+          <species lat="Sagina nodosa" ned="Sierlijke vetmuur of Krielparnassia"/>
+          <species lat="Sagina procumbens" ned="Liggende vetmuur"/>
+          <species lat="Sagina apetala" ned="Tengere vetmuur"/>
+          <species lat="Sagina maritima" ned="Zeevetmuur"/>
+          <species lat="Scleranthus perennis" ned="Overblijvende hardbloem"/>
+          <species lat="Scleranthus annuus" ned="Eenjarige hardbloem"/>
+          <species lat="Corrigiola litoralis" ned="Riempjes"/>
+          <species lat="Herniaria glabra" ned="Breukkruid"/>
+          <species lat="Illecebrum verticillatum" ned="Grondster"/>
+          <species lat="Spergula arvensis" ned="Gewone spurrie"/>
+          <species lat="Spergula morisonii" ned="Heidespurrie"/>
+          <species lat="Spergularia rubra" ned="Rode schijnspurrie"/>
+          <species lat="Spergularia salina" ned="Zilte schijnspurrie"/>
+          <species lat="Spergularia maritima" ned="Gerande schijnspurrie"/>
+          <species lat="Lychnis flos-cuculi" ned="Echte koekoeksbloem"/>
+          <species lat="Agrostemma githago" ned="Bolderik"/>
+          <species lat="Silene dioica" ned="Dagkoekoeksbloem"/>
+          <species lat="Silene pratensis" ned="Avondkoekoeksbloem"/>
+          <species lat="Silene noctiflora" ned="Nachtkoekoeksbloem"/>
+          <species lat="Silene conica" ned="Kegelsilene"/>
+          <species lat="Silene otites" ned="Oorsilene"/>
+          <species lat="Silene nutans" ned="Nachtsilene"/>
           <species lat="Silene vulgaris" ned="Blaassilene"/>
-          <species lat="Saponaria" ned="Zeepkruid"/>
+          <species lat="Cucubalus baccifer" ned="Besanjelier"/>
+          <species lat="Gypsophila muralis" ned="Gipskruid"/>
+          <species lat="Saponaria officinalis" ned="Zeepkruid"/>
+          <species lat="Petrorhagia prolifera" ned="Slanke mantelanjer"/>
+          <species lat="Dianthus armeria" ned="Ruige anjer"/>
           <species lat="Dianthus deltoides" ned="Steenanjer"/>
-          <species lat="Dianthus carthusianorum" ned="Cartuizer anjer"/>
+          <species lat="Dianthus carthusianorum" ned="Karthuizer anjer"/>
           <species lat="Dianthus barbatus" ned="Duizendschoon"/>
         </familia>
       </ordo>
       <ordo lat="Ranales" ned="..." fam="38-42">
         <familia lat="Nymphaeaceae" ned="Waterleliefamilie">
           <species lat="Nuphar lutea" ned="Gele Plomp"/>
-          <species lat="Nymphaea alba" ned="Waterlelie" plaatje="waterlelie.jpg"/>
+          <species lat="Nymphaea alba" ned="Waterlelie" plaatje="Waterlelie.jpg"/>
+          <species lat="Nymphaea candida" ned="Waterlelie" plaatje="Kantige waterlelie.jpg"/>
         </familia>
         <familia lat="Ceratophyllaceae" ned="Hoornbladfamilie">
-          <species lat="Ceratophyllum" ned="Hoornblad"/>
+          <species lat="Ceratophyllum demersum" ned="Gedoornd hoornblad"/>
+          <species lat="Ceratophyllum submersum" ned="Ongedoornd hoornblad"/>
         </familia>
         <familia lat="Ranunculaceae" ned="Ranonkelfamilie">
           <species lat="Helleboris viridis" ned="Wrangwortel"/>
@@ -359,19 +403,35 @@
           <species lat="Actaea spicate" ned="Cristoffelkkruid"/>
           <species lat="Caltha palustris" ned="Dotterbloem" plaatje="l-dotterbloem.jpg"/>
           <species lat="Aconitum vulparia" ned="Gele monnikskap" plaatje="z-gelemonnikskap.jpg"/>
-          <species lat="Consolida" ned="Ridderspoor"/>
+          <species lat="Consolida regalis" ned="Wilde ridderspoor"/>
           <species lat="Anemone nemorosa" ned="Bosanemoon" plaatje="l-bosanemoon.jpg"/>
+          <species lat="Anemone apennina" ned="Blauwe anemoon"/>
           <species lat="Anemone ranunculoides" ned="Gele anemoon" plaatje="l-gele anemoon.jpg"/>
           <species lat="Pulsatilla vulgaris" ned="Wildemanskruid"/>
           <species lat="Clematis vitalba" ned="Bosrank"/>
           <species lat="Adonisa aestivalis" ned="Zomeradonis"/>
           <species lat="Ranunculus ficaria" ned="Speenkruid" plaatje="w-speenkruid.jpg"/>
           <species lat="Ranunculus lingua" ned="Grote boterbloem"/>
+          <species lat="Ranunculus flammula" ned="Egelboterbloem"/>
+          <species lat="Ranunculus arvensis" ned="Akkerboterbloem"/>
+          <species lat="Ranunculus auricomus" ned="Gulden boterbloem"/>
+          <species lat="Ranunculus acris" ned="Scherpe boterbloem"/>
+          <species lat="Ranunculus nemorosus" ned="Bosboterbloem"/>
+          <species lat="Ranunculus repens" ned="Kruipende boterbloem"/>
+          <species lat="Ranunculus bulbosis" ned="Knolboterbloem"/>
+          <species lat="Ranunculus sardous" ned="Behaarde boterbloem"/>
           <species lat="Ranunculus sceleratus" ned="Blaartrekkende boterbloem"/>
+          <species lat="Ranunculus hederaceus" ned="Klimopwaterranonkel"/>
+          <species lat="Ranunculus ololeucos" ned="Witbloemige waterranonkel"/>
+          <species lat="Ranunculus baudotii" ned="Zilte waterranonkel"/>
+          <species lat="Ranunculus aquatilis" ned="Fijne waterranonkel"/>
+          <species lat="Ranunculus peltatus" ned="Gewone waterranonkel"/>
           <species lat="Ranunculus fluitans" ned="Vlottende waterranonkel"/>
+          <species lat="Ranunculus circinatus" ned="Stijve waterranonkel"/>
           <species lat="Myosurus minimus" ned="Muizestaart"/>
-          <species lat="Aquilegia vulgaris" ned="Akelei"/>
-          <species lat="Thalictrum fluvum" ned="Poelruit"/>
+          <species lat="Aquilegia vulgaris" ned="Wilde akelei"/>
+          <species lat="Thalictrum flavum" ned="Poelruit"/>
+          <species lat="Thalictrum minus" ned="Kleine ruit"/>
         </familia>
         <familia lat="Berberidaceae" ned="Berberisfamilie">
 	          <species lat="Berberis vulgaris" ned="Zuurbes"/>
@@ -383,10 +443,13 @@
       <ordo lat="Rhoeadales" ned="..." fam="43-45">
         <familia lat="Papaveraceae" ned="Papaverfamilie">
 	          <species lat="Papaver rhoeas" ned="Klaproos"/>
+	          <species lat="Papaver dubium" ned="Kleine klaproos"/>
+	          <species lat="Papaver argemone" ned="Ruige klaproos"/>
 	          <species lat="Glaucium flavum" ned="Gele hoornpapaver"/>
 	          <species lat="Chelidonium majus" ned="Stinkende gouwe"/>
-	          <species lat="Corydalis solida" ned="Voorjaars helmbloem"/>
+	          <species lat="Corydalis solida" ned="Voorjaarshelmbloem"/>
 	          <species lat="Corydalis lutea" ned="Gele helmbloem"/>
+	          <species lat="Corydalis claviculata" ned="Rankende helmbloem"/>
 	          <species lat="Corydalis bulbosa" ned="Holwortel"/>
 	          <species lat="Fumaria officinalis" ned="Gewone duivekervel"/>
         </familia>
@@ -446,7 +509,10 @@
       </ordo>
       <ordo lat="Saraceniales" ned="..." fam="46">
         <familia lat="Droseraceae" ned="Zonnedauwfamilie">
+          <species lat="Drosera intermedia" ned="Kleine zonnedauw"/>
           <species lat="Drosera rotundifolia" ned="Ronde zonnedauw"/>
+          <species lat="Drosera anglica" ned="Lange zonnedauw"/>
+          <species lat="Drosera x obovata" ned="Bastaardzonnedauw"/>
         </familia>
       </ordo>
       <ordo lat="Rosales" ned="..." fam="47-51">
@@ -454,6 +520,7 @@
           <species lat="Crassula tillaea" ned="Mosbloempje"/>
           <species lat="Sedum acre" ned="Muurpeper"/>
           <species lat="Sedum sexangulare" ned="Zacht vetkruid"/>
+          <species lat="Sedum album" ned="Wit vetkruid"/>
           <species lat="Sedum reflexum" ned="Tripmadam"/>
           <species lat="Sedum telphium" ned="Hemelsleutel"/>
         </familia>
