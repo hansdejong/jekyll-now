@@ -455,22 +455,31 @@
         </familia>
         <familia lat="Cruciferae" ned="Kruisbloemenfamilie">
           <species lat="Sisymbrium officinale" ned="Gewone raket"/>
+          <species lat="Sisymbrium austriacum" ned="Maasraket"/>
           <species lat="Descurainia sophia" ned="Sophiekruid"/>
           <species lat="Alliaria petiolata" ned="Look-zonder-look"/>
           <species lat="Arabidopsis thaliana" ned="Zandraket"/>
           <species lat="Isatis tinctoria" ned="Wede"/>
           <species lat="Bunias orientalis" ned="Bunias"/>
           <species lat="Erysimum cheiranthoides" ned="Gewone steenraket"/>
+          <species lat="Erysimum hieracifolium" ned="Stijve steenraket"/>
           <species lat="Cheorenthus cheiri" ned="Muurbloem"/>
           <species lat="Hesperis matronalis" ned="Damastbloem" plaatje="z-damastbloem.jpg"/>
           <species lat="Barbarea vulgaris" ned="Gewoon barbarakruid"/>
+          <species lat="Barbarea intermedia" ned="Bitter barbarakruid"/>
           <species lat="Rorippa palustris" ned="Moeraskers"/>
           <species lat="Rorippa sylvestris" ned="Akkerkers" plaatje="zjk-akkerkers.jpg"/>
+          <species lat="Rorippa amphibia" ned="Gele waterkers"/>
+          <species lat="Rorippa austriaca" ned="Oostenrijkse waterkers"/>
           <species lat="Amoracia rusticana" ned="Mierik"/>
           <species lat="Nasturtium officinale" ned="Echte waterkers"/>
           <species lat="Nasturtium aquaticum" ned="Witte waterkers" plaatje="zjk-wittewaterkers.jpg"/>
+          <species lat="Nasturtium microphyllum" ned="Slanke waterkers"/>
           <species lat="Cardamine pratensis" ned="Pinksterbloem"/>
           <species lat="Cardamine amara" ned="Bittere veldkers"/>
+          <species lat="Cardamine hirsuta" ned="Kleine veldkers"/>
+          <species lat="Cardamine flexuosa" ned="Bosveldkers"/>
+          <species lat="Cardamine impatiens" ned="Springzaadveldkers"/>
           <species lat="Cardaminopsis arenosa" ned="Zandscheefkelk"/>
           <species lat="Arabis glabra" ned="Torenkruid"/>
           <species lat="Arabis hirsuta" ned="Ruige scheefkelk"/>
@@ -480,15 +489,23 @@
           <species lat="Draba muralis" ned="Hongerbloempje"/>
           <species lat="Erophila verna" ned="Vroegeling"/>
           <species lat="Cochlearia officinalis" ned="Echt lepelblad"/>
+          <species lat="Cochlearia danica" ned="Deens lepelblad"/>
+          <species lat="Cochlearia anglica" ned="Engels lepelblad"/>
           <species lat="Capsella bursa-pastoris" ned="Herderstasje"/>
           <species lat="Teesdalia nudicaulus" ned="Klein tasjeskruid"/>
-          <species lat="Thlaspi arvense" ned="witte krodde"/>
+          <species lat="Thlaspi arvense" ned="Witte krodde"/>
+          <species lat="Thlaspi perfoliatum" ned="Doorgroeide boerenkers"/>
           <species lat="Thlaspi caerulescens" ned="Zinkboerenkers"/>
           <species lat="Lepidium campestre" ned="Veldkruidkers"/>
+          <species lat="Lepidium hetrophyllum" ned="Rozetkruidkers"/>
+          <species lat="Lepidium ruderale" ned="Steenkruidkers"/>
+          <species lat="Lepidium virginicum" ned="Virginische kruidkers"/>
           <species lat="Lepidium latifolium" ned="Peperkers"/>
           <species lat="Cardaria draba" ned="Pijlkruidkers"/>
+          <species lat="Coronopus didymus" ned="Kleine varkenskers"/>
           <species lat="Coronopus squamatus" ned="Grote varkenskers"/>
           <species lat="Diplotaxus tenuifolia" ned="Gewone zandkool"/>
+          <species lat="Diplotaxus muralis" ned="Muurzandkool"/>
           <species lat="Brassica rapa" ned="Raapzaad"/>
           <species lat="Brassica napus" ned="Koolzaad"/>
           <species lat="Brassica nigra" ned="Zwarte mosterd"/>
@@ -539,13 +556,16 @@
         </familia>
         <familia lat="Rosaceae" ned="Rozenfamilie">
           <species lat="Filipendula ulmaria" ned="Moerasspirea"/>
+          <species lat="Rubus saxatilus" ned="Steenbraam"/>
+          <species lat="Rubus idaeus" ned="Framboos"/>
           <species lat="Rubus caesius" ned="Dauwbraam"/>
           <species lat="Rubus fruticosus" ned="Bosbraam"/>
+          <species lat="Rubus fruticosus inermis" ned="Koebraam"/>
           <species lat="Rosa arvensis" ned="Bosroos"/>
           <species lat="Rosa villosa" ned="Viltroos"/>
           <species lat="Rosa canina" ned="Hondsroos" plaatje="z-hondsroos.jpg"/>
           <species lat="Rosa rubiginosa" ned="Egelantier" plaatje="z-egelantier.jpg"/>
-          <species lat="Rosa pipinellefolia" ned="Duinroosje"/>
+          <species lat="Rosa pimpinellifolia" ned="Duinroosje"/>
           <species lat="Rosa rugosa" ned="Rimpelroos"/>
           <species lat="Agrimonia eupatoria" ned="Gewone agrimonie" plaatje="agrimonie.jpg"/>
           <species lat="Agrimonia procera" ned="Welriekende agrimonie"/>
@@ -554,9 +574,15 @@
           <species lat="Geum urbanum" ned="Gewoon nagelkruid"/>
           <species lat="Geum rivale" ned="Knikkend nagelkruid"/>
           <species lat="Potentilla palustris" ned="Wateraardbei"/>
-          <species lat="Potentilla anserima" ned="Zilverschoon"/>
+          <species lat="Potentilla anserina" ned="Zilverschoon"/>
           <species lat="Potentilla supina" ned="Liggende ganzerik"/>
+          <species lat="Potentilla norvegica" ned="Noorse ganzerik"/>
+          <species lat="Potentilla intermedia" ned="Middelste ganzerik"/>
+          <species lat="Potentilla argentea" ned="Viltganzerik"/>
+          <species lat="Potentilla recta" ned="Rechte ganzerik"/>
+          <species lat="Potentilla verna" ned="Voorjaarsganzerik"/>
           <species lat="Potentilla reptans" ned="Vijfvingerkruid"/>
+          <species lat="Potentilla anglica" ned="Kruipganzerik"/>
           <species lat="Potentilla erecta" ned="Tormentil"/>
           <species lat="Potentilla sterilis" ned="Aardbeiganzerik"/>
           <species lat="Fragaria vesca" ned="Bosaardbei" plaatje="z-grotebosaardbei.jpg"/>
@@ -578,6 +604,7 @@
           <species lat="Prunus spinosa" ned="Sleedoorn" plaatje="l-sleedoorn.jpg"/>
         </familia>
         <familia lat="Leguminosae" ned="Vlinderbloemenfamile">
+          <species lat="Cytisus scoparius" ned="Brem"/>
           <species lat="Genista" ned="Heidebrem"/>
           <species lat="Genista tinctoria" ned="Verfbrem"/>
           <species lat="Genista pilosa" ned="Kruipbrem"/>
@@ -594,14 +621,17 @@
           <species lat="Vicia tenuifolia" ned="Tere wikke"/>
           <species lat="Vicia villosa" ned="Bonte wikke"/>
           <species lat="Vicia sepium" ned="Heggewikke"/>
+          <species lat="Vicia lutea" ned="Gele wikke"/>
+          <species lat="Vicia sativa nigra" ned="Smalbladige wikke"/>
           <species lat="Vicia lathyroides" ned="Lathyruswikke"/>
+          <species lat="Lathyrus japonicus" ned="Zeelathyrus"/>
           <species lat="Lathyrus linifolius" ned="Knollathyrus"/>
           <species lat="Lathyrus pratensis" ned="Veldlathyrus"/>
           <species lat="Lathyrus palustris" ned="Moeraslathyrus"/>
-          <species lat="lathyrus tuberosus" ned="Aardaker"/>
-          <species lat="lathyrus sylvestris" ned="Boslathyrus"/>
-          <species lat="lathyrus nissolia" ned="Graslathyrus"/>
-          <species lat="lathyrus aphaca" ned="Naakte lathyrus" plaatje="z-naaktelathyrus.jpg"/>
+          <species lat="Lathyrus tuberosus" ned="Aardaker"/>
+          <species lat="Lathyrus sylvestris" ned="Boslathyrus"/>
+          <species lat="Lathyrus nissolia" ned="Graslathyrus"/>
+          <species lat="Lathyrus aphaca" ned="Naakte lathyrus" plaatje="z-naaktelathyrus.jpg"/>
           <species lat="Ononis spinosa" ned="Kattedoorn" plaatje="zjk-kattendoorn.jpg"/>
           <species lat="Ononis repens" ned="Kruipend stalkruid"/>
           <species lat="Melilotus" ned="Honingklaver" info="Te drogen leggen, gaat naar cumarine ruiken.\n(De geur van wijnruit)"/>
@@ -616,12 +646,21 @@
           <species lat="Medicago minimus" ned="Kleine rupsklaver"/>
           <species lat="Trifolium ornithopodioides" ned="Vogelpootklaver"/>
           <species lat="Trifolium repens" ned="Witte klaver"/>
+          <species lat="Trifolium fragiferum" ned="Aardbeiklaver"/>
+          <species lat="Trifolium campestre" ned="Liggende klaver"/>
+          <species lat="Trifolium dubium" ned="Kleine klaver"/>
+          <species lat="Trifolium micranthum" ned="Draadklaver"/>
           <species lat="Trifolium pratense" ned="Rode klaver"/>
+          <species lat="Trifolium medium" ned="Bochtige klaver"/>
+          <species lat="Trifolium striatum" ned="Gestreepte klaver"/>
           <species lat="Trifolium scabrum" ned="Ruwe klaver"/>
           <species lat="Trifolium arvense" ned="Hazepootje"/>
+          <species lat="Trifolium subterraneum" ned="Onderaardse klaver"/>
+          <species lat="Arachis hypogea" ned="Aardnoot, pinda"/>
           <species lat="Lotus uliginosus" ned="Moerasrolklaver"/>
           <species lat="Lotus corniculatus" ned="Gewone rolklaver"/>
-          <species lat="Tetragonolobusmaritimus" ned="Hauwklaver"/>
+          <species lat="Lotus tenuis" ned="Smalbladige rolklaver"/>
+          <species lat="Tetragonolobus maritimus" ned="Hauwklaver"/>
           <species lat="Anthyllis vulneraria" ned="Wondklaver"/>
           <species lat="Ornithopus perpusillus" ned="Vogelpootje"/>
           <species lat="Coronilla varia" ned="Kroonkruid"/>
@@ -640,11 +679,15 @@
           <species lat="Geranium colombinum" ned="Fijne ooievaarsbek"/>
           <species lat="Geranium dissectum" ned="Slipbladige ooievaarsbek"/>
           <species lat="Geranium rotundilolium" ned="Rondbladige ooievaarsbek"/>
+          <species lat="Geranium pyrenaicum" ned="Bermooievaarsbek"/>
+          <species lat="Geranium pusillum" ned="Kleine ooievaarsbek"/>
+          <species lat="Geranium molle" ned="Zachte ooievaarsbek"/>
           <species lat="Geranium robertianum" ned="Robertskruid"/>
           <species lat="Geranium phaeum" ned="Donkere ooievaarsbek"/>
           <species lat="Geranium sylvaticum" ned="Bosooievaarsbek" plaatje="zjk-bosooievaarsbek.jpg"/>
           <species lat="Geranium paluste" ned="Moerasooievaarsbek" plaatje="z-moerasooievaarsbek.jpg"/>
           <species lat="Erodium cicutarium" ned="Gewone reigersbek"/>
+          <species lat="Erodium cicutarium dunense" ned="Duinreigersbek"/>
           <species lat="Erodium glutinosum" ned="Kleverige reigersbek"/>
         </familia>
         <familia lat="Limnanthaceae" ned="Moerasbloemfamilie">
@@ -753,7 +796,7 @@
       <ordo lat="Guttiferales" ned="..." fam="72">
         <familia lat="Guttiferae" ned="Hertshooifamilie">
           <species lat="Hypericum perforatum" ned="Sint-Janskruid"/>
-          <species lat="Hypericum maculatum" ned="Kantig hertshooi"/>
+          <species lat="Hypericum maculatum obtusiusculum" ned="Kantig hertshooi"/>
           <species lat="Hypericum tetrapterum" ned="Gevleugeld hertshooi"/>
           <species lat="Hypericum humifusum" ned="Liggend hertshooi"/>
           <species lat="Hypericum pulchrum" ned="Fraai hertshooi"/>
@@ -811,6 +854,7 @@
           <species lat="Chamerion angustifolium" ned="Wilgeroosje"/>
           <species lat="Epilobium hirsutum" ned="Harig wilgeroosje"/>
 	  <species lat="Epilobium parviflorum" ned="Viltige of kleinbloemige basterdwederik"/>
+	  <species lat="Epilobium montanum" ned="Bergbasterdwederik"/>
 	  <species lat="Epilobium laceolatum" ned="Lancetbladige basterdwederik"/>
 	  <species lat="Epilobium rosea" ned="Bleke of roze basterdwederik"/>
 	  <species lat="Epilobium ciliatum" ned="Beklierde basterdwederik"/>
@@ -869,12 +913,12 @@
           <species lat="Cicuta virosa" ned="Waterscheerling"/>
           <species lat="Falcaria vulgaris" ned="Sikkelkruid"/>
           <species lat="Carum carvi" ned="Echte karwij"/>
-          <species lat="Carum verticillatum" ned="Krans karwij"/>
+          <species lat="Carum verticillatum" ned="Kranskarwij"/>
           <species lat="Selinum carvifolia" ned="Karwijselie"/>
           <species lat="Angelica sylvestris" ned="Gewone engelwortel"/>
           <species lat="Angelica archangelica" ned="Grote engelwortel"/>
-          <species lat="Peusedanum palustre" ned="Melkeppe"/>
-          <species lat="Peusedanum carvifolia" ned="Karwijvarkenskervel"/>
+          <species lat="Peucedanum palustre" ned="Melkeppe"/>
+          <species lat="Peucedanum carvifolia" ned="Karwijvarkenskervel"/>
           <species lat="Pastinaca sativa" ned="Pastinaak"/>
           <species lat="Heracleum sphondylum" ned="Gewone bereklauw"/>
           <species lat="Heracleum mantegazzianum" ned="Reuzenbereklauw"/>
@@ -1792,6 +1836,7 @@
           <species lat="Epipactis helleborine" ned="Brede wespenorchis"/>
           <species lat="Epipactis palustris" ned="Moeraswespenorchis"/>
           <species lat="Cephalanthera damasonium" ned="Bleek bosvogeltje"/>
+          <species lat="Cephalanthera rubra" ned="Rood bosvogeltje"/>
           <species lat="Goodyera repens" ned="Dennenorchys"/>
           <species lat="Spiranthes spiralis" ned="Herfstschroeforchis"/>
           <species lat="Neottia nidus-avis" ned="Vogelnestje"/>
