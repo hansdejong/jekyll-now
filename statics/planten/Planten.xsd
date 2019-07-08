@@ -2,60 +2,60 @@
 
 <!--Hans-->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	
-	<xsd:annotation>
-		<xsd:documentation>Planten-schema.</xsd:documentation>
-	</xsd:annotation>
-	
-	<xsd:element name="planten" type="phylumListType"/>
-	
-	<xsd:complexType name="phylumListType">
-		<xsd:sequence>
-			<xsd:element name="phylum" type="classisListType" maxOccurs="unbounded"/>
-		</xsd:sequence>
-	</xsd:complexType>
-	
-	<xsd:complexType name="classisListType">
-		<xsd:sequence>
-			<xsd:element name="classis" type="ordoListType" maxOccurs="unbounded"/>
-		</xsd:sequence>
-		<xsd:attribute name="ned" type="xsd:string" use="required"/>
-		<xsd:attribute name="lat" type="xsd:string" use="required"/>
-		<xsd:attribute name="ook" type="xsd:string"/>
-	</xsd:complexType>
-	
-	<xsd:complexType name="ordoListType">
-		<xsd:sequence>
-			<xsd:element name="ordo" type="familiaListType" maxOccurs="unbounded"/>
-		</xsd:sequence>
-		<xsd:attribute name="ned" type="xsd:string" use="required"/>
-		<xsd:attribute name="lat" type="xsd:string" use="required"/>
-		<xsd:attribute name="ook" type="xsd:string"/>
-	</xsd:complexType>
-	
-	<xsd:complexType name="familiaListType">
-		<xsd:sequence>
-			<xsd:element name="familia" type="speciesListType" maxOccurs="unbounded"/>
-		</xsd:sequence>
-		<xsd:attribute name="ned" type="xsd:string" use="required"/>
-		<xsd:attribute name="lat" type="xsd:string" use="required"/>
-		<xsd:attribute name="fam" type="xsd:string" use="required"/>
-		<xsd:attribute name="ook" type="xsd:string"/>
-	</xsd:complexType>
-	
-	<xsd:complexType name="speciesListType">
+  
+  <xsd:annotation>
+    <xsd:documentation>Planten-schema.</xsd:documentation>
+  </xsd:annotation>
+  
+  <xsd:element name="planten" type="phylumListType"/>
+  
+  <xsd:complexType name="phylumListType">
     <xsd:sequence>
-			<xsd:element name="species" maxOccurs="unbounded">
-				<xsd:complexType>
-					<xsd:attribute name="ned" type="xsd:string" use="required"/>
-					<xsd:attribute name="lat" type="xsd:string" use="required"/>
-			  	<xsd:attribute name="info" type="xsd:string"/>
-			  	<xsd:attribute name="plaatje" type="xsd:string"/>
-  			</xsd:complexType>
-			</xsd:element>
-		</xsd:sequence>
+      <xsd:element name="phylum" type="classisListType" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:complexType name="classisListType">
+    <xsd:sequence>
+      <xsd:element name="classis" type="ordoListType" maxOccurs="unbounded"/>
+    </xsd:sequence>
     <xsd:attribute name="ned" type="xsd:string" use="required"/>
-		<xsd:attribute name="lat" type="xsd:string" use="required"/>
-	</xsd:complexType>
-	
+    <xsd:attribute name="lat" type="xsd:string" use="required"/>
+    <xsd:attribute name="ook" type="xsd:string"/>
+  </xsd:complexType>
+  
+  <xsd:complexType name="ordoListType">
+    <xsd:sequence>
+      <xsd:element name="ordo" type="familiaListType" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="ned" type="xsd:string" use="required"/>
+    <xsd:attribute name="lat" type="xsd:string" use="required"/>
+    <xsd:attribute name="ook" type="xsd:string"/>
+  </xsd:complexType>
+  
+  <xsd:complexType name="familiaListType">
+    <xsd:sequence>
+      <xsd:element name="familia" type="speciesListType" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="ned" type="xsd:string" use="required"/>
+    <xsd:attribute name="lat" type="xsd:string" use="required"/>
+    <xsd:attribute name="fam" type="xsd:string" use="required"/>
+    <xsd:attribute name="ook" type="xsd:string"/>
+  </xsd:complexType>
+  
+  <xsd:complexType name="speciesListType">
+    <xsd:sequence>
+      <xsd:element name="species" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:attribute name="ned" type="xsd:string" use="required"/>
+          <xsd:attribute name="lat" type="xsd:string" use="required"/>
+          <xsd:attribute name="info" type="xsd:string"/>
+          <xsd:attribute name="plaatje" type="xsd:string"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="ned" type="xsd:string" use="required"/>
+    <xsd:attribute name="lat" type="xsd:string" use="required"/>
+  </xsd:complexType>
+  
 </xsd:schema>
