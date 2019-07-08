@@ -214,6 +214,7 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
 				<xsl:variable name="nederlands"><xsl:value-of select="@ned"/></xsl:variable>
 				<xsl:if test = "not($latijn='...')">
 	     	  <input type="button" id="id{$latijn}" value="M" style="background-color:#33cc99;" onclick="toggleMemo('{$latijn}','{$nederlands}');" /><!--33cc99-->
+	     	  <input type="button" value="I" style="background-color:#339999;" onclick="searchDDGo('{$latijn}');" />
 				</xsl:if>
       	<xsl:if test="@info">
       		<xsl:variable name="tekst"><xsl:value-of select="@info"/></xsl:variable>

@@ -43,6 +43,11 @@ function _dubbelen(inputArray){
   }, []);
   return duplicates
 }
+  function searchDDGo(lat) {
+    window.open('https://duckduckgo.com/?q='+lat+'&ia=web') //Wat doet die ia precies?
+//  window.open('https://duckduckgo.com/?q='+lat)
+  }
+
 
 //=============================================================================
 /*
