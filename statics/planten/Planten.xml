@@ -936,6 +936,8 @@
           <species lat="Monotropa hypopitys" ned="Stofzaad"/>
         </familia>
         <familia lat="Ericaceae" ned="Heidefamilie">
+          <species lat="Rhododendron ponticum" ned="Pontische rododendron"/>
+          <species lat="Azalea mollis" ned="Azalea"/>
           <species lat="Erica cinerea" ned="Rode dophei"/>
           <species lat="Erica tetralix" ned="Gewone dophei"/>
           <species lat="Erica scoparia" ned="Bezem dophei"/>
@@ -984,6 +986,7 @@
         <familia lat="Oleaceae" ned="Olijffamilie">
           <species lat="Fraxinus excelsior" ned="Gewone es"/>
           <species lat="Ligustrum vulgare" ned="Wilde liguster"/>
+          <species lat="Olea europaea" ned="Olijf"/>
         </familia>
       </ordo>
       <ordo lat="Gentianales" ned="Gentianen" fam="90-94">
@@ -1089,6 +1092,8 @@
         </familia>
         <familia lat="Labiatae" ned="Lipbloemenfamilie">
           <species lat="Ajuga reptans" ned="Kruipend zenegroen"/>
+          <species lat="Ajuga pyramidalis" ned="Piramidezenegroen"/>
+          <species lat="Ajuga chamaepitys" ned="Akkerzenegroen"/>
           <species lat="Teucrium scorodonia" ned="Valse salie"/>
           <species lat="Teucrium scordium" ned="Moerasgamander"/>
           <species lat="Teucrium botrys" ned="Trosgamander"/>
@@ -1099,14 +1104,15 @@
           <species lat="Marrubium vulgare" ned="Malrove"/>
           <species lat="Galeopsis ladanum" ned="Smalle raai"/>
           <species lat="Galeopsis segetum" ned="Bleekgele hennepnetel"/>
-          <species lat="Galeopsis pubescensm" ned="Zachte hennepnetel"/>
+          <species lat="Galeopsis pubescens" ned="Zachte hennepnetel"/>
           <species lat="Galeopsis tetrahit" ned="Gewone hennepnetel"/>
           <species lat="Galeopsis bifida" ned="Gespleten hennepnetel"/>
           <species lat="Galeopsis speciosa" ned="Dauwnetel"/>
           <species lat="Galeobdolon luteum" ned="Bonte gele dovenetel" plaatje="z-bontegeledovenetel.jpg"/>
           <species lat="Lamium galeobdolon" ned="Gele dovenetel"/>
           <species lat="Lamium album" ned="Witte dovenetel"/>
-          <species lat="Lamium purpureum" ned="Paarse dovenetel"/>
+          <species lat="Lamium purpureum purpureum" ned="Paarse dovenetel"/>
+          <species lat="Lamium purpureum incisum" ned="Ingesneden dovenetel"/>
           <species lat="Lamium maculatum" ned="Gevlekte dovenetel"/>
           <species lat="Lamium amplexicaule" ned="Hoenderbeet"/>
           <species lat="Leonurus cardiaca" ned="Hartgespan"/>
@@ -1116,22 +1122,22 @@
           <species lat="Stachys arvensis" ned="Akkerandoorn"/>
           <species lat="Stachys officinalis" ned="Betonie"/>
           <species lat="Nepeta cataria" ned="Wild kattekruid"/>
-          
           <species lat="Glechoma hederacea" ned="Hondsdraf"/>
-          <species lat="Prunella vulgaris" ned="gewone brunel"/>
+          <species lat="Prunella vulgaris" ned="Gewone brunel"/>
           <species lat="Saturea vulgaris" ned="Borstelkrans"/>
           <species lat="Saturea hortensis" ned="Bonekruid"/>
-          <species lat="Saturea valamintha" ned="Bergsteentijm"/>
+          <species lat="Saturea calamintha" ned="Bergsteentijm"/>
           <species lat="Saturea acinos" ned="Kleine steentijm"/>
           <species lat="Origanum vulgare" ned="Wilde marlolein"/>
           <species lat="Thymus pulegioides" ned="Grote tijm"/>
           <species lat="Thymus praecox" ned="Kruiptijm"/>
           <species lat="Thymus serpyllum" ned="Wilde tijm"/>
-          <species lat="Lycopuseoropaeus" ned="Wofspoot"/>
+          <species lat="Lycopus eoropaeus" ned="Wolfspoot"/>
           <species lat="Mentha pulegium" ned="Polei" plaatje="zjk-polei.jpg"/>
           <species lat="Mentha arvensis" ned="Akkermunt"/>
           <species lat="Mentha aquatica" ned="Watermunt"/>
           <species lat="Mentha suaveolens" ned="Witte munt"/>
+          <species lat="Mentha x niliaca" ned="Wollige munt"/>
           <species lat="Mentha longifolia" ned="Hertsmunt"/>
           <species lat="Salvia pratensis" ned="Veldsalie"/>
           <species lat="Salvia verticillata" ned="Kranssalie"/>
@@ -1161,7 +1167,7 @@
           <species lat="Gratiola officinalis" ned="Genadekruid"/>
           <species lat="Limosella aquatica" ned="Slijkgroen"/>
           <species lat="Verbascum thapsus" ned="Koningskaars"/>
-          <species lat="Verbascum dnsifolrum" ned="Stalkaars"/>
+          <species lat="Verbascum densiflorum" ned="Stalkaars"/>
           <species lat="Verbascum lychnitis" ned="Melige toorts"/>
           <species lat="Verbascum nigrum" ned="Zwarte toorts"/>
           <species lat="Verbascum blattaria" ned="Mottenkkruid"/>
@@ -1173,17 +1179,18 @@
           <species lat="Chaenorrhinum minus" ned="Kleine leeuwebek"/>        
           <species lat="Linaria vulgaris" ned="Vlasbekje"/>
           <species lat="Linaria repens" ned="Gestreepte leeuwebek"/>
+          <species lat="Linaria arvensis" ned="Blauwe leeuwebek"/>
           <species lat="Cymbalaria muralis" ned="Muurleeuwebek"/>        
           <species lat="Kickxia elatine" ned="Spiesleeuwebek"/>
           <species lat="Kickxia spuria" ned="Eironde leeuwebek"/>
           <species lat="Digitalis purpurea" ned="Vingerhoedskruid"/>        
           <species lat="Veronica longifolia" ned="Lange ereprijs"/>
-          <species lat="Veronica austriaca" ned="Brede ereprijs"/>
+          <species lat="Veronica austriaca teucrium" ned="Brede ereprijs"/>
           <species lat="Veronica prostrata" ned="Liggende ereprijs"/>
           <species lat="Veronica officinalis" ned="Mannetjesereprijs"/>
           <species lat="Veronica chamaedrys" ned="Gewone ereprijs"/>
           <species lat="Veronica montana" ned="Bosereprijs"/>
-          <species lat="Veronica scutella" ned="Schildereprijs"/>
+          <species lat="Veronica scutellata" ned="Schildereprijs"/>
           <species lat="Veronica beccabunga" ned="Beekpunge"/>
           <species lat="Veronica catanata" ned="Rode waterereprijs"/>
           <species lat="Veronica anagallis-aquatica" ned="Blauwe waterereprijs"/>
@@ -1244,10 +1251,10 @@
       </ordo>
       <ordo lat="Dipsacales" ned="..." fam="108-111">
         <familia lat="Caprifoliaceae" ned="Kamperfoeliefamilie">
-          <species lat="Sambucus racemosa" ned="Trosvlier"/>
+          <species lat="Sambucus racemosa" ned="Tros- of bergvlier"/>
           <species lat="Sambucus nigra" ned="Gewone vlier"/>
           <species lat="Sambucus ebulus" ned="Kruidvlier"/>
-          <species lat="Viburnum opulum" ned="Gelderse roos"/>
+          <species lat="Viburnum opulus" ned="Gelderse roos"/>
           <species lat="Viburnum lantana" ned="Wollige sneeuwbal"/>
           <species lat="Liaea borealis" ned="Linnaeusklokje"/>
           <species lat="Lonicera periclymenum" ned="Wilde kamperfoelie"/>
