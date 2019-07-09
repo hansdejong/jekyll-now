@@ -1294,7 +1294,7 @@
           <species lat="Phyteuma spicatum" ned="Witte rapunzel"/>
           <species lat="Phyteuma spicatum nigrum" ned="Zwartblauwe rapunzel"/>
           <species lat="Jasione montana" ned="Zandblauwtje"/>
-          <species lat="Lobbelia dortmanna " ned="Waterlobelia"/>
+          <species lat="Lobelia dortmanna " ned="Waterlobelia"/>
         </familia>
         <familia lat="Compositae" ned="Composietenfamilie">
           <species lat="Lactuca sativa" ned="Sla"/>
@@ -1309,7 +1309,7 @@
           <species lat="Helianthus tuberosus" ned="Aardpeer of Topinamboer"/>
           <species lat="Rudbeckia laciniata" ned="Slipbladige rudbeckia"/>
           <species lat="Eupatorium cannabinum" ned="Koninginnekruid of Leverkruid"/>
-          <species lat="Solidago vigaurea" ned="Echte guldenroede"/>
+          <species lat="Solidago virgaurea" ned="Echte guldenroede"/>
           <species lat="Solidago gigantea" ned="Late guldenroede"/>
           <species lat="Bellis perennis" ned="Madeliefje"/>
           <species lat="Aster tripolium" ned="Zulte"/>
@@ -1342,7 +1342,7 @@
           <species lat="Achillea ptarmica" ned="Wilde bertram"/>
           <species lat="Achillea millefolium" ned="Gewoon duizenblad"/>
           <species lat="Matricaria maritima" ned="Reukloze kamille"/>
-          <species lat="Matricaria discoida" ned="Schijfkamille"/>
+          <species lat="Matricaria discoidea" ned="Schijfkamille"/>
           <species lat="Maricaria recutita" ned="Echte kamille"/>
           <species lat="Chrysanthemum segetum" ned="Gele ganzebloem"/>
           <species lat="Tanacetum vulgare" ned="Boerenwormkruid"/>
@@ -1356,6 +1356,8 @@
           <species lat="Artemisia maritima" ned="Zeealsem"/>
           <species lat="Tussilago farfara" ned="Klein hoefblad"/>
           <species lat="Petasites hybrides" ned="Groot hoefblad" plaatje="l-groot hoefblad.jpg"/>
+          <species lat="Petasites japonicus" ned="Japans hoefblad"/>
+          <species lat="Petasites albus" ned="Wit hoefblad"/>
           <species lat="Arnica montana" ned="Valkruid"/>
           <species lat="Doronicum" ned="Voorjaarszonnebloem"/>
           <species lat="Doronicum plantagineum" ned="Weegbreezonnebloem"/>
@@ -1363,7 +1365,7 @@
           <species lat="Senecio inaequidens" ned="Bezemkruiskruid"/>
           <species lat="Senecio paludosus" ned="Moeraskruiskruid" plaatje="zjk-moeraskruiskruid.jpg"/>
           <species lat="Senecio fluviatilis" ned="Rivierkruiskruid"/>
-          <species lat="Senecio nemorensis" ned="Schaduwkruiskruid"/>
+          <species lat="Senecio nemorensis fuchsii" ned="Schaduwkruiskruid"/>
           <species lat="Senecio erucifolius" ned="Viltig kruiskruid"/>
           <species lat="Senecio jacobaea" ned="Jacobskruiskruid"/>
           <species lat="Senecio jacobaea dunensis" ned="Duinkruiskruid" plaatje="zjk-duinkruiskruid.jpg"/>
@@ -1374,6 +1376,7 @@
           <species lat="Senecio sylvaticus" ned="Boskruiskruid"/>
           <species lat="Senecio congestus" ned="Moerasandijvie"/>
           <species lat="Carlina vulgaris" ned="Driedistel"/>
+          <species lat="Arctium" ned="Klis of klit"/>
           <species lat="Arctium lappa" ned="Grote klis"/>
           <species lat="Arctium pubens" ned="Middelste klis"/>
           <species lat="Arctium minus" ned="Kleine klis"/>
@@ -1381,6 +1384,7 @@
           <species lat="Carduus nutans" ned="Knikkende distel"/>
           <species lat="Carduus crispus" ned="Kruldistel"/>
           <species lat="Carduus tenuiflorus" ned="Tengere distel"/>
+          <species lat="Cirsium" ned="Vederdistel"/>
           <species lat="Cirsium eriophorum" ned="Wollige distel"/>
           <species lat="Cirsium vulgare" ned="Speerdistel"/>
           <species lat="Cirsium palustre" ned="Kale jonker"/>
@@ -1403,7 +1407,7 @@
           <species lat="Picris hieracioides" ned="Echt bitterkruid"/>
           <species lat="Picris echioides" ned="Dubbelkelk"/>
           <species lat="Scorzonera humilis" ned="Kleine schorseneer"/>
-          <species lat="Tragopogon pratensis" ned="Oosterse morgenster"/>
+          <species lat="Tragopogon pratensis orientalis" ned="Oosterse morgenster"/>
           <species lat="Tragopogon pratensis pratensis" ned="Gele morgenster"/>
           <species lat="Tragopogon dubius" ned="Bleke morgenster"/>
           <species lat="Tragopogon porrifolius" ned="Paarse morgenster"/>
@@ -1416,8 +1420,9 @@
           <species lat="Lactuca virosa" ned="Gifsla"/>
           <species lat="Mycelis muralis" ned="Muursla"/>
           <species lat="Taraxacum obliquum" ned="Oranjegele paardebloem"/>
-          <species lat="Taraxacum laevigatum" ned="Zandpaardebloem"/>
-          <species lat="Taraxacum tortillobum" ned="Gekroesde paardebloem"/>
+          <species lat="Taraxacum laevigatum rubicundum" ned="Tengere zandpaardebloem"/>
+          <species lat="Taraxacum laevigatum oxoniense" ned="Zalmroze zandpaardebloem"/>
+          <species lat="Taraxacum laevigatum tortilobum" ned="Gekroesde paardebloem"/>
           <species lat="Taraxacum palustre" ned="Moeraspaardebloem"/>
           <species lat="Taraxacum celticum" ned="Schraallandpaardebloem"/>
           <species lat="Taraxacum hamatum" ned="Haakpaardebloem"/>
@@ -1473,6 +1478,7 @@
         </familia>
         <familia lat="Potamogetonaceae" ned="Fonteinkruidfamilie">
           <species lat="Groenlandia densa" ned="Paarbladig fonteinkruid"/>
+          <species lat="Potamogeton natans" ned="Drijvend fonteinkruid"/>
           <species lat="Potamogeton nodosus" ned="Rivierfonteinkruid"/>
           <species lat="Potamogeton polygonifolius" ned="Duizendknoopfonteinkruid"/>
           <species lat="Potamogeton coloratus" ned="Weegbreefonteinkruid"/>
@@ -1503,16 +1509,16 @@
       </ordo>
       <ordo lat="Liliflorae" ned="..." fam="121-124">
         <familia lat="Liliaceae" ned="Leliefamilie">
-          <species lat="Narthetium ossifragum" ned="Beenbreek"/>
+          <species lat="Narthecium ossifragum" ned="Beenbreek"/>
           <species lat="Anthericum liliago" ned="Grote graslelie" plaatje="zjk-grotegraslelie.jpg"/>
-          <species lat="Colchium autumnale" ned="Herfsttijlloos"/>
+          <species lat="Colchicum autumnale" ned="Herfsttijlloos"/>
           <species lat="Gagea villosa" ned="Akkergeelster"/>
           <species lat="Gagea spathacea" ned="Schedegeelster"/>
           <species lat="Gagea pratensis" ned="Weidegeelster"/>
           <species lat="Gagea lutea" ned="Bosgeelster"/>
           <species lat="Tulipa sylvestris" ned="bostulp" plaatje="l-wilde tulp.jpg"/>
           <species lat="Frittilaria meleagris" ned="Wilde kievitsbloem"/>
-          <species lat="Lilium bulbiferum" ned="Roggelelie"/>
+          <species lat="Lilium bulbiferum croceum" ned="Roggelelie"/>
           <species lat="Ornithogalum umbellatum" ned="Gewone vogelmelk"/>
           <species lat="Ornithogalum nutans" ned="Knikkende vogelmelk"/>
           <species lat="Muscari comosum" ned="Kuifhyacint"/>
