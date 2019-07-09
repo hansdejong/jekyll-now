@@ -1568,13 +1568,13 @@
           <species lat="Juncus ambiguus" ned="Zilte greppelrus"/>
           <species lat="Juncus inflexus" ned="Zeegroene rus"/>
           <species lat="Juncus conglomeratus" ned="Biezeknoppen"/>
-          <species lat="Juncus efficus" ned="Pitrus"/>
+          <species lat="Juncus effusus" ned="Pitrus"/>
           <species lat="Juncus filiformis" ned="Draadrus"/>
           <species lat="Juncus arcticus balticus" ned="Noordse rus"/>
           <species lat="Juncus maritimus" ned="Zeerus"/>
           <species lat="Juncus canadensis" ned="Canadese rus"/>
           <species lat="Juncus subnodulosus" ned="Padderus"/>
-          <species lat="Juncus alpinoarticulatus" ned="Alpenrus"/>
+          <species lat="Juncus alpinoarticulatus alpinoarticulatus" ned="Alpenrus"/>
           <species lat="Juncus alpinoarticulatus atricapillus" ned="Duinrus"/>
           <species lat="Juncus articulatus" ned="Zomprus"/>
           <species lat="Juncus acutiflorus" ned="Veldrus"/>
@@ -1594,7 +1594,6 @@
 		      <species lat="Triticum spelta" ned="Spelt" info="tetraploïd, 2n=28"/>
           <species lat="Triticum monococcum" ned="Eenkoorn" info="diploïd, 2n=14"/>
           <species lat="Triticum durum" ned="Durum, couscous" info="diploïd, 2n=14"/>
-
           
           <species lat="Secala cereale" ned="Rogge"/>
           <species lat="Oryza sativa" ned="Aziatische rijst"/>
@@ -1604,12 +1603,13 @@
           <species lat="Panicum milliaceum" ned="Gierst"/>
           <species lat="Setaria italica" ned="Trosgierst"/>
           
+          <species lat="Festuca ovina tenuifolia" ned="Fijn schapegras"/>
           <species lat="Festuca ovina ovina" ned="Genaald schapegras"/>
           <species lat="Festuca ovina cinerea" ned="Hard zwenkgras"/>
           <species lat="Festuca rubra commutata" ned="Rood zwenkgras"/>
-          <species lat="Festuca rubra arenia" ned="Duin zwenkgras"/>
+          <species lat="Festuca rubra arenaria" ned="Duin zwenkgras"/>
           <species lat="Festuca gigantea" ned="Reuzenzwenkgras"/>
-          <species lat="Festuca arondinacea" ned="Rietzwenkgras"/>
+          <species lat="Festuca arundinacea" ned="Rietzwenkgras"/>
           <species lat="Festuca pratensis" ned="Beemdlangbloem"/>
           <species lat="Festulolium loliaceum" ned="Trosraaigras"/>
           <species lat="Lolium perenne" ned="Engels raaigras"/>
@@ -1628,37 +1628,39 @@
           <species lat="Poa nemoralis" ned="Schaduwgras"/>
           <species lat="Poa bulbosa bulbosa" ned="Knolbeemdgras"/>
           <species lat="Poa bulbosa vivipara" ned="'prolifererend' Knolbeemdgras"/>
-          <species lat="Puccinellia distans" ned="Stomp kweldergras"/>
+          <species lat="Puccinellia distans distans" ned="Stomp kweldergras"/>
+          <species lat="Puccinellia distans borealis" ned="Bleek kweldergras"/>
           <species lat="Puccinellia fasciculata" ned="Blauw kweldergras"/>
           <species lat="Puccinellia maritima" ned="Gewoon kweldergras"/>
           <species lat="Puccinellia rupestris" ned="Dichtbloemig kweldergras"/>
           <species lat="Dactylis glomerata" ned="Kropaar"/>
           <species lat="Cynosurus cristatus" ned="Kamgras"/>
           <species lat="Catabrosa aquatica" ned="Watergras"/>
-          <species lat="Apera spica-ventis" ned="Grote windhalm"/>
+          <species lat="Apera spica-venti" ned="Grote windhalm"/>
           <species lat="Apera interrupta" ned="Stijve windhalm"/>
           <species lat="Mibora minima" ned="Dwerggras"/>
           <species lat="Briza media" ned="Bevertjes of trilgras" plaatje="z-bevertjes.jpg"/>
           <species lat="Sesleria albicans" ned="Blauwgras"/>
           <species lat="Melica uniflora" ned="Eenbloemig parelgras" plaatje="z-eenbloemigparelgras.jpg"/>
-          <species lat="Glycera notata declinata" ned="Getand vlotgras"/>
-          <species lat="Glycera notata notata" ned="Stomp vlotgras"/>
-          <species lat="Glycera fluitans" ned="Mannagras"/>
-          <species lat="Glycera maxima" ned="Liesgras"/>
+          <species lat="Glyceria notata declinata" ned="Getand vlotgras"/>
+          <species lat="Glyceria notata notata" ned="Stomp vlotgras"/>
+          <species lat="Glyceria fluitans" ned="Mannagras"/>
+          <species lat="Glyceria maxima" ned="Liesgras"/>
           <species lat="Bromus carinatus" ned="Gekielde dravik"/>
+          <species lat="Bromus inermis" ned="Kweekdravik"/>
           <species lat="Bromus ramosus ramosus" ned="Ruwe dravik"/>
           <species lat="Bromus ramosus benekenii" ned="Bosdravik"/>
           <species lat="Bromus erectus" ned="Bergdravik"/>
           <species lat="Bromus sterilus" ned="IJle dravik"/>
           <species lat="Bromus tectorum" ned="Zwenkdravik"/>
           <species lat="Bromus racemosus racemosus" ned="Trosdravik"/>
-          <species lat="Bromus racemosus commutatis" ned="Grote trosdravik"/>
+          <species lat="Bromus racemosus commutatus" ned="Grote trosdravik"/>
           <species lat="Bromus secalinus" ned="Dreps"/>
           <species lat="Bromus hordeaceus hordeaceus" ned="Zachte dravik"/>
-          <species lat="Bromus hordeaceus thominei" ned="Duin dravik"/>
+          <species lat="Bromus hordeaceus thominei" ned="Duindravik"/>
           <species lat="Brachipodium sylvaticum" ned="Boskortsteel"/>
           <species lat="Brachipodium pinnatum" ned="Gevinde kortsteel"/>
-          <species lat="Leymus aranarius" ned="Zandhaver"/>
+          <species lat="Leymus arenarius" ned="Zandhaver"/>
           <species lat="Elymus caninus" ned="Hondstarwegras"/>
           <species lat="Elymus repens" ned="Kweek"/>
           <species lat="Elymus athericus" ned="Strandkweek"/>
@@ -1678,7 +1680,7 @@
           <species lat="Trisetum flavensis" ned="Goudhaver"/>
           <species lat="Deschampsia cespitosa" ned="Ruwe smele"/>
           <species lat="Deschampsia setacea" ned="Moerassmele"/>
-          <species lat="Deschampsia fluxuosa" ned="Bochtige smele"/>
+          <species lat="Deschampsia flexuosa" ned="Bochtige smele"/>
           <species lat="Aira" ned="Dwerghaver"/>
           <species lat="Aira praecox" ned="Vroege haver"/>
           <species lat="Aira caryophyllea" ned="Zilverhaver"/>
@@ -1704,24 +1706,26 @@
           <species lat="Phleum pratense bertolonii" ned="Klein timoteegras" />
           <species lat="Phleum pratense pratense" ned="Timoteegras" />
           <species lat="Alopecurus myosuroides" ned="Duist"/>
+          <species lat="Alopecurus pratensis" ned="Grote vossestaart"/>
+          <species lat="Alopecurus geniculatus" ned="Geknikte vossestaart"/>
           <species lat="Alopecurus bulbosis" ned="Knolvossestaart"/>
           <species lat="Alopecurus equalis" ned="Rosse vossestaart"/>
           <species lat="Parapholis strigosa" ned="Dunstaart"/>
           <species lat="Phalaris arundinacea" ned="Rietgras"/>
-          <species lat="Phalaris canariensi" ned="Kanariezaad"/>
+          <species lat="Phalaris canariensis" ned="Kanariezaad"/>
           <species lat="Milium effusum" ned="Bosgierstgras"/>
           <species lat="Milium vernale" ned="Ruw gierstgras"/>
           <species lat="Phragmites australis" ned="Riet"/>
           <species lat="Danthonia decumbens" ned="Tandjesgras"/>
-          <species lat="Molinia caerula" ned="Pijpestrootje"/>
+          <species lat="Molinia caerulea" ned="Pijpestrootje"/>
           <species lat="Nardus stricta" ned="Borstelgras"/>
-          <species lat="Enagrostis minor" ned="Klein liefdegras"/>
-          <species lat="Enagrostis pilosa" ned="Straatliefdegras"/>
+          <species lat="Eragrostis minor" ned="Klein liefdegras"/>
+          <species lat="Eragrostis pilosa" ned="Straatliefdegras"/>
           <species lat="Cynodon dactylon" ned="Handjesgras"/>
           <species lat="Spartina maritima" ned="Klein slijkgras"/>
           <species lat="Spartina townsendii" ned="Engels slijkgras"/>
           <species lat="Leersia oryzoides" ned="Rijstgras"/>
-          <species lat="Echonochloa crus-gallia" ned="Hanepoot"/>
+          <species lat="Echinochloa crus-galli" ned="Hanepoot"/>
           <species lat="Panicum capillare" ned="Draadgierst"/>
           <species lat="Digitaria sanguinalis" ned="Harig vingergras (bloedgierst)"/>
           <species lat="Digitaria ischaemum" ned="Glad vingergras"/>
@@ -1800,7 +1804,7 @@
           <species lat="Carex distans" ned="Zilte zegge"/>
           <species lat="Carex punctata" ned="Stippelzegge"/>
           <species lat="Carex extensa" ned="Kwelderzegge"/>
-          <species lat="Carex laevigate" ned="Gladde zegge"/>
+          <species lat="Carex laevigata" ned="Gladde zegge"/>
           <species lat="Carex strigosa" ned="Slanke zegge"/>
           <species lat="Carex sylvatica" ned="Boszegge"/>
           <species lat="Carex pendula" ned="Hangende zegge" plaatje="h-hangendezegge.jpg"/>
@@ -1809,7 +1813,7 @@
           <species lat="Carex limosa" ned="Slijkzegge"/>
           <species lat="Carex buxbaumii" ned="Knotszegge"/>
           <species lat="Carex hartmanii" ned="Kleine knotszegge"/>
-          <species lat="Carex hirta" ned="Ruige scheefkelk zegge"/>
+          <species lat="Carex hirta" ned="Ruige zegge"/>
           <species lat="Carex lasiocarpa" ned="Draadzegge"/>
           <species lat="Carex pseudocyperus" ned="Hoge cyperzegge"/>
           <species lat="Carex rostrata" ned="Snavelzegge"/>
