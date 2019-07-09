@@ -148,7 +148,8 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
     <li>Filteren op gecheckte checkboxen.</li>
     <li>Het zou mooi zijn als het ook mogelijk was alle memo's naar een csv- of JSON-bestand te schrijven en eventueel te laden), waarschijnlijk via copy-paste vanaf het scherm.</li>
     <li><b>Ik heb getest of het gebruik van LocalStorage (checkboxen en memo's, opgeslagen als applicatiegebonden key-value paren) veilig is bij update van mijn kant.<br/>
-    Dat ging goed, maar toch heb ik het idee dat de connectie met de gegevens later soms verdween. Kortom: ik heb nog twijfels.</b></li>
+    Dat ging goed, maar toch heb ik het idee dat de connectie met de gegevens later soms verdween. Kortom: ik heb nog twijfels.<br/>
+    Voor de zekerheid zou je, als de gegevens belangrijk voor je zijn, voorlopig de pagina kunnen opslaan. Dan wordt het een lokale html-file.</b></li>
   </ul>
   Van de agenda verwijderd:<ul>
       <li>Eventueel een toggle voor alles in één tabel. (Techniek: xsl mode-attribuut en css/js display-none.)</li>
