@@ -400,7 +400,7 @@
           <species lat="Helleboris foetidus" ned="Stinkend nieskruid" plaatje="w-stinkend nieskruid.jpg"/>
           <species lat="Helleboris niger" ned="Kerstroos"/>
           <species lat="Eranthis hyemalis" ned="Winterakoniet" plaatje="w-winteraconiet.jpg"/>
-          <species lat="Actaea spicate" ned="Cristoffelkkruid"/>
+          <species lat="Actaea spicate" ned="Christoffelkruid"/>
           <species lat="Caltha palustris" ned="Dotterbloem" plaatje="l-dotterbloem.jpg"/>
           <species lat="Aconitum vulparia" ned="Gele monnikskap" plaatje="z-gelemonnikskap.jpg"/>
           <species lat="Consolida regalis" ned="Wilde ridderspoor"/>
@@ -941,7 +941,7 @@
           <species lat="Erica cinerea" ned="Rode dophei"/>
           <species lat="Erica tetralix" ned="Gewone dophei"/>
           <species lat="Erica scoparia" ned="Bezem dophei"/>
-          <species lat="Calluna vulgaris" ned="Struikhei."/>
+          <species lat="Calluna vulgaris" ned="Struikhei"/>
           <species lat="Arctostaphylos uva-ursi" ned="Beredruif"/>
           <species lat="Andromeda polifolia" ned="Lavendelhei"/>
           <species lat="Vaccinium uliginosum" ned="Rijsbes"/>
@@ -1170,12 +1170,12 @@
           <species lat="Verbascum densiflorum" ned="Stalkaars"/>
           <species lat="Verbascum lychnitis" ned="Melige toorts"/>
           <species lat="Verbascum nigrum" ned="Zwarte toorts"/>
-          <species lat="Verbascum blattaria" ned="Mottenkkruid"/>
+          <species lat="Verbascum blattaria" ned="Mottenkruid"/>
           <species lat="Scrophularia umbrosa" ned="Gevleugeld helmkruid"/>        
           <species lat="Scrophularia nodosa" ned="Knopig helmkruid"/>        
           <species lat="Scrophularia auriculata" ned="Geoord helmkruid"/>        
           <species lat="Scrophularia vernalis" ned="Voorjaarshelmkruid" plaatje="l-voorjaarshelmkruid.jpg"/>        
-          <species lat="Misopates orontium" ned="AkkerLeeuwebek"/>
+          <species lat="Misopates orontium" ned="Akkerleeuwebek"/>
           <species lat="Chaenorrhinum minus" ned="Kleine leeuwebek"/>        
           <species lat="Linaria vulgaris" ned="Vlasbekje"/>
           <species lat="Linaria repens" ned="Gestreepte leeuwebek"/>
@@ -1203,10 +1203,9 @@
           <species lat="Veronica filiformis" ned="Draadereprijs"/>
           <species lat="Veronica persica" ned="Grote ereprijs"/>
           <species lat="Veronica agrestis" ned="Akkerereprijs"/>
-          <species lat="Veronica polita" ned="Gladdeereprijs"/>
+          <species lat="Veronica polita" ned="Gladde ereprijs"/>
           <species lat="Veronica opaca" ned="Doffe ereprijs"/>
           <species lat="Veronica hederifolia" ned="Klimopereprijs"/>
-          <species lat="Veronica melampyrum" ned="Zwartkoren"/>
           <species lat="Melampyrum" ned="Zwartkoren"/>
           <species lat="Melampyrum pratense" ned="Hengel"/>
           <species lat="Melampyrum arvense" ned="Wilde weit"/>
@@ -1290,7 +1289,7 @@
           <species lat="Campanula rotundifolia" ned="Grasklokje"/>
           <species lat="Campanula patula" ned="Weideklokje" plaatje="z-weideklokje.jpg"/>
           <species lat="Legousia speculum-veneris" ned="Groot spiegelklokje"/>
-          <species lat="Legousia hybrida" ned="Groot spiegelklokje"/>
+          <species lat="Legousia hybrida" ned="Klein spiegelklokje"/>
           <species lat="Phyteuma spicatum" ned="Witte rapunzel"/>
           <species lat="Phyteuma spicatum nigrum" ned="Zwartblauwe rapunzel"/>
           <species lat="Jasione montana" ned="Zandblauwtje"/>
