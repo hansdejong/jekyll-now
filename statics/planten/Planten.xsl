@@ -116,10 +116,10 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
    Maar zoals gezegd, het begon als een technische vingeroefening. Suggesties om het voor een bepaalde praktijk echt nuttig te maken zijn welkom.<br/>
    Overigens lijkt het nut beduidend toegenomen nu er links naar het Internet zijn toegevoegd.
    </i><br/><br/><ul>
-  <li>(Type-)fouten en eigenwijsheid kunnen de waarheid geweld aandoen en komen niet voor rekening van de auteur.<br />
-   Veel soorten zijn nog niet opgenomen.</li>
+  <li>(Type-)fouten en eigenwijsheid kunnen de waarheid geweld aandoen en komen niet voor rekening van de auteur.</li>
   <li>De familie-nummering verwijst naar Heukels' Flora (1990). Daar niet in opgenomen families (*) tellen dus niet mee.<br />
-  Verder is de Nederlandse Oecologische Flora (2000) de voornaamse bron (ook van de gebruikte taxonomische indeling).</li>
+  Verder is de Nederlandse Oecologische Flora (2000) de voornaamse bron.<br/>
+  (Ook van de gebruikte taxonomische indeling. Deze indeling is dus ouder dan die van de APG, de Angiosperm Phylogeny group.)</li>
   <li>Bij Phylum, Classis en Ordo is er een optioneel hidden veld "ook" voor alternatieve naamgeving.</li>
   <li>Filteren via het zoekvak kan op meer spatiegescheiden termen tegelijk.<br />
   (De velden worden daarbij samengevoegd, dus "...look Allium..." vind je met "Kal".) </li>
@@ -141,18 +141,19 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
   <font color="red">TODO</font> / bugs:<ul>
     <li>Ik loop de flora nog eens door om overgeslagen soorten op te nemen. De families zijn compleet (wat Heukels betreft).<br />
     De meeste lacunes zitten bij de bomen. Het zou leuk zijn de boel geleidelijk uit te breiden. Ook wieren, schimmels?</li>
+    <li>Misschien ooit de indeling en de spelling moderniseren, en een determinatiehulp toevoegen.</li>
     <li>Plaatjes zijn geïmplementeerd, maar sluiten zou ook met de buttons moeten kunnen.</li>
     <li><b>Plaatjes toevoegen (heeft iemand mooie plaatjes met duidelijke bloem- en bladvorm zonder copyright?)<br/>
     Ik sta overigens ook open voor aansporingen om bepaalde planten(-groepen) toe te voegen. Dat moet ik centraal doen.</b></li>
     <li>Filteren op gecheckte checkboxen.</li>
     <li>Het zou mooi zijn als het ook mogelijk was alle memo's naar een csv- of JSON-bestand te schrijven en eventueel te laden), waarschijnlijk via copy-paste vanaf het scherm.</li>
   </ul>
-    Van de agenda verwijderd:<ul>
+  Van de agenda verwijderd:<ul>
       <li>Eventueel een toggle voor alles in één tabel. (Techniek: xsl mode-attribuut en css/js display-none.)</li>
-    </ul>
+  </ul>
   <br /><br />
  <div id="onder" class="fourty"><a href="#boven"> <img src="images/duimpje.jpg" /></a></div>
-  <button class="open-button" onclick="toggleNotition()">Algemene notitie</button>
+ <button class="open-button" onclick="toggleNotition()">Algemene notitie</button>
 <!--<button id="open-button" onclick="toggleNotition()">Algemene notitie</button>-->
 
 <!--Vanaf hier de popup in de hoek -->
