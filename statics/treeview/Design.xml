@@ -406,19 +406,58 @@
 			  	<leaf id="3.6b" choice="Stengel duidelijk geleed, onvertakt of met kransstandige takken.Bladen tot getande scheden rond de knopen vergroeid" lat="Equisetum" ned="paardestaart" genus="3.1"/>
 			  </node>
 		  	<node id="3.5b" choice="Bladen veel groter dan 1 cm, grondstandig &#8594; 3.7"> 
-		  		<dummy/>
+			  	<node id="3.7a" choice="Sporangiën aan een afzonderlijk gedeelte van het blad tot een aar of pluim verenigd, dit duidelijk verschillend van het onvruchtbare deel van het blad &#8594; 3.8"> 
+				  	<leaf id="3.8a" choice="Onvruchtbare bladdeel enkelvoudig of geveerd; sporangiën aar- of pluimvormig op het vruchtbare bladdeel gerangschikt" lat="Ophioglossaceae" ned="addertongfamilie" genus="4"/>
+				  	<leaf id="3.8b" choice="Onvruchtbare bladdeel dubbel geveerd; sporangiën pluimvormig op het vruchtbare bladdeel gerangschikt" lat="Osmunda" ned="koningsvaren" genus="5.1"/>
+				  </node>
+			  	<node id="3.7b" choice="Sporangiën aan de onderzijde der bladen geplaatst, niet in een aar of pluim verenigd. Vruchtbare bladen in hun geheel al dan niet verschillend van de onvruchtbare bladen &#8594; 3.9"> 
+				  	<node id="3.9a" choice="Bladen ingesneden of samengesteld. Sporangiënhoopjes nooit gepaard &#8594; 3.10"> 
+					  	<node id="3.10a" choice="Wortelstok lang-kruipend, de bladen met tussenruimten ingeplant &#8594; 3.11"> 
+						  	<node id="3.11a" choice="Bladen veerdelig tot dubbel veerdelig &#8594; 3.12"> 
+							  	<leaf id="3.12a" choice="Bladen enkel veerdelig tot geveerd" lat="Polypodium" ned="eikvaren" genus="12.1"/>
+							  	<leaf id="3.12b" choice="Bladen afnemend dubbel veerdelig; de onderste blaadjes zittend of zeer kort gesteeld, naar boven toe zittend tot ineenvloeiend" lat="Thelypteridaceae" ned="moerasvarenfamilie" genus="7"/>
+							  </node>
+						  	<node id="3.11b" choice="Bladen dubbel geveerd tot meer samengesteld &#8594; 3.13"> 
+							  	<leaf id="3.13a" choice="Wortelstok diep ondergronds. Steel krachtig en taai. Sporangiën in een lijn langs de bladrand" lat="Pteridium" ned="adelaarsvaren" genus="6.1"/>
+							  	<leaf id="3.13b" choice="Wortelstok bijna aan de oppervlakte kruipend. Steel teer en bros. Sporangiën in hoopjes aan de onderzijde der bladen" lat="Gymnocarpium" ned="driehoeksvaren" genus="10.4"/>
+							  </node>
+						  </node>
+					  	<node id="3.10b" choice="Wortelstok kort-kruipend, opstijgend of opgericht, zelden ook nog met lange uitlopers. Bladen steeds dicht opeen of in bundels &#8594; 3.14"> 
+						  	<node id="3.14a" choice="Bladen veervormig gelobd of veerdelig &#8594; 3.15"> 
+							  	<leaf id="3.15a" choice="Bladschijf aan de onderzijde met slechts enkele schubben of geheel kaal. Vruchtbare bladen met zeer smalle bladslippen, duidelijk van de onvruchtbare verschillend"
+							  		 lat="Blechnum" ned="dubbelloof" genus="11.1"/>
+							  	<leaf id="3.15b" choice="Bladschijf aan de onderzijde dicht dakpansgewijs beschubd. Alle bladen met brede bladslippen" lat="Ceterach" ned="schubvaren" genus="8.2"/>
+							  </node>
+						  	<node id="3.14b" choice="Bladen geveerd of meer samengesteld &#8594; 3.16"> 
+							  	<node id="3.16a" choice="Dekvliesjes rond, indien langwerpig dan de inplanting meestal haakvormig over de nerf gekromd, cellen van de schubben aan de bladvoet gelijkmatig verdikt (loep!) &#8594; 3.17"> 
+								  	<node id="3.17a" choice="Bladen dubbel veerdelig of meer ingesneden &#8594; 3.18"> 
+									  	<node id="3.18a" choice="Zowel de onvruchtbare als de vruchtbare bladen dubbel veerdelig of meer samengesteld &#8594; 3.19"> 
+										  	<node id="3.19a" choice="Alle bladen dubbel veerdelig &#8594; 3.20"> 
+											  	<leaf id="3.20a" choice="Bladsteel onderaan met 2 vaatbundels. Sporangiënhoopjes naar de bladrand geplaatst, met klein en afvallend dekvliesje, min of meer bedekt door de ingerolde bladrand. Blad bezet met kleine gele klierpuntjes (loep!)" lat="Oreopteris" ned="stippelvaren" genus="7.1"/>
+											  	<leaf id="3.20b" choice="Bladsteel onderaan met minstens 5 vaatbundels. Sporangiënhoopjes centraal of naar de middennerf geplaatst, met stevig en blijvend dekvliesje. Bladrand nooit ingerold. Blad onbeklierd of met kleurloze klierpuntjes (loep!)" lat="Dryopteridaceae" ned="niervarenfamilie (2e)" genus="10"/>
+											  </node>
+										  	<node id="3.19ba" choice="Alle bladen meer samengesteld &#8594; 3.21"> 
+											  	<node id="3.21a" choice="Bladsteel stvig, meer dan 3 mm dik. Sporangiënhoopjes rond of lijnvormig, met niervormig, rond of haakvormig dekvliesje &#8594; 3.22"> 
+												  	<leaf id="3.22a" choice="Bladsteel aan de voet met 2 vaatbundels. Sporangiënhoopjes langs de nerven geplaatst, met haakvormig tot langwerpig dekvliesje" lat="Athyrium" ned="wijfjesvaren" genus="9.1"/>
+												  	<leaf id="3.22b" choice="Bladsteel aan de voet met minstens 5 vaatbundels. Sporangiënhoopjesrond, op de nerven geplaatst, met nier- of schildvormig dekvliesje" lat="Dryopteridaceae" ned="niervarenfamilie (3e)" genus="10"/>
+												  </node>
+											  	<leaf id="3.21b" choice="Bladsteel teer en bros, minder dan 2 mm dik.  Sporangiënhoopjes rond, met puntig-eirond dekvliesje" lat="Cystopteris" ned="blaasvaren" genus="9.2"/>
+											  </node>
+										  </node>
+									  	<leaf id="3.18b" choice="Alleen de onvruchtbare bladen dubbel veerdelig; de vruchtbare geveerd en sterk van de onvruchtbare bladen verschillend" lat="Matteuccia" ned="struisvaren" genus="9.3"/>
+									  </node>
+								  	<leaf id="3.17b" choice="Bladen 1 maal geveerd" lat="Dryopteridaceae" ned="niervarenfamilie (1e)" genus="10"/>
+								  </node>
+							  	<leaf id="3.16b" choice="Dekvliesjes langwerpig, aan een zijde van de dragende nerf ingeplant, cellen van de schubben aan de bladvoet doorschijnend, met duidelijk verdikte wanden (loep!)" lat="Aspleniaceae" ned="streepvarenfamilie" genus="8"/>
+							  </node>
+						  </node>
+					  </node>
+				  	<leaf id="3.9b" choice="Bladen ongedeeld, soms iets gegolfd, met gave rand. Sporangiënhoopjes gepaard, de dekvliesjes naar elkaar toe openend" lat="Asplenium scolopendrium" ned="tongvaren" genus="8.1"/>
+				  </node>
 			  </node>
 		  </node>
 	  </node>
   </node>
-  <!--
-  	<node id="3.23a" choice="zzz &#8594; 3.24"> 
-  		<dummy/>
-	  </node>
-  	<leaf id="3.23b" choice="zzz" lat="Xxx" ned="Yyy" genus="1.1"/>
-  -->
-  
-  
   <node id="4" choice="Niet-groene kruiden" tooltip="Planten met bloemen met stampers en/of meeldraden. Voortplanting d.m.v. zaden. (Dat geldt vanaf hier voor de rest!) Planten tijdens de bloei zonder bladgroen.
   	Bladen schubvormig of afwezig.">
   	<node id="4.1a" choice="Bloemen niet grondstandig, in meerbloemige bloeiwijzen &#8594; 4.2"> 
