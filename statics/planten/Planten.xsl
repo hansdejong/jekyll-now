@@ -143,7 +143,7 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
     De meeste lacunes zitten bij de bomen. Het zou leuk zijn de boel geleidelijk uit te breiden. Ook wieren, schimmels?</li>
     <li>Misschien ooit de indeling en de spelling moderniseren, en een determinatiehulp toevoegen.</li>
     <li>Plaatjes zijn geïmplementeerd, maar sluiten zou ook met de buttons moeten kunnen.</li>
-    <li><b>Plaatjes toevoegen (heeft iemand mooie plaatjes met duidelijke bloem- en bladvorm zonder copyright?)<br/>
+    <li><b>Plaatjes toevoegen (heeft iemand mooie plaatjes met duidelijke bloem- en bladvorm zonder<a href="../treeview/Design.xml" style="text-decoration:none" target="_blank">&#x00a0;</a>copyright?)<br/>
     Ik sta overigens ook open voor aansporingen om bepaalde planten(-groepen) toe te voegen. Dat moet ik centraal doen.</b></li>
     <li>Filteren op gecheckte checkboxen.</li>
     <li>Het zou mooi zijn als het ook mogelijk was alle memo's naar een csv- of JSON-bestand te schrijven en eventueel te laden), waarschijnlijk via copy-paste vanaf het scherm.</li>
