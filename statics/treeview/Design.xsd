@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--Hans-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+	  <xsd:annotation>
+		    <xsd:documentation>Planten-sleutel.</xsd:documentation>
+	  </xsd:annotation>
+	  
+	  <xsd:element name="key" type="nodeListType"/>
+	
+	  <xsd:complexType name="nodeListType">
+        <xsd:group ref="choicesGroup" minOccurs="0" maxOccurs="unbounded"/>
+	  </xsd:complexType>
+	
+	  <xsd:complexType name="nodeType">
+<!--    <xsd:group ref="choicesGroup" minOccurs="0" maxOccurs="unbounded"/>-->
+		    <xsd:group ref="choicesGroup" maxOccurs="unbounded"/>
+		    <xsd:attribute name="id" type="xsd:string"/>
+		    <xsd:attribute name="choice" type="xsd:string" use="required"/>
+   		  <xsd:attribute name="tooltip" type="xsd:string"/>
+	  </xsd:complexType>
+	
+	  <xsd:complexType name="leafType">
+		    <xsd:attribute name="id" type="xsd:string"/>
+		    <xsd:attribute name="choice" type="xsd:string" use="required"/>
+		    <xsd:attribute name="lat" type="xsd:string" use="required"/>
+		    <xsd:attribute name="ned" type="xsd:string" use="required"/>
+		    <xsd:attribute name="href" type="xsd:string"/>
+		    <xsd:attribute name="tooltip" type="xsd:string"/>
+		    <xsd:attribute name="genus" type="xsd:string"/>
+	  </xsd:complexType>
+
+	  <xsd:complexType name="dummyType"/>
+	  
+		<xsd:group name="choicesGroup">
+			  <xsd:choice>
+				    <xsd:element name="node" type="nodeType"/>
+				    <xsd:element name="leaf" type="leafType"/>
+				    <xsd:element name="dummy" type="dummyType"/>
+			  </xsd:choice>
+		</xsd:group> 
+
+</xsd:schema>
