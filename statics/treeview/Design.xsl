@@ -82,7 +82,7 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
   	<li>(Type-)fouten en eigenwijsheid kunnen de waarheid geweld aandoen en komen niet voor rekening van de auteur.</li>
   	<li>Sommige planten komen vaker voor / bereik je via verschillende routes. Dan staat er 1e, 2e ... bij.<br/> Er kunnen dan ook nog minder of meer specifiek beschreven variaties op voorkomen.</li>
   	<li>In vergelijking met het origineel, de papieren flora:<br/>
-  		Soms bevat in de flora de verwijzing naar de genusbeschrijving nog een nummer tussen haakjes. Daarvan begreep ik de functie niet en die zijn dus weggelaten.<br/>
+  		Soms bevat in de flora de verwijzing naar de genusbeschrijving nog een terugverwijzing tussen haakjes. Die is weggelaten.<br/>
   		Ook bevat het origineel soms afbeeldingen ter verduidelijking. Die ontbeer je hier.
   	 </li>
   </ul></b>

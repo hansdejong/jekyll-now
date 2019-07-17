@@ -16,7 +16,7 @@
             <leaf id="1.7a" choice="Plant zonder ranken. Blad drietallig" lat="Rhus radicans" ned="gifsumak (poison ivy)" genus="59.1"/>
             <leaf id="1.7b" choice="Plant met ranken, deze tegenover het blad geplaatst. Bladen vijftallig" lat="Parthenocissus" ned="wilde wingerd" genus="67.1"/>
           </node>
-          <leaf id="1.6b" choice="Blad veervormig samengesteld" lat="Clematis" ned="clematis" genus="40.10"/>
+          <leaf id="1.6b" choice="Blad veervormig samengesteld" lat="Clematis" ned="clematis (1e)" genus="40.10"/>
         </node>
       </node>
       <node id="1.2b" choice="Geen klimmende of windende plant">
@@ -327,7 +327,7 @@
 				  </node>
 			  	<node id="2.21b" choice="planten met uitlopers &#8594; 2.23"> 
 				  	<node id="2.23a" choice="Bladen op doorsnede rolrond of afgeplat &#8594; 2.24"> 
-  	<leaf id="2.24a" choice="Plant minder dan 15 cm hoog. Bladen lijn- tot priemvormig, rolrond tot afgeplat, hoogstens 2 mm breed" lat="Littorellax" ned="oeverkruid" genus="107.2"/>
+  	<leaf id="2.24a" choice="Plant minder dan 15 cm hoog. Bladen lijn- tot priemvormig, rolrond tot afgeplat, hoogstens 2 mm breed" lat="Littorella" ned="oeverkruid (1e)" genus="107.2"/>
   	<leaf id="2.24b" choice="Plant meer dan 15 cm hoog. Bladen lijnvormig vlak, tot 8 mm breed" lat="Vallisneria" ned="vallisneria" genus="116.5"/>
 					  </node>
 				  	<leaf id="2.23b" choice="Bladachtige stengels op doorsnede vierkant" lat="Eleocharis acicularis" ned="naaldwaterbies" genus="131.3"/>
@@ -350,7 +350,7 @@
 					  </node>
 				  	<leaf id="2.31b" choice="Vruchtbeginsels 4, elk met een stempel" lat="Potamogetonaceae" ned="fonteinkruidfamilie" genus="119"/>
 				  </node>
-			  	<leaf id="2.30b" choice="Bloemen in dichte, eenslachtige, bolvormige hoofdjes" lat="Sparganium" ned="egelskop" genus="129.1"/>
+			  	<leaf id="2.30b" choice="Bloemen in dichte, eenslachtige, bolvormige hoofdjes" lat="Sparganium" ned="egelskop (1e)" genus="129.1"/>
 			  </node>
 		  	<leaf id="2.29b" choice="Bladen tegenoverstaand en 1-2 cm lang of in kransen" lat="Hydrocharitaceae" ned="waterkaardefamilie" genus="116"/>
 		  </node>
@@ -379,7 +379,7 @@
 	  	<leaf id="2.33b" choice="Bladen alle verspreid of bovenaan enkele tegenoverstaand, met minstens 1 cm lange, schedevormige steunblaadjes" lat="Potamogeton" ned="fonteinkruid (2e)" genus="119.2"/>
 	  </node>
 			  </node>
-		  	<leaf id="2.26b" choice="Bladen in kransen van 8-20" lat="Hippuris" ned="lidsteng" genus="80.1"/>
+		  	<leaf id="2.26b" choice="Bladen in kransen van 8-20" lat="Hippuris" ned="lidsteng (1e)" genus="80.1"/>
 		  </node>
 	  	<leaf id="2.25b" choice="Bladen grof stekelig getand" lat="Najas" ned="nimfkruid" genus="120.1"/>
 	  </node>
@@ -477,7 +477,7 @@
 					  	<leaf id="4.8b" choice="Bloemen naar een zijde gekeerd. Plant met beschubde, vertakte wortelstok" lat="lathraea" ned="schubwortel" genus="104.20"/>
 					  </node>
 			  	</node>
-			  	<leaf id="4.5b" choice="Vruchtbeginsel onderstandig. Bloemdekbladen in twee kranen van 3, vrij, ongelijk" lat="Orchidaceae" ned="orchideeënfamilie" genus="132"/>
+			  	<leaf id="4.5b" choice="Vruchtbeginsel onderstandig. Bloemdekbladen in twee kranen van 3, vrij, ongelijk" lat="Orchidaceae" ned="orchideeënfamilie (1e)" genus="132"/>
 			  </node>
 		  </node>
 	  	<leaf id="4.2b" choice="Stengel draadvormig, windend, bovengronds met zuigworteltjes aan andere planten vastzittend" lat="Cuscuta" ned="warkruid" genus="96.3"/>
@@ -485,22 +485,260 @@
   	<leaf id="4.1b" choice="Bloemen grondstandig, alleenstaand of 2-5 bijeen, lila" lat="Colchicum" ned="herfsttijloos" genus="121.3"/>
   </node>
   <node id="5" choice="Planten met gras- of biesachtig uiterlijk" tooltip="Alle bladen zeer veel langer dan breed, vlak, ingerold of buisvormig. Bloemen onregelmatig, of indien regelmatig dan bleek of bruin- of groenachtig.">
-    <dummy/>
-  </node>
-  <!--
-  	<node id="5.23a" choice="zzz &#8594; 5.24"> 
-  		<dummy/>
+  	<node id="5.1a" choice="Bladen hol of met merg gevuld en op doorsnede rond, elliptisch of (drie)kantig, of alle bladen uit een stengelomvattende schede bestaand en tevens zonder bladschijf &#8594; 5.2"> 
+	  	<node id="5.2a" choice="Bladen schedevormig of aan de top niet spiraalvormig &#8594; 5.3"> 
+		  	<node id="5.3a" choice="Bladen op doorsnede niet met 4 luchtkanalen &#8594; 5.4"> 
+			  	<node id="5.4a" choice="Plant zonder uiengeur, zonder ondergrondse bol, aan het eind van de stengel niet met een kluwen van bolletjes &#8594; 5.5"> 
+				  	<node id="5.5a" choice="Bloemdekbladen in twee kransen van 3, of afwezig &#8594; 5.6"> 
+					  	<leaf id="5.6a" choice="Bloemdekbladen 6, in 2 kransen. Stijl 1 met 3 stempels" lat="Juncaceae" ned="russenfamilie (1e)" genus="125"/>
+					  	<leaf id="5.6b" choice="Bloemdekbladen afwezig, of  uit haren of schubben bestaand. Stempels 2 of 3, zittend" lat="Cyperaceae" ned="cypergrassenfamilie (1e)" genus="131"/>
+					  </node>
+				  	<leaf id="5.5b" choice="Kelk en kroon 4-bladig" lat="Littorella" ned="oeverkruid (2e)" genus="107.2"/>
+				  </node>
+			  	<leaf id="5.4b" choice="Plant met uiengeur, met ondergrondse bol, aan het eind van de stengel met een kluwen van bolletjes" lat="Allium vineale" ned="kraailook" genus="121.15"/>
+			  </node>
+		  	<leaf id="5.3b" choice="Bladen op doorsneede met 4 luchtkanalen" lat="Isoetes" ned="biesvaren (3e)" genus="2.1"/>
+		  </node>
+	  	<leaf id="5.2b" choice="Jonge bladen aan de top in de vorm van een (platte) spiraal opgerold" lat="Pilularia" ned="pilvaren (3e)" genus="13.1"/>
 	  </node>
-  	<leaf id="5.23b" choice="zzz" lat="Xxx" ned="Yyy" genus="1.1"/>
-  -->
+  	<node id="5.1b" choice="Bladschijf plat of iets vlezig, op doorsnede vlak, gevouwen of ingerold (of alleen aan de top massief en driekantig) &#8594; 5.7"> 
+	  	<node id="5.7a" choice="Bloeiwijze uit 2 of meer boven elkaar geplaatste bol- of sigaarvormige aren bestaand &#8594; 5.8"> 
+  	<leaf id="5.8a" choice="Bloeiwijze uit 3 of meer bolronde, tot 4 cm lange delen bestaand" lat="Sparganium" ned="egelskop (2e)" genus="129.1"/>
+  	<leaf id="5.8b" choice="Bloeiwijze uit 2 sigaarvormige, minstens 10 cm lange delen bestaand" lat="Typha" ned="lisdodde" genus="130.1"/>
+		  </node>
+	  	<node id="5.7b" choice="Bloeiwijze niet uit 2 of meer boven elkaar geplaatste bol- of sigaarvormige aren bestaand &#8594; 5.9"> 
+		  	<node id="5.9a" choice="Bloeiwijze geen zijdelings uit een blad tredende kolf. Plant bij kneuzing niet sterk ruikend &#8594; 5.10"> 
+  	<node id="5.10a" choice="Bloemen door 1-4 schubvormige blaadjes (kafjes) bedekt, zonder bloemdekbladen, of deze veranderd tot haren of borstelharen, of tot een 'urntje' om de bloem heen vergroeid &#8594; 5.11"> 
+	  	<leaf id="5.11a" choice="Bladen afwisselend in twee rijen  geplaatst. Stengel rond, hol (behalve bij de knopen)" lat="Gramineae" ned="grassenfamilie" genus="126"/>
+	  	<leaf id="5.11b" choice="Bladen in 3 rijen geplaatst. Stengel driekantig, met merg gevuld" lat="Cyperaceae" ned="cypergrassenfamilie (2e)" genus="131"/>
+	  </node>
+  	<node id="5.10b" choice="Bloemen met 4 bloemdekbladen of met twee kransen van 3 gelijkvormige bloemdekbladen &#8594; 5.12"> 
+	  	<node id="5.12a" choice="Bloemdekbladen 6,  meeldraden 3 of 6 &#8594; 5.13"> 
+		  	<node id="5.13a" choice="Stempels 3 of 6, zittend. Bloemen in een aar of tros &#8594; 5.14"> 
+			  	<leaf id="5.14a" choice="Bloemen aan de voet met een groot schedevormig schutblad" lat="Scheuchzeria" ned="veenbloembies" genus="117.1"/>
+			  	<leaf id="5.14b" choice="Bloemen aan de voet zonder schutblad" lat="Triglochin" ned="zoutgras" genus="118.1"/>
+			  </node>
+		  	<leaf id="5.13b" choice="Stijl 1 met 3 stempels. Bloemen in kluwens of pluimen" lat="Juncaceae" ned="russenfamilie (2e)" genus="125"/>
+		  </node>
+	  	<leaf id="5.12b" choice="Bloemdekbladen 4,  meeldraden 4" lat="Plantaginaceae" ned="weegbreefamilie" genus="107"/>
+	  </node>
+			  </node>
+		  	<leaf id="5.9b" choice="Bloeiwijze een kolf, schijnbaar zijdelings uit een blad tredend. Plant bij kneuzing met een sterke aromatische geur" lat="Acorus" ned="kalmoes" genus="127.1"/>
+		  </node>
+	  </node>
+  </node>
   <node id="6" choice="Kruiden met bloemen in een hoofdje" tooltip="Indien de bloemen lint- of buisvormig zijn, dan met helder gekleurde bloemen. (Dat geldt vanaf hier voor de rest!) 
   	Al of niet voorzien van gemeenschappelijk omwindsel. (Bloemen dicht opeen geplaatst en zittend of kort gesteeld, samen in een plat vlak of bolvormig gerangschikt.)">
-    <dummy/>
+  	<node id="6.1a" choice="Bladen niet hard en leerachtig, soms wel stekelig &#8594; 6.2"> 
+	  	<node id="6.2a" choice="Hoofdjes niet met 4  witte kroonbladachtige schutbladen aan de voet &#8594; 6.3"> 
+		  	<node id="6.3a" choice="Bladen tegenoverstaand of verspreid of alle in een rozet &#8594; 6.4"> 
+			  	<node id="6.4a" choice="Stengel niet telkens in twee even lange takken gesplitst &#8594; 6.5"> 
+				  	<node id="6.5a" choice="Bloemen der hoofjes groenig of bruinachtig, of klein en dicht bedekt  met viltige beharing &#8594; 6.6"> 
+					  	<node id="6.6a" choice="Hoofdjes aan de voet zonder een meerbladig omwindsel, nooit viltig &#8594; 6.7"> 
+						  	<node id="6.7a" choice="Steunbladen afwezig. Stengel niet ruw, niet windend &#8594; 6.8"> 
+							  	<leaf id="6.8a" choice="Bladen drietallig, of dubbel-drietallig" lat="Adoxa" ned="muskuskruid" genus="109.1"/>
+							  	<leaf id="6.8b" choice="Bladen enkelvoudig, gaafrandig" lat="Plantago arenaria" ned="zandweegbree" genus="107.1"/>
+							  </node>
+						  	<leaf id="6.7b" choice="Bladen met twee steunbladen. Stengel knobbelig ruw, windend" lat="Humulus" ned="hop (1e)" genus="27.1"/>
+						  </node>
+					  	<leaf id="6.6b" choice="Hoofdjes met een meerbladig omwindsel aan de voet, of klein en dicht bedekt met viltige beharing" lat="Compositae" ned="composietenfamilie (1e)" genus="113"/>
+					  </node>
+				  	<node id="6.5b" choice="Bloemen der hoofdjes helder gekleurd, niet en klein en viltig &#8594; 6.9"> 
+					  	<node id="6.9a" choice="Afzonderlijke bloemen van het hoofdje hetzij met een normale 4- of 5-bladige  of -lobbige kelk, hetzij zonder kelk, hetzij met een uit haren, schubben of tanden  bestaand omhulsel dat echter het vruchtbeginsel niet omsluit &#8594; 6.10"> 
+						  	<node id="6.10a" choice="Hoofdjes zonder omwindsel of met hoogstens 4 schutbladen aan de voet &#8594; 6.11"> 
+							  	<node id="6.11a" choice="Stengelbladen verspreid &#8594; 6.12"> 
+								  	<node id="6.12a" choice="Bladen samengesteld. Vruchtbeginsel bovenstandig &#8594; 6.13"> 
+									  	<leaf id="6.13a" choice="Bloemdekbladen 4, gelijk" lat="Sanguisorba" ned="pimpernel" genus="50.7"/>
+									  	<leaf id="6.13b" choice="Bloemen met 4-5 kroonbladen en een 5-delige kelk" lat="Leguminosae" ned="vlinderbloemenfamilie" genus="51"/>
+									  </node>
+								  	<leaf id="6.12b" choice="Bladen enkelvoudig. Vruchtbeginsel onderstandig" lat="Phyteuma" ned="rapunzel" genus="112.3"/>
+								  </node>
+							  	<leaf id="6.11b" choice="Stengelbladen tegenoverstaand" lat="Caprifoliaceae" ned="kamperfoeliefamilie" genus="108"/>
+							  </node>
+						  	<node id="6.10b" choice="Hoofdjes tenminste aan de onderzijde met 5 of meer schutbladen (samen het 'omwindsel' genaamd) die soms geheel of ten dele met elkaar vergroeid zijn &#8594; 6.14"> 
+							  	<node id="6.14a" choice="Hoofdjes niet in schermen geplaatst. Bladen zonder duidelijke bladschede &#8594; 6.15"> 
+								  	<node id="6.15a" choice="Kroonbladen tenminste onderaan tot een buis vergroeid, of bloemkroon in vijf lijnvormige blauwe slippen verdeeld &#8594; 6.16"> 
+									  	<node id="6.16a" choice="Hoofdjes aan de voet zonder een vliezige, omlaag gerichte schede &#8594; 6.17"> 
+										  	<node id="6.17a" choice="Meeldraden vrij van elkaar, gemakkelijk zichtbaar &#8594; 6.18"> 
+											  	<leaf id="6.18a" choice="Bladen verspreid. Bloemkroon tot de voet 5-delig. Meeldraden 5" lat="Jasione" ned="zandblauwtje" genus="112.5"/>
+											  	<leaf id="6.18b" choice="Bladen tegenoverstaand. Bloemkroonbuis duidelijk ontwikkeld. Meeldraden 4" lat="Dipsacaceae" ned="kaardebolfamilie" genus="111"/>
+											  </node>
+										  	<leaf id="6.17b" choice="Helmknoppen tot een buisje vergroeid, de stijl nauw omsluitend; buisje in de bloemkroonbuis verborgen of daar ten dele uitstekend, of bij randstandige bloemen afwezig" lat="Compositae" ned="composietenfamilie (2e)" genus="113"/>
+										  </node>
+									  	<leaf id="6.16b" choice="Hoofdjes aan de voet met een vliezige, omlaag gerichte, de steel omvattende schede" lat="Armeria" ned="engels gras" genus="88.1"/>
+									  </node>
+								  	<leaf id="6.15b" choice="Kroonbladen geheel vrij, in het bovenste deel het breedst, naar de voet geleidelijk versmald, niet blauw" lat="Petrorhagia / Dianthus" ned="mantelanjer / anjer" genus="37.23 / 37.24"/>
+								  </node>
+							  	<leaf id="6.14b" choice="Hoofdjes in 2-meerstralige schermen geplaatst. Stengelbladen met een duidelijk bladschede" lat="Oenanthe" ned="torkruid" genus="83.18"/>
+							  </node>
+						  </node>
+					  	<leaf id="6.9b" choice="Afzonderlijke bloemen van de bolvormige  bloeiwijze vanaf de voet tot aan de stervormig uitstaande blauwe kroonslippen omgeven door een kelkachtig omhulsel, dat opgebouwd is uit een serie spiraalsgewijs geplaatste schubben" lat="Echinops" ned="kogeldistel" genus="113.37"/>
+					  </node>
+				  </node>
+			  	<leaf id="6.4b" choice="Stengel gaffelvormig vertakt (dat is: in twee telkens even lange takken gesplitst)" lat="Valerianaceae" ned="valeriaanfamilie (1e)" genus="110"/>
+			  </node>
+		  	<leaf id="6.3b" choice="Stengelbladen in kransen, 1-nervig" lat="Rubiaceae" ned="sterbladigenfamilie (1e)" genus="94"/>
+		  </node>
+	  	<leaf id="6.2b" choice="Hoofdjes aan de voet met 4 relatief grote witte kroonbladachtige schutbladen" lat="Cornus suecica" ned="Zweedse kornoelje" genus="81.1"/>
+	  </node>
+  	<leaf id="6.1b" choice="Bladen hard, leerachtig, langs de randen met harde stekels" lat="Erynchium" ned="kruisdistel" genus="83.3"/>
   </node>
   <node id="7" choice="Kruiden met bloemdek of zonder bloembekleedsels" tooltip="Bloemen zonder of met 1 krans bloembekleedsels. Indien met twee kransen, deze ongeveer gelijk in vorm en kleur.">
-    <dummy/>
+  	<node id="7.1a" choice="Bladen niet in groepjes bijeen in de oksel van een vliezige schub, of afwezig &#8594; 7.2"> 
+	  	<node id="7.2a" choice="Bladen aanwezig (soms als naaldvormige, groene takjes) &#8594; 7.3"> 
+		  	<node id="7.3a" choice="Bloemdek, indien aanwezig, zonder randstandige klieren &#8594; 7.4"> 
+			  	<node id="7.4a" choice="Bladen in kransen van 4 of meer &#8594; 7.5"> 
+				  	<leaf id="7.5a" choice="Bloemdekbladen 4 of 5, wit, geel of lila. Meeldraden 4 of 5" lat="Rubiaceae" ned="sterbladigenfamilie (2e)" genus="94"/>
+				  	<leaf id="7.5b" choice="Bloemdekbladen zeer onduidelijk, groenig. Meeldraad 1" lat="Hippuris" ned="lidsteng (2e)" genus="80.1"/>
+				  </node>
+			  	<node id="7.4ba" choice="Bladen verspreid of tegenoverstaand, of in kransen van drie &#8594; 7.6"> 
+				  	<node id="7.6a" choice="Bloemen hetzij met een lang, geel trompetvormig bloemdek, of aarvormig opeengedrongen en tenminste aan de voet van de aar met een grote, witte of geelgroenige bloeischede &#8594; 7.7"> 
+					  	<leaf id="7.7a" choice="Bloemdek uit een lang, geel, scheef-trompetvormig omhulsel bestaand, de afzonderlijke bloemen in groepjes bijeen in de bladoksels" lat="Aristolochia" ned="pijpbloem" genus="31.2"/>
+					  	<leaf id="7.7b" choice="Bloemen in een dichte, eindelingse aar geplaatst, deze met een grote, witte of geelgroenige bloeischede" lat="Araceae" ned="aronskelkfamilie" genus="127"/>
+					  </node>
+				  	<node id="7.6b" choice="Bloemen zonder lang, trompetvormig bloemdek en niet geheel of gedeeltelijk door een groot schutblad omsloten &#8594; 7.8"> 
+					  	<node id="7.8a" choice="Klimmende of windende planten &#8594; 7.9"> 
+						  	<node id="7.9a" choice="Bladen tegenoverstaand, samengesteld, zonder of met vrije steunblaadjes &#8594; 7.10"> 
+							  	<leaf id="7.10a" choice="Bladen handvormig samengesteld. Bloemen eenslachtig, die der mannelijke bloemen 5-bladig" lat="Humulus" ned="hop (2e)" genus="27.1"/>
+							  	<leaf id="7.10b" choice="Bladen tegenoverstaand. Bloemen tweeslachtig, bloemdek 4-bladig" lat="Clematis" ned="clematis (2e)" genus="40.10"/>
+							  </node>
+						  	<leaf id="7.9b" choice="Bladen verspreid, enkelvoudig, met een stengelomvattend, buisvormig steunblaadje" lat="Polygonum" ned="duizendknoop" genus="32.1"/>
+						  </node>
+					  	<node id="7.8b" choice="Plant niet klimmend of windend &#8594; 7.11"> 
+						  	<node id="7.11a" choice="Bloemen eenslachtig &#8594; 7.12"> 
+							  	<node id="7.12a" choice="Bladen tegenoverstaand &#8594; 7.13"> 
+								  	<node id="7.13a" choice="Bloemdekbladen vrij of afwezig, of indien vergroeid (Atriplex) dan bloemdek 2-bladig &#8594; 7.14"> 
+									  	<node id="7.14a" choice="Meeldraden 4 of meer. Vruchtbeginsel 1- of 2-hokkig &#8594; 7.15"> 
+										  	<node id="7.15a" choice="Meeldraden 4 of 5. Vruchtbeginsel 1-hokkig &#8594; 7.16"> 
+											  	<leaf id="7.16a" choice="Plant eenhuizig, zonder brandharen. Vrouwelijke bloemen omgeven door 2 schutbladen" lat="Atriplex" ned="melde" genus="33.4"/>
+											  	<leaf id="7.16b" choice="Plant tweehuizig met lange brandharen. Vrouwelijke bloemen met een 4-bladig bloemdek" lat="Urtica" ned="brandnetel" genus="28.1"/>
+											  </node>
+										  	<leaf id="7.15b" choice="Meeldraden 10 of meer. Vruchtbeginsel 2-hokkig" lat="Mercurialis" ned="bingelkruid" genus="56.1"/>
+										  </node>
+									  	<leaf id="7.14b" choice="Meeldraad 1. Vruchtbeginsel 4-delig" lat="Callitriche" ned="sterrekroos (3e)" genus="100.1"/>
+									  </node>
+								  	<leaf id="7.13b" choice="Bloemdekbladen met een buisvormig vergroeid deel en 5 uitstaande slippen" lat="Valeriana" ned="valeriaan" genus="110.2"/>
+								  </node>
+							  	<node id="7.12b" choice="Bladen verspreid &#8594; 7.17"> 
+								  	<node id="7.17a" choice="Zijden van de bladvoet niet boven de bladsteel heen met elkaar vergroeid. Plant zonder melksap &#8594; 7.18"> 
+									  	<node id="7.18a" choice="Vrouwelijke bloemen met 2 of meer stijlen, hetzij met 2 vergroeide bloemdekbladen, hetzij met 3-6 vrije bloemdekbladen, of plant alleen met mannelijke bloemen &#8594; 7.19"> 
+										  	<node id="7.19a" choice="Steunblaadjes afwezig &#8594; 7.20"> 
+											  	<leaf id="7.20a" choice="Bloemdekbladen 3 of 5 (soms 2 of 4), met brede droogvliezige rand, zonder aanhangsels op de rugzijde" lat="Amaranthus" ned="amarant" genus="34.1"/>
+											  	<leaf id="7.20b" choice="Bloemdekbladen (0-)2-5, kruidachtig, de rand vaak lichter gekleurd maar niet droogvliezig of (bij Salsola) met dwarse, vliezige aanhangsels op de rugzijde" lat="Chenopodiaceae" ned="ganzevoetfamilie" genus="33"/>
+											  </node>
+										  	<leaf id="7.19b" choice="Steunblaadjes tot een tuitje rond de stengel vergroeid" lat="Rumex" ned="zuring" genus="32.4"/>
+										  </node>
+									  	<leaf id="7.18b" choice="Vrouwelijke bloem met eenbuisvormig vergroeid 4-tallig bloemdek en 1 stijl. Overige bloemen tweeslachtig, met 4 meeldraden en 1 vruchtbeginsel" lat="Parietaria" ned="glaskruid (1e)" genus="28.2"/>
+									  </node>
+								  	<leaf id="7.17b" choice="Bladsteel schuin onder de schijf geplaatst. Blad 5-7-lobbig. Plant met melksap" lat="Ricinus" ned="wonderboom" genus="56.2"/>
+								  </node>
+							  </node>
+						  	<node id="7.11b" choice="Bloemen tweeslachtig &#8594; 7.21"> 
+							  	<node id="7.21a" choice="Bloemdek 6-bladig of- delig &#8594; 7.22"> 
+								  	<node id="7.22a" choice="Bladen zonder tuitje, eennervig of lijn- tot kromnervig &#8594; 7.23"> 
+									  	<node id="7.23a" choice="Vruchtbeginsel onderstandig &#8594; 7.24"> 
+										  	<node id="7.24a" choice="Bloemdekbladen van een of beide  kransen ongelijk van vorm en/of grootte &#8594; 7.25"> 
+											  	<leaf id="7.25a" choice="Bladschijf aan de voet hart- of pijlvormig. Meeldraden 6" lat="Pontederia" ned="waterhyacint" genus="123.1"/>
+											  	<leaf id="7.25b" choice="Bladen niet hart- of pijlvormig. Meeldraden schijnbaar 2" lat="Orchidaceae" ned="orchideeënfamilie (2e)" genus="132"/>
+											  </node>
+										  	<node id="7.24b" choice="Bloemdekbladn van elk der kransen gelijk in vorm en grootte &#8594; 7.26"> 
+											  	<leaf id="7.26a" choice="Meeldraden 3" lat="Iridaceae" ned="Lissenfamilie" genus="124"/>
+											  	<leaf id="7.26b" choice="Meeldraden 6" lat="Amaryllidaceae" ned="narcissenfamilie" genus="122"/>
+											  </node>
+										  </node>
+									  	<node id="7.23b" choice="Vruchtbeginsel bovenstandig &#8594; 7.27"> 
+										  	<node id="7.27a" choice="Bladen verspreid &#8594; 7.28"> 
+													<leaf id="7.28a" choice="Meeldraden 6. Vruchtbeginsel 1" lat="Liliaceae" ned="leliefamilie" genus="121"/>
+													<leaf id="7.28b" choice="Meeldraden 9. Vruchtbeginsels 6" lat="Butomus" ned="zwanebloem" genus="115.1"/>	  
+										  	</node>
+										  	<leaf id="7.27b" choice="Bladen tegenoverstaand" lat="Lythrum portula" ned="waterpostelein" genus="77.1"/>
+										  </node>
+									  </node>
+								  	<leaf id="7.22b" choice="Bladen met een vliezig tuitje, veernervig" lat="Polygonaceae" ned="duizendknoopfamilie (1e)" genus="32"/>
+								  </node>
+							  	<node id="7.21b" choice="Bloemdekbladen of -slippen meer of minder dan 6 &#8594; 7.29"> 
+								  	<node id="7.29a" choice="Bladen alle grondstandig. Bloeiende stengels onbebladerd &#8594; 7.30"> 
+									  	<leaf id="7.30a" choice="Bladsteel in het midden van de ronde bladschijf aangehecht. Bladen verspreid aan een kruipende stengel" lat="Hydrocotyle" ned="waternavel" genus="83.1"/>
+									  	<leaf id="7.30b" choice="Bladen lijnvormig, in een wortelrozet" lat="Myosurus" ned="muizestaart" genus="40.13"/>
+									  </node>
+								  	<node id="7.29b" choice="Planten met bebladerde stengels. Soms ook een wortelroset &#8594; 7.31"> 
+									  	<node id="7.31a" choice="Meeldraden 12 of meer &#8594; 7.32"> 
+										  	<leaf id="7.32a" choice="Vruchtbeginsel 1. Plant met wit of oranje melksap" lat="Papaveraceae" ned="papaverfamilie (1e)" genus="43"/>
+										  	<leaf id="7.32b" choice="Vruchtbeginsel meer dan 2. Plant zonder melksap" lat="Ranunculaceae" ned="ranonkelfamilie" genus="40"/>
+										  </node>
+									  	<node id="7.31b" choice="Meeldraden 10 of minder &#8594; 7.33"> 
+										  	<node id="7.33a" choice="Vruchtbeginsel onderstandig of halfonderstandig &#8594; 7.34"> 
+											  	<node id="7.34a" choice="Bladen tegenoverstaand &#8594; 7.35"> 
+												  	<node id="7.35a" choice="Meeldraden 4-10 &#8594; 7.36"> 
+													  	<node id="7.36a" choice="Bladen met duidelijk verbrede schijf. Bloemdek 4-tallig &#8594; 7.37"> 
+														  	<leaf id="7.37a" choice="Bladen halfcirkelrond. Meeldraden 8(-10)" lat="Chrysosplenium oppositifolium" ned="paarbladig goudveil" genus="48.2"/>
+														  	<leaf id="7.37b" choice="Bladen eirond tot elliptisch, spits. Meeldraden 4" lat="Ludwigia" ned="waterlepeltje" genus="78.3"/>
+														  </node>
+													  	<leaf id="7.36b" choice="Bladen lijnvormig. Bloemdek 5-tallig" lat="Scleranthus" ned="hardbloem" genus="37.10"/>
+													  </node>
+												  	<leaf id="7.35b" choice="Meeldraden1-3" lat="Valerinaceae" ned="valeriaanfamilie (2e)" genus="110"/>
+												  </node>
+											  	<node id="7.34b" choice="Bladen verspreid &#8594; 7.38"> 
+												  	<node id="7.38a" choice="Meeldraden 1-6 &#8594; 7.39"> 
+													  	<node id="7.39a" choice="Bladen niet lijnvormig of,  indien lijnvormig, de bloemen in een scherm &#8594; 7.40"> 
+														  	<node id="7.40a" choice="Bloemdek 5-bladig of -slippig. Meeldraden 5 &#8594; 7.41"> 
+															  	<leaf id="7.41b" choice="Bloemen in gesteelde schermen of hoofdjes. Vruchtbeginsel onderstandig" lat="Umbelliferae" ned="schermbloemenfamilie" genus="83"/>
+															  	<leaf id="7.41b" choice="Bloemen in zittende kluwens, deze aarvormig gerangschikt. Vruchtbeginsel halfonderstandig" lat="Beta" ned="biet" genus="33.1"/>
+															  </node>
+														  	<leaf id="7.40b" choice="Bloemdek met 4 zeer kleine  en 4 wat grotere slippen. Meeldraden 1 of 4" lat="Alchemilla / Aphanes" ned="vrouwenmantel / leeuweklauw" genus="50.11 / 50.12"/>
+														  </node>
+													  	<leaf id="7.39b" choice="Bladen lijnvormig. Bloemen in een losse tros of pluim" lat="Thesium" ned="bergvlas" genus="29.1"/>
+													  </node>
+												  	<leaf id="7.38b" choice="Meeldraden 8(-10)" lat="Chrysosplenium alternifolium" ned="verspreidbladig goudveil" genus="48.2"/>
+												  </node>
+											  </node>
+										  	<node id="7.33b" choice="vruchtbeginsel bovenstandig &#8594; 7.42"> 
+											  	<node id="7.42a" choice="Bladen tegenoverstaand. Zelden (bij Glaux) de bovenste bladen verspreid &#8594; 7.43"> 
+												  	<node id="7.43a" choice="Bloemdekbladen vrij, nooit roze &#8594; 7.44"> 
+													  	<leaf id="7.44a" choice="Bladen enkelvoudig, ongedeeld" lat="Caryophyllaceae" ned="anjerfamilie" genus="37"/>
+													  	<leaf id="7.44b" choice="Bladen handlobbig of handvormig samengesteld" lat="Cannabis" ned="hennep" genus="27.2"/>
+													  </node>
+												  	<leaf id="7.43b" choice="Bloemdekbladen vergroeid, roze" lat="Glaux" ned="melkkruid" genus="87.5"/>
+												  </node>
+											  	<node id="7.42b" choice="Bladen alle verspreid &#8594; 7.45"> 
+												  	<node id="7.45a" choice="Steunblaadjes niet vliezig en niet stengelomvattend, of afwezig &#8594; 7.46"> 
+													  	<node id="7.46a" choice="Meeldraden 0-5. Vruchtbeginsel 1, 1-3 hokkig &#8594; 7.47"> 
+														  	<node id="7.47a" choice="Bladen meer dan 2 langs de stengel, nooit kromvervig. Bloemdek nooit zuiver wit &#8594; 7.48"> 
+															  	<node id="7.48a" choice="Bladen enkelvoudig &#8594; 7.49"> 
+																  	<leaf id="7.49a" choice="Stempel penseelvormig behaard. Vruchtbeginsel 1-hokkig. Vrucht een 1-zadig nootje" lat="Parietaria" ned="glaskruid (2e)" genus="28.2"/>
+																  	<leaf id="7.49b" choice="Stempel knopvormig, kaal. Vruchtbeginsel 2-hokkig. vrucht een tweezadige doosvrucht" lat="Lepidium" ned="kruidkers" genus="44.32"/>
+																  </node>
+															  	<leaf id="7.48b" choice="Bladen samengesteld of in vele slippen gedeeld" lat="Papaveraceae" ned="papaverfamilie (2e)" genus="43"/>
+															  </node>
+														  	<leaf id="7.47b" choice="Bladen 2, kromnervig, met hartvormige voet. Bloemdek wit" lat="Maianthemum" ned="dalkruid" genus="121.13"/>
+														  </node>
+													  	<leaf id="7.46b" choice="Meeldraden 8-10. Vruchtbeginsel 8-10, vrij of vergroeid" lat="Phytolacca" ned="karmozijnbes" genus="35.1"/>
+													  </node>
+												  	<leaf id="7.45b" choice="Stengel op de knopen met vliezige, stengelomvattende, tot een tuitje vergroeide steunblaadjes" lat="Polygonaceae" ned="duizendknoopfamilie (2e)" genus="32"/>
+												  </node>
+											  </node>
+										  </node>
+									  </node>
+								  </node>
+							  </node>
+						  </node>
+					  </node>
+				  </node>
+			  </node>
+		  	<leaf id="7.3b" choice="'Bloemen' bestaande uit een bekervormige 'kelk' die aan de rand 4 of 5 platte, halfronde of halvemaanvormige klieren draagt, en waaruit één langgesteeld driehokkig vruchtbeginsel komt" lat="Euphorbia" ned="wolfsmelk" genus="56.3"/>
+		  </node>
+	  	<leaf id="7.2b" choice="Bladen (schijnbaar) afwezig. Stengel met groene, vlezige leden" lat="Salicornia" ned="zeekraal" genus="33.10"/>
+	  </node>
+  	<leaf id="7.1b" choice="'Bladen' (fyllocladiën) in verspreide groepjes bijeen, naaldvormig, ongelijk van lengte, telkens samen in de oksel van een vliezige schub (het eigenlijke stengelblad) geplaatst" lat="Asparagus" ned="asperge" genus="121.17"/>
   </node>
-  <node id="8" choice="Kruiden met vrije kroonbladen" tooltip="Bloemen met twee kransen bloembekleedsels, kelk en kroon, die in vorm en /of kleur duidelijk verschillen (geldt ook voor 9.) 
+  
+  <!--
+  	<node id="7.23a" choice="zzz &#8594; 7.24"> 
+  		<dummy/>
+	  </node>
+  	<leaf id="7.23b" choice="zzz" lat="Xxx" ned="Yyy" genus="1.1"/>
+  -->
+    <node id="8" choice="Kruiden met vrije kroonbladen" tooltip="Bloemen met twee kransen bloembekleedsels, kelk en kroon, die in vorm en /of kleur duidelijk verschillen (geldt ook voor 9.) 
   	Kroonbladen vrij van elkaar (elk kroonblad apart afvallend; meeldraden nooit op de kroonbladen ingeplant).">
     <dummy/>
   </node>
