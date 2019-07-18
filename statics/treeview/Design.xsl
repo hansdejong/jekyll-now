@@ -56,7 +56,7 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
   <div align="center"><img src="images/shy2.jpg" width="300px"/><br/>
   <h2>Treeview</h2>
   <h4>Voorlopig alleen de hoofdsleutel</h4>
-  <small>(en ik ben nog bezig met sleutel 8 en 9)</small>
+
   </div>
   <small><b><a href="#uitleg">Uitleg</a></b></small><br/>
     <button onclick="location.reload();$('#myInput').val('');"  style="background-color:lightblue;">Ververs de pagina</button>

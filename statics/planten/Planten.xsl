@@ -119,7 +119,7 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
   <li>(Type-)fouten en eigenwijsheid kunnen de waarheid geweld aandoen en komen niet voor rekening van de auteur.</li>
   <li>De familie-nummering verwijst naar Heukels' Flora (1990). Daar niet in opgenomen families (*) tellen dus niet mee.<br />
   Verder is de Nederlandse Oecologische Flora (2000) de voornaamse bron.<br/>
-  (Ook van de gebruikte taxonomische indeling. Deze indeling is dus ouder dan die van de APG, de Angiosperm Phylogeny group.)</li>
+  (Ook van de gebruikte taxonomische indeling. Deze indeling is dus ouder dan die van de APG, de Angiosperm Phylogeny Group.)</li>
   <li>Bij Phylum, Classis en Ordo is er een optioneel hidden veld "ook" voor alternatieve naamgeving.</li>
   <li>Filteren via het zoekvak kan op meer spatiegescheiden termen tegelijk.<br />
   (De velden worden daarbij samengevoegd, dus "...look Allium..." vind je met "Kal".) </li>
@@ -147,11 +147,11 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
     Ik sta overigens ook open voor aansporingen om bepaalde planten(-groepen) toe te voegen. Dat moet ik centraal doen.</b></li>
     <li>Filteren op gecheckte checkboxen.</li>
     <li>Het zou mooi zijn als het ook mogelijk was alle memo's naar een csv- of JSON-bestand te schrijven en eventueel te laden), waarschijnlijk via copy-paste vanaf het scherm.</li>
-<!--    
+<!--
     <li><b>Ik heb getest of het gebruik van LocalStorage (checkboxen en memo's, opgeslagen als applicatiegebonden key-value paren) veilig is bij update van mijn kant.<br/>
     Dat ging goed, maar toch heb ik het idee dat de connectie met de gegevens later soms verdween. Kortom: ik heb nog twijfels.<br/>
     Voor de zekerheid zou je, als de gegevens belangrijk voor je zijn, voorlopig de pagina kunnen opslaan. Dan wordt het een lokale html-file.</b></li>
--->    
+-->
   </ul>
   Van de agenda verwijderd:<ul>
       <li>Eventueel een toggle voor alles in één tabel. (Techniek: xsl mode-attribuut en css/js display-none.)</li>

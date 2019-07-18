@@ -555,6 +555,9 @@
           <species lat="Platanus" ned="Plataan" info="Buitenbeentje, die plataan.\nQua familierelaties."/>
         </familia>
         <familia lat="Rosaceae" ned="Rozenfamilie">
+          <species lat="Spiraea salicifolia" ned="Theeboompje"/>
+          <species lat="Spiraea douglasii" ned="Douglasspirea"/>
+          <species lat="Aruncus dioicus" ned="Geitebaard"/>
           <species lat="Filipendula ulmaria" ned="Moerasspirea"/>
           <species lat="Rubus saxatilus" ned="Steenbraam"/>
           <species lat="Rubus idaeus" ned="Framboos"/>
@@ -692,7 +695,7 @@
           <species lat="Erodium glutinosum" ned="Kleverige reigersbek"/>
         </familia>
         <familia lat="Limnanthaceae" ned="Moerasbloemfamilie">
-          <species lat="Limnanthus gouglasii" ned="Geelwitte moerasbloem"/>
+          <species lat="Limnanthus douglasii" ned="Geelwitte moerasbloem"/>
           <species lat="Limnanthus alba" ned="Donzige moerasbloem"/>
         </familia>
         <familia lat="Linaceae" ned="Vlasfamilie">
@@ -733,7 +736,7 @@
       </ordo>
       <ordo lat="Sapindales" ned="Zeepboomachtigen" fam="59-62">
         <familia lat="Anacardiaceae" ned="Pruikeboomfamilie">
-          <species lat="Rhus radicans" ned="Gifsumak"/>
+          <species lat="Rhus radicans" ned="Gifsumak (poison ivy)"/>
         </familia>
         <familia lat="Aceraceae" ned="Esdoornfamilie">
           <species lat="Acer pseudoplananus" ned="Gewone esdoorn" plaatje="esdoorn.jpg"/>
