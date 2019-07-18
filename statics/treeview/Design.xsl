@@ -54,7 +54,10 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
 <body onunload="closeNotition()">
 	<br/>
   <div align="center"><img src="images/shy2.jpg" width="300px"/><br/>
-  <h2>Treeview</h2></div>
+  <h2>Treeview</h2>
+  <h4>Voorlopig alleen de hoofdsleutel</h4>
+  <small>(en ik ben nog bezig met sleutel 8 en 9)</small>
+  </div>
   <small><b><a href="#uitleg">Uitleg</a></b></small><br/>
     <button onclick="location.reload();$('#myInput').val('');"  style="background-color:lightblue;">Ververs de pagina</button>
     <button onclick="toggleDisplay('before');"  style="background-color:lightblue;">Toggle inklappen &#x25b2;</button><br/>
@@ -88,8 +91,10 @@ Zie ook: https://www.w3schools.com/xml/default.asp-->
   </ul></b>
   </small>
 
-  <font color="red">TODO</font> / bugs:<ul>
+  <font color="red">TODO</font> / bugs:<ul style="list-style-type:disc;">
     <li>Ik ben van plan geen fouten te maken.</li>
+    <li>Als ik ooit aan de familiesleutels begin is het waarschijnlijk beter daar afzonderlijke bestanden van te maken.<br/>
+    (via een link, met een gemeenschappelijke xsd.)</li>
   </ul>
   <br/><br/>
 
