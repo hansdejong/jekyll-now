@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Monads ToDo</title>
+    <link rel="stylesheet" href="css/tele2site.css" />
+    <style>
+	body{
+		/*color:red;*/
+		/*color:yellow/*
+		/*background-color:#123456;*/
+		background-color:gainsboro;
+		/*background-color:Linen;*/
+	}
+	ul{
+		margin-top:0;
+	}
+	table td{
+		color:red;
+		background-color:black;
+	}
+    </style>
+    
+  </head>
+  <body>
+  <button onclick="location.reload();"  style="background-color:lightblue;">Ververs de pagina</button><br>
+	<h2  style="text-align: center;">Monads ToDo<br>en aantekeningen</h2><br>
+	<u>Links:</u><ul>
+		
+		<li><a href="https://www.freecodecamp.org/news/demystifying-the-monad-in-scala-cc716bb6f534/" target="_blank">Demystifying the Monad in Scala</a><br>
+		Uitkijken: termen (<b>Unit</b>) vaak in de verkeerde categorie
+		<li><a href="https://blog.redelastic.com/a-guide-to-scala-collections-exploring-monads-in-scala-collections-ef810ef3aec3" target="_blank">A Guide to Scala Collections: Exploring Monads in Scala Collections</a><br>
+		Ook hier wordt <b>Unit</b> abusievelijk apply() genoemd
+		
+		
+	</ul>
+	<u>Nakijken:</u><ul>
+		<li>Ik zie veel verwarring over <b>Unit</b> . Wordt soms gelijkgesteld met <b>Identity</b>, soms met <b>Return</b>
+		<li>Iedereen komt met Type-classes, ik steeds met een trait-hi&euml;rarchie. Waarom?<br>
+		<b>Type-classes zijn de manier om bestaande klassen impliciet lid te maken van een club met bepaald gedrag</b>
+	</ul>
+	<u>Wetenswaardigheden:</u><ul>
+		<li>Ik zie apply() genoemd als Scala-<b>Return</b> (of abusievelijk <b>Unit</b>)
+	</ul>
+	<u>Hoe zelf te implementeren. Keuzes:</u><br>
+	<b>Ik wil gewoon een library die me bestaande klassen als List eenvoudig tot Monad etc. laat maken,<br> en idem eigen klassen (Tree) laat opnemen door de traits te implementeren.<br>
+	Die standaardtypen als List moeten dan hernoemd worden en ge&iuml;mplemenrteerd worden door de standaardklasse te gebruiken</b>
+	<ul>
+		<li>Vaak wordt de wetenschap dat iets een Monad is voldoende gevonden. Maar dat wil ik hier niet.
+		<li>Met Cats (niet ScalaZ)
+		<li>Eigen traits (schijnt gemakkelijker te zijn in Dotty<br>
+		<i>"You saved standard library space, but at the price of making everyone's lives worse,<br>
+		due to the <b>scalaz</b> typeclasses vs. <b>cats</b> typeclasses vs. <b>home-grown</b> typeclasses vs. <b>no</b> typeclasses situation,<br>
+		from which no one benefits."</i>
+	</ul>
+	<u>Google</u>
+	<li>"Scala making an existing class a subclass"</ul>
+	<!--<li>scala making an existing class a subclass</ul>
+<table border=¨>
+	<tr>
+		<th>kop1</th><th>kop2</th><th>kop3</th>
+	</tr>
+	<tr>
+		<td>kop1</td><td>kop2</td><td>kop3</td>
+	</tr>
+</table>-->
+  </body>
+</html>
