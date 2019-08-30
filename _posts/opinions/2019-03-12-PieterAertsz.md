@@ -108,6 +108,8 @@ AD  12 juni. <a href="https://www.ad.nl/amsterdam/vrouw-68-die-mishandeld-en-ver
 
 Telegraaf 12 juni. <a href="https://www.telegraaf.nl/nieuws/1474921682/verdachte-fatale-mishandeling-amsterdam-is-statushouder?utm_source=t.co&utm_medium=referral&utm_content=/CKmBdbKXQS" target="_blank">Verdachte fatale mishandeling Amsterdam is statushouder</a>.
 
+AT5 29 augustus. <a href="https://www.at5.nl/artikelen/196418/pand-plantage-muidergracht-mogelijk-opvanglocatie-uitgeprocedeerde-asielzoekers" target="_blank">Pand Plantage Muidergracht mogelijk opvanglocatie uitgeprocedeerde asielzoekers</a>.
+
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
