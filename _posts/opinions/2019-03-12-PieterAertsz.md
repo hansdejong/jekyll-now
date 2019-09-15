@@ -110,6 +110,8 @@ Telegraaf 12 juni. <a href="https://www.telegraaf.nl/nieuws/1474921682/verdachte
 
 AT5 29 augustus. <a href="https://www.at5.nl/artikelen/196418/pand-plantage-muidergracht-mogelijk-opvanglocatie-uitgeprocedeerde-asielzoekers" target="_blank">Pand Plantage Muidergracht mogelijk opvanglocatie uitgeprocedeerde asielzoekers</a>.
 
+AT5 15 september. <a href="https://www.at5.nl/artikelen/196774/groep-bewoners-nieuw-sloten-niet-blij-met-geplande-24-uursopvang-ongedocumenteerden" target="_blank">Groep bewoners Nieuw Sloten niet blij met geplande 24-uursopvang ongedocumenteerden</a>.
+
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
 
