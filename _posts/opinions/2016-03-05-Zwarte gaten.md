@@ -8,7 +8,7 @@ comments: true
 Zwarte gaten zijn de eenvoudigste objecten die er zijn: met een paar eigenschappen zijn ze volkomen te beschrijven. Maar ik heb zo'n idee dat niet alles van binnen is wat het van buiten lijkt.<br>
 In de jaren '80 had ik al een idee over hoe een zwart gat er van binnen "uitzag". En al snel ook over de relatie tussen een zwart gat en een heelal. 
 
-In die tijd gaf ik bijles, en had daar een paar stukjes voor geschreven. E&eacute;n over schaaleffecten bij dieren, en later nog een, "Een speld", om een paar dingen te verduidelijken. Vooral over hoe vreemd het is dat, afgezien van de grootte, identieke dingen zich totaal verschillend gedragen, alleen door schaaleffecten, en hoe verschillende schaalbereiken een ander ontwerp vereisen.
+In die tijd gaf ik bijles, en had daar een paar stukjes voor geschreven. E&eacute;n over schaaleffecten bij dieren, en later nog een, "Een speld", om een paar dingen te verduidelijken. Vooral over hoe vreemd het is dat, afgezien van de grootte identieke, dingen zich totaal verschillend gedragen, alleen door schaaleffecten, en hoe verschillende schaalbereiken een ander ontwerp vereisen.
 <div align="center">
 <img style="hight:50%;width:50%;" src="/assets/pictures/frog-wasp.jpg" alt="Plaatje kikker-wesp" />
 </div>
