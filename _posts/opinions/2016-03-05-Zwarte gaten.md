@@ -25,7 +25,7 @@ Het tweede deel ("Gat, van binnen") bevat mijn idee&euml;n over de ruimtelijke s
 
 * Ook het synoniem stellen van een zwart gat en een heelal ben ik niet met die stelligheid tegengekomen, hoewel er wel verwante speculaties zijn.
 
-Lees dit dus niet als de gangbare theorie, maar als een theorie (die in mijn ogen voor de hand ligt en bijna wel waar moet zijn, dat dan weer wel).
+Lees dit dus niet als de gangbare theorie, maar als een hypothese.<br> (Een theorie die in mijn ogen voor de hand ligt en bijna waar moet zijn,<br> dat dan weer wel.)
 
 [Een speld]( {{ site.baseurl }}/statics/zwartgat/speld I.html )<br>
 [Gat, van buiten]( {{ site.baseurl }}/statics/zwartgat/speld II.html )<br>
