@@ -115,7 +115,7 @@ Stadsdeel Zuid, 13 september <a href="https://bekendmakingen.amsterdam.nl/bekend
 
 AT5 15 september. <a href="https://www.at5.nl/artikelen/196774/groep-bewoners-nieuw-sloten-niet-blij-met-geplande-24-uursopvang-ongedocumenteerden" target="_blank">Groep bewoners Nieuw Sloten niet blij met geplande 24-uursopvang ongedocumenteerden</a>.
 
-
+AT5 29 oktober 2019. <a href="https://www.at5.nl/artikelen/197715/realiseren-opvang-ongedocumenteerden-gaat-uiterst-moeizaam" target="_blank">Realiseren opvang ongedocumenteerden gaat 'uiterst moeizaam'</a>
 
 *Overigens, als ook andere partijen, betrokkenen of organisaties iets organiseren of te melden hebben: laat het mij weten!*<br>
 
