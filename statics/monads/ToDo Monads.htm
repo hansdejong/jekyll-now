@@ -49,7 +49,7 @@
 	</ul>
 	<u>Hoe zelf te implementeren. Keuzes:</u><br>
 	<b>Ik wil gewoon een library die me bestaande klassen als List eenvoudig tot Monad etc. laat maken,<br> en idem eigen klassen (Tree) laat opnemen door de traits te implementeren.<br>
-	Die standaardtypen als List moeten dan hernoemd worden en ge&iuml;mplemenrteerd worden door de standaardklasse te gebruiken</b>
+	Die standaardtypen als List moeten dan hernoemd worden en ge&iuml;mplementeerd worden door de standaardklasse te gebruiken</b>
 	<ul>
 		<li>Vaak wordt de wetenschap dat iets een Monad is voldoende gevonden. Maar dat wil ik hier niet.
 		<li>Met Cats (niet ScalaZ)
@@ -60,14 +60,58 @@
 	</ul>
 	<u>Google</u>
 	<li>"Scala making an existing class a subclass"</ul>
-	<!--<li>scala making an existing class a subclass</ul>
-<table border=¨>
-	<tr>
-		<th>kop1</th><th>kop2</th><th>kop3</th>
-	</tr>
-	<tr>
-		<td>kop1</td><td>kop2</td><td>kop3</td>
-	</tr>
-</table>-->
+<hr>
+<h3>(Vervolg op) Functioneel programmeren</h3>
+Functioneel programmeren is dus een alternatief paradigma naast de "Object Oriented" aanpak. Kun je nu ineens, of na het lezen van lovende beschouwingen, besluiten daar maar eens voor te gaan? Ja en nee.
+<h4>Ja</h4>
+De meeste programmeurs beginnen imperatief, en ontdekken na enige tijd de voordelen van "datahiding" / inkapseling en het bouwen van 
+object- dan wel klassehi&euml;rarchie&euml;n. De verlokkingen van FP beginnen pas later te spreken:<ul><li>
+De voordelen van de functionele aanpak lijken pas echt aan de orde te komen bij programma's die gebruik maken van multithreading of concurrency 
+(en daarbij mogelijk het verdelen van vaak ook langdurige taken over meerdere processoren of machines). 
+<li>Een ander al snel in het oog lopend voordeel van FP code is de overzichtelijkheid:
+de nadruk op het vermijden van zij-effecten maakt dat je als programmeur minder wordt geconfronteerd met niet-kloppende vooronderstellingen.<br>
+Dit aspect van de functionele aanpak is zonder meer door elke programmeur geleidelijk in zijn of haar code in te voeren: veel routines kunnen geschoond
+worden van zij-effecten (die dan zoveel mogelijk worden ge&iuml;soleerd in aparte programmacomponenten). 
+Zelfs als je zwaar gebruik maakt van muteerbare staat (variabele variabelen etc.) en je nog nooit van recursie hebt gehoord kunnen functies een pure FP-interface hebben 
+(ze veranderen dan niet onverwacht iets aan de buitenwereld).<br>
+<li>Ook levert een goed begrip van allerlei FP-termen ("monads" om maar iets te noemen, wat veel datastucturen van  zichzelf al zijn) al snel ook een beter begrip op van de toepasbaarheid van 
+zeer productieve programmeer-technieken die ook in OOP-code kunnen worden toegepast. For-comprehensions zijn een goed voorbeeld,
+maar ook pattern-matching, hoewel dat laatste formeel los staat van de FP-aanpak.
+<li>Het grootste verschil tussen OOP en FP wordt pas geleidelijk duidelijk, de nadruk op data-flow i.p.v. control-flow binnen en tussen objecten, en het gebruik van zeer uitgebreide standaardbibliotheken met geoptimaliseerde standaardfuncties voor standaard-datastructuren (vaak Monads).
+Dit kan ook grote invloed hebben op de totale programmastruktuur. Maar Scala biedt dan nog steeds alle OOP-opties.
+</ul>
+
+<h4>Nee</h4>
+Als je je zwaarder committeert aan de FP-aanpak heeft dat wel grote invloed op de programmastructuur en - vooral in het begin - je productiviteit.<br>
+Natuurlijk kun je die aanpak in het begin beperken tot componenten die daar echt wel bij varen. Bij concurrency is de aanpak met Actors (of de oude Java-aanpak met threading, locking en transactions) dan bijvoorbeeld te vervangen door pure FP-code.
+Maar voor serieus gebruik maakt FP intensief gebruik van standaard bibliotheken die je zult moeten leren kennen (Cats of ScalaZ bijvoorbeeld) of zelf op zult moeten bouwen (aan de hand van het boek Functional Programming in Scala van Chiusano en Bjarnason bijvoorbeeld).
+Dat betekent een flinke investering vooraf aan lezen, leren en opbouw van code. Deze drempel is duidelijk veel groter dan bij de OOP-aanpak.<br>
+<hr>
+<h3>Alternatieve formulering van ongeveer hetzelfde punt bij FPInScala:</h3>
+Het is een heel goed boek. De boek is goed georganiseerd en geschreven, de code klopt. Een ijzersterk project.<br>
+Ik mis voorlopig twee dingen, voortkomend uit dezelfde constatering: FP vraagt een zeer grote investering vooraf, in kennis en code.<br>
+Andere benaderingen (imperatief, procedureel, OOP, ...) vragen nauwelijks voorbereiding qua programmeeromgeving. Allerlei hulpmiddelen (IDE, refactoring, debugger, builder, GUI-code) kun je geleidelijk toevoegen. Maar na de beslissing het maar eens functioneel te proberen sta je voor een groot zwart gat. Waar te beginnen, of hoe de spaarzame voorbeeldprogramma's uit te bouwen tot iets op het eigen probleemgebied?
+<br><ol type="I">
+<li>
+Je wordt geacht de opgaven te maken. Dat geef je al snel op. De "answers" zijn echter goed en compleet, maar betreffen meestal implementaties.<br>
+De opgaven missen de voorbeelden die daar gebruik van maken en de resultaten uitprinten. Het fabriceren van deze voorbeelden is al een opgave op zich. 
+Het is verdedigbaar dat het maken van al de opgaven en bijbehorende voorbeelden de enige manier is om proficiency te bereiken, maar het werpt ook een hoge drempel op voor de beginnende FP'er. 
+En het sluit FP'ers met minder professionele ambities bijna uit.<br> 
+Ik vind dat Scala zich sowieso te weinig richt op de "probeerseltjes-programmeur". 
+Die wordt weliswaar goed bediend door Ammonite, maar een volwaardig alternatief voor de Java-applet zijn Scala.swing of Scala.js te weinig. 
+Wel als techniek, maar niet als laagdrempelig ecosysteem.<br>
+En dat probleem is een orde van grootte groter voor FP.<br>
+Kortom, lever ook de runnende uitwerkingen erbij. In bijvoorbeeld Ammonite of Scalafiddle.
+<br><br>
+<li>
+Het zou goed zijn een beschouwing toe te voegen over toepassing van FP in de praktijk, ook de praktijk van de kleinere toepassing.
+Niet iedereen is professional, of werkt in een team waar al is gekozen voor een FP-bibliotheek.<br>
+Het begint met code zonder zijeffecten en mutable state.<br>
+Maar hoe lang kun je toe met puur de kennis dat List, Option etc. Monads zijn? 
+Wanneer begin de noodzaak gebruik te maken van abstractie-libraries zoals ontwikkeld in het boek? <br>
+En hoe snel wordt gebruik van Cats of ScalaZ onmisbaar?
+Wat is het voordeel van gebruik van deze eigen libs, hoe gemakkelijk zijn Cats en ScalaZ uitbreidbaar met eigen vondsten (of die uit het boek)?
+</ol>
+<br><br><br>
   </body>
 </html>
