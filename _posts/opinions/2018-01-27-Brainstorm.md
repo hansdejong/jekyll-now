@@ -10,7 +10,7 @@ comments: true
 ## Brainstorm
 #### N.a.v. Eddy Terstall, ASPNederland, Wim van der Vlis
 <i>In reactie op een draadje op Twitter. De situatie:<br> 
-De ASP (Atheïstisch Seculiere Partij) heeft de grondslagen gepubliceerd en zoekt aanhang. Eddy en Wim vinden het idee sympathiek maar geloven verschillend in het nut van een nieuwe partij.<br> Rechts heeft een interessante maar moeilijk vervolg te geven bijeenkomst gehad, de Nederlandse Leeuw. Links gaat samen met diverse moslims en linksradicalen demonsteren tegen fascisme en discriminatie, maar vooral tegen Annabel Nanninga van FvD, die van beide vals beschuldigd wordt.</i>
+De ASP (Atheïstisch Seculiere Partij) heeft de grondslagen gepubliceerd en zoekt aanhang. Eddy en Wim vinden het idee sympathiek maar geloven verschillend in het nut van een nieuwe partij.<br> Rechts heeft een interessante maar moeilijk vervolg te geven bijeenkomst gehad, de Nederlandse Leeuw. Links gaat samen met diverse moslims en linksradicalen demonstreren tegen fascisme en discriminatie, maar vooral tegen Annabel Nanninga van FvD, die van beide vals beschuldigd wordt.</i>
 
 De uitgangspunten van de ASP klinken prima, links is door de mand gevallen, en het moet ergens beginnen. 
 Maar voorlopig denk ik zoals Wim van der Vlis, enigszins sceptisch. Ook Monasch is het niet gelukt. (<i>Latere aanvulling: </i> En ook Eddy zal de nodige tegenwind krijgen als &eacute;&eacute;n van de boegbeelden van Vrij Links.)
