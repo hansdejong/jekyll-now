@@ -11,7 +11,7 @@ Ik heb het eerder gehad over Functioneel Programmeren (FP, zie het artikel "Mona
 Deze keer wil ik me meer op een concreet voorbeeld richten.
 Ik heb opnieuw een Haskell-boek gekocht, <a href="/statics/ref/bronnen.html#pih" target="_blank">Programming in Haskell</a>, 2e editie, van Graham Hutton. Ook dit boek begint op beginnersniveau, maar werkt dan een aantal concrete voorbeelden uit. In hoofdstuk 11 is dat Boter, Kaas en Eieren, oftewel Tic-Tac-Toe.
 
-De code genereert een compleet cli-spel (command-line interface), dat onoverwinnelijk zou moeten zijn. Omdat goede serieuze maar behapbare voorbeelden van FP zeldzaam zijn heb ik het vertaald naar Scala. De listings vind je hier naast elkaar: <a href="{{ site.baseurl }}/statics/monads/tictactoe.htm" target="_blank">Tic-Tac-Toe</a>.<br> De code zoals hier gepresenteert runt in respectievelijk ghci (Haskell) dan wel ammonite (Scala).
+De code genereert een compleet cli-spel (command-line interface), dat onoverwinnelijk zou moeten zijn. Omdat goede serieuze maar behapbare voorbeelden van FP zeldzaam zijn heb ik het vertaald naar Scala. De listings vind je hier naast elkaar: <a href="{{ site.baseurl }}/statics/monads/tictactoe.htm" target="_blank">Tic-Tac-Toe</a>.<br> De code zoals hier gepresenteerd runt in respectievelijk ghci (Haskell) dan wel ammonite (Scala).
 
 ### Intimiderend of nuttig?
 

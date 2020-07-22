@@ -45,26 +45,28 @@
 <tr>
 	<td width="50%">
 		<ul>
-	<li>Er is (nog) geen speelbare code:<br>
+	<li>Er is (nog) geen in de browser speelbare code:<br>
 	Scalafiddle was geen optie: dat geeft een resultaat terug, maar heeft geen REPL.<br>
 	<li><b>TODO</b> Spelen zou in de browser alleen met Scala.js kunnen.<br>
-	Scala-swing GUI heb ik al. Zou er als service bij geleverd kunnen worden.
+	Een Scala-swing GUI heb ik al. Die zou er als service bij geleverd kunnen worden.
+<li><b>TODO</b> Naast Java-swing kun je in Scala dus ook gebruik maken van Scala-swing, een wrapper-library om de eerste.
+Ik vind Scala-swing een heel elegante library, in mijn ogen ten onrechte in discrediet geraakt ten gunste van o.a. ScalaFX dat ik verder niet ken.
+
 	<li>De hier getoonde code heeft gedraaid in ghci (Haskell) en Ammonite (Scala)
-	<li>In de Scala-versie moest soms de volgorde worden aangepast. 
-	Je kunt daar bijvoorbeeld geen Grid defini&euml;ren als List van List van Player, als de Player nog niet is gedefinieerd.
-	<li>De tabelrijen komen zoveel mogelijk overeen met de  paragrafen uit het boek. Afwijkingen staan in verband met het hiervoor genoemde volgordeprobleem.
 			
 		</ul>
 	<td width="50%">
 		<ul>
 			<li>Het idee is de Haskell-code letterlijk te vertalen naar Scala, met
 gebruik van value-functies (nieuw voor mij) zodat compositie mogelijk wordt.
-Daarnaast zijn er ook een Scala-swing-GUI en testbestand.
-<li>Naast Java-swing kun je in Scala ook gebruik maken van Scala-swing, een wrapper-library om de eerste.
-Ik vind Scala-swing een heel elegante library, in mijn ogen ten onrechte in discrediet geraakt ten gunste van o.a. ScalaFX dat ik verder niet ken.
+
+	<li>In de Scala-versie moest soms de volgorde worden aangepast. 
+	Je kunt daar bijvoorbeeld geen Grid defini&euml;ren als List van List van Player, als de Player nog niet is gedefinieerd.
+<li>De tabelrijen komen zoveel mogelijk overeen met de  paragrafen uit het boek. Afwijkingen staan in verband met het hiervoor genoemde volgordeprobleem.
+
 <li>De hier gebruikte Scala-syntax, met veel value functies, wijkt af van de syntax die je meestal zult zien, 
-met veel def-methods (die dan weer via zgn.  eta-expansion automatisch kunnen worden omgezet in anonieme &lambda;-functies. 
-Maar deze syntax komt veel meer overeen met die van Haskell, def-methods met Java.)
+met veel def-methods (die dan weer via zgn.  eta-expansion automatisch kunnen worden omgezet in anonieme &lambda;-functies). 
+Maar deze syntax komt veel meer overeen met die van Haskell, def-methods lijken meer op Java.
 		</ul>
 	<br></td>
 </tr>
@@ -418,7 +420,7 @@ val run1: (Grid, Player) => Unit = (g,p) => {
 <!--===============================================-->
 <tr>
 	<td>
-	<small>Tot hier werd er gepeeld door twee mensen. Nu gaat de computer tegenspel bieden en wordt er een gameTree opgebouwd met alle mogelijke aflopen.<br>
+	<small>Tot hier werd er gespeeld door twee mensen. Nu gaat de computer tegenspel bieden en wordt er een gameTree opgebouwd met alle mogelijke aflopen.<br>
 	(Bij Schaak of Go kan dat maar tot beperkte diepte.)</small>
 	</td>
 	<td>
