@@ -19,6 +19,6 @@ Zelf vind ik Haskell nog steeds lastig. Ik begrijp de boeken en voorbeelden, maa
 
 Ik was benieuwd of een letterlijk vertaald Haskell programma daarmee inzichtelijker zou worden. Dat valt een beetje tegen. E&eacute;n van de redenen is dat ik vooral veel value-functies heb gebruikt, die ook voor veel Scala programmeurs ongebruikelijk zijn.<br> (Scala is in veel situaties in staat gewone def-methods automatisch te converteren naar deze anonieme-functie syntax, "&lambda;-functies", een proces dat eta-expansie wordt genoemd.)<br> Maar daarmee lijkt de code wel veel meer op Haskell, en is deze dus beter te vergelijken.
 
-FP zou inzichtelijker moeten zijn dan OOP-code, al was het maar omdat er geen zij-effecten zijn. Maar het is toch wel wennen aan het veelvuldig toepassen van funcies als argument of returnwaarde. Afijn, oordeel zelf. Maar voor de niet-ingewijden: Scala ziet er meestal "Java-achtiger" uit, laat je niet afschrikken.
+FP zou inzichtelijker moeten zijn dan OOP-code, al was het maar omdat er geen zij-effecten zijn. Maar het is toch wel wennen aan het veelvuldig toepassen van functies als argument of returnwaarde. Afijn, oordeel zelf. Maar voor de niet-ingewijden: Scala ziet er meestal "Java-achtiger" uit, laat je niet afschrikken.
 
 
