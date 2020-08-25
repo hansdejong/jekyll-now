@@ -28,7 +28,7 @@ A Functor (and consequently also a Monad) demands a parameter (is a context).</i
 </ul>
 
 <h3>Laws</h3>
-<div class="klein">In the following S is a set with associated binary operation O.<br>
+<div class="klein">In the following S is a set with an associated binary operation O.<br>
 Some "synonyms" may concern the same operation, but belong to different levels. Ap in this way is the Monad-version of &lt;*&gt; (Functor-version).</div>
 <ul>
 <li><b>Closure</b>: Applying O to two elements of S results in an element of S again.
@@ -58,15 +58,16 @@ If a component doen't exist or results in an exception this can be ignored, or t
 In pure functional code this is all impossible (functions deliver clear-cut results based on their input and don't change anything in the outside world).<br> Monads however present ways around these problems by incorporating the side-effect in the context and taking care of it in the implementation of <b>>>=</b>.<br> 
 Especially in Haskell this kind of code is clearly distinguishable from pure functional code. (In Scala it is possible to cheat, but in Haskell side-effects are limited to this kind of Monads.)<br> 
 In Scala the for-expression or comprehension is the ideal syntax to handle Monads.
-<li><font color="red"> Still translating.  Proceeded until here. Contact me if I have to hurry up.</font>
-<li>Functionele talen kenmerken zich door een focus op data-flow i.p.v. control-flow, en daarbij ook op het gebruik van zeer uitgebreide standaardbibliotheken met geoptimaliseerde standaardfuncties voor standaard-datastructuren
-(vaak Monads).<br> Dit i.t.t. de OOP (Object Oriented Programming) benadering van het bouwen van custom datastructuren met custom operaties.<br>
-Het puur functionele deel van de code bestaat eerder uit een verzameling definities of vergelijkingen zonder invloed op de buitenwereld (zoals dat gebruikelijk is in de wiskunde),<br> 
-dan uit een seri&euml;le opeenvolging van instructies (met aanpassing van veranderlijke variabelen) zoals bij vooral imperatieve, maar ook OOP-code het geval is.<br>
-De code is nog steeds sequentieel, maar de nadruk ligt toch minder op de volgorde van de instructies, 
-want definities, eenmaal gedefini&euml;erd, sprokkelt de compiler zelf wel bij elkaar. Bij lazy evaluatie wordt die volgorde zelfs irrelevant.<br>
-Zodoende wordt vaak gezegd dat een functionele programmeur zich meer bezighoudt met beschrijving van het wat dan van het hoe.<br>
+<li>Functional languages are characterized by a focus on data-flow in stead of control-flow, and also by the use of very eleborate standardlibraries with optimized standardfunctions<br> for standard datastructures(that are often Monads).<br> 
+This in contrast with the OOP (Object Oriented Programming) way of building custom datastructures with custom operations.<br>
+The pure functional part of the code is consisting of a bunch of definitions or equations without impact on the outer world (as is usage in math),<br> 
+more then of a sequence of instructions and statements (changing mutable variables) as is usual in especially imperative, but also OOP-code.<br>
+The code is still sequential, but focus is far less on on the order of the instructions, 
+because definitions, once defined, are easely gathered by the compiler.<br> With lazy evaluation the order even becomes irrelevant.<br>
+For this reason it is often said that a functional programmer is more describing the what then the how.<br>
 </ul>
+
+<font color="red"> Still translating.  Proceeded until here. Contact me if I have to hurry up.</font>
 
 <hr size="5" noshade>
 <br>
