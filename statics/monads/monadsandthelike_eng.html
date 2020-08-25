@@ -67,23 +67,21 @@ because definitions, once defined, are easely gathered by the compiler.<br> With
 For this reason it is often said that a functional programmer is more describing the what then the how.<br>
 </ul>
 
-<font color="red"> Still translating.  Proceeded until here. Contact me if I have to hurry up.</font>
-
 <hr size="5" noshade>
 <br>
 <table border="1" width="100%" bgcolor="white">
 <tr valign="top">
-	<th colspan="2">I. Semigroep</th>
+	<th colspan="2">I. Semigroup</th>
 </tr>
 <tr>
 
 	<td width="20%">
-		Voorbeelden<br>
+		Examples<br>
 		<b>Constructor: *</b><br>
 	</td>
 	<td >
-		Set gehele getallen met + of * operatie: (4 + 10) + 2 = 4 + (10 +2)<br>
-		<div class="klein">Voorbeelden zonder identity: positieve gehele getallen met + operator, of niet-lege sequenties.</div>
+		Set of whole numbers with + or * operation: (4 + 10) + 2 = 4 + (10 +2)<br>
+		<div class="klein">Examples without identity: positive whole numbers with + operator, or not-empty sequences.</div>
  	</td>
 </tr>
 <tr>
@@ -91,14 +89,14 @@ For this reason it is often said that a functional programmer is more describing
 		Laws<br>
 	</td>
 	<td >
-		<b>Closure</b> en <b>Associativity<br>
+		<b>Closure</b> and <b>Associativity<br>
  	</td>
 
 </tr>
 <tr>
 
 	<td>
-		Operatie<br>
+		Operation<br>
 	</td>
 	<td >
 		append<br>
@@ -114,12 +112,12 @@ For this reason it is often said that a functional programmer is more describing
 <tr>
 
 	<td width="20%">
-		Voorbeelden<br>
+		Examples<br>
 	</td>
 	<td >
-		Set gehele getallen met + of * operatie: a+0=a, a*1=a<br>
-		Lists, Bool, Ordering, Maybe, zelfgedefinieerde Tree.
-		<div class="klein">Verzameling met operatie, die je (recursief) kunt uitbreiden.</div>
+		Set of whole numbers with + or * operation: a+0=a, a*1=a<br>
+		Lists, Bool, Ordering, Maybe, selfdefined Tree.
+		<div class="klein">Collection with operation, which you (recursively) can expand.</div>
 	</td>
 
 </tr>
@@ -129,24 +127,24 @@ For this reason it is often said that a functional programmer is more describing
 		Laws
 	</td>
 	<td >
-		Als Semigroep, met <b>Identity</b><br>
+		Like Semigroup, with <b>Identity</b><br>
 <ul>
     <li>mempty `mappend` x = x
     <li>x `mappend` mempty = x
     <li>(x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)
 </ul>
-<i>(<b>mempty</b> vertegenwoordigt het identity-element voor een bepaalde monoid met operatie, <b>mappend</b> is de binaire functie.<br>
-<b>mconcat</b> is een secundaire functie die een lijst monoids via een fold-operatie reduceert tot een enkele waarde.<br> mconcat is een ongelukkige naam, bij een optelling bijvoorbeeld wordt er niets aan elkaar geplakt.)</i>
+<i><b>mempty</b> represents the identity-element for a certain monoid with operation, <b>mappend</b> is the binairy function.<br>
+<b>mconcat</b> is a secundairy function that reduces a list of monoids by a fold-operation to a single value.<br> (mconcat is an unfortunate name, in an addition for instance nothing is joined together.)</i>
 	</td>
 
 </tr>
 <tr>
 
 	<td>
-		Operaties<br>
+		Operations<br>
 	</td>
 	<td >
-		Als Semigroep, aangevuld met de zero-operatie.<br>
+		Like Semigroep, with the zero-operation added .<br>
 	</td>
 
 </tr>
@@ -160,7 +158,7 @@ For this reason it is often said that a functional programmer is more describing
 
 <tr>
 	<td width="20%">
-		Voorbeelden<br>
+		Examples<br>
 		<b>Unary type constructor:&nbsp; *->*<br>
 		Binary type constructor: *->*->*<br>
 		Functor[F[_]]</b><br>
@@ -168,8 +166,8 @@ For this reason it is often said that a functional programmer is more describing
 	<td >
 		<b>Scala:</b> List, Option, Set, Either, Try, Future... <br> 
 		<b>Haskell:</b> List, Maybe, eigen Tree, Either, Function ...<br>
-		<div class="klein">"Alles waarover gemapt kan worden", het toepassen van een functie op waarde[n] in een context.</div>
-		<div class="klein">Mapping over een functie is functie-composition (<a href="http://nicholas.ren/2014/03/28/monad.html" target="_blank">Nicholas</a>, zie ook LYAH Functor)</div>
+		<div class="klein">"Everything that can be mapped over", applying a function to one or more values in a context.</div>
+		<div class="klein">Mapping over a function is function-composition (<a href="http://nicholas.ren/2014/03/28/monad.html" target="_blank">Nicholas</a>, see also LYAH Functor)</div>
 	</td>
 </tr>
 <tr>
@@ -177,24 +175,24 @@ For this reason it is often said that a functional programmer is more describing
 		Laws
 	</td>
 	<td >
-		<b>Identity</b> en <b>Compose</b><br>
+		<b>Identity</b> and <b>Compose</b><br>
 		<dl>
 <dt>1. Indentity
 <dd><b>fmap id = id</b>
 <dt>2. Compose
-<dd><b>fmap (f . g) = fmap f . fmap g</b> , oftewel<br>
+<dd><b>fmap (f . g) = fmap f . fmap g</b> , or<br>
 <b>fmap (f . g) F = fmap f (fmap g F)</b>
 </dl>
 	</td>
 </tr>
 <tr>
 	<td>
-		Operatie
+		Operation
 	</td>
 	<td >
-		E&eacute;n typeclass-methode: <b>fmap :: (a -> b) -> f a -> f b</b><br>
-		(map is de List-implementatie van fmap)<br>
-		<div class="klein">Map, Either, Function1 zijn binary, daarbij moet de operatie partieel, in stappen worden toegepast.</div>
+		One typeclass-method: <b>fmap :: (a -> b) -> f a -> f b</b><br>
+		(map is the List-implementation of fmap)<br>
+		<div class="klein">Map, Either, Function1 are binary, for which the operation must be applied partially, in steps.</div>
 	</td>
 </tr>
 </table>
@@ -207,10 +205,10 @@ For this reason it is often said that a functional programmer is more describing
 </tr>
 <tr>
 	<td width="20%">
-		Voorbeelden
+		Examples
 	</td>
 	<td >
-		Voorlopig: De toegepaste functie kan zich zelf ook binnen een context bevinden<br>
+		The applied function itself is also wrapped in a context<br>
 	</td>
 </tr>
 <tr>
@@ -229,12 +227,12 @@ For this reason it is often said that a functional programmer is more describing
 </tr>
 <tr>
 	<td>
-		Operaties
+		Operations
 	</td>
 	<td >
-	Als Functor, met <b>Pure</b> <i>(Wrapt value in applicative),</i><br>
-	en <b>ap</b> of <b>&lt;*&gt;</b><i>(Neemt een applicative met een functie er in en een andere applicative, extraheert de functie(s) uit de eerste en mapt die over de tweede).</i><br>
-	Applicatives zijn composable, wat niet voor elke Monad zo is.<br>
+	Like Functor, with <b>Pure</b> added <i>(Wraps a value in an applicative),</i><br>
+	and <b>ap</b> or <b>&lt;*&gt;</b><i>(Takes an applicative containing a function and an other applicative, extracts the function(s) from the first and maps it over the second).</i><br>
+	Applicatives are composable, which is not the case for every Monad.<br>
 	</td>
 </tr>
 </table>
@@ -246,16 +244,16 @@ For this reason it is often said that a functional programmer is more describing
 </tr>
 <tr>
 	<td width="20%">
-		Voorbeelden<br>
+		Examples<br>
 		<b>Higher order type operator: (*->*)->*<br>
 		Monad[M[_]]</b><br>
-		<div class="klein">M[_] staat voor een unary type-constructor als List of Option</div>
+		<div class="klein">M[_] is an unary type-constructor like List or Option</div>
 	</td>
 	<td >
 		<b>Scala:</b> List, Option, Set, Either, Try, Future... <br> 
 		<b>Haskell:</b> List, Maybe, Tree?, Either, ...<br>
 		
-		<div class="klein">"Informeel is een Monad alles met een constructor en een flatMap methode."</div>
+		<div class="klein">"Informaly a Monad is everything with a constructor and a flatMap (or bind) method."</div>
 		<!--Scala with Cats blz. 77.-->	</td>
 </tr>
 <tr>
@@ -265,17 +263,17 @@ For this reason it is often said that a functional programmer is more describing
 	<td >
 <dl>
     <dt><b>Left identity</b>
-    <dd><b>return x >>= f</b> is het zelfde als <b>f x</b>
+    <dd><b>return x >>= f</b> is the same as <b>f x</b>
     <dt><b>Right identity</b>
-    <dd><b>m >>= return</b> is gelijk aan <b>m</b>
+    <dd><b>m >>= return</b> is the same as <b>m</b>
 <dt><b>Associativity</b>
-<dd>Het resultaat van <b>(m >>= f) >>= g</b> is gelijk aan dat van <b>m >>= (\x -> f x >>= g)</b>
+<dd>The result of <b>(m >>= f) >>= g</b> is the same as that of <b>m >>= (\x -> f x >>= g)</b>
  </dl>
 	</td>
 </tr>
 <tr>
 	<td>
-		Operaties
+		Operations
 <pre><code class="haskell">
 class Applicative m => Monad m where
     return :: a -> m a
@@ -286,14 +284,14 @@ class Applicative m => Monad m where
 </code></pre>
 	</td>
 	<td >
-		Als Applicative, met <b>bind</b>, <b>>>=</b> of <b>do-notation</b>. (In Scala: <b>flatMap</b>.)<br><br>
-		Naast <b>bind</b> dient <b>return</b> voor het wrappen van een waarde in de monad (een "lift"-functie, zoals <b>pure</b> bij de applicative), en <b>>></b> ("then") voor het chainen van monadische acties die het resultaat van de voorganger niet nodig hebben. 
-		<b>fail</b> is alleen intern nodig voor pattern-match failures in do-notation.
+		Like Applicative, with <b>bind</b>, <b>>>=</b> or <b>do-notation</b>. (In Scala: <b>flatMap</b>.)<br><br>
+		Next to <b>bind</b>, <b>return</b> takes care of the wrapping of a value in the monad (a "lift"-function, like <b>pure</b> of the applicative), and <b>>></b> ("then") takes care of the chaining of monadic actions that don't need the result of the predecessor. 
+		<b>fail</b> is just needed internally for pattern-match failures in do-notation.
 	</td>
 </tr>
 </table>
-<br><div class="klein">Net als de Applicative (-Functor) is ook Arrow een superclass van Monad, maar deze past niet helemaal in dit rijtje.
-Arrows missen een andere law en hebben een ander toepassingsgebied (o.a. parsers).</div>
+<br><div class="klein">Just like the Applicative (-Functor), Arrow also is a superclass of Monad, but it doesn't fit well in this scheme.
+Arrows miss an other law and have a different application-area (i.a. parsers).</div>
 
 <br><br><br><br>
 
