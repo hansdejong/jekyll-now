@@ -27,43 +27,43 @@ Those laws often result in primitives, typeclass-methods.
 A Functor (and consequently also a Monad) demands a parameter (is a context).</i>
 </ul>
 
+<br><font color="red"> Still translating.  Proceeded until here. Contact me if I have to hurry up.</font>
+
 <h3>Laws</h3>
-<div class="klein">In the following S is a set with associated binary operation O.<br>
-Some "synonyms" may concern the same operation, but belong to different levels. Ap in this way is the Monad-version of &lt;*&gt; (Functor-version).</div>
+<div class="klein">Het gaat steeds om een set S met bijbehorende binary operatie O.<br>
+Sommige "synoniemen" betreffen weliswaar dezelfde operatie, maar horen bij verschillende niveaus. Zo is Ap de Monad-versie van &lt;*&gt; (Functor-versie).</div>
 <ul>
-<li><b>Closure</b>: Applying O to two elements of S results in an element of S again.
-<li><b>Associativity</b>: When combining pairs of elements order doesn't matter.
-<div class="klein">(The order of the elements may matter, like in string-concatenation, but not the order of the operations, the location of the parenthesis.<br>
-So subtraction is not associatif, (5 - 3) - 4 != 5 - (3 - 4))</div>
-<li><b>Identity</b> or  <b>zero</b><!-- of  <b>unit</b> of <b>return</b>-->: there is an identityelement with an identity operation resulting in the starting-element.<br>
-(With addition for instance this is 0, with multiplication 1, when calculating a maximum -&infin;.)
+<li><b>Closure</b>: Toepassen van O op twee elementen van S levert weer een element van S op.
+<li><b>Associativity</b>: Bij het paarsgewijs combineren van elementen doet de volgorde er niet toe.
+<div class="klein">(Soms wel van de elementen, zoals bij string-concatenatie, maar niet van de operaties, de plaats van de haakjes.<br>
+Aftrekken is zodoende niet associatief, (5 - 3) - 4 != 5 - (3 - 4))</div>
+<li><b>Identity</b> of  <b>zero</b><!-- of  <b>unit</b> of <b>return</b>-->: er bestaat een identityelement met een identity operatie die het uitgangselement oplevert.<br>
+(Bij optellen is dit bijvoorbeeld 0, bij vermenigvuldigen 1, bij het bepalen van een maximum -&infin;.)
 <li><b>Compose</b>: f(g(a)) = f&bull;g(a)
-<li><b>Pure</b>, <b>unit</b> or <b>return</b>: def pure[A] (a:A) : F[A]<!--Verbeterd-->
-<li><b>&lt;*></b> or <b>ap</b>: def ap[A, B] (fa:F[A]) (fab: F[ A=>B ]) : F[B]<br>
+<li><b>Pure</b>, <b>unit</b> of <b>return</b>: def pure[A] (a:A) : F[A]<!--Verbeterd-->
+<li><b>&lt;*></b> of <b>ap</b>: def ap[A, B] (fa:F[A]) (fab: F[ A=>B ]) : F[B]<br>
 override def map [A,B] (fa: F[A]) (fab: A => B): F[B]=ap(fa)(pure(fab))
-<li><b>flatMap</b> (or <b>bind, >>=</b>)
+<li><b>flatMap</b> (of <b>bind, >>=</b>)
 </ul>
-
-
-<h3>The benefits of Monads for the programmer</h3>
-<div class="klein">I'm just talking about Monads here. It will be clear that in some cases it is sufficient for instance to be a Functor.</div>
+<h3>Het nut van Monads voor de programmeur</h3>
+<div class="klein">Ik spreek hier alleen over Monads. Het zal duidelijk zijn dat voor sommige toepassingen het zijn van bijvoorbeeld Functor toereikend is.</div>
 <ul>
-<li>Many standardtypes, like Lists in Haskell and Scala, are bulkcontainers, and often they are Monads too. The same may be the case for self-defined types like a Tree.<br> 
-Operations on the componenten thereof are often easy to combine or join (composing or chaining).<br>
-Other bulkoperations deliver an over-all result (reducing or folding).
+<li>Veel standaardtypen, zoals Lists in Haskell en Scala, zijn bulkcontainers,  en ze zijn ook vaak Monads. Dat geldt soms ook voor zelf gedefinieerde typen zoals een Tree.<br> 
+Bewerkingen op de componenten daarvan zijn vaak gemakkelijk te combineren of aaneen te schakelen (composing of chaining).<br>
+Andere bulkbewerkingen leveren een totaalresultaat op (reducing of folding).
 
-<li>"Smaller" standardtypes (like Maybe/Option of Haskell/Scala respectively) can be used to  elegantly handle exceptional cases.<br> 
-If a component doen't exist or results in an exception this can be ignored, or the whole bulkoperation can be cancelled without endless if-then-else, case- or try-catch constructions.
-<li>Monads are also used to handle operations with side-effects. This may be about reporting intermediate results (logging), IO-operations, random-input or state-maintenance.<br>
-In pure functional code this is all impossible (functions deliver clear-cut results based on their input and don't change anything in the outside world).<br> Monads however present ways around these problems by incorporating the side-effect in the context and taking care of it in the implementation of <b>>>=</b>.<br> 
-Especially in Haskell this kind of code is clearly distinguishable from pure functional code. (In Scala it is possible to cheat, but in Haskell side-effects are limited to this kind of Monads.)<br> 
-In Scala the for-expression or comprehension is the ideal syntax to handle Monads.
-<li><font color="red"> Still translating.  Proceeded until here. Contact me if I have to hurry up.</font>
+<li>"Kleinere"  standaardtypen (zoals Maybe/Option van respectievelijk Haskell/Scala) kunnen gebruikt worden om uitzonderingsgevallen elegant af te handelen.<br> 
+Als een component niet bestaat of een fout oplevert kan die worden genegeerd, of kan de totale bulkoperatie worden afgeblazen zonder eindeloze if-then-else, case of try-catch constructies.
+<li>Monads worden ook gebruikt om operaties met zij-effecten af te handelen. Het kan daarbij gaan om het rapporteren van tussenresultaten (logging), IO-operaties, random-input of het bijhouden van state.<br>
+In puur functionele code is dit allemaal onmogelijk (functies leveren eenduidig resultaat op basis van hun input en veranderen niets aan de buitenwereld). Met Monads echter is hier een mouw aan te passen, 
+doordat het bijeffect in de context wordt meegenomen en in de implementatie van <b>>>=</b> wordt verdisconteerd. 
+Vooral in Haskell is dit soort code duidelijk te onderscheiden van de puur functionele code. (In Scala valt te smokkelen, maar in Haskell zijn bijeffecten beperkt tot dit soort Monads.) 
+In Scala is de for-expression de ideale syntax om met Monads om te gaan.
 <li>Functionele talen kenmerken zich door een focus op data-flow i.p.v. control-flow, en daarbij ook op het gebruik van zeer uitgebreide standaardbibliotheken met geoptimaliseerde standaardfuncties voor standaard-datastructuren
-(vaak Monads).<br> Dit i.t.t. de OOP (Object Oriented Programming) benadering van het bouwen van custom datastructuren met custom operaties.<br>
-Het puur functionele deel van de code bestaat eerder uit een verzameling definities of vergelijkingen zonder invloed op de buitenwereld (zoals dat gebruikelijk is in de wiskunde),<br> 
-dan uit een seri&euml;le opeenvolging van instructies (met aanpassing van veranderlijke variabelen) zoals bij vooral imperatieve, maar ook OOP-code het geval is.<br>
-De code is nog steeds sequentieel, maar de nadruk ligt toch minder op de volgorde van de instructies, 
+(vaak Monads). Dit i.t.t. de OOP (Object Oriented Programming) benadering van het bouwen van custom datastructuren met custom operaties.<br>
+Het puur functionele deel van de code bestaat eerder uit een verzameling definities of vergelijkingen zonder invloed op de buitenwereld (zoals dat gebruikelijk is in de wiskunde), 
+dan uit een seri&euml;le opeenvolging van instructies (met aanpassing van veranderlijke variabelen) zoals bij vooral imperatieve, 
+maar ook OOP-code het geval is. De code is nog steeds sequentieel, maar de nadruk ligt toch minder op de volgorde van de instructies, 
 want definities, eenmaal gedefini&euml;erd, sprokkelt de compiler zelf wel bij elkaar. Bij lazy evaluatie wordt die volgorde zelfs irrelevant.<br>
 Zodoende wordt vaak gezegd dat een functionele programmeur zich meer bezighoudt met beschrijving van het wat dan van het hoe.<br>
 </ul>
