@@ -29,7 +29,7 @@ A Functor (and consequently also a Monad) demands a parameter (is a context).</i
 
 <h3>Laws</h3>
 <div class="klein">In the following S is a set with an associated binary operation O.<br>
-Some "synonyms" may concern the same operation, but belong to different levels. Ap in this way is the Monad-version of &lt;*&gt; (Functor-version).</div>
+Some "synonyms" may concern the same operation, but belong to different levels. Ap in this way is the Monad-version of &lt;*&gt; (Applicative Functor-version).</div>
 <ul>
 <li><b>Closure</b>: Applying O to two elements of S results in an element of S again.
 <li><b>Associativity</b>: When combining pairs of elements order doesn't matter.
@@ -144,7 +144,7 @@ For this reason it is often said that a functional programmer is more describing
 		Operations<br>
 	</td>
 	<td >
-		Like Semigroep, with the zero-operation added .<br>
+		Like Semigroep, with the zero-operation added.<br>
 	</td>
 
 </tr>
@@ -208,7 +208,7 @@ For this reason it is often said that a functional programmer is more describing
 		Examples
 	</td>
 	<td >
-		The applied function itself is also wrapped in a context<br>
+		The applied function itself can also be wrapped in a context<br>
 	</td>
 </tr>
 <tr>

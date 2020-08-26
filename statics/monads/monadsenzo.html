@@ -29,7 +29,7 @@ Een Functor (en dus ook een Monad) vereist een parameter (is een context).</i>
 </ul>
 <h3>Laws</h3>
 <div class="klein">Het gaat steeds om een set S met bijbehorende binary operatie O.<br>
-Sommige "synoniemen" betreffen weliswaar dezelfde operatie, maar horen bij verschillende niveaus. Zo is Ap de Monad-versie van &lt;*&gt; (Functor-versie).</div>
+Sommige "synoniemen" betreffen weliswaar dezelfde operatie, maar horen bij verschillende niveaus. Zo is Ap de Monad-versie van &lt;*&gt; (Applicative Functor-versie).</div>
 <ul>
 <li><b>Closure</b>: Toepassen van O op twee elementen van S levert weer een element van S op.
 <li><b>Associativity</b>: Bij het paarsgewijs combineren van elementen doet de volgorde er niet toe.
@@ -132,8 +132,9 @@ Zodoende wordt vaak gezegd dat een functionele programmeur zich meer bezighoudt 
     <li>x `mappend` mempty = x
     <li>(x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)
 </ul>
-<i>(<b>mempty</b> vertegenwoordigt het identity-element voor een bepaalde monoid met operatie, <b>mappend</b> is de binaire functie.<br>
-<b>mconcat</b> is een secundaire functie die een lijst monoids via een fold-operatie reduceert tot een enkele waarde.<br> mconcat is een ongelukkige naam, bij een optelling bijvoorbeeld wordt er niets aan elkaar geplakt.)</i>
+<i><b>mempty</b> vertegenwoordigt het identity-element voor een bepaalde monoid met operatie, <b>mappend</b> is de binaire functie.<br>
+<b>mconcat</b> is een secundaire functie die een lijst monoids via een fold-operatie reduceert tot een enkele waarde.<br> 
+(mconcat is een ongelukkige naam, bij een optelling bijvoorbeeld wordt er niets aan elkaar geplakt.)</i>
 	</td>
 
 </tr>
