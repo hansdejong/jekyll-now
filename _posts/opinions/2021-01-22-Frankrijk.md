@@ -32,7 +32,7 @@ Twee&euml;ntwintig bussen. En ook de auto's en de rest er omheen.
 <b>Saskia:</b><br>
 In 2017 blijkt diezelfde Abdel veranderd.
 
-<b>Abdel in 2012 (nu met baard en djellaba):</b><br>
+<b>Abdel in 2017 (nu met baard en djellaba):</b><br>
 Salam Aleikum.<br>
 M'n leven draait om religie. Ik ben lang een soort vaandeldrager voor Frankrijk geweest. Wereldwijd verkondigde ik dat Frankrijk het beste land ter wereld was. Maar nu denk ik er anders over. Want Frankrijk discrimineert meer. Luister goed. Het discrimineert, is racistisch geworden, en ook anti-islam.
 
