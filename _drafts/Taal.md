@@ -27,7 +27,8 @@ Ik ben waarschijnlijk geen doorsnee FvD stemmer. Ik heb altijd links gestemd. Gr
 
 ### Voor FvD
 * **Islamisering en immigratie**<br>
-Voor wie dit blog verder bekijkt zal het geen verrassing zijn dat ik me opwind over de rol en positie van de islam in Nederland. Om maar een paar namen te noemen: Ayaan Hirsi Ali en Zineb El Rhazoui zijn grote rolmodellen voor mij, en al jLos daarvan grossiert de EU (en Europa) in megalomane wanbestuurders (Timmermans, Merkel, 
+Voor wie dit blog verder bekijkt zal het geen verrassing zijn dat ik me opwind over de rol en positie van de islam in Nederland. Om maar een paar namen te noemen: Ayaan Hirsi Ali en Zineb El Rhazoui zijn grote rolmodellen voor mij, en al j
+Los daarvan grossiert de EU (en Europa) in megalomane wanbestuurders (Timmermans, Merkel, 
 
 
 

@@ -1,10 +1,12 @@
 ---
-&deg;layout: post
+layout: post
 title: Monads english
 categories : [Programming, _Scala, _Haskell]
 tags : [monads, scala, haskell]
 comments: true
 ---
+Kan deze weg ?????????????????
+
 
 As you can see in this blog I'm experimenting with Scala. This is a so called "mixed-paradigm"-programming language: you can program in it in an object-oriented Java-like (OOP) way, maar also in a  functional (FP) way. I'm coming from an OOP background, and so the functional part takes a while to get used to. Recently I also tried to get to grips with Haskell. I don't intend to really shift focus to that language, but Haskell is purely functional, and cheating is impossible. In Scala too you quickly run into Monads and the like, but with Haskell they are unavoidable. So my intention with Haskell is to become a better Scala-programmer.
 
