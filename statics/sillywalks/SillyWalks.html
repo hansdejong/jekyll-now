@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Silly Walks
+  </title>
+  <style>
+    ul{
+      margin-top:0;
+      margin-bottom:0;
+    }
+    th{
+      background-color: cadetblue;
+    }
+    small{
+      font-weight: bold;
+    }
+	</style>
+</head>
+<body bgcolor="lightgrey">
+
+<small>
+Over <a href="https://www.youtube.com/watch?v=U9pQPBMtvTM" target="_blank">Theo Jansen</a> en zijn <a href="https://www.strandbeest.com/" targett="_blank">Strandbeesten</a>.<br>
+Programma Hans de Jong in Scala.js
+</small>
+<br><br>
+
+
+<table border="1" bgcolor="teal">
+<tr>
+  <td colspan="3" align="center">
+    <canvas style="border:1px solid #000000;" id="canvas1" width="255" height="300"/>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+<label for="Ax">Ax:</label><input ID="Ax"  onchange="SCALA_update()" size="1">
+<label for="Bx">Bx:</label><input ID="Bx"  onchange="SCALA_update()" size="1"><br>
+<label for="Ay">Ay:</label><input ID="Ay"  onchange="SCALA_update()" size="1">
+<label for="By">By:</label><input ID="By"  onchange="SCALA_update()" size="1">
+</td><td>
+<label for="AC">AC:</label><input ID="AC"  onchange="SCALA_update()" size="1">
+<label for="BD">BD:</label><input ID="BD"  onchange="SCALA_update()" size="1">
+<label for="BE">BE:</label><input ID="BE"  onchange="SCALA_update()" size="1"><br>
+<label for="BF">BF:</label><input ID="BF"  onchange="SCALA_update()" size="1">
+<label for="CD">CD:</label><input ID="CD"  onchange="SCALA_update()" size="1">
+<label for="CE">CE:</label><input ID="CE"  onchange="SCALA_update()" size="1"><br>
+<label for="DF">DF:</label><input ID="DF"  onchange="SCALA_update()" size="1">
+<label for="EG">EG:</label><input ID="EG"  onchange="SCALA_update()" size="1">
+<label for="EH">EH:</label><input ID="EH"  onchange="SCALA_update()" size="1"><br>
+<label for="FG">FG:</label><input ID="FG"  onchange="SCALA_update()" size="1">
+<label for="GH">GH:</label><input ID="GH"  onchange="SCALA_update()" size="1">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button onclick="SCALA_reset()" style="background-color:lightblue;">Reset</button></td>
+</tr>
+</table>
+
+
+<script type="text/javascript" src="../../assets/js/sillywalks-opt.js"></script>
+<script>
+    ScalaJSExample.main(document.getElementById('canvas1'),
+                        document.getElementById('Ax'),
+                        document.getElementById('Ay'),
+                        document.getElementById('Bx'),
+                        document.getElementById('By'),
+                        document.getElementById('AC'),
+                        document.getElementById('BD'),
+                        document.getElementById('BE'),
+                        document.getElementById('BF'),
+                        document.getElementById('CD'),
+                        document.getElementById('CE'),
+                        document.getElementById('DF'),
+                        document.getElementById('EG'),
+                        document.getElementById('EH'),
+                        document.getElementById('FG'),
+                        document.getElementById('GH'),
+    );
+
+</script>
+<br>
+<button onclick="location.reload();"  style="background-color:lightblue;">Ververs de pagina</button><br>
+</body>
+</html>
+
