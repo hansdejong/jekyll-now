@@ -29,7 +29,8 @@ Nee, dat is inderdaad volstrekt belachelijk. In uw vrije tijd zult u wel eens fe
 
 Zodra u als overheidsdienaar zoete broodjes bakt met een specifieke groepering waar u met allerlei kunstgrepen verbinding mee zoekt, weet u eigenlijk al dat het heel erg mis is. 
 
-Graag gedaan.
+Graag gedaan.<img style="float: right;" width="300" src="/assets/pictures/iftar.jpg">
+
 
 <br><br>
 ![Tweet Iza Amsterdam]({{ site.baseurl }}/assets/pictures/IzaAdam.png)
