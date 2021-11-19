@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--<link rel="stylesheet"href="tabs/Tabs.css">-->
+		<link rel="stylesheet"href="/assets/css/tabs.css">
+		<title>KMeans-clustering</title>
+		<!--<link rel="stylesheet" href="./webixcode/webix.css" type="text/css" charset="utf-8">-->
+		<link rel="stylesheet" href="/assets/css/webix.css" type="text/css" charset="utf-8">
+                <!--<script src="./webixcode/webix.js" type="text/javascript" charset="utf-8"></script>-->
+                <script src="/assets/js/webix.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			ul{
+				margin-top:0;
+				margin-bottom:0;
+			}
+			th{
+				background-color: cadetblue;
+			}
+			small{
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+	<div align="center"><b>KMeans (Scala-3)</b></div>
+		<div class="tab">
+		<!--	<img src="tabs/pirkw.gif">-->
+			<img src="/assets/pictures/pirkw.gif">
+		        <button class="tablinks" onclick="openTab(event, 'TabbladMain')" id="defaultOpen">KMeans<br>&nbsp;</button>
+		        <button class="tablinks" onclick="openTab(event, 'TabbladEen')" >Dataset<br>&nbsp;</button>
+		        <button class="tablinks" onclick="openTab(event, 'TabbladTwee')">Enige<br>uitleg</button>
+		        <button class="tablinks" onclick="openTab(event, 'TabbladDrie')">Some<br>explanation</button>
+		</div>
+<!--^^^^^^^^^^^^^^^Main tabblad^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+		<div id="TabbladMain" class="tabcontent">
+<!--			<TEXTAREA  ID="parseoutput" ROWS="24" COLS="100" style="resize:none" READONLY>Hier komen de clusters</TEXTAREA><br>
+			VVVVVVVVVVVVVVVVVVVVVVBegin main-tabbladVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+			<!--======= Canvas ==================================================================-->
+			<div id="KMEANS" style="width:800px; height:400px; margin:10px; border:1px solid #c0c0c0;">
+				<canvas id="canvas">Laad eerst een dataset
+				</canvas>
+			</div>
+			<!--======= Tekstvak =============================================================-->
+			<div id="Tekstvakken" style="width:800px; height:80px; margin:10px; border:0px solid #c0c0c0;">
+<!--				<TEXTAREA  ID="clusterOutput" ROWS="5" COLS="102" style="resize:none" READONLY></TEXTAREA>-->
+				<TEXTAREA  ID="clusterOutput" ROWS="5" COLS="109" style="resize:none" READONLY></TEXTAREA>
+<!--				<TEXTAREA  ID="tekstvak2" ROWS="4" COLS="25" READONLY>Niet veranderbaar</TEXTAREA>
+				<TEXTAREA  ID="tekstvak3" ROWS="4" COLS="20" DISABLED>Disabled</TEXTAREA>-->
+			</div>
+			<div id="Controls" style="width:500px; height:200px; margin:10px;"></div><!--Voor Webix-->
+    
+    
+
+    <script type="text/javascript" charset="utf-8"> 
+	//De webix-code ==========
+        //place for your app
+        //webix.ui() can be optionally placed into the webix.ready() function 
+        //to ensure that your code will be executed as soon as page loading is complete.
+	webix.ready(function(){
+
+		webix.ui({
+		        width:800,
+		        height:600,
+			type:"line",
+			container:"Controls",
+	    		rows: [
+
+//======= De sliders =========================================================
+	
+{ view:"slider", id:"slider1",label:"Clusters", value: 2, min: 2, max: 10, width: 500, align:"left",
+	title:function(obj){return obj.value;}, on:{
+		onChange:function(){
+			SCALA_noClusters( this.getValue() ); 
+		}
+//		webix.message("<pre>"+ this.getValue() +"</pre>");
+	}},
+//======= De toolbar ================================================================
+ { view:"toolbar", id:"mybar", elements:[
+	{ view:"button", value:"Load set", width: 70, click:"SCALA_loadDataset()"}, 
+	{ view:"button", value:"Throw" , width: 70, click:"SCALA_throw()"},
+	{ view:"button", value:"Cluster", width: 70, click:"SCALA_cluster()"},
+	 /*   
+        {view:"combo", label: 'Kolom x:',  name:"x", value:1, yCount:"5", width:140, options:[ 
+			{ id:1, value:"1"},
+			{ id:2, value:"2"}, 
+			{ id:3, value:"3"},   
+			{ id:4, value:"4"},   
+			{ id:5, value:"5"},   
+			{ id:6, value:"6"},   
+			{ id:7, value:"7"},   
+			{ id:8, value:"8"},  
+			{ id:9, value:"9"},  
+			{ id:10, value:"10"}
+		]
+		, afterChange: function(){
+			SCALA_appX( this.getValue() );
+		}
+	},
+
+	{view:"combo", label: 'Kolom y:',  name:"y", value:2, yCount:"10", width:150, options:[ 
+//	{view:"select", label: 'Kolom y:',  name:"Y", value:2, width:140, options:[ 
+			{ id:1, value:1},
+			{ id:2, value:2}, 
+			{ id:3, value:3},   
+			{ id:4, value:4},   
+			{ id:5, value:5},   
+			{ id:6, value:6},   
+			{ id:7, value:7},   
+			{ id:8, value:8},  
+			{ id:9, value:9},  
+			{ id:10, value:10}
+		]
+		, afterChange: function(){
+			SCALA_appY( this.getValue() );
+		}
+	},*/
+ 	
+]//einde toolbar-elementen array
+}//Einde toolbarview
+    			] //Einde rijen-array 
+		});//Einde webix.ui
+	}); //Einde webix.ready
+//======= De Hulpfuncties =======================================================
+
+function ToonWaarden(){ //Bewaren
+	var json = JSON.stringify(this.getParentView().getValues(),0,1);
+	webix.message("<pre>"+ json +"</pre>");        	
+};
+
+</script>
+<!-- ======== Tot hier de webix scripts. Nu de ScalaJS scripts ====== -->
+
+<!--<script type="text/javascript" src="/home/hans/scalaJS/KMeans3/js/target/scala-3.0.0/kmeans-fastopt/main.js"></script>-->
+
+
+<script>
+     StartGraph.main(document.getElementById('canvas'), 
+				 document.getElementById('tekstvak1') );
+</script>
+		</div><!--Einde tabblad main-->
+<!--^^^^^^^^^^^^^^^Einde main-tabblad^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+
+		<div id="TabbladEen" class="tabcontent">
+			<small>Hier kunt u datasets invoeren:<br>
+			(Overschrijf de voorbeeld dataset)</small><br><br>
+			
+			<b>Dataset input</b><br>
+			<TEXTAREA  ID="datasetInput" ROWS="20" COLS="100" style="resize:none" >
+# Het aantal kopjes (minus het label) op de eerste regel bepaalt het aantal dimensies (hier 4). 
+# Vooraf normaliseren!
+
+prijs , snelheid , geheugen, opslag, Label    
+150   , 150      ,      130,    270, Eerste
+100   , 250      ,      200,    100, Tweede
+ 50   ,  75      ,        0,      0, Nog een
+200   , 300      ,       80,    120, Derde
+900   , 200      ,      120,     70, Vierde   , Commentaar bij vierde. 
+700   , 170 , 
+Ook commentaar
+500   , 375      ,      110,     90,          , Commentaar zonder label.
+800   , 350      ,       87,    120, Vijfde
+
+
+# Lege regels, regels met te weinig kolommen en regels beginnend met een # worden genegeerd.
+# (Met een extra dummy-kopje wordt dus de hele voorbeeldtabel genegeerd.)
+# Op elke regel worden kolommen na het label genegeerd en deze kunnen dus ook commentaar bevatten.
+			</TEXTAREA><br><br>
+<small>
+English:<ul>
+        <li>Overwrite the example dataset and copy your data in this textarea.
+	<li>The number of headings (the label excluded) on the first line determines the number of dimensions (4 in this case).<br> 
+		Normalise beforehand.
+	<li>Empty lines, lines with lacking columns and lines starting with # are neglected.<br>
+(So with an extra dummy-heading the whole example-table will be neglected.)<br>
+On every line, colums past the label are ignored and can be used for commenting too.
+</ul>
+</small>
+		<br>
+		</div><!--Einde tabblad een-->
+<!--^^^^^^^^^^^^^^^Einde eerste tabblad^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+		<div id="TabbladTwee" class="tabcontent">
+			<p>Enige uitleg over KMeans en het programma.</p>
+			<small>KMeans is een clusteringsalgoritme.<ul>
+			        <li>Begin met het laden van een dataset.<br> Die bepaalt met het aantal kolommen ook het aantal dimensies (co&ouml;rdinaten van de punten).<br>
+				<!--Je kunt instellen welke kolommen voor de x- en y-as worden gebruikt.-->
+				<li>Het aantal clusters (k, vandaar de naam) ligt vast en wordt vooraf gekozen.
+				<li>Het programma begint met random een aantal punten (k centroids) te kiezen als centrum van de clusters.<br> 
+				In een aantal iteraties verschuiven deze naar de gemiddelde locatie van de cluster, waarna de punten worden toegekend aan de cluster van de dichtstbijzijnde centroid.<br>
+				Die iteraties stoppen als de centroids niet meer verschuiven.
+				<li>De uitkomst is nogal afhankelijk van de gekozen centroids.<br> De Fs (een anova-maat voor de variatie binnen groepen vergeleken met die tussen groepen) kan worden gebruikt als indicatie van de kwaliteit van de clustering.
+				<li>Het programma kiest geen uitkomst op basis van die Fs, maar dat kan je zelf wel doen door het proces met dezelfde punten een aantal keren te herhalen.
+				</ul><br>
+				Het gebruik:<ul>
+				<li>Stel je wilt een computer kopen. Factoren die je van belang vindt zijn prijs, kloksnelheid en zo nog wat zaken.<br>
+				Maar het kan ook gaan om kwalificaties van kandidaten voor een bepaalde klus.
+				<li>Die gegevens verzamel je voor de kandidaatcomputers.
+				Eventueel schaal je ze naar het belang dat ze voor je hebben.<br>(En ze moeten liefst ook een beetje binnen het scherm vallen.)
+				<li>Het programma helpt dan vergelijkbare computers te detecteren.
+				<li>Het laden van een dataset wist de eerdere data.<br>Datapunten kunnen worden toegevoegd door op het canvas te klikken, of met de Throw-knop (voor een random datapunt).
+				<li>En ontegenzeggelijk de belangrijkste knop van allemaal: de Warp-knop.
+				</ul><br>
+				Het programma:<ul>
+				<li>Het programma is geschreven in Scala.js (scalaversie 3, cross-gecompileerd ook voor de JVM / Scala-swing).<br>
+				Het algoritme is ontleend aan <a href="https://www.youtube.com/watch?v=dyj0JFpK_44" target="_blank">James Cutajar</a> (YouTube).<br>
+				Een mooi voorbeeld van puur Functioneel programmeren.<br>
+				Over Functioneel Programmeren, zie <a href="https://hansdejong.github.io/programming/_scala/_haskell/2018/06/28/Monads/" target="_blank">Monads</a>
+				en ook <a href="https://hansdejong.github.io/programming/_scala/_haskell/2020/07/22/TicTacToe/" target="_blank">TicTacToe</a> (beide dit blog).<br>
+				Voor de tabbladen zie <a href="https://www.w3schools.com/howto/howto_js_tabs.asp" target="_blank">w3Schools</a>.<br>
+				Ik beschrijf Webix elders op dit blog. (Het was gratis toen ik het downloade, maar dat is het nu niet meer.)
+				</ul><br>
+				<font color="red"><small>ToDo:<ul>
+					<li>Kolom x, y.<br>
+						Het is de bedoeling dat (bij meer factoren oftewel dimensies) de x en y voor het tonen van de clusterwolk gekozen kunnen worden.<br>
+						(En later misschien de x, y en z, waarbij het beeld zou kunnen worden geroteerd.)
+					<li>Icon vervangen.
+				</ul></small></font>
+			</small>
+		</div><!---Einde tabblad Twee->
+		<!--^^^^^^^^^^^^^^^Einde tweede tabblad^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+		
+		<div id="TabbladDrie" class="tabcontent">
+			<p>Some explanation about KMeans and the program.</p>
+			<small>KMeans is a clustering-algorithm.<ul>
+			<li>Start by loading a dataset.<br>The number of colums determines the number of dimensions (coordinates of the points).<br>
+			<!--You can choose which colums are used for the x- en y-axes.-->
+			<li>The number of clusters (k, hence the name) is fixed and is determined before clustering.
+			<li>The program begins by randomly choosing a number of points (k centroids) as the centers of the clusters.<br> 
+			In a number of iterations these centroids shift to the clusters' mean-location, and the points are then re-assigned to the cluster of the nearest centroid.<br>
+			The iterations stop when the centroids don't move anymore.
+			<li>The result is rather dependent on the chosen set of centroids.<br> The Fs (an anova-statistic for the variance within groups compared with that between those groups) can be used as an indication of quality of the clustering.
+			<li>The program doesn't choose a result based on this Fs, but you can do this yourself by repeating the proces a number of times with the same dataset.
+			</ul><br>
+			The use:<ul>
+			<li>Say you want to buy a computer. Features you value are price, clock rate and some other properties.<br>
+			But you could also be interested in qualifications of candidates for a certain task.
+			<li>You collect those data for the computers or candidates.
+			Possibly you scale them to the interest they have for you.<br>(And it would be nice if they fit on the screen.)
+			<li>The program helps you to detect comparable candidates or computers.
+			<li>Loading a dataset clears previous data.<br>Datapoints can be added by clicking the canvas, or by the Throw-button (for a random datapoint).
+			<li>And undeniable the most important button of all: de Warp-button.
+
+			</ul><br>
+			The program:<ul>
+			<li>The program is written in Scala.js (scalaversion 3, cross-compiled also for the JVM / Scala-swing).<br>
+			The algorithm is derived from <a href="https://www.youtube.com/watch?v=dyj0JFpK_44" target="_blank">James Cutajar</a> (YouTube).<br>
+			It's a nice example of pure Functional Programming.<br>
+			About Functional Programming, see <a href="https://hansdejong.github.io/programming/_scala/_haskell/2018/06/28/Monads/" target="_blank">Monads</a>
+			and also <a href="https://hansdejong.github.io/programming/_scala/_haskell/2020/07/22/TicTacToe/" target="_blank">TicTacToe</a> (both on this blog).<br>
+			For the tabs see <a href="https://www.w3schools.com/howto/howto_js_tabs.asp" target="_blank">w3Schools</a>.<br>
+			I describe Webix elsewhere on this blog. (It was free when I downloaded it, but not anymore.)
+			</ul><br>
+			</ul>
+			</small>
+		</div><!--Einde Tabblad Drie-->
+		<!--^^^^^^^^^^^^^^^Einde derde tabblad^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+		<!--Einde laatste tabblad-->
+		<button onclick="location.reload();"  style="background-color:lightblue;">Ververs de pagina</button>
+		<button id="warp-button" type="button" style="background-color:lightblue;" onclick="SCALA_warp()">Warp</button><br>
+		<br><hr>
+		<!--<button id="click-me-button" type="button" onclick="SCALA_messageDOM()">(X) Click me DOM!</button>
+		<button id="test-button" type="button" onclick="SCALA_test()">(X) Test</button>-->
+		
+		
+		
+		<!-- Include Scala.js compiled code -->
+		<!--<script type="text/javascript" src="../js/target/scala-3.0.0/kmeans-fastopt.js"></script>-->
+		<!--<script type="text/javascript" src="../js/target/scala-3.1.0/kmeans-opt/main.js"></script>-->
+		<script type="text/javascript" src="/assets/js/kmeans-main.js"></script>
+		
+		<script>
+//			KMeans.main(      //Dit werkt.
+			KMeansJS.main(   //Dit werkt niet, terwijl ik het object heb hernoemd naar KMeansJS. Gaat het om de naam uit build.sbt?
+				document.getElementById('canvas'),
+				document.getElementById('clusterOutput'),
+       				document.getElementById('datasetInput')); //In scala uitgecommentarieerd.
+			
+			function kwadraat(){ //Later er uit
+				//alert("Hallo")
+				const resultaat = document.getElementById("resultaat")
+				resultaat.innerHTML = "Het kwadraat van 13 is " + SCALA_kwadraat(13)
+			}
+		</script>
+		<!--<script src="tabs/Tabs.js"></script>-->
+		<script src="/assets/js/tabs.js"></script>
+    </body>
+</html>
