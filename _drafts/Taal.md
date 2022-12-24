@@ -12,7 +12,7 @@ comments: true
 * Negers zijn mensen van kleur
 * Homo's zijn nu lhbtiqrstuvwxyz-ters.
 
-Natuurlijk is het duidelijk dat taal er toe doet. Maar moeten we ons die taal ook later voorschrijven? En 
+Natuurlijk is het duidelijk dat taal er toe doet. Maar moeten we ons die taal ook laten voorschrijven? En 
 
 <a href="https://www.dagelijksestandaard.nl/2019/06/filmpje-femke-halsema-wil-woord-statushouders-uit-woordenboek-schrappen-vanaf-nu-alleen-nog-amsterdammers/" target="_blank">Halsema</a>. 
 
@@ -23,7 +23,7 @@ Natuurlijk is het duidelijk dat taal er toe doet. Maar moeten we ons die taal oo
 Maar dat geldt natuurlijk voor zo'n beetje elke kiezer: ik kan me bijvoorbeeld ook niet voorstellen dat er kiezers zijn die D66 of GL stemmen en het met die partijen eens zijn (maar dit is natuurlijk een onschuldig grapje).
  
 ### Een eerste positionering van mij.
-Ik ben waarschijnlijk geen doorsnee FvD stemmer. Ik heb altijd links gestemd. Grofweg PSP, PPR, GL, enkele keren SP of PvdA. De laatste tijd bevalt links me niet meer en ben ik aan het "radicaliseren": &eacute;&eacute;n keer PVV, eens FvD (gemeenteraad Amsterdam), en nu opnieuw FvD bij de statenverkiezingen.
+Ik ben waarschijnlijk geen doorsnee FvD stemmer (en nu natuurlijk helemaal niet meer. <Reactie bij herlezen een paar jaar later>). Ik heb altijd links gestemd. Grofweg PSP, PPR, GL, enkele keren SP of PvdA. De laatste tijd bevalt links me niet meer en ben ik aan het "radicaliseren": &eacute;&eacute;n keer PVV, eens FvD (gemeenteraad Amsterdam), en nu opnieuw FvD bij de statenverkiezingen.
 
 ### Voor FvD
 * **Islamisering en immigratie**<br>
