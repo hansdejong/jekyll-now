@@ -148,8 +148,8 @@ function ToonWaarden(){ //Bewaren
 			
 			<b>Dataset input</b><br>
 			<TEXTAREA  ID="datasetInput" ROWS="20" COLS="100" style="resize:none" >
-# Het aantal kopjes (minus het label) op de eerste regel bepaalt het aantal dimensies (hier 4). 
-# Vooraf normaliseren!
+# Het aantal kopjes (minus het label) op de eerste regel bepaalt het aantal dimensies van de punten (hier 4). 
+# Vooraf normaliseren! Co&ouml;rdinaten zijn gehele getallen.
 
 prijs , snelheid , geheugen, opslag, Label    
 150   , 150      ,      130,    270, Eerste
@@ -170,8 +170,8 @@ Ook commentaar
 <small>
 English:<ul>
         <li>Overwrite the example dataset and copy your data in this textarea.
-	<li>The number of headings (the label excluded) on the first line determines the number of dimensions (4 in this case).<br> 
-		Normalise beforehand.
+	<li>The number of headings (the label excluded) on the first line determines the number of dimensions of the points (4 in this case).<br> 
+		Normalise beforehand. Coordinates are integers.
 	<li>Empty lines, lines with lacking columns and lines starting with # are neglected.<br>
 (So with an extra dummy-heading the whole example-table will be neglected.)<br>
 On every line, colums past the label are ignored and can be used for commenting too.
@@ -185,7 +185,7 @@ On every line, colums past the label are ignored and can be used for commenting 
 			<small>KMeans is een clusteringsalgoritme.<ul>
 			        <li>Begin met het laden van een dataset.<br> Die bepaalt met het aantal kolommen ook het aantal dimensies (co&ouml;rdinaten van de punten).<br>
 				<!--Je kunt instellen welke kolommen voor de x- en y-as worden gebruikt.-->
-				<li>Het aantal clusters (k, vandaar de naam) ligt vast en wordt vooraf gekozen.
+				<li>Het aantal clusters (k, vandaar de naam) ligt vast en wordt voorafgaand aan de clustering gekozen.
 				<li>Het programma begint met random een aantal punten (k centroids) te kiezen als centrum van de clusters.<br> 
 				In een aantal iteraties verschuiven deze naar de gemiddelde locatie van de cluster, waarna de punten worden toegekend aan de cluster van de dichtstbijzijnde centroid.<br>
 				Die iteraties stoppen als de centroids niet meer verschuiven.
@@ -211,10 +211,13 @@ On every line, colums past the label are ignored and can be used for commenting 
 				Ik beschrijf Webix elders op dit blog. (Het was gratis toen ik het downloade, maar dat is het nu niet meer.)
 				</ul><br>
 				<font color="red"><small>ToDo:<ul>
-					<li>Kolom x, y.<br>
+					<li>De eerste twee kolommen bepalen nu de getoonde positie (x en y ) van een punt.<br>
 						Het is de bedoeling dat (bij meer factoren oftewel dimensies) de x en y voor het tonen van de clusterwolk gekozen kunnen worden.<br>
 						(En later misschien de x, y en z, waarbij het beeld zou kunnen worden geroteerd.)
 					<li>Icon vervangen.
+					<li>Naamloze punten (of "gegooid"/thrown dan wel via aanklikken) zouden een gegenereerde naam kunnen krijgen.
+					<li>Punten verwijderen of verslepen
+					<li>Bug: bij minder punten dan clusters worden geen punten getoond.					
 				</ul></small></font>
 			</small>
 		</div><!---Einde tabblad Twee->
@@ -258,8 +261,6 @@ On every line, colums past the label are ignored and can be used for commenting 
 		<!--Einde laatste tabblad-->
 		<button onclick="location.reload();"  style="background-color:lightblue;">Ververs de pagina</button>
 		<button id="warp-button" type="button" style="background-color:lightblue;" onclick="SCALA_warp()">Warp</button><br>
-		<font color="red">I have detected a bug in the clustering. Higher dimensions are set to 0 when reclustering.<br>
-		I'm working on it.</font>
 		<br><hr>
 		<!--<button id="click-me-button" type="button" onclick="SCALA_messageDOM()">(X) Click me DOM!</button>
 		<button id="test-button" type="button" onclick="SCALA_test()">(X) Test</button>-->
